@@ -60,7 +60,7 @@ export const App = () => (
       default: '"#0E76FD"',
       type: 'string',
       description:
-        'สีพื้นหลัง/ข้อความขององค์ประกอบที่โต้ตอบได้ต่างๆ',
+        'The background/text color of various interactive elements.',
     },
     {
       name: 'accentColorForeground',
@@ -68,7 +68,7 @@ export const App = () => (
       default: '"white"',
       type: 'string',
       description:
-        'สีที่ใช้สำหรับองค์ประกอบด้านหน้าที่เรนเดอร์อยู่บนสีพื้นหลัง',
+        'The color used for foreground elements rendered on top of the accent color.',
     },
     {
       name: 'borderRadius',
@@ -76,7 +76,7 @@ export const App = () => (
       default: 'large',
       type: '"none" | "small" | "medium" | "large"',
       typeSimple: 'enum',
-      description: 'ขนาดของทั้งหมดของ scale รัศมีขอบ',
+      description: 'The size of the entire border radius scale.',
     },
     {
       name: 'fontStack',
@@ -85,7 +85,7 @@ export const App = () => (
       type: '"rounded" | "system"',
       typeSimple: 'enum',
       description:
-        "ชุดฟอนต์ที่ใช้ทั่วทั้ง UI." โปรดทราบว่า `rounded` พยายามใช้ SF Pro Rounded, หากไม่สามารถใช้ได้จะกลับไปใช้ฟอนต์ระบบเริ่มต้นแทน",
+        "The font stack used throughout the UI. Note that `rounded` attempts to use SF Pro Rounded, falling back to system fonts when it isn't available.",
     },
     {
       name: 'overlayBlur',
@@ -93,7 +93,7 @@ export const App = () => (
       default: 'none',
       type: '"large" | "small" | "none"',
       typeSimple: 'enum',
-      description: 'การเบลอพื้นหลังของ modal.',
+      description: 'The modal backdrop blur.',
     },
   ]}
 />
