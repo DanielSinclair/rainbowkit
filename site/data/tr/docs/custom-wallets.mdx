@@ -132,6 +132,55 @@ description: Özel bir cüzdan oluştur
       description: 'Konektör örneğini sağlayan fonksiyon',
     },
   ]}
+/> Bu, örneğin yerleşik "Enjekte Edilmiş Cüzdan" yedeği gibi genel yedek cüzdanları tanımlamak için kullanışlıdır, bu özellikten yararlanır',
+    },
+    {
+      name: 'createConnector',
+      required: true,
+      type: '() => RainbowKitConnector',
+      typeSimple: 'RainbowKitConnector',
+      description:
+        'Farklı bağlantı yöntemleri için konektör örneğini ve yapılandırmayı sağlayan fonksiyon, aşağıda açıklanmıştır',
+    },
+    {
+      name: 'mobile',
+      required: false,
+      type: '{ getUri?: (uri: string) => string }',
+      typeSimple: 'object',
+      description:
+        'Mobil cüzdan bağlantısı URI'sini çözümleyen fonksiyon',
+    },
+    {
+      name: 'desktop',
+      required: false,
+      type: '{ getUri?: (uri: string) => string }',
+      typeSimple: 'object',
+      description: 'Masaüstü uygulama derin bağlantısını çözümleyen fonksiyon',
+    },
+    {
+      name: 'qrCode',
+      required: false,
+      type: "{ getUri: (uri: string) => string, instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }}}}",
+      typeSimple: 'object',
+      description:
+        'QR kodu URI'sini çözümleyen fonksiyonu ve isteğe bağlı mobil cüzdan kurulum talimatlarını içeren nesne',
+    },
+    {
+      name: 'extension',
+      required: false,
+      type: "{ instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }}}}",
+      typeSimple: 'object',
+      description:
+        'İsteğe bağlı tarayıcı eklentisi kurulum talimatlarını içeren nesne',
+    },
+    {
+      name: 'createConnector',
+      required: true,
+      type: "createConnector: (details: WalletDetailsParams) => CreateConnectorFn",
+      typeSimple: '(details: WalletDetailsParams) => CreateConnectorFn',
+      description: 'Konektör örneğini sağlayan fonksiyon',
+    },
+  ]}
 />
 
 ### IndirmeUrlsi Özellikleri
