@@ -28,7 +28,7 @@ npm i @rainbow-me/rainbowkit@2 wagmi@2 viem@2.x
 npm i @tanstack/react-query
 ```
 
-**3. Upgrade your RainbowKit and Wagmi configurations**
+**3. Оновіть ваші конфігурації RainbowKit та Wagmi**
 
 ```diff
   import '@rainbow-me/rainbowkit/styles.css'
@@ -100,19 +100,19 @@ npm i @tanstack/react-query
 
 #### Зміни в RainbowKit
 
-**1. Improved behavior for EIP-6963 wallets**
+**1. Покращена поведінка для гаманців EIP-6963**
 
-Wallets that support the new EIP-6963 connection standard (including Rainbow, MetaMask, and more) will now automatically appear in an `Installed` section during the Connect Wallet experience. This ensures that users can always find their favorite wallets and connect to dApps without conflicts or fallback buttons.
+Гаманці, що підтримують новий стандарт з'єднання EIP-6963 (включаючи Rainbow, MetaMask та інші), тепер автоматично з'являться у розділі `Встановлені` під час процесу підключення гаманця. Це забезпечує, що користувачі завжди можуть знайти свої улюблені гаманці та підключитися до dApps без конфліктів або кнопок запасного варіанту.
 
-Developers continue to have full control over the Custom Wallet List to emphasize preferred wallets for end users. It is encouraged that you continue to include the `injectedWallet` and `walletConnectWallet` in your list to supports all platforms.
+Розробники продовжують мати повний контроль над Списком Користувацьких Гаманців, щоб акцентувати улюблені гаманці для кінцевих користувачів. Рекомендується, щоб ви продовжували включати `injectedWallet` та `walletConnectWallet` у ваш список, щоб підтримувати всі платформи.
 
-**2. Wagmi configuration with getDefaultConfig**
+**2. Конфігурація Wagmi із getDefaultConfig**
 
-This new API simplifies the configuration experience and replaces the need to use Wagmi's `createConfig` directly. Chain configuration is simplified, including inferred public providers for `transports`.
+Цей новий API спрощує процес налаштування та замінює потребу використання `createConfig` від Wagmi безпосередньо. Конфігурація ланцюга спрощена, включаючи автоматичне визначення публічних провайдерів для `transports`.
 
 Стандартний список гаманців буде включений автоматично, що робить непотрібним використання `getDefaultWallets` та `connectorsForWallets`.
 
-You can create a Custom Wallet List by passing imported or Custom Wallet connectors to `wallets`. Instantiating wallet connectors and passing `projectId` and `chains` is no longer required.
+Ви можете створити Список Користувацьких Гаманців, передавши імпортовані або Користувацькі Конектори Гаманців до `wallets`. Ініціалізація конекторів гаманців та передача `projectId` та `chains` більше не потрібні.
 
 ```
 const config = getDefaultConfig({
@@ -133,7 +133,7 @@ const config = getDefaultConfig({
 + <RainbowKitProvider>
 ```
 
-**4. Custom Chains**
+**4. Користувацькі Ланцюги**
 
 Тип `Chain` змінений у відповідності до Wagmi v2 та продовжує підтримувати метадані RainbowKit `iconUrl` та `iconBackground`.
 
@@ -195,11 +195,11 @@ const config = getDefaultConfig({
   })
 ```
 
-**5. Custom Wallets**
+**5. Користувацькі гаманці**
 
-RainbowKit wallet connectors have undergone substantial changes to support Wagmi v2. Reference the [updated docs](https://www.rainbowkit.com/docs/custom-wallets) and an [example connector](packages/rainbowkit/src/wallets/walletConnectors/rainbowWallet/rainbowWallet.ts) to upgrade any Custom Wallet Connectors in your dApp.
+Конектори гаманців RainbowKit зазнали значних змін для підтримки Wagmi v2. Перегляньте [оновлену документацію](https://www.rainbowkit.com/docs/custom-wallets) та [приклад конектора](packages/rainbowkit/src/wallets/walletConnectors/rainbowWallet/rainbowWallet.ts) для оновлення будь-яких користувацьких конекторів гаманців у вашому dApp.
 
-Wallet connectors also now support the EIP-6963 standard with the `rdns` prop. Ensure that this is populated to prevent duplicate references to EIP-6963 supporting wallets in your wallet list.
+Конектори гаманців тепер також підтримують стандарт EIP-6963 за допомогою властивості `rdns`. Переконайтеся, що вона заповнена, щоб запобігти дублюванню посилань на гаманці, що підтримують EIP-6963, у вашому списку гаманців.
 
 ### Зміни, що розривають сумісність у 1.x.x
 
@@ -227,7 +227,7 @@ npm i viem
 
 **3. Переконайтеся в сумісності збірника та поліфілів**
 
-У попередніх версіях wagmi, які використовували [ethers](https://docs.ethers.org/v5/), модулі `fs`, `net` та `tls`, необхідні для WalletConnect, автоматично поліфілувалися. This is no longer the case with RainbowKit v1 + wagmi v1, which are built on [viem](https://viem.sh/).
+У попередніх версіях wagmi, які використовували [ethers](https://docs.ethers.org/v5/), модулі `fs`, `net` та `tls`, необхідні для WalletConnect, автоматично поліфілувалися. Це вже не так у випадку з RainbowKit v1 + wagmi v1, які побудовані на [viem](https://viem.sh/).
 
 Дивіться наші приклади [Конфігурації Webpack для Next.js](https://github.com/rainbow-me/rainbowkit/blob/main/examples/with-next/next.config.js) та [Поліфіли для Create React App](https://github.com/rainbow-me/rainbowkit/blob/main/examples/with-create-react-app/src/polyfills.ts) для керівництва з налаштування вашого проекту.
 
