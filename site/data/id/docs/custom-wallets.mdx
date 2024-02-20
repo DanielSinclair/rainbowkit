@@ -44,20 +44,20 @@ Tipe fungsi `Wallet` disediakan untuk membantu Anda mendefinisikan dompet kustom
       required: true,
       type: 'string | (() => Promise<string>)',
       description:
-        'URL untuk ikon dompet, atau sebuah promise yang menghasilkan URL data Base64',
+        'URL for wallet icon, or a promise that resolves to a Base64 data URL',
     },
     {
       name: 'iconAccent',
       required: false,
       type: 'string',
       description:
-        'Warna aksen yang digunakan dalam alur unduhan untuk dompet yang memiliki ekstensi browser dan aplikasi seluler',
+        'Accent color used in download flows for wallets with both a browser extension and a mobile app',
     },
     {
       name: 'iconBackground',
       required: true,
       type: 'string',
-      description: 'Warna latar belakang saat ikon dompet sedang dimuat',
+      description: 'Background color while the wallet icon loads',
     },
     {
       name: 'installed',
@@ -65,8 +65,8 @@ Tipe fungsi `Wallet` disediakan untuk membantu Anda mendefinisikan dompet kustom
       type: 'boolean | undefined',
       description: (
         <>
-          Apakah dompet diketahui telah terinstal, atau{' '}
-          <code>undefined</code> jika tidak dapat ditentukan
+          Whether the wallet is known to be installed, or{' '}
+          <code>undefined</code> if indeterminate
         </>
       ),
     },
@@ -75,7 +75,7 @@ Tipe fungsi `Wallet` disediakan untuk membantu Anda mendefinisikan dompet kustom
       required: false,
       type: '{ android?: string, ios?: string, mobile?: string, qrCode?: string, chrome?: string, firefox?: string, edge?: string, safari?: string, opera?: string, browserExtension?: string } | undefined',
       typeSimple: 'DownloadUrls | undefined',
-      description: 'Objek yang berisi URL unduhan',
+      description: 'Object containing download URLs',
     },
     {
       name: 'hidden',
@@ -83,7 +83,7 @@ Tipe fungsi `Wallet` disediakan untuk membantu Anda mendefinisikan dompet kustom
       type: '(args: { wallets: Array<{ id: string, connector: Connector, installed?: boolean }> }) => boolean',
       typeSimple: '(args) => boolean | undefined',
       description:
-        'Fungsi untuk menghitung apakah dompet ini harus disembunyikan dari daftar.' Ini berguna untuk mendefinisikan dompet cadangan generik, misalnya fallback dompet "Injected Wallet" bawaan memanfaatkan fitur ini',
+        'Function for calculating whether this wallet should be hidden from the list. Ini berguna untuk mendefinisikan dompet cadangan generik, misalnya fallback dompet "Injected Wallet" bawaan memanfaatkan fitur ini',
     },
     {
       name: 'createConnector',
