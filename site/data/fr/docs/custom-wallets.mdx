@@ -44,20 +44,20 @@ Le type de fonction `Wallet` est fourni pour vous aider à définir vos propres 
       required: true,
       type: 'string | (() => Promise<string>)',
       description:
-        'URL pour l'icône du portefeuille, ou une promesse qui se résout en une URL de données Base64',
+        'URL for wallet icon, or a promise that resolves to a Base64 data URL',
     },
     {
       name: 'iconAccent',
       required: false,
       type: 'string',
       description:
-        'Couleur d'accentuation utilisée dans les flux de téléchargement pour les portefeuilles disposant à la fois d'une extension de navigateur et d'une application mobile',
+        'Accent color used in download flows for wallets with both a browser extension and a mobile app',
     },
     {
       name: 'iconBackground',
       required: true,
       type: 'string',
-      description: 'Couleur de fond pendant le chargement de l'icône du portefeuille',
+      description: 'Background color while the wallet icon loads',
     },
     {
       name: 'installed',
@@ -65,8 +65,8 @@ Le type de fonction `Wallet` est fourni pour vous aider à définir vos propres 
       type: 'boolean | undefined',
       description: (
         <>
-          Si le portefeuille est connu pour être installé, ou{' '}
-          <code>undefined</code> si indéterminé
+          Whether the wallet is known to be installed, or{' '}
+          <code>undefined</code> if indeterminate
         </>
       ),
     },
@@ -75,7 +75,7 @@ Le type de fonction `Wallet` est fourni pour vous aider à définir vos propres 
       required: false,
       type: '{ android?: string, ios?: string, mobile?: string, qrCode?: string, chrome?: string, firefox?: string, edge?: string, safari?: string, opera?: string, browserExtension?: string } | undefined',
       typeSimple: 'DownloadUrls | undefined',
-      description: 'Objet contenant les URL de téléchargement',
+      description: 'Object containing download URLs',
     },
     {
       name: 'hidden',
@@ -83,7 +83,7 @@ Le type de fonction `Wallet` est fourni pour vous aider à définir vos propres 
       type: '(args: { wallets: Array<{ id: string, connector: Connector, installed?: boolean }> }) => boolean',
       typeSimple: '(args) => boolean | undefined',
       description:
-        'Fonction pour calculer si ce portefeuille doit être caché de la liste. Cela est utile pour définir des portefeuilles de secours génériques, par exemple, le portefeuille de secours intégré "Injected Wallet" tire parti de cette fonctionnalité',
+        'Function for calculating whether this wallet should be hidden from the list. Cela est utile pour définir des portefeuilles de secours génériques, par exemple, le portefeuille de secours intégré "Injected Wallet" tire parti de cette fonctionnalité',
     },
     {
       name: 'createConnector',
