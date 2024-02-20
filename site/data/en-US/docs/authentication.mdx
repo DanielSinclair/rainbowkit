@@ -41,13 +41,7 @@ import { RainbowKitProvider } from '@rainbow-me/rainbowkit';
 import { SessionProvider } from 'next-auth/react';
 import type { Session } from 'next-auth';
 import { AppProps } from 'next/app';
-import { WagmiProvider } from 'wagmi';
-import {
-  QueryClientProvider,
-  QueryClient,
-} from "@tanstack/react-query";
-
-const queryClient = new QueryClient();
+import { WagmiConfig } from 'wagmi';
 
 export default function App({
   Component,
@@ -56,17 +50,15 @@ export default function App({
   session: Session;
 }>) {
   return (
-    <WagmiProvider {...etc}>
+    <WagmiConfig {...etc}>
       <SessionProvider refetchInterval={0} session={pageProps.session}>
-        <QueryClientProvider client={queryClient}>
-          <RainbowKitSiweNextAuthProvider>
-            <RainbowKitProvider {...etc}>
-              <Component {...pageProps} />
-            </RainbowKitProvider>
-          </RainbowKitSiweNextAuthProvider>
-        </QueryClientProvider>
+        <RainbowKitSiweNextAuthProvider>
+          <RainbowKitProvider {...etc}>
+            <Component {...pageProps} />
+          </RainbowKitProvider>
+        </RainbowKitSiweNextAuthProvider>
       </SessionProvider>
-    </WagmiProvider>;
+    </WagmiConfig>
   );
 }
 ```
