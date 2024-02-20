@@ -61,7 +61,7 @@ import {
 
 #### Konfigurasi
 
-Konfigurasikan rantai yang diinginkan dan hasilkan konektor yang diperlukan. Anda juga perlu menyiapkan konfigurasi `wagmi`. Jika dApp Anda menggunakan server side rendering (SSR) pastikan untuk mengatur `ssr` menjadi `true`.
+Konfigurasikan rantai yang diinginkan dan hasilkan konektor yang diperlukan. Anda juga perlu menyiapkan konfigurasi `wagmi`. If your dApp uses server side rendering (SSR) make sure to set `ssr` to `true`.
 
 > Catatan: Setiap dApp yang bergantung pada WalletConnect sekarang harus mendapatkan `projectId` dari [WalletConnect Cloud](https://cloud.walletconnect.com/). Ini benar-benar gratis dan hanya membutuhkan beberapa menit.
 
@@ -117,21 +117,21 @@ Beberapa alat pembangunan akan memerlukan pengaturan tambahan.
 
 ##### React, Next.js, dan Webpack
 
-Pembundel [Webpack v5](https://webpack.js.org/blog/2020-10-10-webpack-5-release/) yang digunakan oleh Next.js dan Create React App [tidak lagi menyediakan polyfill Node](https://webpack.js.org/blog/2020-10-10-webpack-5-release/#automatic-nodejs-polyfills-removed), jadi Anda perlu menyertakan modul-modul ini dengan sendiri untuk memenuhi dependensi sebaya RainbowKit. Create React App secara khusus memerlukan anda untuk memasukkan polyfill `Buffer`.
+The [Webpack v5](https://webpack.js.org/blog/2020-10-10-webpack-5-release/) bundler used by Next.js and Create React App [no longer provides Node polyfills](https://webpack.js.org/blog/2020-10-10-webpack-5-release/#automatic-nodejs-polyfills-removed), so you'll need to include these modules yourself to satisfy RainbowKit's peer dependencies. Create React App specifically requires that you polyfill `Buffer`.
 
-Dalam versi sebelumnya dari RainbowKit yang mengandalkan pada [ethers](https://docs.ethers.org/v5/), modul `fs`, `net`, dan `tls` secara otomatis diisi. Hal ini tidak lagi berlaku dengan RainbowKit v1 + wagmi v1, yang dibangun pada [viem](https://viem.sh/).
+In previous versions of RainbowKit that relied on [ethers](https://docs.ethers.org/v5/), the `fs`, `net`, and `tls` modules were automatically polyfilled. This is no longer the case with RainbowKit v1 + wagmi v1, which are built on [viem](https://viem.sh/).
 
 Merujuk pada [Next.js Webpack Config](https://github.com/rainbow-me/rainbowkit/blob/main/examples/with-next/next.config.js), [Next.js App Router Webpack Config](https://github.com/rainbow-me/rainbowkit/blob/main/examples/with-next-app/next.config.js), dan [Create React App polyfills](https://github.com/rainbow-me/rainbowkit/blob/main/examples/with-create-react-app/src/polyfills.ts) sampel untuk petunjuk konfigurasi proyek Anda.
 
 ##### Vite
 
-Bundler [Vite](https://vitejs.dev) tidak menyediakan Node polyfills, jadi Anda perlu memasukkan polyfills untuk `global`, `Buffer` dan `process.env`. Sebagai contoh, Anda dapat merujuk ke [polyfills dalam contoh proyek Vite kami](https://github.com/rainbow-me/rainbowkit/tree/main/examples/with-vite/src/polyfills.ts).
+The [Vite](https://vitejs.dev) bundler doesn't provide Node polyfills, so you'll need to include polyfills for `global`, `Buffer` and `process.env`. As an example, you can reference the [polyfills in our sample Vite project](https://github.com/rainbow-me/rainbowkit/tree/main/examples/with-vite/src/polyfills.ts).
 
 ##### Remix
 
 Ketika menggunakan [Remix](https://remix.run), semua titik masuk paket RainbowKit harus ditambahkan ke daftar [server dependencies](https://remix.run/docs/en/v1/pages/gotchas#importing-esm-packages) Anda di konfigurasi Remix Anda karena mereka dipublikasikan sebagai paket ESM.
 
-Remix juga membutuhkan agar Anda melakukan polyfill `global`, `Buffer` dan `process.env`. Merujuk pada [polyfills dalam contoh proyek Remix kami](https://github.com/rainbow-me/rainbowkit/blob/main/examples/with-remix/app/polyfills.ts).
+Remix also requires that you polyfill `global`, `Buffer` and `process.env`. Reference the [polyfills in our sample Remix project](https://github.com/rainbow-me/rainbowkit/blob/main/examples/with-remix/app/polyfills.ts).
 
 ```js
 /**
@@ -159,8 +159,8 @@ Untuk melihat beberapa contoh berjalan dari RainbowKit, atau bahkan menggunakann
 
 Untuk mencoba RainbowKit langsung di peramban Anda, periksa tautan CodeSandbox di bawah:
 
--   dengan [Membuat Aplikasi React](https://codesandbox.io/p/sandbox/github/rainbow-me/rainbowkit/tree/main/examples/with-create-react-app)
--   dengan [Next.js](https://codesandbox.io/p/sandbox/github/rainbow-me/rainbowkit/tree/main/examples/with-next)
--   dengan [Next.js Aplikasi Router](https://codesandbox.io/p/sandbox/github/rainbow-me/rainbowkit/tree/main/examples/with-next-app)
--   dengan [Remix](https://codesandbox.io/p/sandbox/github/rainbow-me/rainbowkit/tree/main/examples/with-remix)
--   dengan [Vite](https://codesandbox.io/p/sandbox/github/rainbow-me/rainbowkit/tree/main/examples/with-vite)
+- dengan [Membuat Aplikasi React](https://codesandbox.io/p/sandbox/github/rainbow-me/rainbowkit/tree/main/examples/with-create-react-app)
+- dengan [Next.js](https://codesandbox.io/p/sandbox/github/rainbow-me/rainbowkit/tree/main/examples/with-next)
+- dengan [Next.js Aplikasi Router](https://codesandbox.io/p/sandbox/github/rainbow-me/rainbowkit/tree/main/examples/with-next-app)
+- dengan [Remix](https://codesandbox.io/p/sandbox/github/rainbow-me/rainbowkit/tree/main/examples/with-remix)
+- dengan [Vite](https://codesandbox.io/p/sandbox/github/rainbow-me/rainbowkit/tree/main/examples/with-vite)
