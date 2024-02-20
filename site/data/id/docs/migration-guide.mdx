@@ -28,7 +28,7 @@ Pasang itu dengan perintah berikut:
 npm i @tanstack/react-query
 ```
 
-**3. Tingkatkan konfigurasi RainbowKit dan Wagmi Anda**
+**3. Upgrade your RainbowKit and Wagmi configurations**
 
 ```diff
   import '@rainbow-me/rainbowkit/styles.css'
@@ -95,24 +95,24 @@ npm i @tanstack/react-query
 
 Jika Anda menggunakan hook `wagmi` dan aksi `viem` dalam dApp Anda, Anda akan perlu mengikuti panduan migrasi untuk v2:
 
--   [Panduan Migrasi Wagmi v2](https://wagmi.sh/react/guides/migrate-from-v1-to-v2)
--   [Perubahan Penting Viem v2](https://viem.sh/docs/migration-guide.html#_2-x-x-breaking-changes)
+- [Panduan Migrasi Wagmi v2](https://wagmi.sh/react/guides/migrate-from-v1-to-v2)
+- [Perubahan Penting Viem v2](https://viem.sh/docs/migration-guide.html#_2-x-x-breaking-changes)
 
 #### Perubahan pada RainbowKit
 
-**1. Perilaku yang ditingkatkan untuk dompet EIP-6963**
+**1. Improved behavior for EIP-6963 wallets**
 
-Dompet yang mendukung standar koneksi baru EIP-6963 (termasuk Rainbow, MetaMask, dan lainnya) akan secara otomatis muncul dalam bagian `Terinstal` selama pengalaman Menghubungkan Dompet. Ini memastikan bahwa pengguna selalu dapat menemukan dompet favorit mereka dan terhubung ke dApps tanpa konflik atau tombol alternatif.
+Wallets that support the new EIP-6963 connection standard (including Rainbow, MetaMask, and more) will now automatically appear in an `Installed` section during the Connect Wallet experience. This ensures that users can always find their favorite wallets and connect to dApps without conflicts or fallback buttons.
 
-Pengembang tetap memiliki kontrol penuh atas Daftar Dompet Kustom untuk menekankan dompet yang disukai oleh pengguna akhir. Dianjurkan agar Anda terus memasukkan `injectedWallet` dan `walletConnectWallet` dalam daftar Anda untuk mendukung semua platform.
+Developers continue to have full control over the Custom Wallet List to emphasize preferred wallets for end users. It is encouraged that you continue to include the `injectedWallet` and `walletConnectWallet` in your list to supports all platforms.
 
-**2. Konfigurasi Wagmi dengan getDefaultConfig**
+**2. Wagmi configuration with getDefaultConfig**
 
-API baru ini menyederhanakan pengalaman konfigurasi dan menggantikan kebutuhan untuk menggunakan `createConfig` dari Wagmi secara langsung. Konfigurasi rantai disederhanakan, termasuk penyedia publik yang disimpulkan untuk `transports`.
+This new API simplifies the configuration experience and replaces the need to use Wagmi's `createConfig` directly. Chain configuration is simplified, including inferred public providers for `transports`.
 
 Daftar dompet default akan secara otomatis disertakan, menghilangkan kebutuhan untuk menggunakan `getDefaultWallets` dan `connectorsForWallets`.
 
-Anda dapat membuat Daftar Dompet Kustom dengan meneruskan konektor Dompet yang diimpor atau Kustom ke `wallets`. Menginstansiasi konektor dompet dan meneruskan `projectId` serta `chains` tidak lagi diperlukan.
+You can create a Custom Wallet List by passing imported or Custom Wallet connectors to `wallets`. Instantiating wallet connectors and passing `projectId` and `chains` is no longer required.
 
 ```
 const config = getDefaultConfig({
@@ -133,7 +133,7 @@ Anda tidak perlu lagi meneruskan `chains` ke `<RainbowKitProvider>`.
 + <RainbowKitProvider>
 ```
 
-**4. Rantai Kustom**
+**4. Custom Chains**
 
 Tipe `Chain` telah berubah sesuai dengan Wagmi v2, dan terus mendukung metadata `iconUrl` dan `iconBackground` dari RainbowKit.
 
@@ -195,11 +195,11 @@ Contoh dengan `createConfig`:
   })
 ```
 
-**5. Dompet Kustom**
+**5. Custom Wallets**
 
-Konektor dompet RainbowKit telah mengalami perubahan besar untuk mendukung Wagmi v2. Rujuk [dokumentasi yang diperbarui](https://www.rainbowkit.com/docs/custom-wallets) dan sebuah [contoh konektor](packages/rainbowkit/src/wallets/walletConnectors/rainbowWallet/rainbowWallet.ts) untuk meningkatkan Konektor Dompet Kustom apa pun di dApp Anda.
+RainbowKit wallet connectors have undergone substantial changes to support Wagmi v2. Reference the [updated docs](https://www.rainbowkit.com/docs/custom-wallets) and an [example connector](packages/rainbowkit/src/wallets/walletConnectors/rainbowWallet/rainbowWallet.ts) to upgrade any Custom Wallet Connectors in your dApp.
 
-Konektor dompet sekarang juga mendukung standar EIP-6963 dengan properti `rdns`. Pastikan ini diisi untuk mencegah referensi duplikat ke dompet yang mendukung EIP-6963 di daftar dompet Anda.
+Wallet connectors also now support the EIP-6963 standard with the `rdns` prop. Ensure that this is populated to prevent duplicate references to EIP-6963 supporting wallets in your wallet list.
 
 ### 1.x.x Perubahan signifikan
 
@@ -227,7 +227,7 @@ Catatan: wagmi tidak lagi menggunakan paket `ethers` secara internal. Tetapi jik
 
 **3. **Pastikan kompatibilitas bundler dan polyfill\*\*
 
-Dalam versi sebelumnya dari wagmi yang mengandalkan [ethers](https://docs.ethers.org/v5/), modul `fs`, `net`, dan `tls` yang dibutuhkan oleh WalletConnect secara otomatis dipenuhi polyfill. Hal ini tidak lagi berlaku dengan RainbowKit v1 + wagmi v1, yang dibangun pada [viem](https://viem.sh/).
+Dalam versi sebelumnya dari wagmi yang mengandalkan [ethers](https://docs.ethers.org/v5/), modul `fs`, `net`, dan `tls` yang dibutuhkan oleh WalletConnect secara otomatis dipenuhi polyfill. This is no longer the case with RainbowKit v1 + wagmi v1, which are built on [viem](https://viem.sh/).
 
 Merujuk pada [Next.js Webpack Config](https://github.com/rainbow-me/rainbowkit/blob/main/examples/with-next/next.config.js) kami dan sampel [Create React App polyfills](https://github.com/rainbow-me/rainbowkit/blob/main/examples/with-create-react-app/src/polyfills.ts) untuk petunjuk konfigurasi untuk proyek Anda.
 
@@ -251,13 +251,13 @@ Setiap dApp sekarang harus menyediakan [WalletConnect Cloud](https://cloud.walle
 
 Ikuti langkah-langkah berikut untuk migrasi.
 
-#### 1.  Upgrade RainbowKit dan `wagmi` ke versi terbaru mereka
+#### 1. Upgrade RainbowKit dan `wagmi` ke versi terbaru mereka
 
 ```bash
 npm i @rainbow-me/rainbowkit@^0.12.0 wagmi@^0.12.0
 ```
 
-#### 2.  Berikan WalletConnect Cloud projectId
+#### 2. Berikan WalletConnect Cloud projectId
 
 Setiap dApp yang mengandalkan WalletConnect sekarang perlu mendapatkan `projectId` dari [WalletConnect Cloud](https://cloud.walletconnect.com/). Ini benar-benar gratis dan hanya membutuhkan beberapa menit.
 
@@ -291,13 +291,13 @@ Ketergantungan sejawat wagmi telah diperbarui menjadi `0.11.x`.
 
 Ikuti langkah-langkah berikut untuk migrasi.
 
-#### 1.  Upgrade RainbowKit dan `wagmi` ke versi terbaru mereka
+#### 1. Upgrade RainbowKit dan `wagmi` ke versi terbaru mereka
 
 ```bash
 npm i @rainbow-me/rainbowkit@^0.11.0 wagmi@^0.11.0
 ```
 
-#### 2.  Periksa perubahan besar pada `wagmi`
+#### 2. Periksa perubahan besar pada `wagmi`
 
 Jika Anda menggunakan hook `wagmi` di aplikasi Anda, Anda perlu memeriksa apakah aplikasi Anda telah dipengaruhi oleh perubahan besar pada `wagmi`.
 
@@ -309,13 +309,13 @@ Ketergantungan sejawat wagmi telah diperbarui menjadi `0.10.x`.
 
 Ikuti langkah-langkah berikut untuk migrasi.
 
-#### 1.  Upgrade RainbowKit dan `wagmi` ke versi terbaru mereka
+#### 1. Upgrade RainbowKit dan `wagmi` ke versi terbaru mereka
 
 ```bash
 npm i @rainbow-me/rainbowkit@^0.10.0 wagmi@^0.10.0
 ```
 
-#### 2.  Periksa perubahan besar pada `wagmi`
+#### 2. Periksa perubahan besar pada `wagmi`
 
 Jika Anda menggunakan hook `wagmi` di aplikasi Anda, Anda perlu memeriksa apakah aplikasi Anda telah dipengaruhi oleh perubahan besar pada `wagmi`.
 
@@ -327,13 +327,13 @@ Peer dependency wagmi telah diperbarui ke `0.9.x`.
 
 Ikuti langkah-langkah berikut untuk migrasi.
 
-#### 1.  Upgrade RainbowKit dan `wagmi` ke versi terbaru mereka
+#### 1. Upgrade RainbowKit dan `wagmi` ke versi terbaru mereka
 
 ```bash
 npm i @rainbow-me/rainbowkit@^0.9.0 wagmi@^0.9.0
 ```
 
-#### 2.  Periksa perubahan besar pada `wagmi`
+#### 2. Periksa perubahan besar pada `wagmi`
 
 Jika Anda menggunakan hook `wagmi` di aplikasi Anda, Anda perlu memeriksa apakah aplikasi Anda telah dipengaruhi oleh perubahan besar pada `wagmi`.
 
@@ -345,13 +345,13 @@ Ketergantungan sebaya wagmi telah diperbarui ke `0.8.x`.
 
 Ikuti langkah-langkah berikut untuk migrasi.
 
-#### 1.  Upgrade RainbowKit dan `wagmi` ke versi terbaru mereka
+#### 1. Upgrade RainbowKit dan `wagmi` ke versi terbaru mereka
 
 ```bash
 npm i @rainbow-me/rainbowkit@^0.8.0 wagmi@^0.8.0
 ```
 
-#### 2.  Periksa perubahan besar pada `wagmi`
+#### 2. Periksa perubahan besar pada `wagmi`
 
 Jika Anda menggunakan hook `wagmi` di aplikasi Anda, Anda perlu memeriksa apakah aplikasi Anda telah dipengaruhi oleh perubahan besar pada `wagmi`.
 
@@ -404,7 +404,7 @@ RainbowKit telah memperbarui dependensi peer `wagmi` ke `0.5.x`.
 
 Ikuti langkah-langkah berikut untuk migrasi.
 
-#### 1.  Upgrade dependensi
+#### 1. Upgrade dependensi
 
 Perbarui RainbowKit dan wagmi ke versi terbaru mereka
 
@@ -412,7 +412,7 @@ Perbarui RainbowKit dan wagmi ke versi terbaru mereka
 npm i @rainbow-me/rainbowkit@^0.4.0 wagmi@^0.5.0
 ```
 
-#### 2.  Periksa perubahan besar pada `wagmi`
+#### 2. Periksa perubahan besar pada `wagmi`
 
 Jika Anda menggunakan hook `wagmi` di aplikasi Anda, Anda perlu memeriksa apakah aplikasi Anda telah dipengaruhi oleh perubahan besar pada `wagmi`.
 
@@ -484,7 +484,7 @@ RainbowKit telah memperbarui dependensi sejawat `wagmi` menjadi `^0.4`.
 
 Ikuti langkah-langkah berikut untuk migrasi.
 
-#### 1.  Upgrade dependensi
+#### 1. Upgrade dependensi
 
 Perbarui RainbowKit dan wagmi ke versi terbaru mereka
 
@@ -492,7 +492,7 @@ Perbarui RainbowKit dan wagmi ke versi terbaru mereka
 npm i @rainbow-me/rainbowkit@^0.2.0 wagmi@^0.4.2
 ```
 
-#### 2.  Ganti impor configureChains
+#### 2. Ganti impor configureChains
 
 Impor `configureChains` dari wagmi bukan dari RainbowKit:
 
@@ -501,7 +501,7 @@ Impor `configureChains` dari wagmi bukan dari RainbowKit:
 + import { configureChains } from 'wagmi';
 ```
 
-#### 3.  Pindahkan penyedia
+#### 3. Pindahkan penyedia
 
 RainbowKit tidak lagi mengekspor API `apiProvider`. Gantilah dengan provider yang Anda inginkan dari wagmi.
 
@@ -573,7 +573,7 @@ const { chains, provider } = configureChains(
 );
 ```
 
-#### 4.  Ubah nama provider wagmi
+#### 4. Ubah nama provider wagmi
 
 Ubah nama `WagmiProvider` menjadi `WagmiConfig`.
 
