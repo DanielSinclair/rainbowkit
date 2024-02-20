@@ -102,17 +102,17 @@ dAppで`wagmi`フックと`viem`アクションを使用している場合、v2�
 
 **1. EIP-6963 ウォレットの動作改善**
 
-新しい EIP-6963 接続標準をサポートするウォレット（Rainbow、MetaMask などを含む）は、ウォレットを接続する体験の間に `Installed` セクションに自動的に表示されるようになりました。 これにより、ユーザーはお気に入りのウォレットを常に見つけて、競合やフォールバックボタンなしで dApps に接続できるようになります。 これにより、ユーザーはお気に入りのウォレットを常に見つけて、競合やフォールバックボタンなしで dApps に接続できるようになります。 This ensures that users can always find their favorite wallets and connect to dApps without conflicts or fallback buttons.
+新しい EIP-6963 接続標準をサポートするウォレット（Rainbow、MetaMask などを含む）は、ウォレットを接続する体験の間に `Installed` セクションに自動的に表示されるようになりました。 これにより、ユーザーはお気に入りのウォレットを常に見つけて、競合やフォールバックボタンなしで dApps に接続できるようになります。 これにより、ユーザーはお気に入りのウォレットを常に見つけて、競合やフォールバックボタンなしで dApps に接続できるようになります。 これにより、ユーザーはお気に入りのウォレットを常に見つけて、競合やフォールバックボタンなしで dApps に接続できるようになります。
 
-開発者は引き続きカスタムウォレットリストを完全に制御でき、エンドユーザーにとって優先されるウォレットを強調表示できます。 すべてのプラットフォームをサポートするために、`injectedWallet` と `walletConnectWallet` をリストに含め続けることをお勧めします。 すべてのプラットフォームをサポートするために、`injectedWallet` と `walletConnectWallet` をリストに含め続けることをお勧めします。 It is encouraged that you continue to include the `injectedWallet` and `walletConnectWallet` in your list to supports all platforms.
+開発者は引き続きカスタムウォレットリストを完全に制御でき、エンドユーザーにとって優先されるウォレットを強調表示できます。 すべてのプラットフォームをサポートするために、`injectedWallet` と `walletConnectWallet` をリストに含め続けることをお勧めします。 すべてのプラットフォームをサポートするために、`injectedWallet` と `walletConnectWallet` をリストに含め続けることをお勧めします。 すべてのプラットフォームをサポートするために、`injectedWallet` と `walletConnectWallet` をリストに含め続けることをお勧めします。
 
 **2. getDefaultConfig を使用した Wagmi 設定**
 
-この新しいAPIは設定体験を簡素化し、Wagmiの`createConfig`を直接使用する必要を置き換えます。 チェーン設定が簡素化され、`transports`のための推定された公開プロバイダーが含まれます。 チェーン設定が簡素化され、`transports`のための推定された公開プロバイダーが含まれます。 Chain configuration is simplified, including inferred public providers for `transports`.
+この新しいAPIは設定体験を簡素化し、Wagmiの`createConfig`を直接使用する必要を置き換えます。 チェーン設定が簡素化され、`transports`のための推定された公開プロバイダーが含まれます。 チェーン設定が簡素化され、`transports`のための推定された公開プロバイダーが含まれます。 チェーン設定が簡素化され、`transports`のための推定された公開プロバイダーが含まれます。
 
 デフォルトのウォレットリストが自動的に含まれるようになり、`getDefaultWallets`や`connectorsForWallets`を使用する必要がなくなります。
 
-You can create a Custom Wallet List by passing imported or Custom Wallet connectors to `wallets`. インポートされた、またはカスタムウォレットコネクタを`wallets`に渡すことでカスタムウォレットリストを作成できます。 ウォレットコネクタのインスタンス化と`projectId`および`chains`の渡しはもはや必要ありません。 ウォレットコネクタのインスタンス化と`projectId`および`chains`の渡しはもはや必要ありません。
+インポートされた、またはカスタムウォレットコネクタを`wallets`に渡すことでカスタムウォレットリストを作成できます。 インポートされた、またはカスタムウォレットコネクタを`wallets`に渡すことでカスタムウォレットリストを作成できます。 ウォレットコネクタのインスタンス化と`projectId`および`chains`の渡しはもはや必要ありません。 ウォレットコネクタのインスタンス化と`projectId`および`chains`の渡しはもはや必要ありません。
 
 ```
 const config = getDefaultConfig({
@@ -197,9 +197,9 @@ const config = getDefaultConfig({
 
 **2. `viem`ピア依存関係をインストール**
 
-RainbowKitのウォレットコネクタは、Wagmi v2をサポートするために大幅な変更が加えられました。 RainbowKitのウォレットコネクタは、Wagmi v2をサポートするために大幅な変更が加えられました。 dAppのカスタムウォレットコネクタをアップグレードするために、[更新されたドキュメント](https://www.rainbowkit.com/docs/custom-wallets)と[例のコネクタ](packages/rainbowkit/src/wallets/walletConnectors/rainbowWallet/rainbowWallet.ts)を参照してください。 Reference the [updated docs](https://www.rainbowkit.com/docs/custom-wallets) and an [example connector](packages/rainbowkit/src/wallets/walletConnectors/rainbowWallet/rainbowWallet.ts) to upgrade any Custom Wallet Connectors in your dApp.
+RainbowKitのウォレットコネクタは、Wagmi v2をサポートするために大幅な変更が加えられました。 RainbowKitのウォレットコネクタは、Wagmi v2をサポートするために大幅な変更が加えられました。 dAppのカスタムウォレットコネクタをアップグレードするために、[更新されたドキュメント](https://www.rainbowkit.com/docs/custom-wallets)と[例のコネクタ](packages/rainbowkit/src/wallets/walletConnectors/rainbowWallet/rainbowWallet.ts)を参照してください。 dAppのカスタムウォレットコネクタをアップグレードするために、[更新されたドキュメント](https://www.rainbowkit.com/docs/custom-wallets)と[例のコネクタ](packages/rainbowkit/src/wallets/walletConnectors/rainbowWallet/rainbowWallet.ts)を参照してください。
 
-ウォレットコネクタは、`rdns`プロパティを使用してEIP-6963標準もサポートするようになりました。 ウォレットリスト内でEIP-6963をサポートするウォレットへの重複する参照が発生しないように、これが入力されていることを確認してください。 ウォレットリスト内でEIP-6963をサポートするウォレットへの重複する参照が発生しないように、これが入力されていることを確認してください。 Ensure that this is populated to prevent duplicate references to EIP-6963 supporting wallets in your wallet list.
+ウォレットコネクタは、`rdns`プロパティを使用してEIP-6963標準もサポートするようになりました。 ウォレットリスト内でEIP-6963をサポートするウォレットへの重複する参照が発生しないように、これが入力されていることを確認してください。 ウォレットリスト内でEIP-6963をサポートするウォレットへの重複する参照が発生しないように、これが入力されていることを確認してください。 ウォレットリスト内でEIP-6963をサポートするウォレットへの重複する参照が発生しないように、これが入力されていることを確認してください。
 
 ### 1.x.x 破壊的変更
 
@@ -227,7 +227,7 @@ npm i viem
 
 **3. バンドラとポリフィルの互換性を確保する**
 
-以前のwagmiバージョンでは、 [ethers](https://docs.ethers.org/v5/)に依存していたため、WalletConnectが必要とする`fs`、`net`、`tls`モジュールが自動的にポリフィルされました。 This is no longer the case with RainbowKit v1 + wagmi v1, which are built on [viem](https://viem.sh/).
+以前のwagmiバージョンでは、 [ethers](https://docs.ethers.org/v5/)に依存していたため、WalletConnectが必要とする`fs`、`net`、`tls`モジュールが自動的にポリフィルされました。 これは、[viem](https://viem.sh/)をベースに構築されたRainbowKit v1 + wagmi v1ではもはや当てはまりません。
 
 プロジェクトの設定指南として[Next.js Webpack Config](https://github.com/rainbow-me/rainbowkit/blob/main/examples/with-next/next.config.js)と[Create React App polyfills](https://github.com/rainbow-me/rainbowkit/blob/main/examples/with-create-react-app/src/polyfills.ts)のサンプルを参照してください。
 
