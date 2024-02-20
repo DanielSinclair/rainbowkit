@@ -5,7 +5,6 @@
       "label": "Wrong network"
     }
   },
-
   "intro": {
     "title": "What is a Wallet?",
     "description": "A wallet is used to send, receive, store, and display digital assets. It's also a new way to log in, without needing to create new accounts and passwords on every website.",
@@ -24,7 +23,6 @@
       "label": "Learn More"
     }
   },
-
   "sign_in": {
     "label": "Verify your account",
     "description": "To finish connecting, you must sign a message in your wallet to verify that you are the owner of this account.",
@@ -42,7 +40,6 @@
       "oops_error": "Oops, something went wrong!"
     }
   },
-
   "connect": {
     "label": "Connect",
     "title": "Connect a Wallet",
@@ -87,12 +84,10 @@
       }
     }
   },
-
   "connect_scan": {
     "title": "Scan with %{wallet}",
     "fallback_title": "Scan with your phone"
   },
-
   "connector_group": {
     "installed": "Installed",
     "recommended": "Recommended",
@@ -101,7 +96,6 @@
     "more": "More",
     "others": "Others"
   },
-
   "get": {
     "title": "Get a Wallet",
     "action": {
@@ -130,7 +124,6 @@
       }
     }
   },
-
   "get_options": {
     "title": "Get started with %{wallet}",
     "short_title": "Get %{wallet}",
@@ -156,7 +149,6 @@
       }
     }
   },
-
   "get_mobile": {
     "title": "Install %{wallet}",
     "description": "Scan with your phone to download on iOS or Android",
@@ -164,7 +156,6 @@
       "label": "Continue"
     }
   },
-
   "get_instructions": {
     "mobile": {
       "connect": {
@@ -191,7 +182,6 @@
       }
     }
   },
-
   "chains": {
     "title": "Switch Networks",
     "wrong_network": "Wrong network detected, switch or disconnect to continue.",
@@ -201,7 +191,6 @@
     "disconnect": "Disconnect",
     "connected": "Connected"
   },
-
   "profile": {
     "disconnect": {
       "label": "Disconnect"
@@ -224,7 +213,6 @@
       }
     }
   },
-
   "wallet_connectors": {
     "argent": {
       "qr_code": {
@@ -242,7 +230,6 @@
         }
       }
     },
-
     "bifrost": {
       "qr_code": {
         "step1": {
@@ -259,7 +246,6 @@
         }
       }
     },
-
     "bitget": {
       "qr_code": {
         "step1": {
@@ -275,7 +261,6 @@
           "title": "Tap the scan button"
         }
       },
-
       "extension": {
         "step1": {
           "description": "We recommend pinning Bitget Wallet to your taskbar for quicker access to your wallet.",
@@ -291,7 +276,6 @@
         }
       }
     },
-
     "bitski": {
       "extension": {
         "step1": {
@@ -308,7 +292,6 @@
         }
       }
     },
-
     "coin98": {
       "qr_code": {
         "step1": {
@@ -324,7 +307,6 @@
           "title": "Tap the WalletConnect button"
         }
       },
-
       "extension": {
         "step1": {
           "description": "Click at the top right of your browser and pin Coin98 Wallet for easy access.",
@@ -340,7 +322,6 @@
         }
       }
     },
-
     "coinbase": {
       "qr_code": {
         "step1": {
@@ -356,7 +337,6 @@
           "title": "Tap the scan button"
         }
       },
-
       "extension": {
         "step1": {
           "description": "We recommend pinning Coinbase Wallet to your taskbar for quicker access to your wallet.",
@@ -372,7 +352,6 @@
         }
       }
     },
-
     "core": {
       "qr_code": {
         "step1": {
@@ -388,7 +367,6 @@
           "title": "Tap the WalletConnect button"
         }
       },
-
       "extension": {
         "step1": {
           "description": "We recommend pinning Core to your taskbar for quicker access to your wallet.",
@@ -404,7 +382,6 @@
         }
       }
     },
-
     "fox": {
       "qr_code": {
         "step1": {
@@ -421,7 +398,6 @@
         }
       }
     },
-
     "frontier": {
       "qr_code": {
         "step1": {
@@ -437,7 +413,6 @@
           "title": "Tap the scan button"
         }
       },
-
       "extension": {
         "step1": {
           "description": "We recommend pinning Frontier Wallet to your taskbar for quicker access to your wallet.",
@@ -453,7 +428,6 @@
         }
       }
     },
-
     "im_token": {
       "qr_code": {
         "step1": {
@@ -470,7 +444,6 @@
         }
       }
     },
-
     "metamask": {
       "qr_code": {
         "step1": {
@@ -486,7 +459,6 @@
           "description": "After you scan, a connection prompt will appear for you to connect your wallet."
         }
       },
-
       "extension": {
         "step1": {
           "title": "Install the MetaMask extension",
@@ -502,7 +474,6 @@
         }
       }
     },
-
     "okx": {
       "qr_code": {
         "step1": {
@@ -518,7 +489,6 @@
           "description": "After you scan, a connection prompt will appear for you to connect your wallet."
         }
       },
-
       "extension": {
         "step1": {
           "title": "Install the OKX Wallet extension",
@@ -534,7 +504,6 @@
         }
       }
     },
-
     "omni": {
       "qr_code": {
         "step1": {
@@ -551,7 +520,6 @@
         }
       }
     },
-
     "token_pocket": {
       "qr_code": {
         "step1": {
@@ -567,7 +535,6 @@
           "description": "After you scan, a connection prompt will appear for you to connect your wallet."
         }
       },
-
       "extension": {
         "step1": {
           "title": "Install the TokenPocket extension",
@@ -583,7 +550,6 @@
         }
       }
     },
-
     "trust": {
       "qr_code": {
         "step1": {
@@ -599,7 +565,6 @@
           "description": "Choose New Connection, then scan the QR code and confirm the prompt to connect."
         }
       },
-
       "extension": {
         "step1": {
           "title": "Install the Trust Wallet extension",
@@ -615,7 +580,6 @@
         }
       }
     },
-
     "uniswap": {
       "qr_code": {
         "step1": {
@@ -632,7 +596,6 @@
         }
       }
     },
-
     "zerion": {
       "qr_code": {
         "step1": {
@@ -648,7 +611,6 @@
           "description": "After you scan, a connection prompt will appear for you to connect your wallet."
         }
       },
-
       "extension": {
         "step1": {
           "title": "Install the Zerion extension",
@@ -664,7 +626,6 @@
         }
       }
     },
-
     "rainbow": {
       "qr_code": {
         "step1": {
@@ -681,7 +642,6 @@
         }
       }
     },
-
     "enkrypt": {
       "extension": {
         "step1": {
@@ -698,7 +658,6 @@
         }
       }
     },
-
     "frame": {
       "extension": {
         "step1": {
@@ -715,7 +674,6 @@
         }
       }
     },
-
     "one_key": {
       "extension": {
         "step1": {
@@ -732,7 +690,6 @@
         }
       }
     },
-
     "phantom": {
       "extension": {
         "step1": {
@@ -749,7 +706,6 @@
         }
       }
     },
-
     "rabby": {
       "extension": {
         "step1": {
@@ -766,7 +722,6 @@
         }
       }
     },
-
     "safeheron": {
       "extension": {
         "step1": {
@@ -783,7 +738,6 @@
         }
       }
     },
-
     "taho": {
       "extension": {
         "step1": {
@@ -800,7 +754,6 @@
         }
       }
     },
-
     "talisman": {
       "extension": {
         "step1": {
@@ -817,7 +770,6 @@
         }
       }
     },
-
     "xdefi": {
       "extension": {
         "step1": {
@@ -834,7 +786,6 @@
         }
       }
     },
-
     "zeal": {
       "extension": {
         "step1": {
@@ -851,7 +802,6 @@
         }
       }
     },
-
     "safepal": {
       "extension": {
         "step1": {
@@ -882,7 +832,6 @@
         }
       }
     },
-
     "desig": {
       "extension": {
         "step1": {
@@ -899,7 +848,6 @@
         }
       }
     },
-
     "subwallet": {
       "extension": {
         "step1": {
@@ -930,7 +878,6 @@
         }
       }
     },
-
     "clv": {
       "extension": {
         "step1": {
@@ -961,7 +908,6 @@
         }
       }
     },
-
     "okto": {
       "qr_code": {
         "step1": {
@@ -978,7 +924,6 @@
         }
       }
     },
-
     "ledger": {
       "desktop": {
         "step1": {
