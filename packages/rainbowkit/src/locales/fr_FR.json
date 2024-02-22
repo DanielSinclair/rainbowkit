@@ -295,30 +295,30 @@
     "bloom": {
       "desktop": {
         "step1": {
-          "title": "Open the Bloom Wallet app",
-          "description": "We recommend putting Bloom Wallet on your home screen for quicker access."
+          "title": "Ouvrez l'application Bloom Wallet",
+          "description": "Nous recommandons de placer Bloom Wallet sur votre écran d'accueil pour un accès plus rapide."
         },
         "step2": {
           "description": "Créez ou importez un portefeuille en utilisant votre phrase de récupération.",
           "title": "Créer ou Importer un Portefeuille"
         },
         "step3": {
-          "description": "After you have a wallet, click on Connect to connect via Bloom. A connection prompt in the app will appear for you to confirm the connection.",
-          "title": "Click on Connect"
+          "description": "Après avoir obtenu un portefeuille, cliquez sur Connecter pour vous connecter via Bloom. Une invite de connexion apparaîtra dans l'application pour que vous confirmiez la connexion.",
+          "title": "Cliquez sur Connecter"
         }
       },
       "qr_code": {
         "step1": {
-          "title": "Open the Bloom Wallet app",
-          "description": "We recommend putting Bloom Wallet on your home screen for quicker access."
+          "title": "Ouvrez l'application Bloom Wallet",
+          "description": "Nous recommandons de placer Bloom Wallet sur votre écran d'accueil pour un accès plus rapide."
         },
         "step2": {
           "description": "Créez ou importez un portefeuille en utilisant votre phrase de récupération.",
           "title": "Créer ou Importer un Portefeuille"
         },
         "step3": {
-          "description": "After you have a wallet, click on Connect to connect via Bloom. A connection prompt in the app will appear for you to confirm the connection.",
-          "title": "Click on Connect"
+          "description": "Après avoir obtenu un portefeuille, cliquez sur Connecter pour vous connecter via Bloom. Une invite de connexion apparaîtra dans l'application pour que vous confirmiez la connexion.",
+          "title": "Cliquez sur Connecter"
         }
       }
     },
@@ -477,8 +477,8 @@
     "kresus": {
       "qr_code": {
         "step1": {
-          "title": "Open the Kresus Wallet app",
-          "description": "Add Kresus Wallet to your home screen for faster access to your wallet."
+          "title": "Ouvrez l'application Kresus Wallet",
+          "description": "Ajoutez Kresus Wallet sur votre écran d'accueil pour un accès plus rapide à votre portefeuille."
         },
         "step2": {
           "title": "Créer ou Importer un Portefeuille",
@@ -771,8 +771,8 @@
     "ronin": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Ronin Wallet on your home screen for quicker access.",
-          "title": "Open the Ronin Wallet app"
+          "description": "Nous recommandons de placer Ronin Wallet sur votre écran d'accueil pour un accès plus rapide.",
+          "title": "Ouvrez l'application Ronin Wallet"
         },
         "step2": {
           "description": "Assurez-vous de sauvegarder votre portefeuille en utilisant une méthode sécurisée. Ne partagez jamais votre phrase secrète avec quiconque.",
@@ -785,8 +785,8 @@
       },
       "extension": {
         "step1": {
-          "description": "We recommend pinning Ronin Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Ronin Wallet extension"
+          "description": "Nous recommandons d'épingler Ronin Wallet à votre barre des tâches pour un accès plus rapide à votre portefeuille.",
+          "title": "Installez l'extension Ronin Wallet"
         },
         "step2": {
           "description": "Assurez-vous de sauvegarder votre portefeuille en utilisant une méthode sécurisée. Ne partagez jamais votre phrase secrète avec quiconque.",
@@ -801,8 +801,8 @@
     "ramper": {
       "extension": {
         "step1": {
-          "title": "Install the Ramper extension",
-          "description": "We recommend pinning Ramper to your taskbar for easier access to your wallet."
+          "title": "Installez l'extension Ramper",
+          "description": "Nous recommandons d'épingler Ramper à votre barre des tâches pour un accès plus facile à votre portefeuille."
         },
         "step2": {
           "title": "Créer un Portefeuille",
