@@ -292,6 +292,36 @@
         }
       }
     },
+    "bloom": {
+      "desktop": {
+        "step1": {
+          "title": "Open the Bloom Wallet app",
+          "description": "We recommend putting Bloom Wallet on your home screen for quicker access."
+        },
+        "step2": {
+          "description": "Создайте или импортируйте кошелек, используя вашу фразу восстановления.",
+          "title": "Создать или Импортировать кошелек"
+        },
+        "step3": {
+          "description": "After you have a wallet, click on Connect to connect via Bloom. A connection prompt in the app will appear for you to confirm the connection.",
+          "title": "Click on Connect"
+        }
+      },
+      "qr_code": {
+        "step1": {
+          "title": "Open the Bloom Wallet app",
+          "description": "We recommend putting Bloom Wallet on your home screen for quicker access."
+        },
+        "step2": {
+          "description": "Создайте или импортируйте кошелек, используя вашу фразу восстановления.",
+          "title": "Создать или Импортировать кошелек"
+        },
+        "step3": {
+          "description": "After you have a wallet, click on Connect to connect via Bloom. A connection prompt in the app will appear for you to confirm the connection.",
+          "title": "Click on Connect"
+        }
+      }
+    },
     "coin98": {
       "qr_code": {
         "step1": {
@@ -441,6 +471,22 @@
         "step3": {
           "title": "Нажмите на иконку сканера в верхнем правом углу",
           "description": "Выберите Новое соединение, затем отсканируйте QR-код и подтвердите запрос на соединение."
+        }
+      }
+    },
+    "kresus": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the Kresus Wallet app",
+          "description": "Add Kresus Wallet to your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "Создать или Импортировать кошелек",
+          "description": "Создайте новый кошелек или импортируйте существующий."
+        },
+        "step3": {
+          "title": "Нажмите на иконку QR и отсканируйте",
+          "description": "Нажмите на иконку QR на главном экране, отсканируйте код и подтвердите запрос на подключение."
         }
       }
     },
@@ -715,6 +761,52 @@
         "step2": {
           "title": "Создать или импортировать кошелек",
           "description": "Обязательно сделайте резервную копию вашего кошелька с помощью безопасного метода. Никогда не делитесь своей секретной фразой с кем бы то ни было."
+        },
+        "step3": {
+          "title": "Обновите ваш браузер",
+          "description": "После настройки вашего кошелька, нажмите ниже, чтобы обновить браузер и загрузить расширение."
+        }
+      }
+    },
+    "ronin": {
+      "qr_code": {
+        "step1": {
+          "description": "We recommend putting Ronin Wallet on your home screen for quicker access.",
+          "title": "Open the Ronin Wallet app"
+        },
+        "step2": {
+          "description": "Обязательно сделайте резервную копию вашего кошелька с использованием безопасного метода. Никогда не делитесь своей секретной фразой с кем-либо.",
+          "title": "Создать или Импортировать кошелек"
+        },
+        "step3": {
+          "description": "После сканирования появится запрос на подключение для подключения вашего кошелька.",
+          "title": "Нажмите кнопку сканирования"
+        }
+      },
+      "extension": {
+        "step1": {
+          "description": "We recommend pinning Ronin Wallet to your taskbar for quicker access to your wallet.",
+          "title": "Install the Ronin Wallet extension"
+        },
+        "step2": {
+          "description": "Обязательно сделайте резервную копию вашего кошелька с использованием безопасного метода. Никогда не делитесь своей секретной фразой с кем-либо.",
+          "title": "Создать или Импортировать кошелек"
+        },
+        "step3": {
+          "description": "После настройки вашего кошелька, нажмите ниже, чтобы обновить браузер и загрузить расширение.",
+          "title": "Обновите ваш браузер"
+        }
+      }
+    },
+    "ramper": {
+      "extension": {
+        "step1": {
+          "title": "Install the Ramper extension",
+          "description": "We recommend pinning Ramper to your taskbar for easier access to your wallet."
+        },
+        "step2": {
+          "title": "Создать кошелек",
+          "description": "Обязательно сделайте резервную копию вашего кошелька с использованием безопасного метода. Никогда не делитесь своей секретной фразой с кем-либо."
         },
         "step3": {
           "title": "Обновите ваш браузер",
