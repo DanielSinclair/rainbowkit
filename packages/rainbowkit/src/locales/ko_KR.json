@@ -295,30 +295,30 @@
     "bloom": {
       "desktop": {
         "step1": {
-          "title": "Open the Bloom Wallet app",
-          "description": "We recommend putting Bloom Wallet on your home screen for quicker access."
+          "title": "Bloom Wallet 앱을 엽니다",
+          "description": "더 빠른 접근을 위해 Bloom Wallet을 홈 화면에 두는 것을 추천합니다."
         },
         "step2": {
           "description": "복구 문구를 사용하여 지갑을 생성하거나 가져옵니다.",
           "title": "지갑 생성 또는 가져오기"
         },
         "step3": {
-          "description": "After you have a wallet, click on Connect to connect via Bloom. A connection prompt in the app will appear for you to confirm the connection.",
-          "title": "Click on Connect"
+          "description": "지갑을 갖춘 후, Bloom을 통해 연결하려면 연결하기를 클릭합니다. 앱에서 연결을 확인하는 프롬프트가 나타납니다.",
+          "title": "연결하기를 클릭"
         }
       },
       "qr_code": {
         "step1": {
-          "title": "Open the Bloom Wallet app",
-          "description": "We recommend putting Bloom Wallet on your home screen for quicker access."
+          "title": "Bloom Wallet 앱을 엽니다",
+          "description": "더 빠른 접근을 위해 Bloom Wallet을 홈 화면에 두는 것을 추천합니다."
         },
         "step2": {
           "description": "복구 문구를 사용하여 지갑을 생성하거나 가져옵니다.",
           "title": "지갑 생성 또는 가져오기"
         },
         "step3": {
-          "description": "After you have a wallet, click on Connect to connect via Bloom. A connection prompt in the app will appear for you to confirm the connection.",
-          "title": "Click on Connect"
+          "description": "지갑을 갖춘 후, Bloom을 통해 연결하려면 연결하기를 클릭합니다. 앱에서 연결을 확인하는 프롬프트가 나타납니다.",
+          "title": "연결하기를 클릭"
         }
       }
     },
@@ -477,8 +477,8 @@
     "kresus": {
       "qr_code": {
         "step1": {
-          "title": "Open the Kresus Wallet app",
-          "description": "Add Kresus Wallet to your home screen for faster access to your wallet."
+          "title": "Kresus Wallet 앱을 엽니다",
+          "description": "Kresus 지갑을 홈 화면에 추가하여 지갑에 더 빠르게 접근하세요."
         },
         "step2": {
           "title": "지갑 생성 또는 가져오기",
@@ -771,8 +771,8 @@
     "ronin": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Ronin Wallet on your home screen for quicker access.",
-          "title": "Open the Ronin Wallet app"
+          "description": "Ronin Wallet을 홈 화면에 두어 더 빠른 접근을 추천드립니다.",
+          "title": "Ronin Wallet 앱을 열기"
         },
         "step2": {
           "description": "안전한 방법을 사용하여 지갑을 백업하세요. 절대로 비밀 구문을 누구와도 공유하지 마세요.",
@@ -785,8 +785,8 @@
       },
       "extension": {
         "step1": {
-          "description": "We recommend pinning Ronin Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Ronin Wallet extension"
+          "description": "작업 표시줄에 Ronin Wallet을 고정하여 지갑에 더 빠르게 접근할 수 있도록 추천합니다.",
+          "title": "Ronin Wallet 확장 프로그램 설치하기"
         },
         "step2": {
           "description": "안전한 방법을 사용하여 지갑을 백업하세요. 절대로 비밀 구문을 누구와도 공유하지 마세요.",
@@ -801,8 +801,8 @@
     "ramper": {
       "extension": {
         "step1": {
-          "title": "Install the Ramper extension",
-          "description": "We recommend pinning Ramper to your taskbar for easier access to your wallet."
+          "title": "Ramper 확장 프로그램 설치하기",
+          "description": "작업 표시줄에 Ramper를 고정하여 지갑 접근을 용이하게 할 것을 추천합니다."
         },
         "step2": {
           "title": "지갑 생성",
