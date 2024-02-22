@@ -292,6 +292,36 @@
         }
       }
     },
+    "bloom": {
+      "desktop": {
+        "step1": {
+          "title": "Open the Bloom Wallet app",
+          "description": "We recommend putting Bloom Wallet on your home screen for quicker access."
+        },
+        "step2": {
+          "description": "Créez ou importez un portefeuille en utilisant votre phrase de récupération.",
+          "title": "Créer ou Importer un Portefeuille"
+        },
+        "step3": {
+          "description": "After you have a wallet, click on Connect to connect via Bloom. A connection prompt in the app will appear for you to confirm the connection.",
+          "title": "Click on Connect"
+        }
+      },
+      "qr_code": {
+        "step1": {
+          "title": "Open the Bloom Wallet app",
+          "description": "We recommend putting Bloom Wallet on your home screen for quicker access."
+        },
+        "step2": {
+          "description": "Créez ou importez un portefeuille en utilisant votre phrase de récupération.",
+          "title": "Créer ou Importer un Portefeuille"
+        },
+        "step3": {
+          "description": "After you have a wallet, click on Connect to connect via Bloom. A connection prompt in the app will appear for you to confirm the connection.",
+          "title": "Click on Connect"
+        }
+      }
+    },
     "coin98": {
       "qr_code": {
         "step1": {
@@ -441,6 +471,22 @@
         "step3": {
           "title": "Appuyez sur l'icône du scanner dans le coin supérieur droit",
           "description": "Choisissez Nouvelle Connexion, puis scannez le code QR et confirmez l'invite pour vous connecter."
+        }
+      }
+    },
+    "kresus": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the Kresus Wallet app",
+          "description": "Add Kresus Wallet to your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "Créer ou Importer un Portefeuille",
+          "description": "Créez un nouveau portefeuille ou importez-en un existant."
+        },
+        "step3": {
+          "title": "Touchez l'icône QR et scannez",
+          "description": "Touchez l'icône QR sur votre écran d'accueil, scannez le code et confirmez l'invite pour vous connecter."
         }
       }
     },
@@ -718,6 +764,52 @@
         },
         "step3": {
           "title": "Actualisez votre navigateur",
+          "description": "Une fois que vous avez configuré votre portefeuille, cliquez ci-dessous pour actualiser le navigateur et charger l'extension."
+        }
+      }
+    },
+    "ronin": {
+      "qr_code": {
+        "step1": {
+          "description": "We recommend putting Ronin Wallet on your home screen for quicker access.",
+          "title": "Open the Ronin Wallet app"
+        },
+        "step2": {
+          "description": "Assurez-vous de sauvegarder votre portefeuille en utilisant une méthode sécurisée. Ne partagez jamais votre phrase secrète avec quiconque.",
+          "title": "Créer ou Importer un Portefeuille"
+        },
+        "step3": {
+          "description": "Après avoir numérisé, une invite de connexion apparaîtra pour vous permettre de connecter votre portefeuille.",
+          "title": "Appuyez sur le bouton de scan"
+        }
+      },
+      "extension": {
+        "step1": {
+          "description": "We recommend pinning Ronin Wallet to your taskbar for quicker access to your wallet.",
+          "title": "Install the Ronin Wallet extension"
+        },
+        "step2": {
+          "description": "Assurez-vous de sauvegarder votre portefeuille en utilisant une méthode sécurisée. Ne partagez jamais votre phrase secrète avec quiconque.",
+          "title": "Créer ou Importer un Portefeuille"
+        },
+        "step3": {
+          "description": "Une fois que vous avez configuré votre portefeuille, cliquez ci-dessous pour actualiser le navigateur et charger l'extension.",
+          "title": "Rafraîchissez votre navigateur"
+        }
+      }
+    },
+    "ramper": {
+      "extension": {
+        "step1": {
+          "title": "Install the Ramper extension",
+          "description": "We recommend pinning Ramper to your taskbar for easier access to your wallet."
+        },
+        "step2": {
+          "title": "Créer un Portefeuille",
+          "description": "Assurez-vous de sauvegarder votre portefeuille en utilisant une méthode sécurisée. Ne partagez jamais votre phrase secrète avec quiconque."
+        },
+        "step3": {
+          "title": "Rafraîchissez votre navigateur",
           "description": "Une fois que vous avez configuré votre portefeuille, cliquez ci-dessous pour actualiser le navigateur et charger l'extension."
         }
       }
