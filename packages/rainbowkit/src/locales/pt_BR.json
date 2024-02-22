@@ -292,6 +292,36 @@
         }
       }
     },
+    "bloom": {
+      "desktop": {
+        "step1": {
+          "title": "Open the Bloom Wallet app",
+          "description": "We recommend putting Bloom Wallet on your home screen for quicker access."
+        },
+        "step2": {
+          "description": "Crie ou importe uma carteira usando sua frase de recuperação.",
+          "title": "Criar ou Importar uma Carteira"
+        },
+        "step3": {
+          "description": "After you have a wallet, click on Connect to connect via Bloom. A connection prompt in the app will appear for you to confirm the connection.",
+          "title": "Click on Connect"
+        }
+      },
+      "qr_code": {
+        "step1": {
+          "title": "Open the Bloom Wallet app",
+          "description": "We recommend putting Bloom Wallet on your home screen for quicker access."
+        },
+        "step2": {
+          "description": "Crie ou importe uma carteira usando sua frase de recuperação.",
+          "title": "Criar ou Importar uma Carteira"
+        },
+        "step3": {
+          "description": "After you have a wallet, click on Connect to connect via Bloom. A connection prompt in the app will appear for you to confirm the connection.",
+          "title": "Click on Connect"
+        }
+      }
+    },
     "coin98": {
       "qr_code": {
         "step1": {
@@ -441,6 +471,22 @@
         "step3": {
           "title": "Toque no ícone do Scanner no canto superior direito",
           "description": "Escolha Nova Conexão, em seguida, escaneie o código QR e confirme o prompt para conectar."
+        }
+      }
+    },
+    "kresus": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the Kresus Wallet app",
+          "description": "Add Kresus Wallet to your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "Criar ou Importar uma Carteira",
+          "description": "Crie uma nova carteira ou importe uma existente."
+        },
+        "step3": {
+          "title": "Toque no ícone do QR e escaneie",
+          "description": "Toque no ícone QR na sua tela inicial, escaneie o código e confirme o prompt para conectar."
         }
       }
     },
@@ -715,6 +761,52 @@
         "step2": {
           "title": "Criar ou Importar uma Carteira",
           "description": "Certifique-se de fazer backup da sua carteira usando um método seguro. Nunca compartilhe sua frase secreta com ninguém."
+        },
+        "step3": {
+          "title": "Atualize seu navegador",
+          "description": "Depois de configurar sua carteira, clique abaixo para atualizar o navegador e carregar a extensão."
+        }
+      }
+    },
+    "ronin": {
+      "qr_code": {
+        "step1": {
+          "description": "We recommend putting Ronin Wallet on your home screen for quicker access.",
+          "title": "Open the Ronin Wallet app"
+        },
+        "step2": {
+          "description": "Certifique-se de fazer backup de sua carteira usando um método seguro. Nunca compartilhe sua frase secreta com ninguém.",
+          "title": "Criar ou Importar uma Carteira"
+        },
+        "step3": {
+          "description": "Depois que você escanear, um prompt de conexão aparecerá para você conectar sua carteira.",
+          "title": "Toque no botão de escanear"
+        }
+      },
+      "extension": {
+        "step1": {
+          "description": "We recommend pinning Ronin Wallet to your taskbar for quicker access to your wallet.",
+          "title": "Install the Ronin Wallet extension"
+        },
+        "step2": {
+          "description": "Certifique-se de fazer backup de sua carteira usando um método seguro. Nunca compartilhe sua frase secreta com ninguém.",
+          "title": "Criar ou Importar uma Carteira"
+        },
+        "step3": {
+          "description": "Depois de configurar sua carteira, clique abaixo para atualizar o navegador e carregar a extensão.",
+          "title": "Atualize seu navegador"
+        }
+      }
+    },
+    "ramper": {
+      "extension": {
+        "step1": {
+          "title": "Install the Ramper extension",
+          "description": "We recommend pinning Ramper to your taskbar for easier access to your wallet."
+        },
+        "step2": {
+          "title": "Criar uma Carteira",
+          "description": "Certifique-se de fazer backup de sua carteira usando um método seguro. Nunca compartilhe sua frase secreta com ninguém."
         },
         "step3": {
           "title": "Atualize seu navegador",
