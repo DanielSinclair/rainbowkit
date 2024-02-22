@@ -292,6 +292,36 @@
         }
       }
     },
+    "bloom": {
+      "desktop": {
+        "step1": {
+          "title": "Open the Bloom Wallet app",
+          "description": "We recommend putting Bloom Wallet on your home screen for quicker access."
+        },
+        "step2": {
+          "description": "Створіть або імпортуйте гаманець, використовуючи вашу фразу для відновлення.",
+          "title": "Створити або Імпортувати Гаманець"
+        },
+        "step3": {
+          "description": "After you have a wallet, click on Connect to connect via Bloom. A connection prompt in the app will appear for you to confirm the connection.",
+          "title": "Click on Connect"
+        }
+      },
+      "qr_code": {
+        "step1": {
+          "title": "Open the Bloom Wallet app",
+          "description": "We recommend putting Bloom Wallet on your home screen for quicker access."
+        },
+        "step2": {
+          "description": "Створіть або імпортуйте гаманець, використовуючи вашу фразу для відновлення.",
+          "title": "Створити або Імпортувати Гаманець"
+        },
+        "step3": {
+          "description": "After you have a wallet, click on Connect to connect via Bloom. A connection prompt in the app will appear for you to confirm the connection.",
+          "title": "Click on Connect"
+        }
+      }
+    },
     "coin98": {
       "qr_code": {
         "step1": {
@@ -441,6 +471,22 @@
         "step3": {
           "title": "Натисніть на іконку сканера в правому верхньому куті",
           "description": "Виберіть 'Нове з'єднання', потім відскануйте QR-код і підтвердіть запит на підключення."
+        }
+      }
+    },
+    "kresus": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the Kresus Wallet app",
+          "description": "Add Kresus Wallet to your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "Створити або Імпортувати Гаманець",
+          "description": "Створіть новий гаманець або імпортуйте існуючий."
+        },
+        "step3": {
+          "title": "Натисніть на іконку QR та відскануйте",
+          "description": "Торкніться іконки QR на вашому домашньому екрані, відскануйте код та підтвердіть запит на підключення."
         }
       }
     },
@@ -714,6 +760,52 @@
         },
         "step2": {
           "title": "Створити або Імпортувати Гаманець",
+          "description": "Не забудьте зробити резервну копію вашого гаманця за допомогою безпечного методу. Ніколи не діліться вашою секретною фразою з кимось."
+        },
+        "step3": {
+          "title": "Оновіть ваш браузер",
+          "description": "Після налаштування вашого гаманця, натисніть нижче, щоб оновити браузер і завантажити розширення."
+        }
+      }
+    },
+    "ronin": {
+      "qr_code": {
+        "step1": {
+          "description": "We recommend putting Ronin Wallet on your home screen for quicker access.",
+          "title": "Open the Ronin Wallet app"
+        },
+        "step2": {
+          "description": "Не забудьте зробити резервну копію вашого гаманця за допомогою безпечного методу. Ніколи не діліться вашою секретною фразою з кимось.",
+          "title": "Створити або Імпортувати Гаманець"
+        },
+        "step3": {
+          "description": "Після сканування з'явиться запит на під'єднання для підключення вашого гаманця.",
+          "title": "Натисніть кнопку сканування"
+        }
+      },
+      "extension": {
+        "step1": {
+          "description": "We recommend pinning Ronin Wallet to your taskbar for quicker access to your wallet.",
+          "title": "Install the Ronin Wallet extension"
+        },
+        "step2": {
+          "description": "Не забудьте зробити резервну копію вашого гаманця за допомогою безпечного методу. Ніколи не діліться вашою секретною фразою з кимось.",
+          "title": "Створити або Імпортувати Гаманець"
+        },
+        "step3": {
+          "description": "Після налаштування вашого гаманця, натисніть нижче, щоб оновити браузер і завантажити розширення.",
+          "title": "Оновіть ваш браузер"
+        }
+      }
+    },
+    "ramper": {
+      "extension": {
+        "step1": {
+          "title": "Install the Ramper extension",
+          "description": "We recommend pinning Ramper to your taskbar for easier access to your wallet."
+        },
+        "step2": {
+          "title": "Створіть гаманець",
           "description": "Не забудьте зробити резервну копію вашого гаманця за допомогою безпечного методу. Ніколи не діліться вашою секретною фразою з кимось."
         },
         "step3": {
