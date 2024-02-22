@@ -292,6 +292,36 @@
         }
       }
     },
+    "bloom": {
+      "desktop": {
+        "step1": {
+          "title": "Open the Bloom Wallet app",
+          "description": "We recommend putting Bloom Wallet on your home screen for quicker access."
+        },
+        "step2": {
+          "description": "Kurtarma ifadenizle bir cüzdan oluşturun veya içe aktarın.",
+          "title": "Cüzdan Oluştur veya Cüzdanı İçe Aktar"
+        },
+        "step3": {
+          "description": "After you have a wallet, click on Connect to connect via Bloom. A connection prompt in the app will appear for you to confirm the connection.",
+          "title": "Click on Connect"
+        }
+      },
+      "qr_code": {
+        "step1": {
+          "title": "Open the Bloom Wallet app",
+          "description": "We recommend putting Bloom Wallet on your home screen for quicker access."
+        },
+        "step2": {
+          "description": "Kurtarma ifadenizle bir cüzdan oluşturun veya içe aktarın.",
+          "title": "Cüzdan Oluştur veya Cüzdanı İçe Aktar"
+        },
+        "step3": {
+          "description": "After you have a wallet, click on Connect to connect via Bloom. A connection prompt in the app will appear for you to confirm the connection.",
+          "title": "Click on Connect"
+        }
+      }
+    },
     "coin98": {
       "qr_code": {
         "step1": {
@@ -441,6 +471,22 @@
         "step3": {
           "title": "Sağ üst köşede Tarayıcı Simgesine dokunun",
           "description": "Yeni Bağlantı'yı seçin, ardından QR kodunu tarayın ve bağlantıyı onaylamak için istemi onaylayın."
+        }
+      }
+    },
+    "kresus": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the Kresus Wallet app",
+          "description": "Add Kresus Wallet to your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "Cüzdan Oluştur veya Cüzdanı İçe Aktar",
+          "description": "Yeni bir cüzdan oluşturun veya mevcut birini içe aktarın."
+        },
+        "step3": {
+          "title": "QR simgesine dokunun ve tarayın",
+          "description": "Ana ekranınızdaki QR simgesine dokunun, kodu tarayın ve bağlanmayı onaylamak için istemi kabul edin."
         }
       }
     },
@@ -719,6 +765,52 @@
         "step3": {
           "title": "Tarayıcınızı yenileyin",
           "description": "Cüzdanınızı kurduktan sonra, tarayıcıyı yenilemek ve eklentiyi yüklemek için aşağıdaki düğmeye tıklayın."
+        }
+      }
+    },
+    "ronin": {
+      "qr_code": {
+        "step1": {
+          "description": "We recommend putting Ronin Wallet on your home screen for quicker access.",
+          "title": "Open the Ronin Wallet app"
+        },
+        "step2": {
+          "description": "Cüzdanınızı güvenli bir yöntemle yedeklemeye emin olun. Gizli ifadenizi asla kimseyle paylaşmayın.",
+          "title": "Cüzdan Oluştur veya Cüzdanı İçe Aktar"
+        },
+        "step3": {
+          "description": "Taradıktan sonra, cüzdanınızı bağlamak için bir bağlantı istemi görünecektir.",
+          "title": "Tarayıcı düğmesine dokunun"
+        }
+      },
+      "extension": {
+        "step1": {
+          "description": "We recommend pinning Ronin Wallet to your taskbar for quicker access to your wallet.",
+          "title": "Install the Ronin Wallet extension"
+        },
+        "step2": {
+          "description": "Cüzdanınızı güvenli bir yöntemle yedeklemeye emin olun. Gizli ifadenizi asla kimseyle paylaşmayın.",
+          "title": "Cüzdan Oluştur veya Cüzdanı İçe Aktar"
+        },
+        "step3": {
+          "description": "Cüzdanınızı kurduktan sonra, aşağıya tıklayın ve tarayıcıyı yenileyin ve eklentiyi yükleyin.",
+          "title": "Tarayıcınızı yenileyin"
+        }
+      }
+    },
+    "ramper": {
+      "extension": {
+        "step1": {
+          "title": "Install the Ramper extension",
+          "description": "We recommend pinning Ramper to your taskbar for easier access to your wallet."
+        },
+        "step2": {
+          "title": "Bir Cüzdan Oluşturun",
+          "description": "Cüzdanınızı güvenli bir yöntemle yedeklemeye emin olun. Gizli ifadenizi asla kimseyle paylaşmayın."
+        },
+        "step3": {
+          "title": "Tarayıcınızı yenileyin",
+          "description": "Cüzdanınızı kurduktan sonra, aşağıya tıklayın ve tarayıcıyı yenileyin ve eklentiyi yükleyin."
         }
       }
     },
