@@ -295,30 +295,30 @@
     "bloom": {
       "desktop": {
         "step1": {
-          "title": "Open the Bloom Wallet app",
-          "description": "We recommend putting Bloom Wallet on your home screen for quicker access."
+          "title": "Откройте приложение Bloom Wallet",
+          "description": "Мы рекомендуем добавить Bloom Wallet на домашний экран для более быстрого доступа."
         },
         "step2": {
           "description": "Создайте или импортируйте кошелек, используя вашу фразу восстановления.",
           "title": "Создать или Импортировать кошелек"
         },
         "step3": {
-          "description": "After you have a wallet, click on Connect to connect via Bloom. A connection prompt in the app will appear for you to confirm the connection.",
-          "title": "Click on Connect"
+          "description": "После того как у вас появится кошелек, нажмите на 'Connect', чтобы подключиться через Bloom. В приложении появится запрос на подключение, который вам нужно будет подтвердить.",
+          "title": "Нажмите на 'Connect'"
         }
       },
       "qr_code": {
         "step1": {
-          "title": "Open the Bloom Wallet app",
-          "description": "We recommend putting Bloom Wallet on your home screen for quicker access."
+          "title": "Откройте приложение Bloom Wallet",
+          "description": "Мы рекомендуем добавить Bloom Wallet на домашний экран для более быстрого доступа."
         },
         "step2": {
           "description": "Создайте или импортируйте кошелек, используя вашу фразу восстановления.",
           "title": "Создать или Импортировать кошелек"
         },
         "step3": {
-          "description": "After you have a wallet, click on Connect to connect via Bloom. A connection prompt in the app will appear for you to confirm the connection.",
-          "title": "Click on Connect"
+          "description": "После того как у вас появится кошелек, нажмите на 'Connect', чтобы подключиться через Bloom. В приложении появится запрос на подключение, который вам нужно будет подтвердить.",
+          "title": "Нажмите на 'Connect'"
         }
       }
     },
@@ -477,8 +477,8 @@
     "kresus": {
       "qr_code": {
         "step1": {
-          "title": "Open the Kresus Wallet app",
-          "description": "Add Kresus Wallet to your home screen for faster access to your wallet."
+          "title": "Откройте приложение Kresus Wallet",
+          "description": "Добавьте кошелек Kresus на экран быстрого доступа для ускоренного доступа к вашему кошельку."
         },
         "step2": {
           "title": "Создать или Импортировать кошелек",
@@ -771,8 +771,8 @@
     "ronin": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Ronin Wallet on your home screen for quicker access.",
-          "title": "Open the Ronin Wallet app"
+          "description": "Мы рекомендуем добавить кошелек Ronin на ваш экран быстрого доступа для более быстрого доступа.",
+          "title": "Откройте приложение кошелька Ronin"
         },
         "step2": {
           "description": "Обязательно сделайте резервную копию вашего кошелька с использованием безопасного метода. Никогда не делитесь своей секретной фразой с кем-либо.",
@@ -785,8 +785,8 @@
       },
       "extension": {
         "step1": {
-          "description": "We recommend pinning Ronin Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Ronin Wallet extension"
+          "description": "Мы рекомендуем закрепить кошелек Ronin на панели задач для более быстрого доступа к вашему кошельку.",
+          "title": "Установите расширение кошелька Ronin"
         },
         "step2": {
           "description": "Обязательно сделайте резервную копию вашего кошелька с использованием безопасного метода. Никогда не делитесь своей секретной фразой с кем-либо.",
@@ -801,8 +801,8 @@
     "ramper": {
       "extension": {
         "step1": {
-          "title": "Install the Ramper extension",
-          "description": "We recommend pinning Ramper to your taskbar for easier access to your wallet."
+          "title": "Установите расширение Ramper",
+          "description": "Мы рекомендуем закрепить Ramper на панели задач для удобного доступа к вашему кошельку."
         },
         "step2": {
           "title": "Создать кошелек",
