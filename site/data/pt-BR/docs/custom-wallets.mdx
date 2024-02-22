@@ -83,7 +83,7 @@ O tipo de função `Wallet` é fornecido para ajudá-lo a definir suas próprias
       type: '(args: { wallets: Array<{ id: string, connector: Connector, installed?: boolean }> }) => boolean',
       typeSimple: '(args) => boolean | undefined',
       description:
-        'Function for calculating whether this wallet should be hidden from the list. Isso é útil para definir carteiras genéricas de fallback, por exemplo, a carteira de fallback integrada 'Injected Wallet' faz uso dessa funcionalidade',
+        'Function for calculating whether this wallet should be hidden from the list. This is useful for defining generic fallback wallets, e.g. the built-in "Injected Wallet" fallback makes use of this feature',
     },
     {
       name: 'createConnector',
@@ -91,7 +91,7 @@ O tipo de função `Wallet` é fornecido para ajudá-lo a definir suas próprias
       type: '() => RainbowKitConnector',
       typeSimple: 'RainbowKitConnector',
       description:
-        'Função para fornecer a instância do conector e a configuração para diferentes métodos de conexão, descritos abaixo',
+        'Function for providing the connector instance and configuration for different connection methods, described below',
     },
     {
       name: 'mobile',
@@ -99,37 +99,37 @@ O tipo de função `Wallet` é fornecido para ajudá-lo a definir suas próprias
       type: '{ getUri?: (uri: string) => string }',
       typeSimple: 'object',
       description:
-        'Função para resolver um URI de conexão de carteira móvel',
+        'Function for resolving a mobile wallet connection URI',
     },
     {
       name: 'desktop',
       required: false,
       type: '{ getUri?: (uri: string) => string }',
       typeSimple: 'object',
-      description: 'Função para resolver um deep link de aplicativo de desktop',
+      description: 'Function for resolving a desktop app deep link',
     },
     {
       name: 'qrCode',
       required: false,
-      type: "{ getUri: (uri: string) => string, instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }}}}",
+      type: "{ getUri: (uri: string) => string, instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }> }}}",
       typeSimple: 'object',
       description:
-        'Objeto contendo uma função para resolver o URI do código QR, além de instruções opcionais de configuração da carteira móvel',
+        'Object containing a function for resolving the QR code URI, plus optional mobile wallet setup instructions',
     },
     {
       name: 'extension',
       required: false,
-      type: "{ instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }}}}",
+      type: "{ instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }> }}}",
       typeSimple: 'object',
       description:
-        'Objeto contendo instruções opcionais de configuração da extensão do navegador',
+        'Object containing optional browser extension setup instructions',
     },
     {
       name: 'createConnector',
       required: true,
       type: "createConnector: (details: WalletDetailsParams) => CreateConnectorFn",
       typeSimple: '(details: WalletDetailsParams) => CreateConnectorFn',
-      description: 'Função para fornecer a instância do conector',
+      description: 'Function for providing the connector instance',
     },
   ]}
 />
