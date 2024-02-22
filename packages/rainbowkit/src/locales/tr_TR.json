@@ -295,30 +295,30 @@
     "bloom": {
       "desktop": {
         "step1": {
-          "title": "Open the Bloom Wallet app",
-          "description": "We recommend putting Bloom Wallet on your home screen for quicker access."
+          "title": "Bloom Cüzdan uygulamasını açın",
+          "description": "Daha hızlı erişim için Bloom Cüzdan'ı ana ekranınıza koymayı öneririz."
         },
         "step2": {
           "description": "Kurtarma ifadenizle bir cüzdan oluşturun veya içe aktarın.",
           "title": "Cüzdan Oluştur veya Cüzdanı İçe Aktar"
         },
         "step3": {
-          "description": "After you have a wallet, click on Connect to connect via Bloom. A connection prompt in the app will appear for you to confirm the connection.",
-          "title": "Click on Connect"
+          "description": "Bir cüzdanınız olduktan sonra, Bloom üzerinden bağlanmak için Bağlan'a tıklayın. Uygulamada bağlantıyı onaylamanız için bir bağlantı istemi belirecektir.",
+          "title": "Bağlan'a tıklayın"
         }
       },
       "qr_code": {
         "step1": {
-          "title": "Open the Bloom Wallet app",
-          "description": "We recommend putting Bloom Wallet on your home screen for quicker access."
+          "title": "Bloom Cüzdan uygulamasını açın",
+          "description": "Daha hızlı erişim için Bloom Cüzdan'ı ana ekranınıza koymayı öneririz."
         },
         "step2": {
           "description": "Kurtarma ifadenizle bir cüzdan oluşturun veya içe aktarın.",
           "title": "Cüzdan Oluştur veya Cüzdanı İçe Aktar"
         },
         "step3": {
-          "description": "After you have a wallet, click on Connect to connect via Bloom. A connection prompt in the app will appear for you to confirm the connection.",
-          "title": "Click on Connect"
+          "description": "Bir cüzdanınız olduktan sonra, Bloom üzerinden bağlanmak için Bağlan'a tıklayın. Uygulamada bağlantıyı onaylamanız için bir bağlantı istemi belirecektir.",
+          "title": "Bağlan'a tıklayın"
         }
       }
     },
@@ -477,8 +477,8 @@
     "kresus": {
       "qr_code": {
         "step1": {
-          "title": "Open the Kresus Wallet app",
-          "description": "Add Kresus Wallet to your home screen for faster access to your wallet."
+          "title": "Kresus Cüzdan uygulamasını açın",
+          "description": "Cüzdanınıza daha hızlı erişim için Kresus Cüzdanını ana ekranınıza ekleyin."
         },
         "step2": {
           "title": "Cüzdan Oluştur veya Cüzdanı İçe Aktar",
@@ -771,8 +771,8 @@
     "ronin": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Ronin Wallet on your home screen for quicker access.",
-          "title": "Open the Ronin Wallet app"
+          "description": "Cüzdanınıza daha hızlı erişim için Ronin Cüzdanını ana ekranınıza koymayı öneririz.",
+          "title": "Ronin Cüzdan uygulamasını açın"
         },
         "step2": {
           "description": "Cüzdanınızı güvenli bir yöntemle yedeklemeye emin olun. Gizli ifadenizi asla kimseyle paylaşmayın.",
@@ -785,8 +785,8 @@
       },
       "extension": {
         "step1": {
-          "description": "We recommend pinning Ronin Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Ronin Wallet extension"
+          "description": "Cüzdanınıza daha hızlı erişim için Ronin Cüzdanını görev çubuğunuza sabitlemenizi öneririz.",
+          "title": "Ronin Cüzdan eklentisini yükleyin"
         },
         "step2": {
           "description": "Cüzdanınızı güvenli bir yöntemle yedeklemeye emin olun. Gizli ifadenizi asla kimseyle paylaşmayın.",
@@ -801,8 +801,8 @@
     "ramper": {
       "extension": {
         "step1": {
-          "title": "Install the Ramper extension",
-          "description": "We recommend pinning Ramper to your taskbar for easier access to your wallet."
+          "title": "Ramper eklentisini yükleyin",
+          "description": "Cüzdanınıza daha kolay erişim için Ramper'ı görev çubuğunuza sabitlemenizi öneririz."
         },
         "step2": {
           "title": "Bir Cüzdan Oluşturun",
