@@ -292,6 +292,36 @@
         }
       }
     },
+    "bloom": {
+      "desktop": {
+        "step1": {
+          "title": "Open the Bloom Wallet app",
+          "description": "We recommend putting Bloom Wallet on your home screen for quicker access."
+        },
+        "step2": {
+          "description": "अपने रिकवरी फ़्रेज़ का उपयोग करके एक वॉलेट बनाएं या इंपोर्ट करें।",
+          "title": "वॉलेट बनाएं या आयात करें"
+        },
+        "step3": {
+          "description": "After you have a wallet, click on Connect to connect via Bloom. A connection prompt in the app will appear for you to confirm the connection.",
+          "title": "Click on Connect"
+        }
+      },
+      "qr_code": {
+        "step1": {
+          "title": "Open the Bloom Wallet app",
+          "description": "We recommend putting Bloom Wallet on your home screen for quicker access."
+        },
+        "step2": {
+          "description": "अपने रिकवरी फ़्रेज़ का उपयोग करके एक वॉलेट बनाएं या इंपोर्ट करें।",
+          "title": "वॉलेट बनाएं या आयात करें"
+        },
+        "step3": {
+          "description": "After you have a wallet, click on Connect to connect via Bloom. A connection prompt in the app will appear for you to confirm the connection.",
+          "title": "Click on Connect"
+        }
+      }
+    },
     "coin98": {
       "qr_code": {
         "step1": {
@@ -441,6 +471,22 @@
         "step3": {
           "title": "ऊपरी दाएं कोने में स्कैनर आइकॉन पर टैप करें",
           "description": "नया कनेक्शन चुनें, फिर QR कोड स्कैन करें और कनेक्ट करने के लिए प्रॉम्प्ट की पुष्टि करें।"
+        }
+      }
+    },
+    "kresus": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the Kresus Wallet app",
+          "description": "Add Kresus Wallet to your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "वॉलेट बनाएं या आयात करें",
+          "description": "नया बटुआ बनाएं या मौजूदा को आयात करें।"
+        },
+        "step3": {
+          "title": "QR आइकन पर टैप करें और स्कैन करें",
+          "description": "अपने होमस्क्रीन पर QR आइकन पर टैप करें, कोड स्कैन करें और प्रम्प्ट को कनेक्ट करने की पुष्टि करें।"
         }
       }
     },
@@ -719,6 +765,52 @@
         "step3": {
           "title": "अपना ब्राउज़र ताज़ा करें",
           "description": "जब आप अपना वॉलेट सेट अप कर लेते हैं, तो ब्राउज़र को ताज़ा करने और एक्सटेंशन लोड करने के लिए नीचे क्लिक करें।"
+        }
+      }
+    },
+    "ronin": {
+      "qr_code": {
+        "step1": {
+          "description": "We recommend putting Ronin Wallet on your home screen for quicker access.",
+          "title": "Open the Ronin Wallet app"
+        },
+        "step2": {
+          "description": "अपने वॉलेट का बैकअप एक सुरक्षित तरीके से लेने के लिए सुनिश्चित करें। किसी के साथ भी अपना गुप्त वाक्यांश साझा न करें।",
+          "title": "वॉलेट बनाएं या आयात करें"
+        },
+        "step3": {
+          "description": "जैसे ही आप स्कैन करेंगे, एक कनेक्शन संकेत आपके वॉलेट को कनेक्ट करने के लिए प्रकट होगा।",
+          "title": "स्कैन बटन को टैप करें"
+        }
+      },
+      "extension": {
+        "step1": {
+          "description": "We recommend pinning Ronin Wallet to your taskbar for quicker access to your wallet.",
+          "title": "Install the Ronin Wallet extension"
+        },
+        "step2": {
+          "description": "अपने वॉलेट का बैकअप एक सुरक्षित तरीके से लेने के लिए सुनिश्चित करें। किसी के साथ भी अपना गुप्त वाक्यांश साझा न करें।",
+          "title": "वॉलेट बनाएं या आयात करें"
+        },
+        "step3": {
+          "description": "एक बार जब आप अपना वॉलेट सेटअप कर लेते हैं, तो नीचे क्लिक करें ताकि ब्राउज़र को ताज़ा करें और एक्सटेंशन लोड करें।",
+          "title": "अपने ब्राउज़र को ताज़ा करें"
+        }
+      }
+    },
+    "ramper": {
+      "extension": {
+        "step1": {
+          "title": "Install the Ramper extension",
+          "description": "We recommend pinning Ramper to your taskbar for easier access to your wallet."
+        },
+        "step2": {
+          "title": "एक वॉलेट बनाएँ",
+          "description": "अपने वॉलेट का बैकअप एक सुरक्षित तरीके से लेने के लिए सुनिश्चित करें। किसी के साथ भी अपना गुप्त वाक्यांश साझा न करें।"
+        },
+        "step3": {
+          "title": "अपने ब्राउज़र को ताज़ा करें",
+          "description": "एक बार जब आप अपना वॉलेट सेटअप कर लेते हैं, तो नीचे क्लिक करें ताकि ब्राउज़र को ताज़ा करें और एक्सटेंशन लोड करें।"
         }
       }
     },
