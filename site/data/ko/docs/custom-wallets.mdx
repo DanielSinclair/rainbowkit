@@ -83,7 +83,7 @@ description: 사용자 정의 지갑 생성
       type: '(args: { wallets: Array<{ id: string, connector: Connector, installed?: boolean }> }) => boolean',
       typeSimple: '(args) => boolean | undefined',
       description:
-        'Function for calculating whether this wallet should be hidden from the list. 이 기능은 일반적인 대체 지갑을 정의하는 데 유용합니다. 예를 들어, 내장된 'Injected Wallet' 대체는 이 기능을 사용합니다',
+        'Function for calculating whether this wallet should be hidden from the list. This is useful for defining generic fallback wallets, e.g. the built-in "Injected Wallet" fallback makes use of this feature',
     },
     {
       name: 'createConnector',
@@ -91,7 +91,7 @@ description: 사용자 정의 지갑 생성
       type: '() => RainbowKitConnector',
       typeSimple: 'RainbowKitConnector',
       description:
-        '다양한 연결 방법에 대한 커넥터 인스턴스 및 구성을 제공하는 함수, 아래에 설명됨',
+        'Function for providing the connector instance and configuration for different connection methods, described below',
     },
     {
       name: 'mobile',
@@ -99,37 +99,37 @@ description: 사용자 정의 지갑 생성
       type: '{ getUri?: (uri: string) => string }',
       typeSimple: 'object',
       description:
-        '모바일 지갑 연결 URI를 해결하는 함수',
+        'Function for resolving a mobile wallet connection URI',
     },
     {
       name: 'desktop',
       required: false,
       type: '{ getUri?: (uri: string) => string }',
       typeSimple: 'object',
-      description: '데스크톱 앱 딥 링크를 해결하는 함수',
+      description: 'Function for resolving a desktop app deep link',
     },
     {
       name: 'qrCode',
       required: false,
-      type: "{ getUri: (uri: string) => string, instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }}}}",
+      type: "{ getUri: (uri: string) => string, instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }> }}}",
       typeSimple: 'object',
       description:
-        'QR 코드 URI를 해결하는 함수 및 선택적 모바일 지갑 설정 지침이 포함된 객체',
+        'Object containing a function for resolving the QR code URI, plus optional mobile wallet setup instructions',
     },
     {
       name: 'extension',
       required: false,
-      type: "{ instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }}}}",
+      type: "{ instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }> }}}",
       typeSimple: 'object',
       description:
-        '선택적 브라우저 확장 프로그램 설정 지침이 포함된 객체',
+        'Object containing optional browser extension setup instructions',
     },
     {
       name: 'createConnector',
       required: true,
       type: "createConnector: (details: WalletDetailsParams) => CreateConnectorFn",
       typeSimple: '(details: WalletDetailsParams) => CreateConnectorFn',
-      description: '커넥터 인스턴스를 제공하는 함수'
+      description: 'Function for providing the connector instance',
     },
   ]}
 />
