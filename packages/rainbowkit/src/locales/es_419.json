@@ -292,6 +292,36 @@
         }
       }
     },
+    "bloom": {
+      "desktop": {
+        "step1": {
+          "title": "Open the Bloom Wallet app",
+          "description": "We recommend putting Bloom Wallet on your home screen for quicker access."
+        },
+        "step2": {
+          "description": "Cree o importe una billetera usando su frase de recuperación.",
+          "title": "Crear o Importar una Billetera"
+        },
+        "step3": {
+          "description": "After you have a wallet, click on Connect to connect via Bloom. A connection prompt in the app will appear for you to confirm the connection.",
+          "title": "Click on Connect"
+        }
+      },
+      "qr_code": {
+        "step1": {
+          "title": "Open the Bloom Wallet app",
+          "description": "We recommend putting Bloom Wallet on your home screen for quicker access."
+        },
+        "step2": {
+          "description": "Cree o importe una billetera usando su frase de recuperación.",
+          "title": "Crear o Importar una Billetera"
+        },
+        "step3": {
+          "description": "After you have a wallet, click on Connect to connect via Bloom. A connection prompt in the app will appear for you to confirm the connection.",
+          "title": "Click on Connect"
+        }
+      }
+    },
     "coin98": {
       "qr_code": {
         "step1": {
@@ -441,6 +471,22 @@
         "step3": {
           "title": "Toca el Icono del Escáner en la esquina superior derecha",
           "description": "Elija Nueva Conexión, luego escanee el código QR y confirme el aviso para conectar."
+        }
+      }
+    },
+    "kresus": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the Kresus Wallet app",
+          "description": "Add Kresus Wallet to your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "Crear o Importar una Billetera",
+          "description": "Crea una nueva billetera o importa una existente."
+        },
+        "step3": {
+          "title": "Toque el icono de QR y escanee",
+          "description": "Toca el icono QR en tu pantalla de inicio, escanea el código y confirma el prompt para conectar."
         }
       }
     },
@@ -719,6 +765,52 @@
         "step3": {
           "title": "Actualiza tu navegador",
           "description": "Una vez que configures tu billetera, haz clic abajo para actualizar el navegador y cargar la extensión."
+        }
+      }
+    },
+    "ronin": {
+      "qr_code": {
+        "step1": {
+          "description": "We recommend putting Ronin Wallet on your home screen for quicker access.",
+          "title": "Open the Ronin Wallet app"
+        },
+        "step2": {
+          "description": "Asegúrese de respaldar su billetera utilizando un método seguro. Nunca comparta su frase secreta con nadie.",
+          "title": "Crear o Importar una Billetera"
+        },
+        "step3": {
+          "description": "Después de escanear, aparecerá un mensaje de conexión para que conecte su billetera.",
+          "title": "Toque el botón de escaneo"
+        }
+      },
+      "extension": {
+        "step1": {
+          "description": "We recommend pinning Ronin Wallet to your taskbar for quicker access to your wallet.",
+          "title": "Install the Ronin Wallet extension"
+        },
+        "step2": {
+          "description": "Asegúrese de respaldar su billetera utilizando un método seguro. Nunca comparta su frase secreta con nadie.",
+          "title": "Crear o Importar una Billetera"
+        },
+        "step3": {
+          "description": "Una vez que configures tu billetera, haz clic a continuación para refrescar el navegador y cargar la extensión.",
+          "title": "Refrescar tu navegador"
+        }
+      }
+    },
+    "ramper": {
+      "extension": {
+        "step1": {
+          "title": "Install the Ramper extension",
+          "description": "We recommend pinning Ramper to your taskbar for easier access to your wallet."
+        },
+        "step2": {
+          "title": "Crea una Cartera",
+          "description": "Asegúrese de respaldar su billetera utilizando un método seguro. Nunca comparta su frase secreta con nadie."
+        },
+        "step3": {
+          "title": "Refrescar tu navegador",
+          "description": "Una vez que configures tu billetera, haz clic a continuación para refrescar el navegador y cargar la extensión."
         }
       }
     },
