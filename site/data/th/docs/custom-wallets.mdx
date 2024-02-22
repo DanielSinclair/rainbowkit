@@ -83,7 +83,7 @@ description: สร้างกระเป๋าเงินที่กำห�
       type: '(args: { wallets: Array<{ id: string, connector: Connector, installed?: boolean }> }) => boolean',
       typeSimple: '(args) => boolean | undefined',
       description:
-        'Function for calculating whether this wallet should be hidden from the list. นี่เป็นประโยชน์สำหรับการกำหนดกระเป๋าเงินแบบเฉพาะทั่วไป, เช่น การใช้งานฟังก์ชัน "Injected Wallet" ที่เป็นตัวเลือกมาตรฐานทำให้สามารถใช้คุณสมบัตินี้ได้',
+        'Function for calculating whether this wallet should be hidden from the list. This is useful for defining generic fallback wallets, e.g. the built-in "Injected Wallet" fallback makes use of this feature',
     },
     {
       name: 'createConnector',
@@ -91,7 +91,7 @@ description: สร้างกระเป๋าเงินที่กำห�
       type: '() => RainbowKitConnector',
       typeSimple: 'RainbowKitConnector',
       description:
-        'ฟังก์ชันสำหรับการให้ตัวอย่าง connector และการกำหนดค่าสำหรับวิธีการเชื่อมต่อที่แตกต่างกัน, อธิบายด้านล่าง',
+        'Function for providing the connector instance and configuration for different connection methods, described below',
     },
     {
       name: 'mobile',
@@ -99,37 +99,37 @@ description: สร้างกระเป๋าเงินที่กำห�
       type: '{ getUri?: (uri: string) => string }',
       typeSimple: 'object',
       description:
-        'ฟังก์ชันสำหรับการแก้ไข URI การเชื่อมต่อกระเป๋าเงินมือถือ',
+        'Function for resolving a mobile wallet connection URI',
     },
     {
       name: 'desktop',
       required: false,
       type: '{ getUri?: (uri: string) => string }',
       typeSimple: 'object',
-      description: 'ฟังก์ชันสำหรับการแก้ไขลิงก์ลึกแอปพลิเคชันเดสก์ท็อป',
+      description: 'Function for resolving a desktop app deep link',
     },
     {
       name: 'qrCode',
       required: false,
-      type: "{ getUri: (uri: string) => string, instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }}}}",
+      type: "{ getUri: (uri: string) => string, instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }> }}}",
       typeSimple: 'object',
       description:
-        'อ็อบเจกต์ที่มีฟังก์ชันสำหรับการแก้ไข URI ของ QR code, บวกกับคำแนะนำการตั้งค่ากระเป๋าเงินมือถือที่เป็นตัวเลือก',
+        'Object containing a function for resolving the QR code URI, plus optional mobile wallet setup instructions',
     },
     {
       name: 'extension',
       required: false,
-      type: "{ instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }}}}",
+      type: "{ instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }> }}}",
       typeSimple: 'object',
       description:
-        'อ็อบเจกต์ที่มีคำแนะนำการตั้งค่าส่วนขยายเบราว์เซอร์ที่เป็นตัวเลือก',
+        'Object containing optional browser extension setup instructions',
     },
     {
       name: 'createConnector',
       required: true,
       type: "createConnector: (details: WalletDetailsParams) => CreateConnectorFn",
       typeSimple: '(details: WalletDetailsParams) => CreateConnectorFn',
-      description: 'ฟังก์ชันสำหรับการให้ตัวอย่าง connector',
+      description: 'Function for providing the connector instance',
     },
   ]}
 />
