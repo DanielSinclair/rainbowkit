@@ -295,30 +295,30 @@
     "bloom": {
       "desktop": {
         "step1": {
-          "title": "Open the Bloom Wallet app",
-          "description": "We recommend putting Bloom Wallet on your home screen for quicker access."
+          "title": "Abra la aplicación Bloom Wallet",
+          "description": "Recomendamos colocar Bloom Wallet en su pantalla de inicio para un acceso más rápido."
         },
         "step2": {
           "description": "Cree o importe una billetera usando su frase de recuperación.",
           "title": "Crear o Importar una Billetera"
         },
         "step3": {
-          "description": "After you have a wallet, click on Connect to connect via Bloom. A connection prompt in the app will appear for you to confirm the connection.",
-          "title": "Click on Connect"
+          "description": "Después de tener una billetera, haga clic en Conectar para conectarse a través de Bloom. Aparecerá un aviso de conexión en la aplicación para que confirme la conexión.",
+          "title": "Haga clic en Conectar"
         }
       },
       "qr_code": {
         "step1": {
-          "title": "Open the Bloom Wallet app",
-          "description": "We recommend putting Bloom Wallet on your home screen for quicker access."
+          "title": "Abra la aplicación Bloom Wallet",
+          "description": "Recomendamos colocar Bloom Wallet en su pantalla de inicio para un acceso más rápido."
         },
         "step2": {
           "description": "Cree o importe una billetera usando su frase de recuperación.",
           "title": "Crear o Importar una Billetera"
         },
         "step3": {
-          "description": "After you have a wallet, click on Connect to connect via Bloom. A connection prompt in the app will appear for you to confirm the connection.",
-          "title": "Click on Connect"
+          "description": "Después de tener una billetera, haga clic en Conectar para conectarse a través de Bloom. Aparecerá un aviso de conexión en la aplicación para que confirme la conexión.",
+          "title": "Haga clic en Conectar"
         }
       }
     },
@@ -477,8 +477,8 @@
     "kresus": {
       "qr_code": {
         "step1": {
-          "title": "Open the Kresus Wallet app",
-          "description": "Add Kresus Wallet to your home screen for faster access to your wallet."
+          "title": "Abra la aplicación Kresus Wallet",
+          "description": "Agregue Kresus Wallet a su pantalla de inicio para un acceso más rápido a su billetera."
         },
         "step2": {
           "title": "Crear o Importar una Billetera",
@@ -771,8 +771,8 @@
     "ronin": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Ronin Wallet on your home screen for quicker access.",
-          "title": "Open the Ronin Wallet app"
+          "description": "Recomendamos poner Ronin Wallet en su pantalla de inicio para un acceso más rápido.",
+          "title": "Abra la aplicación Ronin Wallet"
         },
         "step2": {
           "description": "Asegúrese de respaldar su billetera utilizando un método seguro. Nunca comparta su frase secreta con nadie.",
@@ -785,8 +785,8 @@
       },
       "extension": {
         "step1": {
-          "description": "We recommend pinning Ronin Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Ronin Wallet extension"
+          "description": "Recomendamos anclar Ronin Wallet a su barra de tareas para un acceso más rápido a su billetera.",
+          "title": "Instale la extensión Ronin Wallet"
         },
         "step2": {
           "description": "Asegúrese de respaldar su billetera utilizando un método seguro. Nunca comparta su frase secreta con nadie.",
@@ -801,8 +801,8 @@
     "ramper": {
       "extension": {
         "step1": {
-          "title": "Install the Ramper extension",
-          "description": "We recommend pinning Ramper to your taskbar for easier access to your wallet."
+          "title": "Instale la extensión Ramper",
+          "description": "Recomendamos anclar Ramper a su barra de tareas para un acceso más fácil a su billetera."
         },
         "step2": {
           "title": "Crea una Cartera",
