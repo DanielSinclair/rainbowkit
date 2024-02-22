@@ -83,7 +83,7 @@ Tipe fungsi `Wallet` disediakan untuk membantu Anda mendefinisikan dompet kustom
       type: '(args: { wallets: Array<{ id: string, connector: Connector, installed?: boolean }> }) => boolean',
       typeSimple: '(args) => boolean | undefined',
       description:
-        'Function for calculating whether this wallet should be hidden from the list. Ini berguna untuk mendefinisikan dompet cadangan generik, misalnya fallback dompet "Injected Wallet" bawaan memanfaatkan fitur ini',
+        'Function for calculating whether this wallet should be hidden from the list. This is useful for defining generic fallback wallets, e.g. the built-in "Injected Wallet" fallback makes use of this feature',
     },
     {
       name: 'createConnector',
@@ -91,7 +91,7 @@ Tipe fungsi `Wallet` disediakan untuk membantu Anda mendefinisikan dompet kustom
       type: '() => RainbowKitConnector',
       typeSimple: 'RainbowKitConnector',
       description:
-        'Fungsi untuk menyediakan instansi konektor dan konfigurasi untuk berbagai metode koneksi, yang dijelaskan di bawah ini',
+        'Function for providing the connector instance and configuration for different connection methods, described below',
     },
     {
       name: 'mobile',
@@ -99,37 +99,37 @@ Tipe fungsi `Wallet` disediakan untuk membantu Anda mendefinisikan dompet kustom
       type: '{ getUri?: (uri: string) => string }',
       typeSimple: 'object',
       description:
-        'Fungsi untuk menyelesaikan URI koneksi dompet seluler',
+        'Function for resolving a mobile wallet connection URI',
     },
     {
       name: 'desktop',
       required: false,
       type: '{ getUri?: (uri: string) => string }',
       typeSimple: 'object',
-      description: 'Fungsi untuk menyelesaikan deep link aplikasi desktop',
+      description: 'Function for resolving a desktop app deep link',
     },
     {
       name: 'qrCode',
       required: false,
-      type: "{ getUri: (uri: string) => string, instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }}}}",
+      type: "{ getUri: (uri: string) => string, instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }> }}}",
       typeSimple: 'object',
       description:
-        'Objek yang berisi fungsi untuk menyelesaikan URI kode QR, ditambah instruksi pengaturan dompet seluler opsional',
+        'Object containing a function for resolving the QR code URI, plus optional mobile wallet setup instructions',
     },
     {
       name: 'extension',
       required: false,
-      type: "{ instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }}}}",
+      type: "{ instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }> }}}",
       typeSimple: 'object',
       description:
-        'Objek yang berisi instruksi opsional untuk pengaturan ekstensi browser',
+        'Object containing optional browser extension setup instructions',
     },
     {
       name: 'createConnector',
       required: true,
       type: "createConnector: (details: WalletDetailsParams) => CreateConnectorFn",
       typeSimple: '(details: WalletDetailsParams) => CreateConnectorFn',
-      description: 'Fungsi untuk menyediakan instansi konektor',
+      description: 'Function for providing the connector instance',
     },
   ]}
 />
