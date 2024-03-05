@@ -28,7 +28,7 @@ Instálala con el siguiente comando:
 npm i @tanstack/react-query
 ```
 
-**3. RainbowKitProvider**
+**3. Upgrade your RainbowKit and Wagmi configurations**
 
 ```diff
   import '@rainbow-me/rainbowkit/styles.css'
@@ -124,7 +124,7 @@ const config = getDefaultConfig({
 })
 ```
 
-**4. Instala la dependencia de pares `viem`**
+**4. RainbowKitProvider**
 
 Ya no necesitas pasar `chains` a `<RainbowKitProvider>`.
 
@@ -133,7 +133,7 @@ Ya no necesitas pasar `chains` a `<RainbowKitProvider>`.
 + <RainbowKitProvider>
 ```
 
-**5. Cadenas Personalizadas**
+**5. Custom Chains**
 
 El tipo `Chain` ha cambiado de acuerdo con Wagmi v2, y continúa soportando los metadatos `iconUrl` e `iconBackground` de RainbowKit.
 
@@ -195,7 +195,7 @@ Ejemplo con `createConfig`:
   })
 ```
 
-**2. Carteras Personalizadas**
+**2. Custom Wallets**
 
 RainbowKit ha adoptado el conector `WalletConnectLegacyConnector` en `wagmi` para continuar con el soporte de WalletConnect v1. El soporte para WalletConnect v2 y `WalletConnectConnector` pronto estará disponible como una versión de parche, sin cambios disruptivos.
 
