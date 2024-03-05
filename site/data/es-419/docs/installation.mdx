@@ -119,8 +119,6 @@ Algunas herramientas de construcción requerirán una configuración adicional.
 
 El [bundler Webpack v5](https://webpack.js.org/blog/2020-10-10-webpack-5-release/) usado por Next.js y Create React App [ya no proporciona Polyfills de Node](https://webpack.js.org/blog/2020-10-10-webpack-5-release/#automatic-nodejs-polyfills-removed), por lo que necesitarás incluir estos módulos tú mismo para satisfacer las dependencias entre pares de RainbowKit. Create React App específicamente requiere que tú hagas polyfill de `Buffer`.
 
-En versiones anteriores de RainbowKit que dependían de [ethers](https://docs.ethers.org/v5/), los módulos `fs`, `net` y `tls` eran automáticamente realizados polyfill. Este ya no es el caso con RainbowKit v1 + wagmi v1, que están construidos sobre [viem](https://viem.sh/).
-
 Consulte nuestra [Configuración de Webpack de Next.js](https://github.com/rainbow-me/rainbowkit/blob/main/examples/with-next/next.config.js), [Configuración de Webpack de Next.js App Router](https://github.com/rainbow-me/rainbowkit/blob/main/examples/with-next-app/next.config.js), y [Creación de polifills para una aplicación React](https://github.com/rainbow-me/rainbowkit/blob/main/examples/with-create-react-app/src/polyfills.ts) ejemplos para la configuración de orientación para su proyecto.
 
 ##### Vite
@@ -129,19 +127,15 @@ El ensamblador [Vite](https://vitejs.dev) no proporciona polifills de Node, por 
 
 ##### Remix
 
-Al usar [Remix](https://remix.run), todos los puntos de entrada del paquete RainbowKit deben agregarse a su lista de [dependencias del servidor](https://remix.run/docs/en/v1/pages/gotchas#importing-esm-packages) en su configuración de Remix ya que se publican como paquetes ESM.
+When using [Remix](https://remix.run), you must polyfill `buffer`, `events` and `http` modules. Reference the Remix configuration below, or [our sample Remix project](https://github.com/rainbow-me/rainbowkit/blob/main/examples/with-remix).
 
-Remix también requiere que hagas polyfill a `global`, `Buffer` y `process.env`. Haga referencia a los [polyfills en nuestro proyecto de ejemplo Remix](https://github.com/rainbow-me/rainbowkit/blob/main/examples/with-remix/app/polyfills.ts).
-
-```js
-/**
- * @type {import('@remix-run/dev').AppConfig}
- */
-module.exports = {
-  serverDependencies: [
-    '@rainbow-me/rainbowkit',
-    '@rainbow-me/rainbowkit/wallets',
-  ],
+```ts
+/** @type {import('@remix-run/dev').AppConfig} */
+export default {
+  ignoredRouteFiles: ["**/.*"],
+  browserNodeBuiltinsPolyfill: {
+    modules: { buffer: true, events: true, http: true },
+  },
 };
 ```
 
