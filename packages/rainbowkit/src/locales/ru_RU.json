@@ -295,8 +295,8 @@
     "bitverse": {
       "qr_code": {
         "step1": {
-          "title": "Open the Bitverse Wallet app",
-          "description": "Add Bitverse Wallet to your home screen for faster access to your wallet."
+          "title": "Откройте приложение Bitverse Wallet",
+          "description": "Добавьте Bitverse Wallet на главный экран для более быстрого доступа к вашему кошельку."
         },
         "step2": {
           "title": "Создать или Импортировать кошелек",
@@ -341,8 +341,8 @@
     "bybit": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Bybit on your home screen for faster access to your wallet.",
-          "title": "Open the Bybit app"
+          "description": "Рекомендуем добавить Bybit на главный экран для более быстрого доступа к вашему кошельку.",
+          "title": "Откройте приложение Bybit"
         },
         "step2": {
           "description": "Вы можете легко сделать резервную копию вашего кошелька, используя нашу функцию резервного копирования на вашем телефоне.",
@@ -355,15 +355,15 @@
       },
       "extension": {
         "step1": {
-          "description": "Click at the top right of your browser and pin Bybit Wallet for easy access.",
-          "title": "Install the Bybit Wallet extension"
+          "description": "Кликните в верхнем правом углу вашего браузера и закрепите кошелек Bybit для удобства доступа.",
+          "title": "Установите расширение кошелька Bybit"
         },
         "step2": {
           "description": "Создайте новый кошелек или импортируйте существующий.",
           "title": "Создайте или импортируйте кошелек"
         },
         "step3": {
-          "description": "Once you set up Bybit Wallet, click below to refresh the browser and load up the extension.",
+          "description": "После настройки кошелька Bybit, нажмите ниже, чтобы обновить браузер и загрузить расширение.",
           "title": "Обновите ваш браузер"
         }
       }
@@ -431,8 +431,8 @@
     "compass": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Compass Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Compass Wallet extension"
+          "description": "Рекомендуем закрепить кошелек Compass на панели задач для более быстрого доступа к вашему кошельку.",
+          "title": "Установите расширение кошелька Compass"
         },
         "step2": {
           "description": "Обязательно сделайте резервную копию вашего кошелька с использованием безопасного метода. Никогда не делитесь своей секретной фразой с кем-либо.",
@@ -539,8 +539,8 @@
     "kaikas": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Kaikas to your taskbar for quicker access to your wallet.",
-          "title": "Install the Kaikas extension"
+          "description": "Рекомендуем закрепить Kaikas на панели задач для более быстрого доступа к вашему кошельку.",
+          "title": "Установите расширение Kaikas"
         },
         "step2": {
           "description": "Обязательно сделайте резервную копию вашего кошелька с использованием безопасного метода. Никогда не делитесь своей секретной фразой с кем-либо.",
@@ -553,8 +553,8 @@
       },
       "qr_code": {
         "step1": {
-          "title": "Open the Kaikas app",
-          "description": "Put Kaikas app on your home screen for faster access to your wallet."
+          "title": "Откройте приложение Kaikas",
+          "description": "Добавьте приложение Kaikas на главный экран для более быстрого доступа к вашему кошельку."
         },
         "step2": {
           "title": "Создать или Импортировать кошелек",
@@ -661,8 +661,8 @@
     "1inch": {
       "qr_code": {
         "step1": {
-          "description": "Put 1inch Wallet on your home screen for faster access to your wallet.",
-          "title": "Open the 1inch Wallet app"
+          "description": "Добавьте 1inch Wallet на главный экран для более быстрого доступа к вашему кошельку.",
+          "title": "Откройте приложение 1inch Wallet"
         },
         "step2": {
           "description": "Создайте кошелек и имя пользователя или импортируйте существующий кошелек.",
