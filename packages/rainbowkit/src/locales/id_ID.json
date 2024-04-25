@@ -428,22 +428,6 @@
         }
       }
     },
-    "compass": {
-      "extension": {
-        "step1": {
-          "description": "Kami menyarankan memasang Compass Wallet di taskbar Anda untuk akses yang lebih cepat ke dompet Anda.",
-          "title": "Pasang ekstensi Compass Wallet"
-        },
-        "step2": {
-          "description": "Pastikan untuk mencadangkan wallet Anda menggunakan metode yang aman. Jangan pernah berbagi frasa rahasia Anda dengan siapa pun.",
-          "title": "Buat atau Impor Dompet"
-        },
-        "step3": {
-          "description": "Setelah Anda menyiapkan dompet Anda, klik di bawah ini untuk menyegarkan browser dan memuat ekstensi.",
-          "title": "Segarkan browser Anda"
-        }
-      }
-    },
     "core": {
       "qr_code": {
         "step1": {
