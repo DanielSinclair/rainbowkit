@@ -428,22 +428,6 @@
         }
       }
     },
-    "compass": {
-      "extension": {
-        "step1": {
-          "description": "Recomendamos fixar a Carteira Compass na sua barra de tarefas para acesso mais rápido à sua carteira.",
-          "title": "Instale a extensão da Carteira Compass"
-        },
-        "step2": {
-          "description": "Certifique-se de fazer backup de sua carteira usando um método seguro. Nunca compartilhe sua frase secreta com ninguém.",
-          "title": "Criar ou Importar uma Carteira"
-        },
-        "step3": {
-          "description": "Depois de configurar sua carteira, clique abaixo para atualizar o navegador e carregar a extensão.",
-          "title": "Atualize seu navegador"
-        }
-      }
-    },
     "core": {
       "qr_code": {
         "step1": {
