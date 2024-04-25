@@ -428,22 +428,6 @@
         }
       }
     },
-    "compass": {
-      "extension": {
-        "step1": {
-          "description": "Recomendamos anclar Compass Wallet a su barra de tareas para un acceso más rápido a su billetera.",
-          "title": "Instale la extensión Compass Wallet"
-        },
-        "step2": {
-          "description": "Asegúrese de respaldar su billetera utilizando un método seguro. Nunca comparta su frase secreta con nadie.",
-          "title": "Crear o Importar una Billetera"
-        },
-        "step3": {
-          "description": "Una vez que configures tu billetera, haz clic a continuación para refrescar el navegador y cargar la extensión.",
-          "title": "Refrescar tu navegador"
-        }
-      }
-    },
     "core": {
       "qr_code": {
         "step1": {
