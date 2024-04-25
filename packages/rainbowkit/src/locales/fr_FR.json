@@ -428,22 +428,6 @@
         }
       }
     },
-    "compass": {
-      "extension": {
-        "step1": {
-          "description": "Nous recommandons d'épingler Compass Wallet à votre barre des tâches pour un accès plus rapide à votre portefeuille.",
-          "title": "Installez l'extension Compass Wallet"
-        },
-        "step2": {
-          "description": "Assurez-vous de sauvegarder votre portefeuille en utilisant une méthode sécurisée. Ne partagez jamais votre phrase secrète avec quiconque.",
-          "title": "Créer ou Importer un Portefeuille"
-        },
-        "step3": {
-          "description": "Une fois que vous avez configuré votre portefeuille, cliquez ci-dessous pour actualiser le navigateur et charger l'extension.",
-          "title": "Rafraîchissez votre navigateur"
-        }
-      }
-    },
     "core": {
       "qr_code": {
         "step1": {
