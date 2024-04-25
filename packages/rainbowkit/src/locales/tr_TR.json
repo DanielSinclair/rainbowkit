@@ -428,22 +428,6 @@
         }
       }
     },
-    "compass": {
-      "extension": {
-        "step1": {
-          "description": "Cüzdanınıza daha hızlı erişim için Compass Cüzdan'ı görev çubuğunuza sabitlemeyi öneririz.",
-          "title": "Compass Cüzdan uzantısını yükleyin"
-        },
-        "step2": {
-          "description": "Cüzdanınızı güvenli bir yöntemle yedeklemeye emin olun. Gizli ifadenizi asla kimseyle paylaşmayın.",
-          "title": "Cüzdan Oluştur veya Cüzdanı İçe Aktar"
-        },
-        "step3": {
-          "description": "Cüzdanınızı kurduktan sonra, aşağıya tıklayın ve tarayıcıyı yenileyin ve eklentiyi yükleyin.",
-          "title": "Tarayıcınızı yenileyin"
-        }
-      }
-    },
     "core": {
       "qr_code": {
         "step1": {
