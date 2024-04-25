@@ -292,6 +292,22 @@
         }
       }
     },
+    "bitverse": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the Bitverse Wallet app",
+          "description": "Add Bitverse Wallet to your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "वॉलेट बनाएं या आयात करें",
+          "description": "नया बटुआ बनाएं या मौजूदा को आयात करें।"
+        },
+        "step3": {
+          "title": "QR आइकन पर टैप करें और स्कैन करें",
+          "description": "अपने होमस्क्रीन पर QR आइकन पर टैप करें, कोड स्कैन करें और प्रम्प्ट को कनेक्ट करने की पुष्टि करें।"
+        }
+      }
+    },
     "bloom": {
       "desktop": {
         "step1": {
@@ -319,6 +335,36 @@
         "step3": {
           "description": "जब आपके पास वॉलेट हो, तो Bloom के माध्यम से जुड़ने के लिए Connect पर क्लिक करें। ऐप में एक कनेक्शन प्रॉम्प्ट दिखाई देगा जिसे आपको कनेक्शन की पुष्टि करनी होगी।",
           "title": "Connect पर क्लिक करें"
+        }
+      }
+    },
+    "bybit": {
+      "qr_code": {
+        "step1": {
+          "description": "We recommend putting Bybit on your home screen for faster access to your wallet.",
+          "title": "Open the Bybit app"
+        },
+        "step2": {
+          "description": "आप अपने फोन पर हमारे बैकअप फीचर का उपयोग करके आसानी से अपने वॉलेट का बैकअप कर सकते हैं।",
+          "title": "वॉलेट बनाएं या आयात करें"
+        },
+        "step3": {
+          "description": "जैसे ही आप स्कैन करेंगे, एक कनेक्शन संकेत आपके वॉलेट को कनेक्ट करने के लिए प्रकट होगा।",
+          "title": "स्कैन बटन को टैप करें"
+        }
+      },
+      "extension": {
+        "step1": {
+          "description": "Click at the top right of your browser and pin Bybit Wallet for easy access.",
+          "title": "Install the Bybit Wallet extension"
+        },
+        "step2": {
+          "description": "नया बटुआ बनाएं या मौजूदा को आयात करें।",
+          "title": "एक बटुआ बनाएं या आयात करें"
+        },
+        "step3": {
+          "description": "Once you set up Bybit Wallet, click below to refresh the browser and load up the extension.",
+          "title": "अपने ब्राउज़र को ताज़ा करें"
         }
       }
     },
@@ -379,6 +425,22 @@
         "step3": {
           "description": "एक बार जब आप अपना वॉलेट सेट अप करते हैं, तो ब्राउज़र को ताजगी देने और एक्सटेंशन को लोड करने के लिए नीचे क्लिक करें.",
           "title": "अपना ब्राउज़र ताजा करें"
+        }
+      }
+    },
+    "compass": {
+      "extension": {
+        "step1": {
+          "description": "We recommend pinning Compass Wallet to your taskbar for quicker access to your wallet.",
+          "title": "Install the Compass Wallet extension"
+        },
+        "step2": {
+          "description": "अपने वॉलेट का बैकअप एक सुरक्षित तरीके से लेने के लिए सुनिश्चित करें। किसी के साथ भी अपना गुप्त वाक्यांश साझा न करें।",
+          "title": "वॉलेट बनाएं या आयात करें"
+        },
+        "step3": {
+          "description": "एक बार जब आप अपना वॉलेट सेटअप कर लेते हैं, तो नीचे क्लिक करें ताकि ब्राउज़र को ताज़ा करें और एक्सटेंशन लोड करें।",
+          "title": "अपने ब्राउज़र को ताज़ा करें"
         }
       }
     },
@@ -467,6 +529,36 @@
         "step2": {
           "title": "वॉलेट बनाएं या आयात करें",
           "description": "एक नया वॉलेट बनाएं या मौजूदा एक को आयात करें।"
+        },
+        "step3": {
+          "title": "ऊपरी दाएं कोने में स्कैनर आइकॉन पर टैप करें",
+          "description": "नया कनेक्शन चुनें, फिर QR कोड स्कैन करें और कनेक्ट करने के लिए प्रॉम्प्ट की पुष्टि करें।"
+        }
+      }
+    },
+    "kaikas": {
+      "extension": {
+        "step1": {
+          "description": "We recommend pinning Kaikas to your taskbar for quicker access to your wallet.",
+          "title": "Install the Kaikas extension"
+        },
+        "step2": {
+          "description": "अपने वॉलेट का बैकअप एक सुरक्षित तरीके से लेने के लिए सुनिश्चित करें। किसी के साथ भी अपना गुप्त वाक्यांश साझा न करें।",
+          "title": "वॉलेट बनाएं या आयात करें"
+        },
+        "step3": {
+          "description": "एक बार जब आप अपना वॉलेट सेटअप कर लेते हैं, तो नीचे क्लिक करें ताकि ब्राउज़र को ताज़ा करें और एक्सटेंशन लोड करें।",
+          "title": "अपने ब्राउज़र को ताज़ा करें"
+        }
+      },
+      "qr_code": {
+        "step1": {
+          "title": "Open the Kaikas app",
+          "description": "Put Kaikas app on your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "वॉलेट बनाएं या आयात करें",
+          "description": "नया बटुआ बनाएं या मौजूदा को आयात करें।"
         },
         "step3": {
           "title": "ऊपरी दाएं कोने में स्कैनर आइकॉन पर टैप करें",
@@ -563,6 +655,22 @@
         "step3": {
           "title": "QR आइकन पर टैप करें और स्कैन करें",
           "description": "अपने होम स्क्रीन पर QR आइकन पर टैप करें, कोड स्कैन करें और कनेक्ट करने के लिए प्रॉम्प्ट की पुष्टि करें।"
+        }
+      }
+    },
+    "1inch": {
+      "qr_code": {
+        "step1": {
+          "description": "Put 1inch Wallet on your home screen for faster access to your wallet.",
+          "title": "Open the 1inch Wallet app"
+        },
+        "step2": {
+          "description": "वॉलेट और उपयोगकर्ता नाम बनाएं, या मौजूदा वॉलेट को आयात करें।",
+          "title": "वॉलेट बनाएं या आयात करें"
+        },
+        "step3": {
+          "description": "जैसे ही आप स्कैन करेंगे, एक कनेक्शन संकेत आपके वॉलेट को कनेक्ट करने के लिए प्रकट होगा।",
+          "title": "QR स्कैन बटन को टैप करें"
         }
       }
     },
