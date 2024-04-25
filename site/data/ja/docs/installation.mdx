@@ -138,13 +138,13 @@ export default {
 };
 ```
 
-### Preparing to deploy
+### デプロイの準備をしています
 
-By default, your dApp uses public RPC providers for each chain to fetch balances, resolve ENS names, and more. This can often cause reliability issues for your users as public nodes are rate-limited. You should instead purchase access to an RPC provider through services like [Alchemy](https://www.alchemy.com/) or [QuickNode](https://www.quicknode.com/), and define your own Transports in Wagmi. This can be achieved by adding the `transports` param in `getDefaultConfig` or via Wagmi's `createConfig` directly.
+デフォルトでは、dAppは各チェーンの公開RPCプロバイダーを使用して残高を取得したり、ENS名を解決したりなどの処理を行います。 これにより、公開ノードはレート制限されているため、ユーザーに信頼性の問題が発生することがよくあります。 代わりに、[Alchemy](https://www.alchemy.com/) や [QuickNode](https://www.quicknode.com/) などのサービスを通じてRPCプロバイダーへのアクセスを購入し、Wagmiで独自のTransportsを定義するべきです。 これは、`getDefaultConfig`で`transports`パラメータを追加するか、Wagmiの`createConfig`を直接使用することで実現できます。
 
-A Transport is the networking middle layer that handles sending JSON-RPC requests to the Ethereum Node Provider (like Alchemy, Infura, etc).
+Transportは、JSON-RPCリクエストをEthereumノードプロバイダー（Alchemy、Infuraなど）に送信するネットワーキングの中間層です。
 
-**Example with an `http` transport**
+**`http`トランスポートを使用した例**
 
 ```tsx
 import { getDefaultConfig } from '@rainbow-me/rainbowkit';
@@ -162,7 +162,7 @@ const config = getDefaultConfig({
 });
 ```
 
-For more details, view the [wagmi transport docs](https://wagmi.sh/core/api/transports#transports).
+詳細については、[wagmi のトランスポート文書](https://wagmi.sh/core/api/transports#transports)をご覧ください。
 
 ### 自分自身の機能を追加する
 
