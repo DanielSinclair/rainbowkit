@@ -295,8 +295,8 @@
     "bitverse": {
       "qr_code": {
         "step1": {
-          "title": "Open the Bitverse Wallet app",
-          "description": "Add Bitverse Wallet to your home screen for faster access to your wallet."
+          "title": "เปิดแอพฯ Bitverse Wallet",
+          "description": "เพิ่ม Bitverse Wallet ลงบนหน้าจอหลักของคุณเพื่อการเข้าถึงกระเป๋าเงินของคุณได้เร็วขึ้น"
         },
         "step2": {
           "title": "สร้างหรือนำเข้า Wallet",
@@ -341,8 +341,8 @@
     "bybit": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Bybit on your home screen for faster access to your wallet.",
-          "title": "Open the Bybit app"
+          "description": "เราแนะนำให้คุณตั้ง Bybit ไว้บนหน้าจอหลักเพื่อการเข้าถึงกระเป๋าเงินได้เร็วขึ้น",
+          "title": "เปิดแอพฯ Bybit"
         },
         "step2": {
           "description": "คุณสามารถสำรองข้อมูลกระเป๋าเงินของคุณได้ง่ายๆ ด้วยฟีเจอร์สำรองข้อมูลบนโทรศัพท์ของคุณ.",
@@ -355,15 +355,15 @@
       },
       "extension": {
         "step1": {
-          "description": "Click at the top right of your browser and pin Bybit Wallet for easy access.",
-          "title": "Install the Bybit Wallet extension"
+          "description": "คลิกที่มุมขวาบนของเบราว์เซอร์ของคุณและปักหมุด Bybit Wallet เพื่อการเข้าถึงได้ง่าย",
+          "title": "ติดตั้งส่วนขยาย Bybit Wallet"
         },
         "step2": {
           "description": "สร้างกระเป๋าเงินใหม่หรือนำเข้าที่มีอยู่แล้ว.",
           "title": "สร้างหรือนำเข้ากระเป๋าเงิน"
         },
         "step3": {
-          "description": "Once you set up Bybit Wallet, click below to refresh the browser and load up the extension.",
+          "description": "เมื่อคุณตั้งค่า Bybit Wallet เสร็จสมบูรณ์แล้ว คลิกด้านล่างเพื่อรีเฟรชเบราว์เซอร์และโหลดส่วนขยาย",
           "title": "รีเฟรชเบราว์เซอร์ของคุณ"
         }
       }
@@ -431,8 +431,8 @@
     "compass": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Compass Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Compass Wallet extension"
+          "description": "เราแนะนำให้คุณปักหมุด Compass Wallet ไว้ที่แถบงานเพื่อการเข้าถึงกระเป๋าเงินได้เร็วขึ้น",
+          "title": "ติดตั้งส่วนขยาย Compass Wallet"
         },
         "step2": {
           "description": "ตรวจสอบการสำรองข้อมูลกระเป๋าสตางค์ของคุณให้แน่นอนโดยใช้วิธีที่ปลอดภัย อย่าแชร์วลีลับของคุณกับใครเป็นอันขาด.",
@@ -539,8 +539,8 @@
     "kaikas": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Kaikas to your taskbar for quicker access to your wallet.",
-          "title": "Install the Kaikas extension"
+          "description": "เราแนะนำให้คุณปักหมุด Kaikas ไว้ที่แถบงานเพื่อการเข้าถึงกระเป๋าเงินได้เร็วขึ้น",
+          "title": "ติดตั้งส่วนขยาย Kaikas"
         },
         "step2": {
           "description": "ตรวจสอบการสำรองข้อมูลกระเป๋าสตางค์ของคุณให้แน่นอนโดยใช้วิธีที่ปลอดภัย อย่าแชร์วลีลับของคุณกับใครเป็นอันขาด.",
@@ -553,8 +553,8 @@
       },
       "qr_code": {
         "step1": {
-          "title": "Open the Kaikas app",
-          "description": "Put Kaikas app on your home screen for faster access to your wallet."
+          "title": "เปิดแอพฯ Kaikas",
+          "description": "วางแอพฯ Kaikas ไว้บนหน้าจอหลักเพื่อการเข้าถึงกระเป๋าเงินของคุณได้เร็วขึ้น"
         },
         "step2": {
           "title": "สร้างหรือนำเข้า Wallet",
@@ -661,8 +661,8 @@
     "1inch": {
       "qr_code": {
         "step1": {
-          "description": "Put 1inch Wallet on your home screen for faster access to your wallet.",
-          "title": "Open the 1inch Wallet app"
+          "description": "วาง 1inch Wallet ไว้บนหน้าจอหลักเพื่อการเข้าถึงกระเป๋าเงินของคุณได้เร็วขึ้น",
+          "title": "เปิดแอพฯ 1inch Wallet"
         },
         "step2": {
           "description": "สร้างกระเป๋าเงินและชื่อผู้ใช้หรือนำเข้ากระเป๋าเงินที่มีอยู่แล้ว",
