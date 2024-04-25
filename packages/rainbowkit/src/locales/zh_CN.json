@@ -428,22 +428,6 @@
         }
       }
     },
-    "compass": {
-      "extension": {
-        "step1": {
-          "description": "我们建议将 Compass Wallet 固定到任务栏上，以便更快访问您的钱包。",
-          "title": "安装 Compass Wallet 扩展程序"
-        },
-        "step2": {
-          "description": "务必使用安全的方法备份您的钱包。决不与任何人分享您的秘密短语。",
-          "title": "创建或导入钱包"
-        },
-        "step3": {
-          "description": "设置钱包后，点击下方刷新浏览器并加载扩展。",
-          "title": "刷新您的浏览器"
-        }
-      }
-    },
     "core": {
       "qr_code": {
         "step1": {
