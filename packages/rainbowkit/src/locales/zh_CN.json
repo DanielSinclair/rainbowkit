@@ -295,8 +295,8 @@
     "bitverse": {
       "qr_code": {
         "step1": {
-          "title": "Open the Bitverse Wallet app",
-          "description": "Add Bitverse Wallet to your home screen for faster access to your wallet."
+          "title": "打开 Bitverse Wallet 应用",
+          "description": "将 Bitverse Wallet 添加到您的主屏幕上，以便更快访问您的钱包。"
         },
         "step2": {
           "title": "创建或导入钱包",
@@ -341,8 +341,8 @@
     "bybit": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Bybit on your home screen for faster access to your wallet.",
-          "title": "Open the Bybit app"
+          "description": "我们建议将 Bybit 添加到您的主屏幕上，以便更快访问您的钱包。",
+          "title": "打开 Bybit 应用"
         },
         "step2": {
           "description": "您可以使用我们的手机上的备份功能轻松备份您的钱包。",
@@ -355,15 +355,15 @@
       },
       "extension": {
         "step1": {
-          "description": "Click at the top right of your browser and pin Bybit Wallet for easy access.",
-          "title": "Install the Bybit Wallet extension"
+          "description": "点击浏览器右上角并固定 Bybit Wallet，便于快速访问。",
+          "title": "安装 Bybit Wallet 扩展程序"
         },
         "step2": {
           "description": "创建新钱包或导入现有钱包。",
           "title": "创建或导入钱包。"
         },
         "step3": {
-          "description": "Once you set up Bybit Wallet, click below to refresh the browser and load up the extension.",
+          "description": "设置 Bybit Wallet 后，点击下方刷新浏览器并加载扩展程序。",
           "title": "刷新您的浏览器"
         }
       }
@@ -431,8 +431,8 @@
     "compass": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Compass Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Compass Wallet extension"
+          "description": "我们建议将 Compass Wallet 固定到任务栏上，以便更快访问您的钱包。",
+          "title": "安装 Compass Wallet 扩展程序"
         },
         "step2": {
           "description": "务必使用安全的方法备份您的钱包。决不与任何人分享您的秘密短语。",
@@ -539,8 +539,8 @@
     "kaikas": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Kaikas to your taskbar for quicker access to your wallet.",
-          "title": "Install the Kaikas extension"
+          "description": "我们建议将 Kaikas 固定到任务栏上，以便更快访问您的钱包。",
+          "title": "安装 Kaikas 扩展程序"
         },
         "step2": {
           "description": "务必使用安全的方法备份您的钱包。决不与任何人分享您的秘密短语。",
@@ -553,8 +553,8 @@
       },
       "qr_code": {
         "step1": {
-          "title": "Open the Kaikas app",
-          "description": "Put Kaikas app on your home screen for faster access to your wallet."
+          "title": "打开 Kaikas 应用",
+          "description": "将 Kaikas 应用添加到您的主屏幕上，以便更快访问您的钱包。"
         },
         "step2": {
           "title": "创建或导入钱包",
@@ -661,8 +661,8 @@
     "1inch": {
       "qr_code": {
         "step1": {
-          "description": "Put 1inch Wallet on your home screen for faster access to your wallet.",
-          "title": "Open the 1inch Wallet app"
+          "description": "将 1inch Wallet 添加到您的主屏幕上，以便更快访问您的钱包。",
+          "title": "打开 1inch Wallet 应用"
         },
         "step2": {
           "description": "创建钱包和用户名，或导入现有钱包。",
