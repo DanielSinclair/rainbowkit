@@ -292,6 +292,22 @@
         }
       }
     },
+    "bitverse": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the Bitverse Wallet app",
+          "description": "Add Bitverse Wallet to your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "สร้างหรือนำเข้า Wallet",
+          "description": "สร้างกระเป๋าเงินใหม่หรือนำเข้าที่มีอยู่แล้ว."
+        },
+        "step3": {
+          "title": "แตะที่ไอคอน QR แล้วสแกน",
+          "description": "แตะที่ไอคอน QR บนหน้าจอหลักของคุณ สแกนรหัสและยืนยันการเชื่อมต่อ"
+        }
+      }
+    },
     "bloom": {
       "desktop": {
         "step1": {
@@ -319,6 +335,36 @@
         "step3": {
           "description": "หลังจากที่คุณมีกระเป๋าเงินแล้ว คลิกที่ 'Connect' เพื่อเชื่อมต่อผ่าน Bloom จะมีหน้าต่างแจ้งเตือนการเชื่อมต่อปรากฏขึ้นในแอพเพื่อให้คุณยืนยันการเชื่อมต่อ",
           "title": "คลิกที่ 'Connect'"
+        }
+      }
+    },
+    "bybit": {
+      "qr_code": {
+        "step1": {
+          "description": "We recommend putting Bybit on your home screen for faster access to your wallet.",
+          "title": "Open the Bybit app"
+        },
+        "step2": {
+          "description": "คุณสามารถสำรองข้อมูลกระเป๋าเงินของคุณได้ง่ายๆ ด้วยฟีเจอร์สำรองข้อมูลบนโทรศัพท์ของคุณ.",
+          "title": "สร้างหรือนำเข้า Wallet"
+        },
+        "step3": {
+          "description": "หลังจากคุณสแกน จะปรากฏหน้าต่างเชื่อมต่อให้คุณเชื่อมต่อกระเป๋าเงินของคุณ",
+          "title": "แตะปุ่มสแกน"
+        }
+      },
+      "extension": {
+        "step1": {
+          "description": "Click at the top right of your browser and pin Bybit Wallet for easy access.",
+          "title": "Install the Bybit Wallet extension"
+        },
+        "step2": {
+          "description": "สร้างกระเป๋าเงินใหม่หรือนำเข้าที่มีอยู่แล้ว.",
+          "title": "สร้างหรือนำเข้ากระเป๋าเงิน"
+        },
+        "step3": {
+          "description": "Once you set up Bybit Wallet, click below to refresh the browser and load up the extension.",
+          "title": "รีเฟรชเบราว์เซอร์ของคุณ"
         }
       }
     },
@@ -378,6 +424,22 @@
         },
         "step3": {
           "description": "เมื่อคุณได้ตั้งค่ากระเป๋าเงินของคุณแล้ว คลิกด้านล่างเพื่อเรียกดูเบราว์เซอร์ใหม่และโหลดส่วนขยาย",
+          "title": "รีเฟรชเบราว์เซอร์ของคุณ"
+        }
+      }
+    },
+    "compass": {
+      "extension": {
+        "step1": {
+          "description": "We recommend pinning Compass Wallet to your taskbar for quicker access to your wallet.",
+          "title": "Install the Compass Wallet extension"
+        },
+        "step2": {
+          "description": "ตรวจสอบการสำรองข้อมูลกระเป๋าสตางค์ของคุณให้แน่นอนโดยใช้วิธีที่ปลอดภัย อย่าแชร์วลีลับของคุณกับใครเป็นอันขาด.",
+          "title": "สร้างหรือนำเข้า Wallet"
+        },
+        "step3": {
+          "description": "เมื่อคุณตั้งค่ากระเป๋าเงินของคุณแล้วคลิกด้านล่างเพื่อรีเฟรชเบราว์เซอร์และโหลดส่วนเสริม",
           "title": "รีเฟรชเบราว์เซอร์ของคุณ"
         }
       }
@@ -474,6 +536,36 @@
         }
       }
     },
+    "kaikas": {
+      "extension": {
+        "step1": {
+          "description": "We recommend pinning Kaikas to your taskbar for quicker access to your wallet.",
+          "title": "Install the Kaikas extension"
+        },
+        "step2": {
+          "description": "ตรวจสอบการสำรองข้อมูลกระเป๋าสตางค์ของคุณให้แน่นอนโดยใช้วิธีที่ปลอดภัย อย่าแชร์วลีลับของคุณกับใครเป็นอันขาด.",
+          "title": "สร้างหรือนำเข้า Wallet"
+        },
+        "step3": {
+          "description": "เมื่อคุณตั้งค่ากระเป๋าเงินของคุณแล้วคลิกด้านล่างเพื่อรีเฟรชเบราว์เซอร์และโหลดส่วนเสริม",
+          "title": "รีเฟรชเบราว์เซอร์ของคุณ"
+        }
+      },
+      "qr_code": {
+        "step1": {
+          "title": "Open the Kaikas app",
+          "description": "Put Kaikas app on your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "สร้างหรือนำเข้า Wallet",
+          "description": "สร้างกระเป๋าเงินใหม่หรือนำเข้าที่มีอยู่แล้ว."
+        },
+        "step3": {
+          "title": "แตะไอคอนสแกนเนอร์ในมุมบนขวา",
+          "description": "เลือก New Connection, แล้วสแกน QR code และยืนยันการรับรองสำหรับการเชื่อมต่อ"
+        }
+      }
+    },
     "kresus": {
       "qr_code": {
         "step1": {
@@ -563,6 +655,22 @@
         "step3": {
           "title": "แตะที่ไอคอน QR แล้วสแกน",
           "description": "แตะที่ไอคอน QR บนหน้าจอหน้าแรกของคุณ, สแกนรหัสและยืนยันการเตือนเพื่อเชื่อมต่อ."
+        }
+      }
+    },
+    "1inch": {
+      "qr_code": {
+        "step1": {
+          "description": "Put 1inch Wallet on your home screen for faster access to your wallet.",
+          "title": "Open the 1inch Wallet app"
+        },
+        "step2": {
+          "description": "สร้างกระเป๋าเงินและชื่อผู้ใช้หรือนำเข้ากระเป๋าเงินที่มีอยู่แล้ว",
+          "title": "สร้างหรือนำเข้า Wallet"
+        },
+        "step3": {
+          "description": "หลังจากคุณสแกน จะปรากฏหน้าต่างเชื่อมต่อให้คุณเชื่อมต่อกระเป๋าเงินของคุณ",
+          "title": "แตะที่คุ่มุ่งสแกน QR"
         }
       }
     },
