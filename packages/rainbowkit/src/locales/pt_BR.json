@@ -292,6 +292,22 @@
         }
       }
     },
+    "bitverse": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the Bitverse Wallet app",
+          "description": "Add Bitverse Wallet to your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "Criar ou Importar uma Carteira",
+          "description": "Crie uma nova carteira ou importe uma existente."
+        },
+        "step3": {
+          "title": "Toque no ícone do QR e escaneie",
+          "description": "Toque no ícone QR na sua tela inicial, escaneie o código e confirme o prompt para conectar."
+        }
+      }
+    },
     "bloom": {
       "desktop": {
         "step1": {
@@ -319,6 +335,36 @@
         "step3": {
           "description": "Depois de ter uma carteira, clique em Conectar para se conectar via Bloom. Um prompt de conexão aparecerá no aplicativo para você confirmar a conexão.",
           "title": "Clique em Conectar"
+        }
+      }
+    },
+    "bybit": {
+      "qr_code": {
+        "step1": {
+          "description": "We recommend putting Bybit on your home screen for faster access to your wallet.",
+          "title": "Open the Bybit app"
+        },
+        "step2": {
+          "description": "Você pode facilmente fazer backup de sua carteira usando nosso recurso de backup em seu telefone.",
+          "title": "Criar ou Importar uma Carteira"
+        },
+        "step3": {
+          "description": "Depois que você escanear, um prompt de conexão aparecerá para você conectar sua carteira.",
+          "title": "Toque no botão de escanear"
+        }
+      },
+      "extension": {
+        "step1": {
+          "description": "Click at the top right of your browser and pin Bybit Wallet for easy access.",
+          "title": "Install the Bybit Wallet extension"
+        },
+        "step2": {
+          "description": "Crie uma nova carteira ou importe uma existente.",
+          "title": "Criar ou Importar uma carteira"
+        },
+        "step3": {
+          "description": "Once you set up Bybit Wallet, click below to refresh the browser and load up the extension.",
+          "title": "Atualize seu navegador"
         }
       }
     },
@@ -378,6 +424,22 @@
         },
         "step3": {
           "description": "Uma vez que você configurou sua carteira, clique abaixo para atualizar o navegador e carregar a extensão.",
+          "title": "Atualize seu navegador"
+        }
+      }
+    },
+    "compass": {
+      "extension": {
+        "step1": {
+          "description": "We recommend pinning Compass Wallet to your taskbar for quicker access to your wallet.",
+          "title": "Install the Compass Wallet extension"
+        },
+        "step2": {
+          "description": "Certifique-se de fazer backup de sua carteira usando um método seguro. Nunca compartilhe sua frase secreta com ninguém.",
+          "title": "Criar ou Importar uma Carteira"
+        },
+        "step3": {
+          "description": "Depois de configurar sua carteira, clique abaixo para atualizar o navegador e carregar a extensão.",
           "title": "Atualize seu navegador"
         }
       }
@@ -463,6 +525,36 @@
         "step1": {
           "title": "Abra o aplicativo imToken",
           "description": "Coloque o aplicativo imToken na tela inicial para um acesso mais rápido à sua carteira."
+        },
+        "step2": {
+          "title": "Criar ou Importar uma Carteira",
+          "description": "Crie uma nova carteira ou importe uma existente."
+        },
+        "step3": {
+          "title": "Toque no ícone do Scanner no canto superior direito",
+          "description": "Escolha Nova Conexão, em seguida, escaneie o código QR e confirme o prompt para conectar."
+        }
+      }
+    },
+    "kaikas": {
+      "extension": {
+        "step1": {
+          "description": "We recommend pinning Kaikas to your taskbar for quicker access to your wallet.",
+          "title": "Install the Kaikas extension"
+        },
+        "step2": {
+          "description": "Certifique-se de fazer backup de sua carteira usando um método seguro. Nunca compartilhe sua frase secreta com ninguém.",
+          "title": "Criar ou Importar uma Carteira"
+        },
+        "step3": {
+          "description": "Depois de configurar sua carteira, clique abaixo para atualizar o navegador e carregar a extensão.",
+          "title": "Atualize seu navegador"
+        }
+      },
+      "qr_code": {
+        "step1": {
+          "title": "Open the Kaikas app",
+          "description": "Put Kaikas app on your home screen for faster access to your wallet."
         },
         "step2": {
           "title": "Criar ou Importar uma Carteira",
@@ -563,6 +655,22 @@
         "step3": {
           "title": "Toque no ícone do QR e escaneie",
           "description": "Toque no ícone QR na tela inicial, escaneie o código e confirme o prompt para conectar."
+        }
+      }
+    },
+    "1inch": {
+      "qr_code": {
+        "step1": {
+          "description": "Put 1inch Wallet on your home screen for faster access to your wallet.",
+          "title": "Open the 1inch Wallet app"
+        },
+        "step2": {
+          "description": "Crie uma carteira e nome de usuário, ou importe uma carteira existente.",
+          "title": "Criar ou Importar uma Carteira"
+        },
+        "step3": {
+          "description": "Depois que você escanear, um prompt de conexão aparecerá para você conectar sua carteira.",
+          "title": "Toque no botão Scan QR"
         }
       }
     },
