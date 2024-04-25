@@ -292,6 +292,22 @@
         }
       }
     },
+    "bitverse": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the Bitverse Wallet app",
+          "description": "Add Bitverse Wallet to your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "Crear o Importar una Billetera",
+          "description": "Crea una nueva billetera o importa una existente."
+        },
+        "step3": {
+          "title": "Toque el icono de QR y escanee",
+          "description": "Toca el icono QR en tu pantalla de inicio, escanea el código y confirma el prompt para conectar."
+        }
+      }
+    },
     "bloom": {
       "desktop": {
         "step1": {
@@ -319,6 +335,36 @@
         "step3": {
           "description": "Después de tener una billetera, haga clic en Conectar para conectarse a través de Bloom. Aparecerá un aviso de conexión en la aplicación para que confirme la conexión.",
           "title": "Haga clic en Conectar"
+        }
+      }
+    },
+    "bybit": {
+      "qr_code": {
+        "step1": {
+          "description": "We recommend putting Bybit on your home screen for faster access to your wallet.",
+          "title": "Open the Bybit app"
+        },
+        "step2": {
+          "description": "Puede respaldar fácilmente su billetera utilizando nuestra función de respaldo en su teléfono.",
+          "title": "Crear o Importar una Billetera"
+        },
+        "step3": {
+          "description": "Después de escanear, aparecerá un mensaje de conexión para que conecte su billetera.",
+          "title": "Toque el botón de escaneo"
+        }
+      },
+      "extension": {
+        "step1": {
+          "description": "Click at the top right of your browser and pin Bybit Wallet for easy access.",
+          "title": "Install the Bybit Wallet extension"
+        },
+        "step2": {
+          "description": "Crea una nueva billetera o importa una existente.",
+          "title": "Crear o Importar una billetera"
+        },
+        "step3": {
+          "description": "Once you set up Bybit Wallet, click below to refresh the browser and load up the extension.",
+          "title": "Refrescar tu navegador"
         }
       }
     },
@@ -379,6 +425,22 @@
         "step3": {
           "description": "Una vez que configure su billetera, haga clic abajo para refrescar el navegador y cargar la extensión.",
           "title": "Refresca tu navegador"
+        }
+      }
+    },
+    "compass": {
+      "extension": {
+        "step1": {
+          "description": "We recommend pinning Compass Wallet to your taskbar for quicker access to your wallet.",
+          "title": "Install the Compass Wallet extension"
+        },
+        "step2": {
+          "description": "Asegúrese de respaldar su billetera utilizando un método seguro. Nunca comparta su frase secreta con nadie.",
+          "title": "Crear o Importar una Billetera"
+        },
+        "step3": {
+          "description": "Una vez que configures tu billetera, haz clic a continuación para refrescar el navegador y cargar la extensión.",
+          "title": "Refrescar tu navegador"
         }
       }
     },
@@ -463,6 +525,36 @@
         "step1": {
           "title": "Abrir la aplicación imToken",
           "description": "Pon la aplicación imToken en tu pantalla de inicio para un acceso más rápido a tu billetera."
+        },
+        "step2": {
+          "title": "Crear o Importar una Billetera",
+          "description": "Crea una nueva billetera o importa una existente."
+        },
+        "step3": {
+          "title": "Toca el Icono del Escáner en la esquina superior derecha",
+          "description": "Elija Nueva Conexión, luego escanee el código QR y confirme el aviso para conectar."
+        }
+      }
+    },
+    "kaikas": {
+      "extension": {
+        "step1": {
+          "description": "We recommend pinning Kaikas to your taskbar for quicker access to your wallet.",
+          "title": "Install the Kaikas extension"
+        },
+        "step2": {
+          "description": "Asegúrese de respaldar su billetera utilizando un método seguro. Nunca comparta su frase secreta con nadie.",
+          "title": "Crear o Importar una Billetera"
+        },
+        "step3": {
+          "description": "Una vez que configures tu billetera, haz clic a continuación para refrescar el navegador y cargar la extensión.",
+          "title": "Refrescar tu navegador"
+        }
+      },
+      "qr_code": {
+        "step1": {
+          "title": "Open the Kaikas app",
+          "description": "Put Kaikas app on your home screen for faster access to your wallet."
         },
         "step2": {
           "title": "Crear o Importar una Billetera",
@@ -563,6 +655,22 @@
         "step3": {
           "title": "Toque el icono de QR y escanee",
           "description": "Toca el icono QR en tu pantalla principal, escanea el código y confirma el aviso para conectar."
+        }
+      }
+    },
+    "1inch": {
+      "qr_code": {
+        "step1": {
+          "description": "Put 1inch Wallet on your home screen for faster access to your wallet.",
+          "title": "Open the 1inch Wallet app"
+        },
+        "step2": {
+          "description": "Cree una billetera y un nombre de usuario, o importe una billetera existente.",
+          "title": "Crear o Importar una Billetera"
+        },
+        "step3": {
+          "description": "Después de escanear, aparecerá un mensaje de conexión para que conecte su billetera.",
+          "title": "Toque el botón Escanear QR"
         }
       }
     },
