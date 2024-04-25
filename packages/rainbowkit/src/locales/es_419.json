@@ -295,8 +295,8 @@
     "bitverse": {
       "qr_code": {
         "step1": {
-          "title": "Open the Bitverse Wallet app",
-          "description": "Add Bitverse Wallet to your home screen for faster access to your wallet."
+          "title": "Abra la aplicación Bitverse Wallet",
+          "description": "Agregue Bitverse Wallet a su pantalla de inicio para un acceso más rápido a su billetera."
         },
         "step2": {
           "title": "Crear o Importar una Billetera",
@@ -341,8 +341,8 @@
     "bybit": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Bybit on your home screen for faster access to your wallet.",
-          "title": "Open the Bybit app"
+          "description": "Recomendamos poner Bybit en su pantalla de inicio para un acceso más rápido a su billetera.",
+          "title": "Abra la aplicación Bybit"
         },
         "step2": {
           "description": "Puede respaldar fácilmente su billetera utilizando nuestra función de respaldo en su teléfono.",
@@ -355,15 +355,15 @@
       },
       "extension": {
         "step1": {
-          "description": "Click at the top right of your browser and pin Bybit Wallet for easy access.",
-          "title": "Install the Bybit Wallet extension"
+          "description": "Haga clic en la parte superior derecha de su navegador y ancle Bybit Wallet para un acceso fácil.",
+          "title": "Instale la extensión Bybit Wallet"
         },
         "step2": {
           "description": "Crea una nueva billetera o importa una existente.",
           "title": "Crear o Importar una billetera"
         },
         "step3": {
-          "description": "Once you set up Bybit Wallet, click below to refresh the browser and load up the extension.",
+          "description": "Una vez que haya configurado Bybit Wallet, haga clic a continuación para actualizar el navegador y cargar la extensión.",
           "title": "Refrescar tu navegador"
         }
       }
@@ -431,8 +431,8 @@
     "compass": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Compass Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Compass Wallet extension"
+          "description": "Recomendamos anclar Compass Wallet a su barra de tareas para un acceso más rápido a su billetera.",
+          "title": "Instale la extensión Compass Wallet"
         },
         "step2": {
           "description": "Asegúrese de respaldar su billetera utilizando un método seguro. Nunca comparta su frase secreta con nadie.",
@@ -539,8 +539,8 @@
     "kaikas": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Kaikas to your taskbar for quicker access to your wallet.",
-          "title": "Install the Kaikas extension"
+          "description": "Recomendamos anclar Kaikas a su barra de tareas para un acceso más rápido a su billetera.",
+          "title": "Instale la extensión Kaikas"
         },
         "step2": {
           "description": "Asegúrese de respaldar su billetera utilizando un método seguro. Nunca comparta su frase secreta con nadie.",
@@ -553,8 +553,8 @@
       },
       "qr_code": {
         "step1": {
-          "title": "Open the Kaikas app",
-          "description": "Put Kaikas app on your home screen for faster access to your wallet."
+          "title": "Abra la aplicación Kaikas",
+          "description": "Ponga la aplicación Kaikas en su pantalla de inicio para un acceso más rápido a su billetera."
         },
         "step2": {
           "title": "Crear o Importar una Billetera",
@@ -661,8 +661,8 @@
     "1inch": {
       "qr_code": {
         "step1": {
-          "description": "Put 1inch Wallet on your home screen for faster access to your wallet.",
-          "title": "Open the 1inch Wallet app"
+          "description": "Ponga 1inch Wallet en su pantalla de inicio para un acceso más rápido a su billetera.",
+          "title": "Abra la aplicación 1inch Wallet"
         },
         "step2": {
           "description": "Cree una billetera y un nombre de usuario, o importe una billetera existente.",
