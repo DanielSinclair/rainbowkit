@@ -295,8 +295,8 @@
     "bitverse": {
       "qr_code": {
         "step1": {
-          "title": "Open the Bitverse Wallet app",
-          "description": "Add Bitverse Wallet to your home screen for faster access to your wallet."
+          "title": "Buka aplikasi Bitverse Wallet",
+          "description": "Tambahkan Bitverse Wallet ke layar utama Anda untuk akses yang lebih cepat ke dompet Anda."
         },
         "step2": {
           "title": "Buat atau Impor Dompet",
@@ -341,8 +341,8 @@
     "bybit": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Bybit on your home screen for faster access to your wallet.",
-          "title": "Open the Bybit app"
+          "description": "Kami menyarankan menempatkan Bybit di layar utama Anda untuk akses yang lebih cepat ke dompet Anda.",
+          "title": "Buka aplikasi Bybit"
         },
         "step2": {
           "description": "Anda dapat dengan mudah mencadangkan wallet Anda menggunakan fitur cadangan kami di telepon Anda.",
@@ -355,15 +355,15 @@
       },
       "extension": {
         "step1": {
-          "description": "Click at the top right of your browser and pin Bybit Wallet for easy access.",
-          "title": "Install the Bybit Wallet extension"
+          "description": "Klik di pojok kanan atas browser Anda dan sematkan Wallet Bybit untuk akses yang mudah.",
+          "title": "Pasang ekstensi Wallet Bybit"
         },
         "step2": {
           "description": "Buat dompet baru atau impor yang sudah ada.",
           "title": "Buat atau Impor sebuah dompet"
         },
         "step3": {
-          "description": "Once you set up Bybit Wallet, click below to refresh the browser and load up the extension.",
+          "description": "Setelah Anda mengatur Wallet Bybit, klik di bawah ini untuk menyegarkan browser dan memuat ekstensi.",
           "title": "Segarkan browser Anda"
         }
       }
@@ -431,8 +431,8 @@
     "compass": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Compass Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Compass Wallet extension"
+          "description": "Kami menyarankan memasang Compass Wallet di taskbar Anda untuk akses yang lebih cepat ke dompet Anda.",
+          "title": "Pasang ekstensi Compass Wallet"
         },
         "step2": {
           "description": "Pastikan untuk mencadangkan wallet Anda menggunakan metode yang aman. Jangan pernah berbagi frasa rahasia Anda dengan siapa pun.",
@@ -539,8 +539,8 @@
     "kaikas": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Kaikas to your taskbar for quicker access to your wallet.",
-          "title": "Install the Kaikas extension"
+          "description": "Kami menyarankan memasang Kaikas di taskbar Anda untuk akses yang lebih cepat ke dompet Anda.",
+          "title": "Pasang ekstensi Kaikas"
         },
         "step2": {
           "description": "Pastikan untuk mencadangkan wallet Anda menggunakan metode yang aman. Jangan pernah berbagi frasa rahasia Anda dengan siapa pun.",
@@ -553,8 +553,8 @@
       },
       "qr_code": {
         "step1": {
-          "title": "Open the Kaikas app",
-          "description": "Put Kaikas app on your home screen for faster access to your wallet."
+          "title": "Buka aplikasi Kaikas",
+          "description": "Letakkan aplikasi Kaikas di layar utama Anda untuk akses yang lebih cepat ke dompet Anda."
         },
         "step2": {
           "title": "Buat atau Impor Dompet",
@@ -661,8 +661,8 @@
     "1inch": {
       "qr_code": {
         "step1": {
-          "description": "Put 1inch Wallet on your home screen for faster access to your wallet.",
-          "title": "Open the 1inch Wallet app"
+          "description": "Letakkan Wallet 1inch di layar utama Anda untuk akses yang lebih cepat ke dompet Anda.",
+          "title": "Buka aplikasi Wallet 1inch"
         },
         "step2": {
           "description": "Buat dompet dan nama pengguna, atau impor dompet yang ada.",
