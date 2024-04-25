@@ -292,6 +292,22 @@
         }
       }
     },
+    "bitverse": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the Bitverse Wallet app",
+          "description": "Add Bitverse Wallet to your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "ウォレットを作成またはインポート",
+          "description": "新しいウォレットを作成するか、既存のものをインポートします。"
+        },
+        "step3": {
+          "title": "QRアイコンをタップしてスキャン",
+          "description": "ホーム画面のQRアイコンをタップし、コードをスキャンしてプロンプトを確認して接続します。"
+        }
+      }
+    },
     "bloom": {
       "desktop": {
         "step1": {
@@ -319,6 +335,36 @@
         "step3": {
           "description": "ウォレットを持った後、Bloomを介して接続するには「Connect」をクリックします。アプリ内で接続を確認するプロンプトが表示されます。",
           "title": "「Connect」をクリック"
+        }
+      }
+    },
+    "bybit": {
+      "qr_code": {
+        "step1": {
+          "description": "We recommend putting Bybit on your home screen for faster access to your wallet.",
+          "title": "Open the Bybit app"
+        },
+        "step2": {
+          "description": "電話のバックアップ機能を使用して、ウォレットを簡単にバックアップすることができます。",
+          "title": "ウォレットを作成またはインポート"
+        },
+        "step3": {
+          "description": "スキャン後、ウォレットを接続するための接続プロンプトが表示されます。",
+          "title": "「スキャン」ボタンをタップします"
+        }
+      },
+      "extension": {
+        "step1": {
+          "description": "Click at the top right of your browser and pin Bybit Wallet for easy access.",
+          "title": "Install the Bybit Wallet extension"
+        },
+        "step2": {
+          "description": "新しいウォレットを作成するか、既存のものをインポートします。",
+          "title": "ウォレットを作成またはインポートする"
+        },
+        "step3": {
+          "description": "Once you set up Bybit Wallet, click below to refresh the browser and load up the extension.",
+          "title": "ブラウザを更新する"
         }
       }
     },
@@ -378,6 +424,22 @@
         },
         "step3": {
           "description": "ウォレットの設定が完了したら、下のボタンをクリックしてブラウザを更新し、拡張機能をロードします。",
+          "title": "ブラウザを更新する"
+        }
+      }
+    },
+    "compass": {
+      "extension": {
+        "step1": {
+          "description": "We recommend pinning Compass Wallet to your taskbar for quicker access to your wallet.",
+          "title": "Install the Compass Wallet extension"
+        },
+        "step2": {
+          "description": "ウォレットは安全な方法でバックアップしてください。秘密のフレーズを誰とも共有しないでください。",
+          "title": "ウォレットを作成またはインポート"
+        },
+        "step3": {
+          "description": "ウォレットを設定したら、以下をクリックしてブラウザを更新し、拡張機能を読み込みます。",
           "title": "ブラウザを更新する"
         }
       }
@@ -463,6 +525,36 @@
         "step1": {
           "title": "imTokenアプリを開く",
           "description": "ウォレットへのアクセスを速くするために、imTokenアプリをホーム画面に置いてください。"
+        },
+        "step2": {
+          "title": "ウォレットを作成またはインポート",
+          "description": "新しいウォレットを作成するか、既存のものをインポートします。"
+        },
+        "step3": {
+          "title": "右上隅のスキャナーアイコンをタップします",
+          "description": "新しい接続を選択し、QRコードをスキャンしてプロンプトを確認し接続します。"
+        }
+      }
+    },
+    "kaikas": {
+      "extension": {
+        "step1": {
+          "description": "We recommend pinning Kaikas to your taskbar for quicker access to your wallet.",
+          "title": "Install the Kaikas extension"
+        },
+        "step2": {
+          "description": "ウォレットは安全な方法でバックアップしてください。秘密のフレーズを誰とも共有しないでください。",
+          "title": "ウォレットを作成またはインポート"
+        },
+        "step3": {
+          "description": "ウォレットを設定したら、以下をクリックしてブラウザを更新し、拡張機能を読み込みます。",
+          "title": "ブラウザを更新する"
+        }
+      },
+      "qr_code": {
+        "step1": {
+          "title": "Open the Kaikas app",
+          "description": "Put Kaikas app on your home screen for faster access to your wallet."
         },
         "step2": {
           "title": "ウォレットを作成またはインポート",
@@ -563,6 +655,22 @@
         "step3": {
           "title": "QRアイコンをタップしてスキャン",
           "description": "ホーム画面のQRアイコンをタップし、コードをスキャンし、プロンプトを確認して接続します。"
+        }
+      }
+    },
+    "1inch": {
+      "qr_code": {
+        "step1": {
+          "description": "Put 1inch Wallet on your home screen for faster access to your wallet.",
+          "title": "Open the 1inch Wallet app"
+        },
+        "step2": {
+          "description": "ウォレットとユーザーネームを作成するか、既存のウォレットをインポートします。",
+          "title": "ウォレットを作成またはインポート"
+        },
+        "step3": {
+          "description": "スキャン後、ウォレットを接続するための接続プロンプトが表示されます。",
+          "title": "「QRをスキャン」ボタンをタップします"
         }
       }
     },
