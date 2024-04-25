@@ -295,8 +295,8 @@
     "bitverse": {
       "qr_code": {
         "step1": {
-          "title": "Open the Bitverse Wallet app",
-          "description": "Add Bitverse Wallet to your home screen for faster access to your wallet."
+          "title": "Відкрийте додаток Bitverse Wallet",
+          "description": "Додайте Bitverse Wallet на свій домашній екран для швидшого доступу до вашого гаманця."
         },
         "step2": {
           "title": "Створити або Імпортувати Гаманець",
@@ -341,8 +341,8 @@
     "bybit": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Bybit on your home screen for faster access to your wallet.",
-          "title": "Open the Bybit app"
+          "description": "Ми рекомендуємо розмістити Bybit на вашому домашньому екрані для швидшого доступу до гаманця.",
+          "title": "Відкрийте додаток Bybit"
         },
         "step2": {
           "description": "Ви можете легко зробити резервну копію вашого гаманця, використовуючи нашу функцію резервного копіювання на вашому телефоні.",
@@ -355,15 +355,15 @@
       },
       "extension": {
         "step1": {
-          "description": "Click at the top right of your browser and pin Bybit Wallet for easy access.",
-          "title": "Install the Bybit Wallet extension"
+          "description": "Клацніть у верхньому правому куті вашого браузера та закріпіть Bybit Wallet для зручного доступу.",
+          "title": "Встановіть розширення Bybit Wallet"
         },
         "step2": {
           "description": "Створіть новий гаманець або імпортуйте існуючий.",
           "title": "Створіть або імпортуйте гаманець"
         },
         "step3": {
-          "description": "Once you set up Bybit Wallet, click below to refresh the browser and load up the extension.",
+          "description": "Після налаштування Bybit Wallet клацніть нижче, щоб оновити браузер і завантажити розширення.",
           "title": "Оновіть ваш браузер"
         }
       }
@@ -431,8 +431,8 @@
     "compass": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Compass Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Compass Wallet extension"
+          "description": "Ми рекомендуємо закріпити Compass Wallet на вашій панелі задач для швидшого доступу до гаманця.",
+          "title": "Встановіть розширення Compass Wallet"
         },
         "step2": {
           "description": "Не забудьте зробити резервну копію вашого гаманця за допомогою безпечного методу. Ніколи не діліться вашою секретною фразою з кимось.",
@@ -539,8 +539,8 @@
     "kaikas": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Kaikas to your taskbar for quicker access to your wallet.",
-          "title": "Install the Kaikas extension"
+          "description": "Ми рекомендуємо закріпити Kaikas на вашій панелі задач для швидшого доступу до гаманця.",
+          "title": "Встановіть розширення Kaikas"
         },
         "step2": {
           "description": "Не забудьте зробити резервну копію вашого гаманця за допомогою безпечного методу. Ніколи не діліться вашою секретною фразою з кимось.",
@@ -553,8 +553,8 @@
       },
       "qr_code": {
         "step1": {
-          "title": "Open the Kaikas app",
-          "description": "Put Kaikas app on your home screen for faster access to your wallet."
+          "title": "Відкрийте додаток Kaikas",
+          "description": "Розмістіть додаток Kaikas на своєму домашньому екрані для швидшого доступу до гаманця."
         },
         "step2": {
           "title": "Створити або Імпортувати Гаманець",
@@ -661,8 +661,8 @@
     "1inch": {
       "qr_code": {
         "step1": {
-          "description": "Put 1inch Wallet on your home screen for faster access to your wallet.",
-          "title": "Open the 1inch Wallet app"
+          "description": "Розмістіть 1inch Wallet на своєму домашньому екрані для швидшого доступу до гаманця.",
+          "title": "Відкрийте додаток 1inch Wallet"
         },
         "step2": {
           "description": "Створіть гаманець та ім'я користувача, або імпортуйте існуючий гаманець.",
