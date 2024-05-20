@@ -428,6 +428,22 @@
         }
       }
     },
+    "compass": {
+      "extension": {
+        "step1": {
+          "description": "We recommend pinning Compass Wallet to your taskbar for quicker access to your wallet.",
+          "title": "Install the Compass Wallet extension"
+        },
+        "step2": {
+          "description": "Не забудьте зробити резервну копію вашого гаманця за допомогою безпечного методу. Ніколи не діліться вашою секретною фразою з кимось.",
+          "title": "Створити або Імпортувати Гаманець"
+        },
+        "step3": {
+          "description": "Після налаштування вашого гаманця, натисніть нижче, щоб оновити браузер і завантажити розширення.",
+          "title": "Оновіть ваш браузер"
+        }
+      }
+    },
     "core": {
       "qr_code": {
         "step1": {
@@ -547,6 +563,22 @@
         "step3": {
           "title": "Натисніть на іконку сканера в правому верхньому куті",
           "description": "Виберіть 'Нове з'єднання', потім відскануйте QR-код і підтвердіть запит на підключення."
+        }
+      }
+    },
+    "kraken": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the Kraken Wallet app",
+          "description": "Add Kraken Wallet to your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "Створити або Імпортувати Гаманець",
+          "description": "Створіть новий гаманець або імпортуйте існуючий."
+        },
+        "step3": {
+          "title": "Натисніть на іконку QR та відскануйте",
+          "description": "Торкніться іконки QR на вашому домашньому екрані, відскануйте код та підтвердіть запит на підключення."
         }
       }
     },
