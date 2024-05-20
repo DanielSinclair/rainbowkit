@@ -428,6 +428,22 @@
         }
       }
     },
+    "compass": {
+      "extension": {
+        "step1": {
+          "description": "We recommend pinning Compass Wallet to your taskbar for quicker access to your wallet.",
+          "title": "Install the Compass Wallet extension"
+        },
+        "step2": {
+          "description": "Certifique-se de fazer backup de sua carteira usando um método seguro. Nunca compartilhe sua frase secreta com ninguém.",
+          "title": "Criar ou Importar uma Carteira"
+        },
+        "step3": {
+          "description": "Depois de configurar sua carteira, clique abaixo para atualizar o navegador e carregar a extensão.",
+          "title": "Atualize seu navegador"
+        }
+      }
+    },
     "core": {
       "qr_code": {
         "step1": {
@@ -547,6 +563,22 @@
         "step3": {
           "title": "Toque no ícone do Scanner no canto superior direito",
           "description": "Escolha Nova Conexão, em seguida, escaneie o código QR e confirme o prompt para conectar."
+        }
+      }
+    },
+    "kraken": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the Kraken Wallet app",
+          "description": "Add Kraken Wallet to your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "Criar ou Importar uma Carteira",
+          "description": "Crie uma nova carteira ou importe uma existente."
+        },
+        "step3": {
+          "title": "Toque no ícone do QR e escaneie",
+          "description": "Toque no ícone QR na sua tela inicial, escaneie o código e confirme o prompt para conectar."
         }
       }
     },
