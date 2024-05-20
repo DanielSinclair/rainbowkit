@@ -428,6 +428,22 @@
         }
       }
     },
+    "compass": {
+      "extension": {
+        "step1": {
+          "description": "We recommend pinning Compass Wallet to your taskbar for quicker access to your wallet.",
+          "title": "Install the Compass Wallet extension"
+        },
+        "step2": {
+          "description": "务必使用安全的方法备份您的钱包。决不与任何人分享您的秘密短语。",
+          "title": "创建或导入钱包"
+        },
+        "step3": {
+          "description": "设置钱包后，点击下方刷新浏览器并加载扩展。",
+          "title": "刷新您的浏览器"
+        }
+      }
+    },
     "core": {
       "qr_code": {
         "step1": {
@@ -547,6 +563,22 @@
         "step3": {
           "title": "点击右上角的扫描图标",
           "description": "选择新连接，然后扫描二维码并确认提示以进行连接。"
+        }
+      }
+    },
+    "kraken": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the Kraken Wallet app",
+          "description": "Add Kraken Wallet to your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "创建或导入钱包",
+          "description": "创建新钱包或导入现有钱包。"
+        },
+        "step3": {
+          "title": "点击QR图标并扫描",
+          "description": "在您的主屏幕上点击QR图标，扫描代码并确认提示以进行连接。"
         }
       }
     },
