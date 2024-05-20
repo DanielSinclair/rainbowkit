@@ -428,6 +428,22 @@
         }
       }
     },
+    "compass": {
+      "extension": {
+        "step1": {
+          "description": "We recommend pinning Compass Wallet to your taskbar for quicker access to your wallet.",
+          "title": "Install the Compass Wallet extension"
+        },
+        "step2": {
+          "description": "안전한 방법을 사용하여 지갑을 백업하세요. 절대로 비밀 구문을 누구와도 공유하지 마세요.",
+          "title": "지갑 생성 또는 가져오기"
+        },
+        "step3": {
+          "description": "지갑 설정을 마친 후 아래를 클릭하여 브라우저를 새로고침하고 확장 프로그램을 로드하세요.",
+          "title": "브라우저를 새로 고침하세요"
+        }
+      }
+    },
     "core": {
       "qr_code": {
         "step1": {
@@ -547,6 +563,22 @@
         "step3": {
           "title": "오른쪽 상단의 스캐너 아이콘을 누릅니다",
           "description": "새 연결을 선택하고 QR 코드를 스캔한 뒤, 연결하려는 프롬프트를 확인합니다."
+        }
+      }
+    },
+    "kraken": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the Kraken Wallet app",
+          "description": "Add Kraken Wallet to your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "지갑 생성 또는 가져오기",
+          "description": "새로운 지갑을 만들거나 기존의 지갑을 가져옵니다."
+        },
+        "step3": {
+          "title": "QR 아이콘을 탭하고 스캔하기",
+          "description": "홈화면의 QR 아이콘을 누르고 코드를 스캔하고 프롬프트를 확인하여 연결하세요."
         }
       }
     },
