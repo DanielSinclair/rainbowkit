@@ -428,6 +428,22 @@
         }
       }
     },
+    "compass": {
+      "extension": {
+        "step1": {
+          "description": "We recommend pinning Compass Wallet to your taskbar for quicker access to your wallet.",
+          "title": "Install the Compass Wallet extension"
+        },
+        "step2": {
+          "description": "ตรวจสอบการสำรองข้อมูลกระเป๋าสตางค์ของคุณให้แน่นอนโดยใช้วิธีที่ปลอดภัย อย่าแชร์วลีลับของคุณกับใครเป็นอันขาด.",
+          "title": "สร้างหรือนำเข้า Wallet"
+        },
+        "step3": {
+          "description": "เมื่อคุณตั้งค่ากระเป๋าเงินของคุณแล้วคลิกด้านล่างเพื่อรีเฟรชเบราว์เซอร์และโหลดส่วนเสริม",
+          "title": "รีเฟรชเบราว์เซอร์ของคุณ"
+        }
+      }
+    },
     "core": {
       "qr_code": {
         "step1": {
@@ -547,6 +563,22 @@
         "step3": {
           "title": "แตะไอคอนสแกนเนอร์ในมุมบนขวา",
           "description": "เลือก New Connection, แล้วสแกน QR code และยืนยันการรับรองสำหรับการเชื่อมต่อ"
+        }
+      }
+    },
+    "kraken": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the Kraken Wallet app",
+          "description": "Add Kraken Wallet to your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "สร้างหรือนำเข้า Wallet",
+          "description": "สร้างกระเป๋าเงินใหม่หรือนำเข้าที่มีอยู่แล้ว."
+        },
+        "step3": {
+          "title": "แตะที่ไอคอน QR แล้วสแกน",
+          "description": "แตะที่ไอคอน QR บนหน้าจอหลักของคุณ สแกนรหัสและยืนยันการเชื่อมต่อ"
         }
       }
     },
