@@ -371,8 +371,8 @@
     "binance": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Binance on your home screen for faster access to your wallet.",
-          "title": "Open the Binance app"
+          "description": "نوصي بوضع Binance على الشاشة الرئيسية للوصول السريع إلى محفظتك.",
+          "title": "افتح تطبيق Binance"
         },
         "step2": {
           "description": "يمكنك بسهولة نسخ محفظتك الاحتياطي باستخدام ميزة النسخ الاحتياطي على هاتفك.",
@@ -663,8 +663,8 @@
     "nestwallet": {
       "extension": {
         "step1": {
-          "title": "Install the NestWallet extension",
-          "description": "We recommend pinning NestWallet to your taskbar for quicker access to your wallet."
+          "title": "قم بتثبيت امتداد NestWallet",
+          "description": "نوصي بتثبيت NestWallet على شريط المهام للوصول السريع إلى محفظتك."
         },
         "step2": {
           "title": "إنشاء أو استيراد محفظة",
@@ -1053,8 +1053,8 @@
     "zeal": {
       "qr_code": {
         "step1": {
-          "title": "Open the Zeal app",
-          "description": "Add Zeal Wallet to your home screen for faster access to your wallet."
+          "title": "افتح تطبيق Zeal",
+          "description": "أضف محفظة Zeal إلى الشاشة الرئيسية للوصول الأسرع إلى محفظتك."
         },
         "step2": {
           "title": "إنشاء أو استيراد محفظة",
