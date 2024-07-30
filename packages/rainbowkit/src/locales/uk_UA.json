@@ -371,8 +371,8 @@
     "binance": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Binance on your home screen for faster access to your wallet.",
-          "title": "Open the Binance app"
+          "description": "Ми рекомендуємо додати Binance на домашній екран для швидшого доступу до вашого гаманця.",
+          "title": "Відкрийте додаток Binance"
         },
         "step2": {
           "description": "Ви можете легко зробити резервну копію вашого гаманця, використовуючи нашу функцію резервного копіювання на вашому телефоні.",
@@ -663,8 +663,8 @@
     "nestwallet": {
       "extension": {
         "step1": {
-          "title": "Install the NestWallet extension",
-          "description": "We recommend pinning NestWallet to your taskbar for quicker access to your wallet."
+          "title": "Встановіть розширення NestWallet",
+          "description": "Ми рекомендуємо закріпити NestWallet на панелі задач для швидшого доступу до вашого гаманця."
         },
         "step2": {
           "title": "Створити або Імпортувати Гаманець",
@@ -1053,8 +1053,8 @@
     "zeal": {
       "qr_code": {
         "step1": {
-          "title": "Open the Zeal app",
-          "description": "Add Zeal Wallet to your home screen for faster access to your wallet."
+          "title": "Відкрийте додаток Zeal",
+          "description": "Додайте Zeal Wallet на домашній екран для швидшого доступу до вашого гаманця."
         },
         "step2": {
           "title": "Створити або Імпортувати Гаманець",
