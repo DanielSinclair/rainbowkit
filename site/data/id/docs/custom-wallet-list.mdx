@@ -146,7 +146,7 @@ import { bybitWallet } from '@rainbow-me/rainbowkit/wallets';
 import { braveWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Binance Web3 Wallet
+#### Dompet Web3 Binance
 
 ```tsx
 import { binanceWallet } from '@rainbow-me/rainbowkit/wallets';
@@ -154,13 +154,13 @@ import { binanceWallet } from '@rainbow-me/rainbowkit/wallets';
 
 #### Coinbase
 
-This wallet connector supports both the Coinbase Wallet app and extension, as well as Coinbase Smart Wallet on Web.
+Konektor dompet ini mendukung baik aplikasi dan ekstensi Dompet Coinbase, serta Dompet Pintar Coinbase di Web.
 
-A `preference` argument is available to control whether Smart Wallet is enabled and available for users. Preference based behavior is documented [here](https://www.smartwallet.dev/sdk/makeWeb3Provider#parameters).
+Argumen `preference` tersedia untuk mengontrol apakah Dompet Pintar diaktifkan dan tersedia untuk pengguna. Perilaku berdasarkan preferensi didokumentasikan [di sini](https://www.smartwallet.dev/sdk/makeWeb3Provider#parameters).
 
-Smart Wallet will be enabled by default with `all` in early June, without a further upgrade.
+Dompet Pintar akan diaktifkan secara default dengan `all` di awal bulan Juni, tanpa pembaruan lebih lanjut.
 
-Developers can test Smart Wallet with `sepolia` and `baseSepolia` chains today by setting `smartWalletOnly` and including `coinbaseWallet` in their wallet list like so:
+Pengembang dapat menguji Dompet Pintar dengan rantai `sepolia` dan `baseSepolia` hari ini dengan menyetel `smartWalletOnly` dan memasukkan `coinbaseWallet` dalam daftar dompet mereka seperti ini:
 
 ```tsx
 import { coinbaseWallet } from '@rainbow-me/rainbowkit/wallets';
