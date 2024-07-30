@@ -371,8 +371,8 @@
     "binance": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Binance on your home screen for faster access to your wallet.",
-          "title": "Open the Binance app"
+          "description": "Мы рекомендуем добавить Binance на ваш экран начальной страницы для более быстрого доступа к вашему кошельку.",
+          "title": "Откройте приложение Binance"
         },
         "step2": {
           "description": "Вы можете легко сделать резервную копию вашего кошелька, используя нашу функцию резервного копирования на вашем телефоне.",
@@ -663,8 +663,8 @@
     "nestwallet": {
       "extension": {
         "step1": {
-          "title": "Install the NestWallet extension",
-          "description": "We recommend pinning NestWallet to your taskbar for quicker access to your wallet."
+          "title": "Установите расширение NestWallet",
+          "description": "Мы рекомендуем закрепить NestWallet на панели задач для более быстрого доступа к вашему кошельку."
         },
         "step2": {
           "title": "Создать или Импортировать кошелек",
@@ -1053,8 +1053,8 @@
     "zeal": {
       "qr_code": {
         "step1": {
-          "title": "Open the Zeal app",
-          "description": "Add Zeal Wallet to your home screen for faster access to your wallet."
+          "title": "Откройте приложение Zeal",
+          "description": "Добавьте Zeal Wallet на домашний экран для более быстрого доступа к вашему кошельку."
         },
         "step2": {
           "title": "Создать или Импортировать кошелек",
