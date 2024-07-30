@@ -371,8 +371,8 @@
     "binance": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Binance on your home screen for faster access to your wallet.",
-          "title": "Open the Binance app"
+          "description": "Nous vous recommandons de mettre Binance sur votre écran d'accueil pour un accès plus rapide à votre portefeuille.",
+          "title": "Ouvrez l'application Binance"
         },
         "step2": {
           "description": "Vous pouvez facilement sauvegarder votre portefeuille en utilisant notre fonction de sauvegarde sur votre téléphone.",
@@ -663,8 +663,8 @@
     "nestwallet": {
       "extension": {
         "step1": {
-          "title": "Install the NestWallet extension",
-          "description": "We recommend pinning NestWallet to your taskbar for quicker access to your wallet."
+          "title": "Installez l'extension NestWallet",
+          "description": "Nous vous recommandons d'épingler NestWallet à votre barre des tâches pour un accès plus rapide à votre portefeuille."
         },
         "step2": {
           "title": "Créer ou Importer un Portefeuille",
@@ -1053,8 +1053,8 @@
     "zeal": {
       "qr_code": {
         "step1": {
-          "title": "Open the Zeal app",
-          "description": "Add Zeal Wallet to your home screen for faster access to your wallet."
+          "title": "Ouvrez l'application Zeal",
+          "description": "Ajoutez Zeal Wallet à votre écran d'accueil pour un accès plus rapide à votre portefeuille."
         },
         "step2": {
           "title": "Créer ou Importer un Portefeuille",
