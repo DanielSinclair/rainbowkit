@@ -146,7 +146,7 @@ import { bybitWallet } from '@rainbow-me/rainbowkit/wallets';
 import { braveWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Binance Web3 Wallet
+#### Binance Web3 Cüzdanı
 
 ```tsx
 import { binanceWallet } from '@rainbow-me/rainbowkit/wallets';
@@ -154,13 +154,13 @@ import { binanceWallet } from '@rainbow-me/rainbowkit/wallets';
 
 #### Coinbase
 
-This wallet connector supports both the Coinbase Wallet app and extension, as well as Coinbase Smart Wallet on Web.
+Bu cüzdan bağlayıcısı, hem Coinbase Cüzdan uygulamasını hem de uzantısını, ayrıca Web'de Coinbase Akıllı Cüzdan'ı destekler.
 
-A `preference` argument is available to control whether Smart Wallet is enabled and available for users. Preference based behavior is documented [here](https://www.smartwallet.dev/sdk/makeWeb3Provider#parameters).
+Kullanıcılar için Akıllı Cüzdan’ın etkinleştirilip etkinleştirilmeyeceğini kontrol etmek için bir `preference` argümanı mevcuttur. Tercih tabanlı davranış [burada](https://www.smartwallet.dev/sdk/makeWeb3Provider#parameters) belgelenmiştir.
 
-Smart Wallet will be enabled by default with `all` in early June, without a further upgrade.
+Akıllı Cüzdan, Haziran başında herhangi bir ek yükseltme olmadan varsayılan olarak `all` ile etkinleştirilecektir.
 
-Developers can test Smart Wallet with `sepolia` and `baseSepolia` chains today by setting `smartWalletOnly` and including `coinbaseWallet` in their wallet list like so:
+Geliştiriciler, bugün `sepolia` ve `baseSepolia` zincirlerini ayarlayarak `smartWalletOnly` olarak test edebilir ve cüzdan listelerine `coinbaseWallet` ekleyebilirler:
 
 ```tsx
 import { coinbaseWallet } from '@rainbow-me/rainbowkit/wallets';
