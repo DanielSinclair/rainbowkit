@@ -371,8 +371,8 @@
     "binance": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Binance on your home screen for faster access to your wallet.",
-          "title": "Open the Binance app"
+          "description": "ウォレットへの迅速なアクセスのため、Binanceをホーム画面に設定することを推奨します。",
+          "title": "Binanceアプリを開く"
         },
         "step2": {
           "description": "電話のバックアップ機能を使用して、ウォレットを簡単にバックアップすることができます。",
@@ -663,8 +663,8 @@
     "nestwallet": {
       "extension": {
         "step1": {
-          "title": "Install the NestWallet extension",
-          "description": "We recommend pinning NestWallet to your taskbar for quicker access to your wallet."
+          "title": "NestWallet拡張機能をインストール",
+          "description": "ウォレットへのアクセスをより早くするため、タスクバーにNestWalletをピン留めすることを推奨します。"
         },
         "step2": {
           "title": "ウォレットを作成またはインポート",
@@ -1053,8 +1053,8 @@
     "zeal": {
       "qr_code": {
         "step1": {
-          "title": "Open the Zeal app",
-          "description": "Add Zeal Wallet to your home screen for faster access to your wallet."
+          "title": "Zealアプリを開く",
+          "description": "ウォレットへの素早いアクセスのために、Zeal Walletをホーム画面に追加することをお勧めします。"
         },
         "step2": {
           "title": "ウォレットを作成またはインポート",
