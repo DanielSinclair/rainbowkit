@@ -371,8 +371,8 @@
     "binance": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Binance on your home screen for faster access to your wallet.",
-          "title": "Open the Binance app"
+          "description": "我们建议将Binance放在您的主屏幕上，以便更快地访问您的钱包。",
+          "title": "打开 Binance 应用"
         },
         "step2": {
           "description": "您可以使用我们的手机上的备份功能轻松备份您的钱包。",
@@ -663,8 +663,8 @@
     "nestwallet": {
       "extension": {
         "step1": {
-          "title": "Install the NestWallet extension",
-          "description": "We recommend pinning NestWallet to your taskbar for quicker access to your wallet."
+          "title": "安装 NestWallet 扩展程序",
+          "description": "我们建议将NestWallet固定到任务栏，以便更快速地访问您的钱包。"
         },
         "step2": {
           "title": "创建或导入钱包",
@@ -1053,8 +1053,8 @@
     "zeal": {
       "qr_code": {
         "step1": {
-          "title": "Open the Zeal app",
-          "description": "Add Zeal Wallet to your home screen for faster access to your wallet."
+          "title": "打开 Zeal 应用",
+          "description": "将Zeal钱包添加到您的主屏幕，以便更快地访问您的钱包。"
         },
         "step2": {
           "title": "创建或导入钱包",
