@@ -154,13 +154,13 @@ import { binanceWallet } from '@rainbow-me/rainbowkit/wallets';
 
 #### Coinbase
 
-This wallet connector supports both the Coinbase Wallet app and extension, as well as Coinbase Smart Wallet on Web.
+Цей конектор гаманця підтримує як додаток Coinbase Wallet, так і розширення, а також Coinbase Smart Wallet в Інтернеті.
 
-A `preference` argument is available to control whether Smart Wallet is enabled and available for users. Preference based behavior is documented [here](https://www.smartwallet.dev/sdk/makeWeb3Provider#parameters).
+Доступний аргумент `preference`, щоб контролювати, чи увімкнено Smart Wallet та чи доступний він для користувачів. Поведінка на основі налаштувань задокументована [тут](https://www.smartwallet.dev/sdk/makeWeb3Provider#parameters).
 
-Smart Wallet will be enabled by default with `all` in early June, without a further upgrade.
+Smart Wallet буде увімкнено за замовчуванням із `all` на початку червня без подальшого оновлення.
 
-Developers can test Smart Wallet with `sepolia` and `baseSepolia` chains today by setting `smartWalletOnly` and including `coinbaseWallet` in their wallet list like so:
+Розробники можуть тестувати Smart Wallet з ланцюгами `sepolia` та `baseSepolia` вже сьогодні, встановивши `smartWalletOnly` та включивши `coinbaseWallet` у свій список гаманців таким чином:
 
 ```tsx
 import { coinbaseWallet } from '@rainbow-me/rainbowkit/wallets';
