@@ -146,21 +146,21 @@ import { bybitWallet } from '@rainbow-me/rainbowkit/wallets';
 import { braveWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Binance Web3 Wallet
+#### محفظة Binance Web3
 
 ```tsx
 import { binanceWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Coinbase
+#### كوبياين بيز كوبيان
 
-This wallet connector supports both the Coinbase Wallet app and extension, as well as Coinbase Smart Wallet on Web.
+يدعم هذا الموصل المحفظة كل من تطبيق Coinbase Wallet والإضافة، وكذلك Coinbase Smart Wallet على الويب.
 
-A `preference` argument is available to control whether Smart Wallet is enabled and available for users. Preference based behavior is documented [here](https://www.smartwallet.dev/sdk/makeWeb3Provider#parameters).
+يتوفر وسيطة `preference` للتحكم فيما إذا تم تمكين المحفظة الذكية ومتاحة للمستخدمين. يتم توثيق السلوك القائم على التفضيل [هنا](https://www.smartwallet.dev/sdk/makeWeb3Provider#parameters).
 
-Smart Wallet will be enabled by default with `all` in early June, without a further upgrade.
+سيتم تمكين المحفظة الذكية افتراضيًا مع `all` في أوائل يونيو، دون ترقية أخرى.
 
-Developers can test Smart Wallet with `sepolia` and `baseSepolia` chains today by setting `smartWalletOnly` and including `coinbaseWallet` in their wallet list like so:
+يمكن للمطورين اختبار المحفظة الذكية مع سلاسل `sepolia` و `baseSepolia` اليوم عن طريق تعيين `smartWalletOnly` و تشمل `coinbaseWallet` في قائمة محافظهم على هذا النحو:
 
 ```tsx
 import { coinbaseWallet } from '@rainbow-me/rainbowkit/wallets';
