@@ -371,8 +371,8 @@
     "binance": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Binance on your home screen for faster access to your wallet.",
-          "title": "Open the Binance app"
+          "description": "เราขอแนะนำให้คุณวาง Binance อยู่บนหน้าจอหลักของคุณเพื่อให้เข้าถึงกระเป๋าเงินของคุณได้เร็วขึ้น",
+          "title": "เปิดแอป Binance"
         },
         "step2": {
           "description": "คุณสามารถสำรองข้อมูลกระเป๋าเงินของคุณได้ง่ายๆ ด้วยฟีเจอร์สำรองข้อมูลบนโทรศัพท์ของคุณ.",
@@ -663,8 +663,8 @@
     "nestwallet": {
       "extension": {
         "step1": {
-          "title": "Install the NestWallet extension",
-          "description": "We recommend pinning NestWallet to your taskbar for quicker access to your wallet."
+          "title": "ติดตั้งส่วนขยาย NestWallet",
+          "description": "เราแนะนำให้คุณตรึง NestWallet ไว้ที่แถบงานของคุณเพื่อให้เข้าถึงกระเป๋าเงินของคุณได้ง่ายขึ้น"
         },
         "step2": {
           "title": "สร้างหรือนำเข้า Wallet",
@@ -1053,8 +1053,8 @@
     "zeal": {
       "qr_code": {
         "step1": {
-          "title": "Open the Zeal app",
-          "description": "Add Zeal Wallet to your home screen for faster access to your wallet."
+          "title": "เปิดแอป Zeal",
+          "description": "เพิ่ม Zeal Wallet ไปยังหน้าจอหลักของคุณเพื่อให้เข้าถึงกระเป๋าเงินของคุณได้เร็วขึ้น"
         },
         "step2": {
           "title": "สร้างหรือนำเข้า Wallet",
