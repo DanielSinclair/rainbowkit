@@ -371,8 +371,8 @@
     "binance": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Binance on your home screen for faster access to your wallet.",
-          "title": "Open the Binance app"
+          "description": "हम अपने वॉलेट के तेज एक्सेस के लिए Binance को अपने होम स्क्रीन पर रखने की सलाह देते हैं।",
+          "title": "Binance ऐप को खोलें"
         },
         "step2": {
           "description": "आप अपने फोन पर हमारे बैकअप फीचर का उपयोग करके आसानी से अपने वॉलेट का बैकअप कर सकते हैं।",
@@ -663,8 +663,8 @@
     "nestwallet": {
       "extension": {
         "step1": {
-          "title": "Install the NestWallet extension",
-          "description": "We recommend pinning NestWallet to your taskbar for quicker access to your wallet."
+          "title": "NestWallet एक्सटेंशन स्थापित करें",
+          "description": "हम आपके वॉलेट के तेज एक्सेस के लिए NestWallet को आपके टास्कबार में पिन करने की सलाह देते हैं।"
         },
         "step2": {
           "title": "वॉलेट बनाएं या आयात करें",
@@ -1053,8 +1053,8 @@
     "zeal": {
       "qr_code": {
         "step1": {
-          "title": "Open the Zeal app",
-          "description": "Add Zeal Wallet to your home screen for faster access to your wallet."
+          "title": "Zeal ऐप को खोलें",
+          "description": "अपने वॉलेट तक तेजी से पहुंचने के लिए अपने होम स्क्रीन पर Zeal वॉलेट जोड़ें।"
         },
         "step2": {
           "title": "वॉलेट बनाएं या आयात करें",
