@@ -154,13 +154,13 @@ import { binanceWallet } from '@rainbow-me/rainbowkit/wallets';
 
 #### Coinbase
 
-This wallet connector supports both the Coinbase Wallet app and extension, as well as Coinbase Smart Wallet on Web.
+Ce connecteur de portefeuille prend en charge à la fois l'application et l'extension Coinbase Wallet, ainsi que Coinbase Smart Wallet sur le Web.
 
-A `preference` argument is available to control whether Smart Wallet is enabled and available for users. Preference based behavior is documented [here](https://www.smartwallet.dev/sdk/makeWeb3Provider#parameters).
+Un argument `preference` est disponible pour contrôler si le Smart Wallet est activé et disponible pour les utilisateurs. Le comportement basé sur les préférences est documenté [ici](https://www.smartwallet.dev/sdk/makeWeb3Provider#parameters).
 
-Smart Wallet will be enabled by default with `all` in early June, without a further upgrade.
+Smart Wallet sera activé par défaut avec `all` début juin, sans mise à jour supplémentaire.
 
-Developers can test Smart Wallet with `sepolia` and `baseSepolia` chains today by setting `smartWalletOnly` and including `coinbaseWallet` in their wallet list like so:
+Les développeurs peuvent tester Smart Wallet avec les chaînes `sepolia` et `baseSepolia` dès aujourd'hui en définissant `smartWalletOnly` et en incluant `coinbaseWallet` dans leur liste de portefeuilles comme ceci :
 
 ```tsx
 import { coinbaseWallet } from '@rainbow-me/rainbowkit/wallets';
