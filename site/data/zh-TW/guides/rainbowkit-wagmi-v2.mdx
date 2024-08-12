@@ -1,0 +1,202 @@
+---
+title: 為您的 dApp 升級到 RainbowKit v2
+description: RainbowKit 和 Wagmi 已經升級至 v2
+image: guide-rainbowkit-v2.png
+---
+
+# 遷移到 RainbowKit 和 Wagmi v2
+
+[wagmi](https://wagmi.sh) 和 [viem](https://viem.sh) 對等依賴關係已達到 `2.x.x` 且有重大變更。
+
+按照以下步驟進行遷移。
+
+**1. 升級 RainbowKit、`wagmi` 和 `viem` 到最新版本**
+
+```bash
+npm i @rainbow-me/rainbowkit wagmi viem@2.x
+```
+
+**2. 安裝 `@tanstack/react-query` 對應相依項目**
+
+使用 Wagmi v2，[TanStack Query](https://tanstack.com/query/v5/docs/react/overview) 現在是一個必需的對應相依項目。
+
+使用以下命令安裝：
+
+```bash
+npm i @tanstack/react-query
+```
+
+**3. 升級您的 RainbowKit 和 Wagmi 配置**
+
+```diff
+  import '@rainbow-me/rainbowkit/styles.css'
+
++ import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+- import { createPublicClient, http } from 'viem'
+- import { WagmiConfig } from 'wagmi'
++ import { WagmiProvider, http } from 'wagmi'
+- import { configureChains, createConfig } from 'wagmi'
+  import { mainnet } from 'wagmi/chains'
+  import { RainbowKitProvider } from '@rainbow-me/rainbowkit'
+- import { getDefaultWallets, connectorsForWallets } from '@rainbow-me/rainbowkit'
++ import { getDefaultConfig } from '@rainbow-me/rainbowkit'
+
+  /* getDefaultWallets is now optional */
+- const { wallets } = getDefaultWallets({
+-   appName: 'RainbowKit demo',
+-   projectId: 'YOUR_PROJECT_ID',
+-   chains,
+- })
+
+  /* connectorsForWallets is now optional */
+- const connectors = connectorsForWallets([...wallets])
+
+- const { chains, publicClient } = configureChains( 
+-   [mainnet, sepolia], 
+-   [publicProvider(), publicProvider()],
+- )
+
+- const config = createConfig({
+-   autoConnect: true,
+-   publicClient,
+- })
+
+  /* New API that includes Wagmi's createConfig and replaces getDefaultWallets and connectorsForWallets */
++ const config = getDefaultConfig({
++   appName: 'RainbowKit demo',
++   projectId: 'YOUR_PROJECT_ID',
++   chains: [mainnet],
++   transports: {
++     [mainnet.id]: http(),
++   },
++ })
+
++ const queryClient = new QueryClient()
+
+  const App = () => {
+    return (
+-     <WagmiConfig config={config}>
++     <WagmiProvider config={config}>
++       <QueryClientProvider client={queryClient}>
+-         <RainbowKitProvider chains={chains}>
++         <RainbowKitProvider>
+            {/* Your App */}
+          </RainbowKitProvider>
++       </QueryClientProvider>
+-     </WagmiConfig>
++     </WagmiProvider>
+    )
+  }
+```
+
+**4. 檢查 `wagmi` 和 `viem` 中的重大變更**
+
+如果您在 dApp 中使用 `wagmi` hooks 和 `viem` 操作，需要遵循 v2 的遷移指南：
+
+- [Wagmi v2 遷移指南](https://wagmi.sh/react/guides/migrate-from-v1-to-v2)
+- [Viem v2 重大變更](https://viem.sh/docs/migration-guide.html#_2-x-x-breaking-changes)
+
+#### RainbowKit 變更
+
+\*\*1. EIP-6963 錢包的改進行為
+
+支持新的 EIP-6963 連接標準的錢包（包括 Rainbow、MetaMask 等）現在將在連接錢包體驗期間自動出現在“已安裝”部分。 這確保了用戶可以始終找到他們喜愛的錢包並無衝突地連接到 dApps。
+
+開發者依然對自定義錢包列表擁有完全控制，強調終端用戶的偏好錢包。 建議您繼續在您的列表中包含 `injectedWallet` 和 `walletConnectWallet`，以支持所有平台。
+
+\*\*2. 使用 getDefaultConfig 進行 Wagmi 配置
+
+這個新的 API 簡化了配置體驗，取代了直接使用 Wagmi 的 `createConfig` 的需求。 鏈配置簡化，包括對 `transports` 的公共提供者推斷。
+
+默認錢包列表會自動包含，無需使用 `getDefaultWallets` 和 `connectorsForWallets`。
+
+您可以通過將導入的或自定義錢包連接器傳遞給 `wallets` 來創建自定義錢包列表。 不再需要實例化錢包連接器並傳遞 `projectId` 和 `chains`。
+
+```
+const config = getDefaultConfig({
+  appName: 'RainbowKit demo',
+  projectId: 'YOUR_PROJECT_ID',
+  chains: [mainnet],
+  wallets: [rainbowWallet], /* optional custom wallet list */
+  /* Wagmi createConfig options including `transports` are also accepted */
+})
+```
+
+**3. RainbowKitProvider**
+
+您不再需要將 `chains` 傳遞給 `<RainbowKitProvider>`。
+
+```diff
+- <RainbowKitProvider chains={chains}>
++ <RainbowKitProvider>
+```
+
+**4. 自訂鏈**
+
+根據 Wagmi v2，`Chain` 類型已變更，並繼續支持 RainbowKit 的 `iconUrl` 和 `iconBackground` 元數據。
+
+```diff
++ import { Chain } from '@rainbow-me/rainbowkit'
+
+  const avalanche = {
+    id: 43_114,
+    name: 'Avalanche',
+    iconUrl: 'https://s2.coinmarketcap.com/static/img/coins/64x64/5805.png',
+    iconBackground: '#fff',
+    nativeCurrency: { name: 'Avalanche', symbol: 'AVAX', decimals: 18 },
+    rpcUrls: {
+      default: { http: ['https://api.avax.network/ext/bc/C/rpc'] },
+    },
+    blockExplorers: {
+      default: { name: 'SnowTrace', url: 'https://snowtrace.io' },
+    },
+    contracts: {
+      multicall3: {
+        address: '0xca11bde05977b3631167028862be2a173976ca11',
+        blockCreated: 11_907_934,
+      },
+    },
+  } as const satisfies Chain
+```
+
+使用 `getDefaultConfig` 的範例：
+
+```diff
+const config = getDefaultConfig({
++ chains: [
++   avalanche, /* custom chain */
++   {
++     ...mainnet,
++     iconBackground: '#000',
++     iconUrl: 'https://example.com/icons/ethereum.png',
++   }, /* metadata overides */
++ ],
+});
+```
+
+使用 `createConfig` 的範例：
+
+```diff
++ import { Chain } from '@rainbow-me/rainbowkit'
++ const chains: readonly [Chain, ...Chain[]] = [
++   {
++     ...mainnet,
++     iconBackground: '#000',
++     iconUrl: 'https://example.com/icons/ethereum.png',
++   },
++ ];
+  const config = createConfig({
+    chains,
+    transports: {
+      [mainnet.id]: http(),
+    },
+  })
+```
+
+**5. 自訂錢包**
+
+RainbowKit 錢包連接器已經進行了大量變更以支持 Wagmi v2。 參考[更新的文檔](https://www.rainbowkit.com/docs/custom-wallets)和[示例連接器](packages/rainbowkit/src/wallet/walletConnectors/rainbowWallet/rainbowWallet.ts)以升級 dApp 中的自定義錢包連接器。
+
+錢包連接器現在也支持帶有 `rdns` 屬性的 EIP-6963 標準。 確保填充此字段，以防止在您的錢包列表中出現重複引用符合 EIP-6963 支持的錢包。
+
+> 請在 GitHub [這裡](https://github.com/rainbow-me/rainbowkit/issues/new/choose) 報告任何關於 RainbowKit v2 的問題或反饋。
