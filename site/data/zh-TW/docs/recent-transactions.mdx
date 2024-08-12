@@ -1,0 +1,75 @@
+---
+title: 最近交易
+description: 顯示您的最近交易
+---
+
+# 最近交易
+
+## 顯示您的最近交易
+
+您可以選擇在RainbowKit的帳戶模態中顯示最近的交易。 請注意，所有交易都保存在本地存儲中，並且必須手動註冊到RainbowKit才能顯示。
+
+默認的 `ConnectButton` 實現還會在用戶的頭像周圍顯示加載指示器，如果有任何待處理的交易。 自定義的 `ConnectButton` 實現可以通過傳遞給渲染函數的 `account.hasPendingTransactions` 屬性重現此行為。
+
+要使用此功能，首先在 `RainbowKitProvider` 上啟用 `showRecentTransactions` 選項。
+
+```tsx
+import { RainbowKitProvider } from '@rainbow-me/rainbowkit';
+
+const App = () => {
+  return (
+    <RainbowKitProvider showRecentTransactions={true} {...etc}>
+      {/* ... */}
+    </RainbowKitProvider>
+  );
+};
+```
+
+然後可以使用 `useAddRecentTransaction` 鉤子在 RainbowKit 中註冊交易。
+
+```tsx
+import { useAddRecentTransaction } from '@rainbow-me/rainbowkit';
+
+export default () => {
+  const addRecentTransaction = useAddRecentTransaction();
+
+  return (
+    <button
+      onClick={() => {
+        addRecentTransaction({
+          hash: '0x...',
+          description: '...',
+        });
+      }}
+    >
+      Add recent transaction
+    </button>
+  );
+};
+```
+
+一旦交易已在 RainbowKit 中註冊，其狀態將在完成後更新。
+
+默認情況下，一旦在交易所在的區塊上挖掘出一個新區塊，交易即被視為完成，但可以通過指定自定義 `confirmations` 值來進行配置。
+
+```tsx
+import { useAddRecentTransaction } from '@rainbow-me/rainbowkit';
+
+export default () => {
+  const addRecentTransaction = useAddRecentTransaction();
+
+  return (
+    <button
+      onClick={() => {
+        addRecentTransaction({
+          hash: '0x...',
+          description: '...',
+          confirmations: 100,
+        });
+      }}
+    >
+      Add recent transaction
+    </button>
+  );
+};
+```
