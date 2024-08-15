@@ -552,6 +552,22 @@
         }
       }
     },
+    "iopay": {
+      "qr_code": {
+        "step1": {
+          "description": "We recommend putting ioPay on your home screen for faster access to your wallet.",
+          "title": "Open the ioPay app"
+        },
+        "step2": {
+          "description": "Telefonunuzdaki yedekleme özelliğimizi kullanarak cüzdanınızı kolayca yedekleyebilirsiniz.",
+          "title": "Cüzdan Oluştur veya Cüzdanı İçe Aktar"
+        },
+        "step3": {
+          "description": "Taradıktan sonra, cüzdanınızı bağlamak için bir bağlantı istemi görünecektir.",
+          "title": "CüzdanBağlantısı düğmesine dokunun"
+        }
+      }
+    },
     "kaikas": {
       "extension": {
         "step1": {
