@@ -102,7 +102,7 @@ npm i @tanstack/react-query
 
 \*\*1. 改进了对EIP-6963钱包的支持\*\*
 
-现在支持新的EIP-6963连接标准的钱包（包括Rainbow、MetaMask等）将自动显示在连接钱包体验的`Installed`部分。 这确保用户始终可以找到他们喜欢的钱包，并且在不发生冲突或需要后备按钮的情况下连接到dApps。 这确保用户始终可以找到他们喜欢的钱包，并且在不发生冲突或需要后备按钮的情况下连接到dApps。 这确保用户始终可以找到他们喜欢的钱包，并且在不发生冲突或需要后备按钮的情况下连接到dApps。
+现在支持新的EIP-6963连接标准的钱包（包括Rainbow、MetaMask等）将自动显示在连接钱包体验的`Installed`部分。 这确保用户始终可以找到他们喜欢的钱包，并且在不发生冲突或需要后备按钮的情况下连接到dApps。 这确保用户始终可以找到他们喜欢的钱包，并且在不发生冲突或需要后备按钮的情况下连接到dApps。 这确保用户始终可以找到他们喜欢的钱包，并且在不发生冲突或需要后备按钮的情况下连接到dApps。 这确保用户始终可以找到他们喜欢的钱包，并且在不发生冲突或需要后备按钮的情况下连接到dApps。
 
 开发者仍然可以完全控制自定义钱包列表，以强调终端用户首选的钱包。 建议您继续在列表中包含`injectedWallet`和`walletConnectWallet`，以支持所有平台。 建议您继续在列表中包含`injectedWallet`和`walletConnectWallet`，以支持所有平台。 建议您继续在列表中包含`injectedWallet`和`walletConnectWallet`，以支持所有平台。
 
@@ -133,7 +133,7 @@ const config = getDefaultConfig({
 + <RainbowKitProvider>
 ```
 
-\*\*2. 自定义钱包\*\*
+\*\*2. 自定义链条\*\*
 
 与Wagmi v2一致，`Chain`类型已经改变，并继续支持 RainbowKit 的`iconUrl`和`iconBackground`元数据。
 
@@ -195,9 +195,9 @@ const config = getDefaultConfig({
   })
 ```
 
-\*\*2. 自定义链条\*\*
+\*\*2. 自定义钱包\*\*
 
-RainbowKit已采用`wagmi`中的`WalletConnectLegacyConnector`连接器，以便继续支持WalletConnect v1。 将很快提供对WalletConnect v2和`WalletConnectConnector`的支持，作为补丁版本发布，不会有破坏性的更改。 RainbowKit已采用`wagmi`中的`WalletConnectLegacyConnector`连接器，以便继续支持WalletConnect v1。 将很快提供对WalletConnect v2和`WalletConnectConnector`的支持，作为补丁版本发布，不会有破坏性的更改。 将很快提供对WalletConnect v2和`WalletConnectConnector`的支持，作为补丁版本发布，不会有破坏性的更改。
+RainbowKit已采用`wagmi`中的`WalletConnectLegacyConnector`连接器，以便继续支持WalletConnect v1。 将很快提供对WalletConnect v2和`WalletConnectConnector`的支持，作为补丁版本发布，不会有破坏性的更改。 RainbowKit已采用`wagmi`中的`WalletConnectLegacyConnector`连接器，以便继续支持WalletConnect v1。 将很快提供对WalletConnect v2和`WalletConnectConnector`的支持，作为补丁版本发布，不会有破坏性的更改。 RainbowKit已采用`wagmi`中的`WalletConnectLegacyConnector`连接器，以便继续支持WalletConnect v1。 将很快提供对WalletConnect v2和`WalletConnectConnector`的支持，作为补丁版本发布，不会有破坏性的更改。 将很快提供对WalletConnect v2和`WalletConnectConnector`的支持，作为补丁版本发布，不会有破坏性的更改。
 
 钱包连接器现在也支持带有 `rdns` 属性的 EIP-6963 标准。 确保填充此属性以防止在您的钱包列表中重复引用支持 EIP-6963 的钱包。 确保填充此属性以防止在您的钱包列表中重复引用支持 EIP-6963 的钱包。 确保填充此属性以防止在您的钱包列表中重复引用支持 EIP-6963 的钱包。 确保填充此属性以防止在您的钱包列表中重复引用支持 EIP-6963 的钱包。 确保填充此属性以防止在您的钱包列表中重复引用支持 EIP-6963 的钱包。
 
@@ -209,7 +209,7 @@ wagmi 的同级依赖项已更新为 `0.10.x`。
 
 按照以下步骤进行迁移。
 
-\*\*1. 将RainbowKit和`wagmi`升级到最新版本
+1. 将RainbowKit和`wagmi`升级到最新版本
 
 ```bash
 npm i @rainbow-me/rainbowkit@^1 wagmi@^1
@@ -217,7 +217,7 @@ npm i @rainbow-me/rainbowkit@^1 wagmi@^1
 
 \*\*2. 安装 `viem` 对等依赖项\*\*
 
-wagmi v1 需要 `viem` 对等依赖项。 使用以下命令安装： 使用以下命令安装： 使用以下命令安装： 使用以下命令安装： 使用以下命令安装：
+wagmi v1 需要 `viem` 对等依赖项。 使用以下命令安装： 使用以下命令安装： 使用以下命令安装： 使用以下命令安装： 使用以下命令安装： 使用以下命令安装：
 
 ```bash
 npm i viem
@@ -259,7 +259,7 @@ npm i @rainbow-me/rainbowkit@^0.12.0 wagmi@^0.12.0
 
 #### 2. 提供WalletConnect Cloud projectId
 
-现在依赖于WalletConnect的每个dApp都需要从[WalletConnect Cloud](https://cloud.walletconnect.com/)获取`projectId`。 这完全免费，只需要几分钟。 这完全免费，只需要几分钟。 这完全免费，只需要几分钟。 这完全免费，只需要几分钟。 这完全免费，只需要几分钟。 这完全免费，只需要几分钟。 这完全免费，只需要几分钟。 这完全免费，只需要几分钟。
+现在依赖于WalletConnect的每个dApp都需要从[WalletConnect Cloud](https://cloud.walletconnect.com/)获取`projectId`。 这完全免费，只需要几分钟。 这完全免费，只需要几分钟。 这完全免费，只需要几分钟。 这完全免费，只需要几分钟。 这完全免费，只需要几分钟。 这完全免费，只需要几分钟。 这完全免费，只需要几分钟。 这完全免费，只需要几分钟。 这完全免费，只需要几分钟。
 
 将 `projectId` 提供给 `getDefaultWallets` 和独立的 RainbowKit 钱包连接器，如下所示：
 
@@ -327,7 +327,7 @@ wagmi的对等依赖已更新为`0.9.x`。
 
 按照以下步骤进行迁移。
 
-#### 1. 升级依赖项
+#### \*\*1. 将 RainbowKit 和 `wagmi` 更新到最新版本
 
 ```bash
 npm i @rainbow-me/rainbowkit@^0.9.0 wagmi@^0.9.0
@@ -503,7 +503,7 @@ npm i @rainbow-me/rainbowkit@^0.2.0 wagmi@^0.4.2
 
 #### 4. 重命名 wagmi 的提供者
 
-RainbowKit不再导出`apiProvider` API。 将其替换为您从wagmi选择的所需的提供商。 将其替换为您从wagmi选择的所需的提供商。 将其替换为您从wagmi选择的所需的提供商。 将其替换为您从wagmi选择的所需的提供商。 将其替换为您从wagmi选择的所需的提供商。 将其替换为您从wagmi选择的所需的提供商。 将其替换为您从wagmi选择的所需的提供商。 将其替换为您从wagmi选择的所需的提供商。
+RainbowKit不再导出`apiProvider` API。 将其替换为您从wagmi选择的所需的提供商。 将其替换为您从wagmi选择的所需的提供商。 将其替换为您从wagmi选择的所需的提供商。 将其替换为您从wagmi选择的所需的提供商。 将其替换为您从wagmi选择的所需的提供商。 将其替换为您从wagmi选择的所需的提供商。 将其替换为您从wagmi选择的所需的提供商。 将其替换为您从wagmi选择的所需的提供商。 将其替换为您从wagmi选择的所需的提供商。
 
 ```diff
 - import { apiProvider } from '@rainbow-me/rainbowkit';
