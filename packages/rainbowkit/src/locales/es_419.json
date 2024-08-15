@@ -555,8 +555,8 @@
     "iopay": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting ioPay on your home screen for faster access to your wallet.",
-          "title": "Open the ioPay app"
+          "description": "Recomendamos poner ioPay en tu pantalla de inicio para un acceso más rápido a tu billetera.",
+          "title": "Abre la aplicación ioPay"
         },
         "step2": {
           "description": "Puede respaldar fácilmente su billetera utilizando nuestra función de respaldo en su teléfono.",
