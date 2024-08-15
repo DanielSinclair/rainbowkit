@@ -555,8 +555,8 @@
     "iopay": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting ioPay on your home screen for faster access to your wallet.",
-          "title": "Open the ioPay app"
+          "description": "ウォレットへの迅速なアクセスのため、ioPayをホーム画面に設定することを推奨します。",
+          "title": "ioPayアプリを開く"
         },
         "step2": {
           "description": "電話のバックアップ機能を使用して、ウォレットを簡単にバックアップすることができます。",
