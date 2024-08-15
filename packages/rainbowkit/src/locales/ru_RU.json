@@ -552,6 +552,22 @@
         }
       }
     },
+    "iopay": {
+      "qr_code": {
+        "step1": {
+          "description": "We recommend putting ioPay on your home screen for faster access to your wallet.",
+          "title": "Open the ioPay app"
+        },
+        "step2": {
+          "description": "Вы можете легко сделать резервную копию вашего кошелька, используя нашу функцию резервного копирования на вашем телефоне.",
+          "title": "Создать или Импортировать кошелек"
+        },
+        "step3": {
+          "description": "После сканирования появится запрос на подключение для подключения вашего кошелька.",
+          "title": "Нажмите кнопку WalletConnect"
+        }
+      }
+    },
     "kaikas": {
       "extension": {
         "step1": {
