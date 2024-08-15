@@ -552,6 +552,22 @@
         }
       }
     },
+    "iopay": {
+      "qr_code": {
+        "step1": {
+          "description": "We recommend putting ioPay on your home screen for faster access to your wallet.",
+          "title": "Open the ioPay app"
+        },
+        "step2": {
+          "description": "휴대폰에서 백업 기능을 이용하여 지갑을 쉽게 백업할 수 있습니다.",
+          "title": "지갑 생성 또는 가져오기"
+        },
+        "step3": {
+          "description": "스캔 후에 지갑을 연결하기 위한 연결 요청이 표시됩니다.",
+          "title": "WalletConnect 버튼을 누르세요"
+        }
+      }
+    },
     "kaikas": {
       "extension": {
         "step1": {
