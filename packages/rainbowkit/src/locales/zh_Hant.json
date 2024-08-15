@@ -552,6 +552,22 @@
         }
       }
     },
+    "iopay": {
+      "qr_code": {
+        "step1": {
+          "description": "我們建議將 ioPay 放在您的主畫面，以便更快速地存取您的錢包。",
+          "title": "打開 ioPay 應用程式"
+        },
+        "step2": {
+          "description": "您可以輕鬆使用手機上的備份功能備份您的錢包。",
+          "title": "創建或導入錢包"
+        },
+        "step3": {
+          "description": "掃描後，將出現連接提示以連接您的錢包。",
+          "title": "點擊 WalletConnect 按鈕"
+        }
+      }
+    },
     "kaikas": {
       "extension": {
         "step1": {
