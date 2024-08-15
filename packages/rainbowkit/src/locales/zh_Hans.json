@@ -555,8 +555,8 @@
     "iopay": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting ioPay on your home screen for faster access to your wallet.",
-          "title": "Open the ioPay app"
+          "description": "我们建议您将ioPay添加到主屏幕，以便更快地访问您的钱包。",
+          "title": "打开ioPay应用"
         },
         "step2": {
           "description": "您可以使用我们的手机上的备份功能轻松备份您的钱包。",
