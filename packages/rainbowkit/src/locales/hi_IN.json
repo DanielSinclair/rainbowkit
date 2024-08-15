@@ -552,6 +552,22 @@
         }
       }
     },
+    "iopay": {
+      "qr_code": {
+        "step1": {
+          "description": "We recommend putting ioPay on your home screen for faster access to your wallet.",
+          "title": "Open the ioPay app"
+        },
+        "step2": {
+          "description": "आप अपने फोन पर हमारे बैकअप फीचर का उपयोग करके आसानी से अपने वॉलेट का बैकअप कर सकते हैं।",
+          "title": "वॉलेट बनाएं या आयात करें"
+        },
+        "step3": {
+          "description": "जैसे ही आप स्कैन करेंगे, एक कनेक्शन संकेत आपके वॉलेट को कनेक्ट करने के लिए प्रकट होगा।",
+          "title": "WalletConnect बटन पर टैप करें"
+        }
+      }
+    },
     "kaikas": {
       "extension": {
         "step1": {
