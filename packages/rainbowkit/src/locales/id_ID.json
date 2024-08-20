@@ -601,8 +601,8 @@
     "kaia": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Kaia to your taskbar for quicker access to your wallet.",
-          "title": "Install the Kaia extension"
+          "description": "Kami merekomendasikan menempelkan Kaia ke taskbar Anda untuk akses dompet Anda lebih cepat.",
+          "title": "Instal ekstensi Kaia"
         },
         "step2": {
           "description": "Pastikan untuk mencadangkan wallet Anda menggunakan metode yang aman. Jangan pernah berbagi frasa rahasia Anda dengan siapa pun.",
@@ -615,8 +615,8 @@
       },
       "qr_code": {
         "step1": {
-          "title": "Open the Kaia app",
-          "description": "Put Kaia app on your home screen for faster access to your wallet."
+          "title": "Buka aplikasi Kaia",
+          "description": "Letakkan aplikasi Kaia di layar utama Anda untuk akses yang lebih cepat ke dompet Anda."
         },
         "step2": {
           "title": "Buat atau Impor Dompet",
