@@ -601,8 +601,8 @@
     "kaia": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Kaia to your taskbar for quicker access to your wallet.",
-          "title": "Install the Kaia extension"
+          "description": "我们建议将Kaia固定在您的任务栏上，以便更快地访问您的钱包。",
+          "title": "安装Kaia扩展程序"
         },
         "step2": {
           "description": "务必使用安全的方法备份您的钱包。决不与任何人分享您的秘密短语。",
@@ -615,8 +615,8 @@
       },
       "qr_code": {
         "step1": {
-          "title": "Open the Kaia app",
-          "description": "Put Kaia app on your home screen for faster access to your wallet."
+          "title": "打开Kaia应用",
+          "description": "将Kaia应用放在您的主屏幕上，以更快地访问您的钱包。"
         },
         "step2": {
           "title": "创建或导入钱包",
