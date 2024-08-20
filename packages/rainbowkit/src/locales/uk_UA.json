@@ -601,8 +601,8 @@
     "kaia": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Kaia to your taskbar for quicker access to your wallet.",
-          "title": "Install the Kaia extension"
+          "description": "Ми рекомендуємо закріпити Kaia на панелі задач для швидшого доступу до вашого гаманця.",
+          "title": "Встановіть розширення Kaia"
         },
         "step2": {
           "description": "Не забудьте зробити резервну копію вашого гаманця за допомогою безпечного методу. Ніколи не діліться вашою секретною фразою з кимось.",
@@ -615,8 +615,8 @@
       },
       "qr_code": {
         "step1": {
-          "title": "Open the Kaia app",
-          "description": "Put Kaia app on your home screen for faster access to your wallet."
+          "title": "Відкрийте додаток Kaia",
+          "description": "Додайте додаток Kaia на домашній екран для швидшого доступу до вашого гаманця."
         },
         "step2": {
           "title": "Створити або Імпортувати Гаманець",
