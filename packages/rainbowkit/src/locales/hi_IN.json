@@ -598,6 +598,36 @@
         }
       }
     },
+    "kaia": {
+      "extension": {
+        "step1": {
+          "description": "We recommend pinning Kaia to your taskbar for quicker access to your wallet.",
+          "title": "Install the Kaia extension"
+        },
+        "step2": {
+          "description": "अपने वॉलेट का बैकअप एक सुरक्षित तरीके से लेने के लिए सुनिश्चित करें। किसी के साथ भी अपना गुप्त वाक्यांश साझा न करें।",
+          "title": "वॉलेट बनाएं या आयात करें"
+        },
+        "step3": {
+          "description": "एक बार जब आप अपना वॉलेट सेटअप कर लेते हैं, तो नीचे क्लिक करें ताकि ब्राउज़र को ताज़ा करें और एक्सटेंशन लोड करें।",
+          "title": "अपने ब्राउज़र को ताज़ा करें"
+        }
+      },
+      "qr_code": {
+        "step1": {
+          "title": "Open the Kaia app",
+          "description": "Put Kaia app on your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "वॉलेट बनाएं या आयात करें",
+          "description": "नया बटुआ बनाएं या मौजूदा को आयात करें।"
+        },
+        "step3": {
+          "title": "ऊपरी दाएं कोने में स्कैनर आइकॉन पर टैप करें",
+          "description": "नया कनेक्शन चुनें, फिर QR कोड स्कैन करें और कनेक्ट करने के लिए प्रॉम्प्ट की पुष्टि करें।"
+        }
+      }
+    },
     "kraken": {
       "qr_code": {
         "step1": {
