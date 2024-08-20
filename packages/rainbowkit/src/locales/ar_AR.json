@@ -598,6 +598,36 @@
         }
       }
     },
+    "kaia": {
+      "extension": {
+        "step1": {
+          "description": "We recommend pinning Kaia to your taskbar for quicker access to your wallet.",
+          "title": "Install the Kaia extension"
+        },
+        "step2": {
+          "description": "تأكد من عمل نسخة احتياطية لمحفظتك باستخدام طريقة آمنة. لا تشارك عبارتك السرية مع أحد.",
+          "title": "إنشاء أو استيراد محفظة"
+        },
+        "step3": {
+          "description": "بمجرد إعداد محفظتك، انقر أدناه لتحديث المتصفح وتحميل الامتداد.",
+          "title": "قم بتحديث متصفحك"
+        }
+      },
+      "qr_code": {
+        "step1": {
+          "title": "Open the Kaia app",
+          "description": "Put Kaia app on your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "إنشاء أو استيراد محفظة",
+          "description": "أنشئ محفظة جديدة أو استورد واحدة موجودة بالفعل."
+        },
+        "step3": {
+          "title": "اضغط على أيقونة الماسح الضوئي في الزاوية العليا اليمنى",
+          "description": "اختر الاتصال الجديد، ثم امسح الرمز الشريطي وأكد الموجه للاتصال."
+        }
+      }
+    },
     "kraken": {
       "qr_code": {
         "step1": {
