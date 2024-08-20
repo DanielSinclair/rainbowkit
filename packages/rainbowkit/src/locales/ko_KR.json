@@ -601,8 +601,8 @@
     "kaia": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Kaia to your taskbar for quicker access to your wallet.",
-          "title": "Install the Kaia extension"
+          "description": "지갑에 더 빠르게 접근할 수 있도록 Kaia를 작업 표시줄에 고정하는 것을 권장합니다.",
+          "title": "Kaia 확장 프로그램을 설치하세요"
         },
         "step2": {
           "description": "안전한 방법을 사용하여 지갑을 백업하세요. 절대로 비밀 구문을 누구와도 공유하지 마세요.",
@@ -615,8 +615,8 @@
       },
       "qr_code": {
         "step1": {
-          "title": "Open the Kaia app",
-          "description": "Put Kaia app on your home screen for faster access to your wallet."
+          "title": "Kaia 앱을 엽니다",
+          "description": "지갑에 더 빠르게 접근할 수 있도록 홈 화면에 Kaia 앱을 두는 것을 추천합니다."
         },
         "step2": {
           "title": "지갑 생성 또는 가져오기",
