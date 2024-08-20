@@ -598,6 +598,36 @@
         }
       }
     },
+    "kaia": {
+      "extension": {
+        "step1": {
+          "description": "We recommend pinning Kaia to your taskbar for quicker access to your wallet.",
+          "title": "Install the Kaia extension"
+        },
+        "step2": {
+          "description": "Не забудьте зробити резервну копію вашого гаманця за допомогою безпечного методу. Ніколи не діліться вашою секретною фразою з кимось.",
+          "title": "Створити або Імпортувати Гаманець"
+        },
+        "step3": {
+          "description": "Після налаштування вашого гаманця, натисніть нижче, щоб оновити браузер і завантажити розширення.",
+          "title": "Оновіть ваш браузер"
+        }
+      },
+      "qr_code": {
+        "step1": {
+          "title": "Open the Kaia app",
+          "description": "Put Kaia app on your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "Створити або Імпортувати Гаманець",
+          "description": "Створіть новий гаманець або імпортуйте існуючий."
+        },
+        "step3": {
+          "title": "Натисніть на іконку сканера в правому верхньому куті",
+          "description": "Виберіть 'Нове з'єднання', потім відскануйте QR-код і підтвердіть запит на підключення."
+        }
+      }
+    },
     "kraken": {
       "qr_code": {
         "step1": {
