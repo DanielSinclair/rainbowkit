@@ -601,8 +601,8 @@
     "kaia": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Kaia to your taskbar for quicker access to your wallet.",
-          "title": "Install the Kaia extension"
+          "description": "ウォレットへの迅速なアクセスのために、タスクバーにKaiaをピン留めすることをお勧めします。",
+          "title": "Kaia拡張機能をインストールする"
         },
         "step2": {
           "description": "ウォレットは安全な方法でバックアップしてください。秘密のフレーズを誰とも共有しないでください。",
@@ -615,8 +615,8 @@
       },
       "qr_code": {
         "step1": {
-          "title": "Open the Kaia app",
-          "description": "Put Kaia app on your home screen for faster access to your wallet."
+          "title": "Kaiaアプリを開く",
+          "description": "ウォレットへのアクセスを速くするために、Kaiaアプリをホーム画面に置いてください。"
         },
         "step2": {
           "title": "ウォレットを作成またはインポート",
