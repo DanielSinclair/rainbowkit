@@ -598,6 +598,36 @@
         }
       }
     },
+    "kaia": {
+      "extension": {
+        "step1": {
+          "description": "我們建議將 Kaia 鎖定到您的任務欄，以便更快地訪問您的錢包。",
+          "title": "安裝 Kaia 擴充功能"
+        },
+        "step2": {
+          "description": "請確保使用安全的方法備份您的錢包。切勿與任何人共享您的秘密短語。",
+          "title": "創建或導入錢包"
+        },
+        "step3": {
+          "description": "一旦設置好您的錢包，點擊下方刷新瀏覽器並加載擴展。",
+          "title": "刷新您的瀏覽器"
+        }
+      },
+      "qr_code": {
+        "step1": {
+          "title": "打開 Kaia 應用程式",
+          "description": "將 Kaia 應用程式放在您的主畫面，以便更快地訪問您的錢包。"
+        },
+        "step2": {
+          "title": "創建或導入錢包",
+          "description": "創建一個新的錢包或導入現有的錢包。"
+        },
+        "step3": {
+          "title": "點擊右上角的掃描圖標",
+          "description": "選擇新連接，然後掃描 QR 碼並確認提示以連接。"
+        }
+      }
+    },
     "kraken": {
       "qr_code": {
         "step1": {
