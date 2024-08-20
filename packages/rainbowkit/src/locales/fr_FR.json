@@ -601,8 +601,8 @@
     "kaia": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Kaia to your taskbar for quicker access to your wallet.",
-          "title": "Install the Kaia extension"
+          "description": "Nous vous recommandons d'épingler Kaia à votre barre des tâches pour un accès plus rapide à votre portefeuille.",
+          "title": "Installez l'extension Kaia"
         },
         "step2": {
           "description": "Assurez-vous de sauvegarder votre portefeuille en utilisant une méthode sécurisée. Ne partagez jamais votre phrase secrète avec quiconque.",
@@ -615,8 +615,8 @@
       },
       "qr_code": {
         "step1": {
-          "title": "Open the Kaia app",
-          "description": "Put Kaia app on your home screen for faster access to your wallet."
+          "title": "Ouvrez l'application Kaia",
+          "description": "Mettez l'application Kaia sur votre écran d'accueil pour un accès plus rapide à votre portefeuille."
         },
         "step2": {
           "title": "Créer ou Importer un Portefeuille",
