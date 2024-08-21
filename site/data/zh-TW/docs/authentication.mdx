@@ -1,39 +1,39 @@
 ---
-title: Authentication
-description: Authenticating your users
+title: 身份驗證
+description: 驗證你的用戶
 ---
 
-# Authentication
+# 身份驗證
 
-## Providing authenticated access to your application
+## 為你的應用程式提供已驗證的訪問
 
-You can optionally enforce that users sign a message with their wallet during the connection process, proving that they own the connected account and allowing you to create an authenticated user session with privileged access to your application.
+您可以選擇強制用戶在連接過程中使用錢包簽署消息，證明他們擁有已連接的帳戶，並允許您創建具備特權訪問的認證用戶會話，以訪問您的應用程式。
 
-While it's possible to [integrate with custom back-ends and message formats,](/docs/custom-authentication) RainbowKit provides first-class support for [Sign-In with Ethereum](https://login.xyz) and [NextAuth.js.](https://next-auth.js.org)
+雖然可以[使用自訂後端和消息格式進行整合,](/docs/custom-authentication) RainbowKit提供對[以太坊登錄](https://login.xyz)和[NextAuth.js](https://next-auth.js.org)的一流支持。
 
-### Set up Sign-In with Ethereum and NextAuth.js
+### 設置以太坊登錄和NextAuth.js
 
-If you haven't already, first set up your [Next.js](https://nextjs.org) project with the [official Sign-In with Ethereum boilerplate for NextAuth.js.](https://docs.login.xyz/integrations/nextauth.js)
+如果還沒有，首先設置你的[Next.js](https://nextjs.org)項目，使用[NextAuth.js官方的以太坊登錄樣板](https://docs.login.xyz/integrations/nextauth.js)。
 
-#### Install
+#### 安裝
 
-Install the `@rainbow-me/rainbowkit-siwe-next-auth` package and its peer dependency, [ethers](https://docs.ethers.org/v5/).
+安裝 `@rainbow-me/rainbowkit-siwe-next-auth` 軟件包及其對等依賴項，[ethers](https://docs.ethers.org/v5/)。
 
 ```bash
 npm install @rainbow-me/rainbowkit-siwe-next-auth siwe@^2 ethers@^5
 ```
 
-> Note: `siwe` requires the [ethers](https://docs.ethers.org/v5/) peer dependency, while [wagmi](https://wagmi.sh/) now relies on the alternative [viem](https://viem.sh).
+> 注意：`siwe` 需要 [ethers](https://docs.ethers.org/v5/) 對等依賴項，而 [wagmi](https://wagmi.sh/) 現在依賴於替代的 [viem](https://viem.sh)。
 
-#### Set up the provider
+#### 設置提供者
 
-In your `App` component, import `RainbowKitSiweNextAuthProvider`.
+在`App`組件中，導入`RainbowKitSiweNextAuthProvider`。
 
 ```tsx
 import { RainbowKitSiweNextAuthProvider } from '@rainbow-me/rainbowkit-siwe-next-auth';
 ```
 
-Wrap `RainbowKitProvider` with `RainbowKitSiweNextAuthProvider`, ensuring it's nested within NextAuth's `SessionProvider` so that it has access to the session.
+用`RainbowKitSiweNextAuthProvider`包裝`RainbowKitProvider`，確保它嵌套在NextAuth的`SessionProvider`內，以便能夠訪問會話。
 
 ```tsx
 import { RainbowKitSiweNextAuthProvider } from '@rainbow-me/rainbowkit-siwe-next-auth';
@@ -71,13 +71,13 @@ export default function App({
 }
 ```
 
-With `RainbowKitSiweNextAuthProvider` in place, your users will now be prompted to authenticate by signing a message once they've connected their wallet.
+有了`RainbowKitSiweNextAuthProvider`，您的用戶現在會在連接他們的錢包後被提示通過簽署消息進行認證。
 
-#### Customize the SIWE message options
+#### 自定義SIWE消息選項
 
-You can customize the [SIWE message options](https://github.com/spruceid/siwe/blob/v1.1.6/packages/siwe/lib/client.ts#L29) by passing a function to the `getSiweMessageOptions` prop on `RainbowKitSiweNextAuthProvider`.
+您可以自定義 [SIWE消息選項](https://github.com/spruceid/siwe/blob/v1.1.6/packages/siwe/lib/client.ts#L29)，通過傳遞一個函數到`RainbowKitSiweNextAuthProvider`的`getSiweMessageOptions`屬性。
 
-This function will be called whenever a new message is created. Options returned from this function will be merged with the defaults.
+每當創建一條新消息時，這個函數就會被調用。 從這個函數返回的選項將與默認選項合併。
 
 ```tsx
 import {
@@ -96,13 +96,13 @@ const getSiweMessageOptions: GetSiweMessageOptions = () => ({
 </RainbowKitSiweNextAuthProvider>;
 ```
 
-#### Access the session server-side
+#### 伺服器端訪問會話
 
-You can access the session token with NextAuth's `getToken` function imported from `next-auth/jwt`. If the user has successfully authenticated, the session token's `sub` property (the "subject" of the token, i.e. the user) will be the user's address.
+您可以使用`next-auth/jwt`中導入的NextAuth函數`getToken`來訪問會話令牌。 如果用戶成功驗證，會話令牌的<b>`sub`</b>屬性（令牌的"主題"，即用戶）將是用戶的地址。
 
-You can also pass down the resolved session object from the server via `getServerSideProps` so that NextAuth doesn't need to resolve it again on the client.
+您也可以通過`getServerSideProps`從伺服器傳遞解析的會話對象，以便NextAuth不需要在客戶端再次解析它。
 
-For example:
+例如：
 
 ```tsx
 import { GetServerSideProps, InferGetServerSidePropsType } from 'next';
@@ -143,7 +143,7 @@ export default function AuthenticatedPage({
 }
 ```
 
-For more information about managing the session, you can refer to the following documentation:
+有關管理會話的更多信息，您可以參考以下文檔：
 
-- [Next.js authentication guide](https://nextjs.org/docs/authentication)
-- [NextAuth.js documentation](https://next-auth.js.org)
+- [Next.js身份驗證指南](https://nextjs.org/docs/authentication)
+- [NextAuth.js文檔](https://next-auth.js.org)
