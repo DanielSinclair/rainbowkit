@@ -1,17 +1,17 @@
 ---
-title: Пользовательские кошельки
-description: Создать пользовательский кошелек
+title: Custom Wallets
+description: Create a custom wallet
 ---
 
-# Пользовательские кошельки
+# Custom Wallets
 
-## Создать пользовательский кошелек
+## Create a custom wallet
 
-> Примечание: АПИ находится в стадии разработки и может измениться в ближайшем будущем. Со временем мы добавим больше встроенных кошельков. [Сообщите нам](https://github.com/rainbow-me/rainbowkit/issues) если есть конкретные кошельки, которые вас интересуют.
+> Note: This API is unstable and likely to change in the near future. We will be adding more built-in wallets over time. [Let us know](https://github.com/rainbow-me/rainbowkit/issues) if there are any particular wallets you're interested in.
 
-Тип функции `Wallet` предоставляется для помощи в определении ваших собственных пользовательских кошельков. Следующие свойства могут быть настроены в возвращаемом значении вашей функции `Wallet` :
+The `Wallet` function type is provided to help you define your own custom wallets. The following properties can be configured on the return value of your `Wallet` function:
 
-### Свойства Кошелька
+### Wallet Properties
 
 <PropsTable
   data={[
@@ -134,7 +134,7 @@ description: Создать пользовательский кошелек
   ]}
 />
 
-### Свойства DownloadUrls
+### DownloadUrls Properties
 
 <PropsTable
   data={[
@@ -206,7 +206,7 @@ description: Создать пользовательский кошелек
 
 ### Примеры
 
-Например, для создания пользовательского кошелька с использованием WalletConnect:
+For example, to create a custom wallet using WalletConnect:
 
 ```tsx
 import { Wallet, getWalletConnectConnector } from '@rainbow-me/rainbowkit';
@@ -278,4 +278,4 @@ export const rainbow = ({ projectId }: MyWalletOptions): Wallet => ({
 });
 ```
 
-Затем вы можете добавить свой пользовательский кошелек в [список кошельков](/docs/custom-wallet-list).
+You can then add your custom wallet in the [wallet list](/docs/custom-wallet-list).
