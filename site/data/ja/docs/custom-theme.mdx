@@ -1,17 +1,17 @@
 ---
-title: カスタムテーマ
-description: カスタムテーマの作成
+title: Custom Theme
+description: Creating a custom theme
 ---
 
-# カスタムテーマ
+# Custom Theme
 
-## カスタムテーマの作成
+## Creating a custom theme
 
-> 注：このAPIは不安定で、近々
-> に変更される可能性があります。 現在
-> に対して、[組み込みのテーマ](/docs/theming)を使用することをお勧めします。
+> Note: This API is unstable and likely to change
+> in the near future. We recommend sticking with the [built-in themes](/docs/theming) for
+> now.
 
-組み込みテーマがある程度のカスタマイズを提供する一方で、`Theme`タイプは、基盤となるテーマ変数へのローレベルなアクセスを通じて独自のカスタムテーマを定義する手助けをします。
+While the built-in themes provide some level of customization, the `Theme` type is provided to help you define your own custom themes with lower-level access to the underlying theme variables.
 
 ```tsx
 import { RainbowKitProvider, Theme } from '@rainbow-me/rainbowkit';
@@ -79,17 +79,17 @@ const App = () => (
 )
 ```
 
-### 組み込みテーマの拡張
+### Extending a built-in theme
 
-全てのテーマを再定義することなく、組み込みテーマを拡張することができます。 これは特定のテーマトークンを上書きしたいだけの時に便利です。 これは特定のテーマトークンを上書きしたいだけの時に便利です。 これは特定のテーマトークンを上書きしたいだけの時に便利です。 これは特定のテーマトークンを上書きしたいだけの時に便利です。 これは特定のテーマトークンを上書きしたいだけの時に便利です。
+You can extend a built-in theme without having to re-define the entire theme. This is useful when you only want to override specific theme tokens.
 
-そのためには、`lodash.merge`（または同等物）をインストールします：
+To do that, install `lodash.merge` (or equivalent):
 
 ```bash
 npm install lodash.merge
 ```
 
-それと、拡張したいテーマ（例：`darkTheme`）とTypeScriptの`Theme`タイプをインポートします：
+Import it, along with the theme you want to extend (eg: `darkTheme`) and the TypeScript `Theme` type:
 
 ```tsx
 import merge from 'lodash.merge';
@@ -100,7 +100,7 @@ import {
 } from '@rainbow-me/rainbowkit';
 ```
 
-組み込みテーマと、上書きしたいテーマトークンをマージします。 この例では、ブランドのアクセントカラーに合わせて`accentColor`トークンを上書きしています。
+Then, merge the built-in theme, with the theme tokens you'd like to override. In this example, I'm overriding the `accentColor` token to match my brand's accent color.
 
 ```tsx
 const myTheme = merge(darkTheme(), {
@@ -110,7 +110,7 @@ const myTheme = merge(darkTheme(), {
 } as Theme);
 ```
 
-最終的に、カスタムテーマを`RainbowKitProvider`の`theme`プロップにパスすることができるようになりました。
+Finally, you can now pass your custom theme to `RainbowKitProvider`'s `theme` prop.
 
 ```tsx
 const App = () => {
@@ -122,16 +122,16 @@ const App = () => {
 };
 ```
 
-### カスタムテーマセレクタの作成
+### Creating custom theme selectors
 
-アプリがサーバー/静的レンダリングされ、ユーザーが手動でテーマを切り替えることを許可している場合、RainbowKitのテーマシステムは以下の関数を使用して任意のCSS-in-JSシステムと一緒にカスタムCSSセレクタにフックアップすることができます。
+If your app is server/statically rendered and allows users to manually toggle between themes, RainbowKit's theming system can be hooked up to custom CSS selectors with the following functions that can be used with any CSS-in-JS system:
 
 - `cssStringFromTheme`
 - `cssObjectFromTheme`
 
-これらの関数は、必要なテーマ変数をすべて設定するCSSを返します。 文字列とオブジェクトの両方がサポートされているため、これは任意のCSS-in-JSシステムと統合することができます。 文字列とオブジェクトの両方がサポートされているため、これは任意のCSS-in-JSシステムと統合することができます。 文字列とオブジェクトの両方がサポートされているため、これは任意のCSS-in-JSシステムと統合することができます。 文字列とオブジェクトの両方がサポートされているため、これは任意のCSS-in-JSシステムと統合することができます。 文字列とオブジェクトの両方がサポートされているため、これは任意のCSS-in-JSシステムと統合することができます。
+These functions return CSS that sets all required theme variables. Since both strings and objects are supported, this can be integrated with any CSS-in-JS system.
 
-基本的な例として、各テーマのカスタムセレクタを持つ自分の`style`要素をレンダリングすることができます。 基本的な例として、各テーマのカスタムセレクタを持つ自分の`style`要素をレンダリングすることができます。 基本的な例として、各テーマのカスタムセレクタを持つ自分の`style`要素をレンダリングすることができます。 テーマのCSSのレンダリングを制御しているので、RainbowKitProviderが私たちに対してスタイルをレンダリングしないように、`theme`プロップに`null`をパスしています。 また、基本テーマと同じテーマ変数を省略するcssStringFromTheme関数のextendsオプションの使用にも注意してください。 また、基本テーマと同じテーマ変数を省略するcssStringFromTheme関数のextendsオプションの使用にも注意してください。 また、基本テーマと同じテーマ変数を省略するcssStringFromTheme関数のextendsオプションの使用にも注意してください。
+As a basic example, you can render your own `style` element with custom selectors for each theme. Since we're taking control of rendering the theme's CSS, we're passing `null` to the `theme` prop so that RainbowKitProvider doesn't render any styles for us. Also note the use of the extends option on the cssStringFromTheme function which omits any theme variables that are the same as the base theme.
 
 ```tsx
 import {
