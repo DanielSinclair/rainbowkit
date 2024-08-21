@@ -1,13 +1,13 @@
 ---
 title: ConnectButton
-description: 使用和自定義 ConnectButton
+description: Using and customising the ConnectButton
 ---
 
 # ConnectButton
 
-## 使用和自定義 ConnectButton
+## Using and customising the ConnectButton
 
-這是主要的元件。 它負責渲染連接/斷開連接按鈕以及鏈交換 UI。
+This is the main component. It is responsible for rendering the connect/disconnect button, as well as chain-swapping UI.
 
 ```tsx
 import { ConnectButton } from '@rainbow-me/rainbowkit';
@@ -17,11 +17,11 @@ export const YourApp = () => {
 };
 ```
 
-> 注意：確保您的應用程序包裹在必要的提供者內。 [閱讀更多](/docs/installation#wrap-providers)。
+> Note: Make sure your app is wrapped in the necessary providers. [Read more](/docs/installation#wrap-providers).
 
-### 屬性
+### Props
 
-`ConnectButton` 元件公開了幾個屬性來自定義其外觀，包括切換不同元素的可見性。
+The `ConnectButton` component exposes several props to customize its appearance, including toggling the visibility of different elements.
 
 <PropsTable
   data={[
@@ -62,71 +62,71 @@ export const YourApp = () => {
   ]}
 />
 
-> 注意：內建的 `largeScreen` 斷點是 `768px`。
+> Note: the built-in `largeScreen` breakpoint is `768px`.
 
 ### 範例
 
-#### 標籤
+#### Label
 
-使用 `label` 屬性來設置自定義的 `ConnectButton` 文本。
+Use the `label` prop to set a custom `ConnectButton` text.
 
 ```tsx
 <ConnectButton label="__Sign in__" />
 ```
 
-#### 帳戶狀態
+#### Account status
 
-以下是幾種使用 `accountStatus` 屬性的方法。
+Here are a few different ways you can use the `accountStatus` prop.
 
-僅顯示帳戶的頭像。
+Only show the account's avatar.
 
 ```tsx
 <ConnectButton accountStatus="__avatar__" />
 ```
 
-僅顯示帳戶的地址。
+Only show the account's address.
 
 ```tsx
 <ConnectButton accountStatus="__address__" />
 ```
 
-#### 鏈狀態
+#### Chain status
 
-以下是幾種使用 `chainStatus` 屬性的方法。
+Here are a few different ways you can use the `chainStatus` prop.
 
-僅顯示當前鏈的圖標。
+Only show the current chain's icon.
 
 ```tsx
 <ConnectButton chainStatus="__icon__" />
 ```
 
-僅顯示當前鏈的名稱。
+Only show the current chain's name.
 
 ```tsx
 <ConnectButton chainStatus="__name__" />
 ```
 
-完全隱藏鏈的 UI。
+Hide the chain UI entirely.
 
 ```tsx
 <ConnectButton chainStatus="__none__" />
 ```
 
-#### 顯示餘額
+#### Show balance
 
-使用 `showBalance` 屬性來隱藏/顯示餘額。
+Use the `showBalance` prop to hide/show the balance.
 
-隱藏餘額。
+Hide the balance.
 
 ```tsx
 <ConnectButton showBalance={__false__} />
 ```
 
-#### 響應式
+#### Responsive
 
-這些屬性也可以定義為響應式格式。
+These props can also be defined in a responsive format.
 
-在小螢幕上，僅顯示帳戶圖標。 但在大螢幕上，顯示圖標和地址。
+On small screens, only show account icon. But on large screens, show icon and address.
 
 ```tsx
 <ConnectButton
@@ -137,7 +137,7 @@ export const YourApp = () => {
 />
 ```
 
-在小螢幕上，隱藏餘額。 但在大螢幕上，顯示它。
+On small screens, hide balance. But on large screens, show it.
 
 ```tsx
 <ConnectButton
