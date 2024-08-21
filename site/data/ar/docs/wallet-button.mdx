@@ -1,13 +1,13 @@
 ---
-title: زر المحفظة
-description: استخدام وتخصيص زر المحفظة
+title: WalletButton
+description: Using and customizing the WalletButton
 ---
 
-# زر المحفظة
+# WalletButton
 
-> ملاحظة: زر `WalletButton` يعتمد حاليًا على معيار المحفظة EIP-1193، ولكن سيدعم EIP-6963 في المستقبل القريب.
+> Note: The `WalletButton` currently relies on the EIP-1193 wallet standard, but will support EIP-6963 in the near future.
 
-يساعد مكون `زر المحفظة` الجديد التطبيقات اللامركزية مع تنفيذات مخصصة لقائمة المحافظ على اعتماد RainbowKit والاستفادة من جميع المزايا التي يوفرها بدون أي صيانة.
+The new `WalletButton` component helps dApps with custom wallet list implementations adopt RainbowKit and all of it's maintenance-free benefits.
 
 ```tsx
 import { WalletButton } from '@rainbow-me/rainbowkit';
@@ -17,7 +17,7 @@ import { WalletButton } from '@rainbow-me/rainbowkit';
 <WalletButton wallet="coinbase" />
 ```
 
-مثل `زر الاتصال`، يتوفر مكون `زر المحفظة المخصص` للتنفيذات المخصصة والتصميم.
+Like the `ConnectButton`, the `WalletButton.Custom` component is available for custom implementations and styling.
 
 ```tsx
 <WalletButton.Custom wallet="rainbow">
@@ -35,10 +35,10 @@ import { WalletButton } from '@rainbow-me/rainbowkit';
 </WalletButton.Custom>
 ```
 
-معظم التطبيقات اللامركزية تستفيد بشكل أفضل من الصفحة [ConnectButton](https://www.rainbowkit.com/docs/connect-button). يرجى الرجوع إلى الوثائق [here](https://www.rainbowkit.com/docs/wallet-button) لمزيد من المعلومات حول اعتماد واستخدام `زر المحفظة` وحالات الاستخدام.
+Most dApps are best served by the [ConnectButton](https://www.rainbowkit.com/docs/connect-button). Reference the docs [here](https://www.rainbowkit.com/docs/wallet-button) for more information about `WalletButton` adoption and usecases.
 
-#### عرض توضيحي
+#### Demo
 
-انقر على الأزرار أدناه للاطلاع على شكل نقطة انطلاق RainbowKit هذه.
+Press the buttons below to see what this RainbowKit entry point looks like.
 
 <WalletButtonDemo />
