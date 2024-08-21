@@ -1,17 +1,17 @@
 ---
-title: الموقعية
-description: تخصيص لغة تطبيقك اللامركزي باستخدام الترجمات المضمنة
+title: Localization
+description: Customizing your dApp's language with built-in translations
 ---
 
-# الموقعية
+# Localization
 
-## تخصيص لغة تطبيقك اللامركزي باستخدام الترجمات المضمنة
+## Customizing your dApp's language with built-in translations
 
-بشكل افتراضي، يدعم RainbowKit الموقع `en-US` لمستخدمي اللغة الإنجليزية.
+By default, RainbowKit supports the `en-US` locale for English language users.
 
-إذا كانت متوفرة، سوف يكتشف RainbowKit [اللغة المفضلة للمستخدم](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/language) ويختار الترجمات المناسبة. يمكن للمطورين دائمًا تجاوز اللغة الافتراضية.
+If available, RainbowKit will detect the user's [preferred language](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/language) and choose the appropriate translations. Developers can always override the default language.
 
-لتحديد لغة لمستخدميك، فقط أضف `locale="zh-CN"` كخاصية في `RainbowKitProvider` الخاص بك
+To specify a language for your users, just add `locale="zh-CN"` as a prop in your `RainbowKitProvider`
 
 ```tsx
 import { RainbowKitProvider } from '@rainbow-me/rainbowkit';
@@ -23,11 +23,11 @@ export const App = () => (
 );
 ```
 
-### الاستخدام مع Next.js
+### Using with Next.js
 
-دعم الموقعية في RainbowKit يعمل بشكل أفضل حتى مع [توجيه الفرعي الطريق](https://nextjs.org/docs/pages/building-your-application/routing/internationalization#sub-path-routing).
+RainbowKit's localization support works even better with [Sub-path Routing](https://nextjs.org/docs/pages/building-your-application/routing/internationalization#sub-path-routing).
 
-قم بتكوين مشروعك Next.js مثل النموذج أدناه لإضافة فرعي `/locale/` اختياري إلى طرقك، والذي سيساعد محركات البحث والمستخدمين على اكتشاف دعمك متعدد اللغات بشكل أفضل.
+Configure your Next.js project like the example below to add an optional `/locale/` sub-path to your routes, which will help search engines and users better discover your multi-lingual support.
 
 ```json
 // next.config.js
@@ -39,7 +39,7 @@ export const App = () => (
 }
 ```
 
-ثم قم بتمرير `locale` الذي تم توفيره بواسطة Pages Router إلى `RainbowKitProvider`
+Then pass the `locale` provided by the Pages Router to the `RainbowKitProvider`
 
 ```tsx
 import { RainbowKitProvider, Locale } from '@rainbow-me/rainbowkit';
@@ -54,15 +54,15 @@ export const App = () => {
 };
 ```
 
-يمكنك الرجوع إلى مثال لـ Pages Router [here](https://github.com/rainbow-me/rainbowkit/tree/main/examples/with-next).
+You can reference an example for the Pages Router [here](https://github.com/rainbow-me/rainbowkit/tree/main/examples/with-next).
 
-App Router الى الآن لا يدعم i18n. راجع مثالنا المستقل [here](https://github.com/rainbow-me/rainbowkit/tree/main/examples/with-next-app-i18n) لأفضل الممارسات التنفيذية مع البرنامج الوسيط [`next-intl`](https://github.com/amannn/next-intl).
+App Router does not yet support i18n. Reference our separate example [here](https://github.com/rainbow-me/rainbowkit/tree/main/examples/with-next-app-i18n) for implementation best practices with [`next-intl`](https://github.com/amannn/next-intl) middleware.
 
-من الأفضل أن تستخدم نفس التقنيات لترجمة محتوى dApp الخاص بك لدعم التوطين الكامل. المكتبات التوطينية مثل [`i18n-js`](https://github.com/fnando/i18n) و [`next-intl`](https://github.com/amannn/next-intl) وأدوات الإدارة مثل Crowdin ستبسط هذه العملية.
+It is recommended that you use the same techniques to translate your dApp's content for full localization support. Localization libraries like [`i18n-js`](https://github.com/fnando/i18n) and [`next-intl`](https://github.com/amannn/next-intl) and management tools like Crowdin will simplify this process.
 
-### اللغات المدعومة
+### Supported Languages
 
-نحن نوفر الدعم الكامل للمناطق `locale` التالية:
+We provide full support for the following `locale` regions:
 
 <Table
   header={[
@@ -89,4 +89,4 @@ App Router الى الآن لا يدعم i18n. راجع مثالنا المست�
   ]}
 />
 
-إذا كنت ترغب في رؤية دعم للغة إضافية، يرجى فتح [نقاش GitHub](https://github.com/rainbow-me/rainbowkit/discussions/new?category=ideas) وسنعمل على دعمها في أقرب وقت ممكن.
+If you would like to see support for an additional language, please open a [GitHub Discussion](https://github.com/rainbow-me/rainbowkit/discussions/new?category=ideas) and we'll work to support it as soon as possible.
