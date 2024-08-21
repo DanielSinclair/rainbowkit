@@ -1,15 +1,15 @@
 ---
-title: 맞춤형 ConnectButton
-description: 맞춤형 ConnectButton 생성하기
+title: Custom ConnectButton
+description: Creating a custom ConnectButton
 ---
 
-# 맞춤형 ConnectButton
+# Custom ConnectButton
 
-## 맞춤형 ConnectButton 생성하기
+## Creating a custom ConnectButton
 
-은 저수준의 `ConnectButton.Custom`을 사용하여 자신만의 맞춤 연결 버튼을 생성할 수 있습니다. 이 컴포넌트는 내장 버튼을 다시 구현할 필요가 있는 모든 것을 포함한 함수를 렌더링합니다.
+You can use the low-level `ConnectButton.Custom` to create your own custom connection button. This component renders a function, which includes everything you need to re-implement the built-in buttons.
 
-내장 버튼의 최소한의 재구현은 다음과 같을 것입니다:
+A minimal re-implementation of the built-in buttons would look something like this:
 
 ```tsx
 import { ConnectButton } from '@rainbow-me/rainbowkit';
@@ -111,9 +111,9 @@ export const YourApp = () => {
 };
 ```
 
-다음 props는 렌더 함수에 전달됩니다.
+The following props are passed to your render function.
 
-### 계정 속성
+### Account properties
 
 <PropsTable
   data={[
@@ -210,7 +210,7 @@ export const YourApp = () => {
   ]}
 />
 
-### 체인 속성
+### Chain properties
 
 <PropsTable
   data={[
@@ -271,7 +271,7 @@ export const YourApp = () => {
   ]}
 />
 
-### 모달 상태 속성
+### Modal state properties
 
 <PropsTable
   data={[
@@ -316,7 +316,7 @@ export const YourApp = () => {
   ]}
 />
 
-### 일반 상태 속성
+### General state properties
 
 <PropsTable
   data={[
