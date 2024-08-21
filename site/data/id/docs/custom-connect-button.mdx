@@ -1,15 +1,15 @@
 ---
-title: Tombol Koneksi Khusus
-description: Membuat tombol koneksi khusus
+title: Custom ConnectButton
+description: Creating a custom ConnectButton
 ---
 
-# Tombol Koneksi Khusus
+# Custom ConnectButton
 
-## Membuat tombol koneksi khusus
+## Creating a custom ConnectButton
 
-Anda dapat menggunakan `ConnectButton.Custom` level rendah untuk membuat tombol koneksi khusus Anda sendiri. Komponen ini merender fungsi, yang mencakup segala sesuatu yang Anda butuhkan untuk mengimplementasikan kembali tombol bawaan.
+You can use the low-level `ConnectButton.Custom` to create your own custom connection button. This component renders a function, which includes everything you need to re-implement the built-in buttons.
 
-Penerapan ulang minimal dari tombol bawaan mungkin akan terlihat seperti ini:
+A minimal re-implementation of the built-in buttons would look something like this:
 
 ```tsx
 import { ConnectButton } from '@rainbow-me/rainbowkit';
@@ -111,9 +111,9 @@ export const YourApp = () => {
 };
 ```
 
-Properti berikut diteruskan ke fungsi render Anda.
+The following props are passed to your render function.
 
-### Properti Akun
+### Account properties
 
 <PropsTable
   data={[
@@ -210,7 +210,7 @@ Properti berikut diteruskan ke fungsi render Anda.
   ]}
 />
 
-### Properti Rantai
+### Chain properties
 
 <PropsTable
   data={[
@@ -271,7 +271,7 @@ Properti berikut diteruskan ke fungsi render Anda.
   ]}
 />
 
-### Properti status Modal
+### Modal state properties
 
 <PropsTable
   data={[
@@ -316,7 +316,7 @@ Properti berikut diteruskan ke fungsi render Anda.
   ]}
 />
 
-### Properti status umum
+### General state properties
 
 <PropsTable
   data={[
