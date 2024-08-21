@@ -1,17 +1,17 @@
 ---
-title: Кастомні Гаманці
-description: Створіть кастомний гаманець
+title: Custom Wallets
+description: Create a custom wallet
 ---
 
-# Кастомні Гаманці
+# Custom Wallets
 
-## Створіть кастомний гаманець
+## Create a custom wallet
 
-> Примітка: Цей API є нестабільним і, ймовірно, зазнає змін у найближчому майбутньому. З часом ми додамо більше вбудованих гаманців. [Повідомте нас](https://github.com/rainbow-me/rainbowkit/issues), якщо є певні гаманці, які вас цікавлять.
+> Note: This API is unstable and likely to change in the near future. We will be adding more built-in wallets over time. [Let us know](https://github.com/rainbow-me/rainbowkit/issues) if there are any particular wallets you're interested in.
 
-Тип функції `Wallet` наданий для допомоги вам визначити власні кастомні гаманці. Наступні властивості можуть бути налаштовані для значення, що повертається вашою функцією `Wallet`:
+The `Wallet` function type is provided to help you define your own custom wallets. The following properties can be configured on the return value of your `Wallet` function:
 
-### Властивості Гаманця
+### Wallet Properties
 
 <PropsTable
   data={[
@@ -134,7 +134,7 @@ description: Створіть кастомний гаманець
   ]}
 />
 
-### Властивості DownloadUrls
+### DownloadUrls Properties
 
 <PropsTable
   data={[
@@ -206,7 +206,7 @@ description: Створіть кастомний гаманець
 
 ### Приклади
 
-Наприклад, щоб створити власний гаманець за допомогою WalletConnect:
+For example, to create a custom wallet using WalletConnect:
 
 ```tsx
 import { Wallet, getWalletConnectConnector } from '@rainbow-me/rainbowkit';
@@ -278,4 +278,4 @@ export const rainbow = ({ projectId }: MyWalletOptions): Wallet => ({
 });
 ```
 
-Після цього ви можете додати свій власний гаманець у [список гаманців](/docs/custom-wallet-list).
+You can then add your custom wallet in the [wallet list](/docs/custom-wallet-list).
