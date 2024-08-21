@@ -1,17 +1,17 @@
 ---
 title: 最近交易
-description: 顯示您的最近交易
+description: Show your recent transactions
 ---
 
 # 最近交易
 
-## 顯示您的最近交易
+## Show your recent transactions
 
-您可以選擇在RainbowKit的帳戶模態中顯示最近的交易。 請注意，所有交易都保存在本地存儲中，並且必須手動註冊到RainbowKit才能顯示。
+You can opt in to displaying recent transactions within RainbowKit's account modal. Note that all transactions are kept in local storage and must be manually registered with RainbowKit in order to be displayed.
 
-默認的 `ConnectButton` 實現還會在用戶的頭像周圍顯示加載指示器，如果有任何待處理的交易。 自定義的 `ConnectButton` 實現可以通過傳遞給渲染函數的 `account.hasPendingTransactions` 屬性重現此行為。
+The default `ConnectButton` implementation will also display a loading indicator around the user's avatar if there are any pending transactions. Custom `ConnectButton` implementations can recreate this behavior via the `account.hasPendingTransactions` property that is passed to your render function.
 
-要使用此功能，首先在 `RainbowKitProvider` 上啟用 `showRecentTransactions` 選項。
+To use this feature, first enable the `showRecentTransactions` option on `RainbowKitProvider`.
 
 ```tsx
 import { RainbowKitProvider } from '@rainbow-me/rainbowkit';
@@ -25,7 +25,7 @@ const App = () => {
 };
 ```
 
-然後可以使用 `useAddRecentTransaction` 鉤子在 RainbowKit 中註冊交易。
+Transactions can then be registered with RainbowKit using the `useAddRecentTransaction` hook.
 
 ```tsx
 import { useAddRecentTransaction } from '@rainbow-me/rainbowkit';
@@ -48,9 +48,9 @@ export default () => {
 };
 ```
 
-一旦交易已在 RainbowKit 中註冊，其狀態將在完成後更新。
+Once a transaction has been registered with RainbowKit, its status will be updated upon completion.
 
-默認情況下，一旦在交易所在的區塊上挖掘出一個新區塊，交易即被視為完成，但可以通過指定自定義 `confirmations` 值來進行配置。
+By default the transaction will be considered completed once a single block has been mined on top of the block in which the transaction was mined, but this can be configured by specifying a custom `confirmations` value.
 
 ```tsx
 import { useAddRecentTransaction } from '@rainbow-me/rainbowkit';
