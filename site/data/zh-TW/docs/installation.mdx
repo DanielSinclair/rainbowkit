@@ -1,15 +1,15 @@
 ---
-title: 安裝
-description: 快速啟動 RainbowKit
+title: Installation
+description: Get up and running with RainbowKit
 ---
 
-# 安裝
+# Installation
 
-## 快速啟動 RainbowKit
+## Get up and running with RainbowKit
 
-### 快速開始
+### Quick start
 
-您可以使用您喜愛的包管理器，通過以下命令之一構建一個新的 RainbowKit + [wagmi](https://wagmi.sh) + [Next.js](https://nextjs.org) 應用程序：
+You can scaffold a new RainbowKit + [wagmi](https://wagmi.sh) + [Next.js](https://nextjs.org) app with one of the following commands, using your package manager of choice:
 
 ```bash
 npm init @rainbow-me/rainbowkit@latest
@@ -19,23 +19,23 @@ pnpm create @rainbow-me/rainbowkit@latest
 yarn create @rainbow-me/rainbowkit
 ```
 
-這將提示您輸入項目名稱，生成一個包含樣板項目的新目錄，並安裝所有所需的依賴。
+This will prompt you for a project name, generate a new directory containing a boilerplate project, and install all required dependencies.
 
-或者，您可以手動將 RainbowKit 集成到現有的項目中。
+Alternatively, you can manually integrate RainbowKit into your existing project.
 
-### 手動設置
+### Manual setup
 
-安裝 RainbowKit 及其對等依賴項，[wagmi](https://wagmi.sh/)、[viem](https://viem.sh) 和 [@tanstack/react-query](https://tanstack.com/query/v5)。
+Install RainbowKit and its peer dependencies, [wagmi](https://wagmi.sh/), [viem](https://viem.sh), and [@tanstack/react-query](https://tanstack.com/query/v5).
 
 ```bash
 npm install @rainbow-me/rainbowkit wagmi viem@2.x @tanstack/react-query
 ```
 
-> 注意：RainbowKit 是一個 [React](https://reactjs.org/) 庫。
+> Note: RainbowKit is a [React](https://reactjs.org/) library.
 
-#### 導入
+#### Import
 
-導入 RainbowKit、Wagmi 和 TanStack Query。
+Import RainbowKit, Wagmi and TanStack Query.
 
 ```tsx
 import '@rainbow-me/rainbowkit/styles.css';
@@ -58,11 +58,11 @@ import {
 } from "@tanstack/react-query";
 ```
 
-#### 配置
+#### Configure
 
-配置您所需的鏈並生成所需的連接器。 您還需要設置一個 `wagmi` 配置。 如果您的 dApp 使用服務端渲染 (SSR)，請確保將 `ssr` 設置為 `true`。
+Configure your desired chains and generate the required connectors. You will also need to setup a `wagmi` config. If your dApp uses server side rendering (SSR) make sure to set `ssr` to `true`.
 
-> 注意：每個依賴 WalletConnect 的 dApp 現在需要從 [WalletConnect Cloud](https://cloud.walletconnect.com/) 獲取 `projectId`。 這完全免費，只需幾分鐘即可完成。
+> Note: Every dApp that relies on WalletConnect now needs to obtain a `projectId` from [WalletConnect Cloud](https://cloud.walletconnect.com/). This is absolutely free and only takes a few minutes.
 
 ```tsx line=4-99
 ...
@@ -76,9 +76,9 @@ const config = getDefaultConfig({
 });
 ```
 
-#### 包裹提供程序
+#### Wrap providers
 
-將您的應用程序包裹在 `RainbowKitProvider`、[`WagmiProvider`](https://wagmi.sh/react/api/WagmiProvider#wagmiprovider) 和 [`QueryClientProvider`](https://tanstack.com/query/v4/docs/framework/react/reference/QueryClientProvider) 中。
+Wrap your application with `RainbowKitProvider`, [`WagmiProvider`](https://wagmi.sh/react/api/WagmiProvider#wagmiprovider), and [`QueryClientProvider`](https://tanstack.com/query/v4/docs/framework/react/reference/QueryClientProvider).
 
 ```tsx
 const queryClient = new QueryClient();
@@ -96,9 +96,9 @@ const App = () => {
 };
 ```
 
-#### 添加連接按鈕
+#### Add the connect button
 
-然後，在您的應用中，導入並渲染 `ConnectButton` 組件。
+Then, in your app, import and render the `ConnectButton` component.
 
 ```tsx
 import { ConnectButton } from '@rainbow-me/rainbowkit';
@@ -108,15 +108,15 @@ export const YourApp = () => {
 };
 ```
 
-RainbowKit 現在將處理用戶的錢包選擇，顯示錢包/交易信息並處理網絡/錢包切換。
+RainbowKit will now handle your user's wallet selection, display wallet/transaction information and handle network/wallet switching.
 
-#### 額外的構建工具設置
+#### Additional build tooling setup
 
-某些構建工具可能需要額外設置。
+Some build tools will require additional setup.
 
 ##### Remix
 
-在使用 [Remix](https://remix.run) 時，您必須填充 `buffer`、`events` 和 `http` 模塊。 參考下面的 Remix 配置，或 [我們的示例 Remix 項目](https://github.com/rainbow-me/rainbowkit/blob/main/examples/with-remix)。
+When using [Remix](https://remix.run), you must polyfill `buffer`, `events` and `http` modules. Reference the Remix configuration below, or [our sample Remix project](https://github.com/rainbow-me/rainbowkit/blob/main/examples/with-remix).
 
 ```ts
 /** @type {import('@remix-run/dev').AppConfig} */
@@ -128,13 +128,13 @@ export default {
 };
 ```
 
-### 準備部署
+### Preparing to deploy
 
-默認情況下，您的 dApp 使用每個鏈的公共 RPC 提供商來獲取餘額、解析 ENS 名稱等。 這通常會導致您的用戶遇到可靠性問題，因為公共節點有限速限制。 您應該通過 [Alchemy](https://www.alchemy.com/) 或 [QuickNode](https://www.quicknode.com/) 等服務購買 RPC 提供商訪問權限，並在 Wagmi 中定義您自己的傳輸層。 這可以通過在 `getDefaultConfig` 中添加 `transports` 參數或直接通過 Wagmi 的 `createConfig` 來實現。
+By default, your dApp uses public RPC providers for each chain to fetch balances, resolve ENS names, and more. This can often cause reliability issues for your users as public nodes are rate-limited. You should instead purchase access to an RPC provider through services like [Alchemy](https://www.alchemy.com/) or [QuickNode](https://www.quicknode.com/), and define your own Transports in Wagmi. This can be achieved by adding the `transports` param in `getDefaultConfig` or via Wagmi's `createConfig` directly.
 
-傳輸層是處理將 JSON-RPC 請求發送到以太坊節點提供商（如 Alchemy、Infura 等）的網絡中間層。
+A Transport is the networking middle layer that handles sending JSON-RPC requests to the Ethereum Node Provider (like Alchemy, Infura, etc).
 
-具有 `http` 傳輸層的示例
+**Example with an `http` transport**
 
 ```tsx
 import { getDefaultConfig } from '@rainbow-me/rainbowkit';
@@ -152,24 +152,24 @@ const config = getDefaultConfig({
 });
 ```
 
-更多詳細資訊，請參閱[wagmi transport 文件](https://wagmi.sh/core/api/transports#transports)。
+For more details, view the [wagmi transport docs](https://wagmi.sh/core/api/transports#transports).
 
-### 添加您自己的功能
+### Add your own functionality
 
-現在您的用戶可以連接他們的錢包，您可以開始使用 [wagmi](https://wagmi.sh) 構建應用程序的其餘部分。
+Now that your users can connect their wallets, you can start building out the rest of your app using [wagmi.](https://wagmi.sh)
 
-通過 wagmi 的全面 React Hooks 套件發送交易、與合約交互、解析 ENS 詳情等。
+Send transactions, interact with contracts, resolve ENS details and much more with wagmi’s comprehensive suite of React Hooks.
 
-有關更多詳細信息，請查看 [wagmi 文檔](https://wagmi.sh)。
+For more detail, view the [wagmi documentation.](https://wagmi.sh)
 
-### 更多示例
+### Further examples
 
-要查看一些運行中的 RainbowKit 示例，甚至用它們來自動構建新項目，請查看[官方示例](https://github.com/rainbow-me/rainbowkit/tree/main/examples)。
+To see some running examples of RainbowKit, or even use them to automatically scaffold a new project, check out the [official examples](https://github.com/rainbow-me/rainbowkit/tree/main/examples).
 
-要在您的瀏覽器中直接嘗試 RainbowKit，請查看以下 CodeSandbox 鏈接：
+To try RainbowKit directly in your browser, check out the CodeSandbox links below:
 
-- 與 [Create React App](https://codesandbox.io/p/sandbox/github/rainbow-me/rainbowkit/tree/main/examples/with-create-react-app)
-- 與 [Next.js](https://codesandbox.io/p/sandbox/github/rainbow-me/rainbowkit/tree/main/examples/with-next)
-- 與 [Next.js App Router](https://codesandbox.io/p/sandbox/github/rainbow-me/rainbowkit/tree/main/examples/with-next-app)
-- 與 [Remix](https://codesandbox.io/p/sandbox/github/rainbow-me/rainbowkit/tree/main/examples/with-remix)
-- 與 [Vite](https://codesandbox.io/p/sandbox/github/rainbow-me/rainbowkit/tree/main/examples/with-vite)
+- with [Create React App](https://codesandbox.io/p/sandbox/github/rainbow-me/rainbowkit/tree/main/examples/with-create-react-app)
+- with [Next.js](https://codesandbox.io/p/sandbox/github/rainbow-me/rainbowkit/tree/main/examples/with-next)
+- with [Next.js App Router](https://codesandbox.io/p/sandbox/github/rainbow-me/rainbowkit/tree/main/examples/with-next-app)
+- with [Remix](https://codesandbox.io/p/sandbox/github/rainbow-me/rainbowkit/tree/main/examples/with-remix)
+- with [Vite](https://codesandbox.io/p/sandbox/github/rainbow-me/rainbowkit/tree/main/examples/with-vite)
