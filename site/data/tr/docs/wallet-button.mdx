@@ -1,13 +1,13 @@
 ---
-title: CüzdanDüğmesi
-description: CüzdanDüğmesi'nin Kullanımı ve Özelleştirilmesi
+title: WalletButton
+description: Using and customizing the WalletButton
 ---
 
-# CüzdanDüğmesi
+# WalletButton
 
-> Not: `WalletButton` şu anda EIP-1193 cüzdan standardına dayanıyor, ancak yakın gelecekte EIP-6963'ü destekleyecek.
+> Note: The `WalletButton` currently relies on the EIP-1193 wallet standard, but will support EIP-6963 in the near future.
 
-Yeni `WalletButton` bileşeni, özel cüzdan listesi uygulamalarında RainbowKit'i benimsemeleri ve bakım gerektirmeyen tüm avantajlarından faydalanmalarına yardımcı olur.
+The new `WalletButton` component helps dApps with custom wallet list implementations adopt RainbowKit and all of it's maintenance-free benefits.
 
 ```tsx
 import { WalletButton } from '@rainbow-me/rainbowkit';
@@ -17,7 +17,7 @@ import { WalletButton } from '@rainbow-me/rainbowkit';
 <WalletButton wallet="coinbase" />
 ```
 
-`ConnectButton` gibi, `WalletButton.Custom` bileşeni özel uygulamalar ve stillemeler için kullanılabilir.
+Like the `ConnectButton`, the `WalletButton.Custom` component is available for custom implementations and styling.
 
 ```tsx
 <WalletButton.Custom wallet="rainbow">
@@ -35,10 +35,10 @@ import { WalletButton } from '@rainbow-me/rainbowkit';
 </WalletButton.Custom>
 ```
 
-Çoğu dApp, [ConnectButton](https://www.rainbowkit.com/docs/connect-button) ile en iyi şekilde hizmet verilir. `WalletButton` benimseme ve kullanımı hakkında daha fazla bilgi için dokümantasyona başvurun [here](https://www.rainbowkit.com/docs/wallet-button).
+Most dApps are best served by the [ConnectButton](https://www.rainbowkit.com/docs/connect-button). Reference the docs [here](https://www.rainbowkit.com/docs/wallet-button) for more information about `WalletButton` adoption and usecases.
 
 #### Demo
 
-Bu RainbowKit giriş noktasının nasıl göründüğünü görmek için aşağıdaki düğmelere basın.
+Press the buttons below to see what this RainbowKit entry point looks like.
 
 <WalletButtonDemo />
