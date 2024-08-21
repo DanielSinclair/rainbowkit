@@ -1,17 +1,17 @@
 ---
-title: Localization
-description: Customizing your dApp's language with built-in translations
+title: 本地化
+description: 通过内置翻译自定义您的 dApp 语言
 ---
 
-# Localization
+# 本地化
 
-## Customizing your dApp's language with built-in translations
+## 通过内置翻译自定义您的 dApp 语言
 
-By default, RainbowKit supports the `en-US` locale for English language users.
+默认情况下，RainbowKit 支持`en-US`地区的英语用户。
 
-If available, RainbowKit will detect the user's [preferred language](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/language) and choose the appropriate translations. Developers can always override the default language.
+如有可用，RainbowKit 将检测用户的[首选语言](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/language)并选择合适的翻译。 开发者可以随时覆盖默认语言。
 
-To specify a language for your users, just add `locale="zh-CN"` as a prop in your `RainbowKitProvider`
+要为您的用户指定一种语言，只需在您的 `RainbowKitProvider`中添加 `locale="zh-CN"` 作为一个 prop
 
 ```tsx
 import { RainbowKitProvider } from '@rainbow-me/rainbowkit';
@@ -23,11 +23,11 @@ export const App = () => (
 );
 ```
 
-### Using with Next.js
+### 与 Next.js 的使用
 
-RainbowKit's localization support works even better with [Sub-path Routing](https://nextjs.org/docs/pages/building-your-application/routing/internationalization#sub-path-routing).
+RainbowKit 的本地化支持与 [Sub-path Routing](https://nextjs.org/docs/pages/building-your-application/routing/internationalization#sub-path-routing)一起使用效果更佳。
 
-Configure your Next.js project like the example below to add an optional `/locale/` sub-path to your routes, which will help search engines and users better discover your multi-lingual support.
+像下面的示例那样配置您的Next.js项目，以在您的路由中添加可选的`/locale/`子路径，这将帮助搜索引擎和用户更好地发现您的多语言支持。
 
 ```json
 // next.config.js
@@ -39,7 +39,7 @@ Configure your Next.js project like the example below to add an optional `/local
 }
 ```
 
-Then pass the `locale` provided by the Pages Router to the `RainbowKitProvider`
+然后将页面路由器提供的`locale`传递到`RainbowKitProvider`
 
 ```tsx
 import { RainbowKitProvider, Locale } from '@rainbow-me/rainbowkit';
@@ -54,15 +54,15 @@ export const App = () => {
 };
 ```
 
-You can reference an example for the Pages Router [here](https://github.com/rainbow-me/rainbowkit/tree/main/examples/with-next).
+您可以在[这里](https://github.com/rainbow-me/rainbowkit/tree/main/examples/with-next)参考页面路由器的示例。
 
-App Router does not yet support i18n. Reference our separate example [here](https://github.com/rainbow-me/rainbowkit/tree/main/examples/with-next-app-i18n) for implementation best practices with [`next-intl`](https://github.com/amannn/next-intl) middleware.
+应用路由器尚未支持i18n。 在[这里](https://github.com/rainbow-me/rainbowkit/tree/main/examples/with-next-app-i18n)参考我们以[`next-intl`](https://github.com/amannn/next-intl)为中间件的最佳实践。
 
-It is recommended that you use the same techniques to translate your dApp's content for full localization support. Localization libraries like [`i18n-js`](https://github.com/fnando/i18n) and [`next-intl`](https://github.com/amannn/next-intl) and management tools like Crowdin will simplify this process.
+建议使用相同的技术翻译您的dApp的内容，以便全面支持本地化。 像[`i18n-js`](https://github.com/fnando/i18n)和[`next-intl`](https://github.com/amannn/next-intl)这样的本地化库以及像 Crowdin 这样的管理工具将简化此过程。
 
-### Supported Languages
+### 支持的语言
 
-We provide full support for the following `locale` regions:
+我们为以下的 `locale` 地区提供全面支持：
 
 <Table
   header={[
@@ -89,4 +89,4 @@ We provide full support for the following `locale` regions:
   ]}
 />
 
-If you would like to see support for an additional language, please open a [GitHub Discussion](https://github.com/rainbow-me/rainbowkit/discussions/new?category=ideas) and we'll work to support it as soon as possible.
+如果您希望看到对额外语言的支持，请打开一个 [GitHub Discussion](https://github.com/rainbow-me/rainbowkit/discussions/new?category=ideas)，我们将尽快进行支持。
