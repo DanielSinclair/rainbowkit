@@ -1,39 +1,39 @@
 ---
-title: 認証
-description: ユーザーの認証
+title: Authentication
+description: Authenticating your users
 ---
 
-# 認証
+# Authentication
 
-## あなたのアプリケーションへの認証されたアクセスの提供
+## Providing authenticated access to your application
 
-接続プロセス中にユーザーがウォレットでメッセージに署名することを必要とすることも可能で、これにより接続されたアカウントを所有していることの証明と、アプリケーションへの特権アクセスを持つ認証されたユーザーセッションを作成することができる。
+You can optionally enforce that users sign a message with their wallet during the connection process, proving that they own the connected account and allowing you to create an authenticated user session with privileged access to your application.
 
-カスタムのバックエンドやメッセージ形式と統合することも可能ですが、RainbowKitは[Sign-In with Ethereum](https://login.xyz)と [NextAuth.js.](https://next-auth.js.org)のファーストクラスサポートを提供しています。
+While it's possible to [integrate with custom back-ends and message formats,](/docs/custom-authentication) RainbowKit provides first-class support for [Sign-In with Ethereum](https://login.xyz) and [NextAuth.js.](https://next-auth.js.org)
 
-### EthereumとNextAuth.jsを使用したサインインを設定する
+### Set up Sign-In with Ethereum and NextAuth.js
 
-まだ設定していない場合、最初に [Next.js](https://nextjs.org)プロジェクトを[公式のSign-In with EthereumのボイラープレートとNextAuth.jsで設定します。](https://docs.login.xyz/integrations/nextauth.js)
+If you haven't already, first set up your [Next.js](https://nextjs.org) project with the [official Sign-In with Ethereum boilerplate for NextAuth.js.](https://docs.login.xyz/integrations/nextauth.js)
 
-#### をインストールする
+#### Install
 
-`@rainbow-me/rainbowkit-siwe-next-auth`パッケージとそのピア依存性、 [ethers](https://docs.ethers.org/v5/)をインストールします。
+Install the `@rainbow-me/rainbowkit-siwe-next-auth` package and its peer dependency, [ethers](https://docs.ethers.org/v5/).
 
 ```bash
 npm install @rainbow-me/rainbowkit-siwe-next-auth siwe@^2 ethers@^5
 ```
 
-> 注：`siwe`では [ethers](https://docs.ethers.org/v5/)のピア依存性が必要ですが、 [wagmi](https://wagmi.sh/)は現在、代替の [viem](https://viem.sh)に依存しています。
+> Note: `siwe` requires the [ethers](https://docs.ethers.org/v5/) peer dependency, while [wagmi](https://wagmi.sh/) now relies on the alternative [viem](https://viem.sh).
 
-#### プロバイダの設定
+#### Set up the provider
 
-`App`コンポーネントで`RainbowKitSiweNextAuthProvider`をインポートします。
+In your `App` component, import `RainbowKitSiweNextAuthProvider`.
 
 ```tsx
 import { RainbowKitSiweNextAuthProvider } from '@rainbow-me/rainbowkit-siwe-next-auth';
 ```
 
-`RainbowKitSiweNextAuthProvider`で`RainbowKitProvider`をラップし、それがNextAuthの`SessionProvider`内にネストされていることを確認します。これにより、セッションにアクセスできます。
+Wrap `RainbowKitProvider` with `RainbowKitSiweNextAuthProvider`, ensuring it's nested within NextAuth's `SessionProvider` so that it has access to the session.
 
 ```tsx
 import { RainbowKitSiweNextAuthProvider } from '@rainbow-me/rainbowkit-siwe-next-auth';
@@ -71,13 +71,13 @@ export default function App({
 }
 ```
 
-`RainbowKitSiweNextAuthProvider`が位置していると、ユーザーはウォレットを接続した後、メッセージに署名して認証するように求められます。
+With `RainbowKitSiweNextAuthProvider` in place, your users will now be prompted to authenticate by signing a message once they've connected their wallet.
 
-#### SIWEメッサージオプションのカスタマイズ
+#### Customize the SIWE message options
 
-[SIWEメッセージオプション](https://github.com/spruceid/siwe/blob/v1.1.6/packages/siwe/lib/client.ts#L29)をカスタマイズするには、`getSiweMessageOptions` propに関数を渡すことにより、`RainbowKitSiweNextAuthProvider`上で行うことができます。
+You can customize the [SIWE message options](https://github.com/spruceid/siwe/blob/v1.1.6/packages/siwe/lib/client.ts#L29) by passing a function to the `getSiweMessageOptions` prop on `RainbowKitSiweNextAuthProvider`.
 
-新しいメッセージが作成されるたびに、この関数が呼び出されます。 この関数から返されるオプションは、デフォルトと合わせてマージされます。 この関数から返されるオプションは、デフォルトと合わせてマージされます。
+This function will be called whenever a new message is created. Options returned from this function will be merged with the defaults.
 
 ```tsx
 import {
@@ -96,13 +96,13 @@ const getSiweMessageOptions: GetSiweMessageOptions = () => ({
 </RainbowKitSiweNextAuthProvider>;
 ```
 
-#### セッションをサーバーサイドでアクセスします
+#### Access the session server-side
 
-`next-auth/jwt`からインポートしたNextAuthの`getToken`関数を使用してセッショントークンにアクセスできます。 ユーザーが正常に認証されている場合、セッショントークンの`sub`プロパティ（トークンの「主題」、つまりユーザー）はユーザーの住所になります。 ユーザーが正常に認証されている場合、セッショントークンの`sub`プロパティ（トークンの「主題」、つまりユーザー）はユーザーの住所になります。 ユーザーが正常に認証されている場合、セッショントークンの`sub`プロパティ（トークンの「主題」、つまりユーザー）はユーザーの住所になります。 ユーザーが正常に認証されている場合、セッショントークンの`sub`プロパティ（トークンの「主題」、つまりユーザー）はユーザーの住所になります。 ユーザーが正常に認証されている場合、セッショントークンの`sub`プロパティ（トークンの「主題」、つまりユーザー）はユーザーの住所になります。 ユーザーが正常に認証されている場合、セッショントークンの`sub`プロパティ（トークンの「主題」、つまりユーザー）はユーザーの住所になります。
+You can access the session token with NextAuth's `getToken` function imported from `next-auth/jwt`. If the user has successfully authenticated, the session token's `sub` property (the "subject" of the token, i.e. the user) will be the user's address.
 
-また、NextAuthがクライアント側で再度それを解決する必要がないように、解決済みのセッションオブジェクトを`getServerSideProps`経由で渡すこともできます。
+You can also pass down the resolved session object from the server via `getServerSideProps` so that NextAuth doesn't need to resolve it again on the client.
 
-例えば：
+For example:
 
 ```tsx
 import { GetServerSideProps, InferGetServerSidePropsType } from 'next';
@@ -143,7 +143,7 @@ export default function AuthenticatedPage({
 }
 ```
 
-セッションの管理に関する詳細は、以下のドキュメンテーションを参照してください：
+For more information about managing the session, you can refer to the following documentation:
 
-- [Next.js認証ガイド](https://nextjs.org/docs/authentication)
-- [NextAuth.jsドキュメンテーション](https://next-auth.js.org)
+- [Next.js authentication guide](https://nextjs.org/docs/authentication)
+- [NextAuth.js documentation](https://next-auth.js.org)
