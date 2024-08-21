@@ -1,17 +1,17 @@
 ---
-title: 自訂錢包
-description: 建立自訂錢包
+title: Custom Wallets
+description: Create a custom wallet
 ---
 
-# 自訂錢包
+# Custom Wallets
 
-## 建立自訂錢包
+## Create a custom wallet
 
-> 注意：此API不穩定，近期可能會變更。 我們將隨著時間添加更多內建錢包。 [讓我們知道](https://github.com/rainbow-me/rainbowkit/issues) 您感興趣的特定錢包。
+> Note: This API is unstable and likely to change in the near future. We will be adding more built-in wallets over time. [Let us know](https://github.com/rainbow-me/rainbowkit/issues) if there are any particular wallets you're interested in.
 
-提供 `Wallet` 函數類型，幫助您定義自己的自訂錢包。 您的 `Wallet` 函數的返回值可以配置以下屬性：
+The `Wallet` function type is provided to help you define your own custom wallets. The following properties can be configured on the return value of your `Wallet` function:
 
-### 錢包屬性
+### Wallet Properties
 
 <PropsTable
   data={[
@@ -134,7 +134,7 @@ description: 建立自訂錢包
   ]}
 />
 
-### 下載網址屬性
+### DownloadUrls Properties
 
 <PropsTable
   data={[
@@ -206,7 +206,7 @@ description: 建立自訂錢包
 
 ### 範例
 
-例如，使用WalletConnect建立自訂錢包：
+For example, to create a custom wallet using WalletConnect:
 
 ```tsx
 import { Wallet, getWalletConnectConnector } from '@rainbow-me/rainbowkit';
@@ -278,4 +278,4 @@ export const rainbow = ({ projectId }: MyWalletOptions): Wallet => ({
 });
 ```
 
-然後，您可以在 [錢包列表](/docs/custom-wallet-list) 中添加您的自訂錢包。
+You can then add your custom wallet in the [wallet list](/docs/custom-wallet-list).
