@@ -1,35 +1,35 @@
 ---
-title: Ланцюги
-description: Налаштування ланцюгів
+title: Chains
+description: Customizing chains
 ---
 
-# Ланцюги
+# Chains
 
-## Налаштування ланцюгів
+## Customizing chains
 
-RainbowKit розроблений для інтеграції з [об’єктом `chain` від wagmi](https://wagmi.sh/react/chains). Перегляньте список підтримуваних ланцюгів [тут](https://wagmi.sh/react/chains#supported-chains).
+RainbowKit is designed to integrate with [wagmi’s `chain` object](https://wagmi.sh/react/chains). Check out the list of supported chains [here](https://wagmi.sh/react/chains#supported-chains).
 
-### Налаштування початкового ланцюга
+### Customizing the initial chain
 
-За замовчуванням, RainbowKit підключиться до першої мережі, яку ви надасте Wagmi. Цю поведінку можна налаштувати через властивість `initialChain`.
+By default, RainbowKit will connect to the first chain supplied to Wagmi. This behavior can be customized via the `initialChain` prop.
 
-Початковий ланцюг можна налаштувати, використовуючи ідентифікатор ланцюга.
+The initial chain can be configured using a chain ID.
 
 ```tsx
 <RainbowKitProvider initialChain={1}>
 ```
 
-Для зручності, ви також можете передати об'єкт ланцюга.
+As a convenience, you can also pass a chain object.
 
 ```tsx
 <RainbowKitProvider initialChain={mainnet}>
 ```
 
-### Метадані користувацької мережі
+### Custom chain metadata
 
-Декілька іконок та фонів мережі надаються за замовчуванням, але ви можете налаштувати іконку та фон для кожної мережі, використовуючи властивості `iconUrl` та `iconBackground`.
+Several chain icons and backgrounds are provided by default, but you can customize the icon and background for each chain using the `iconUrl` and `iconBackground` properties.
 
-Приклад з використанням `getDefaultConfig`
+Example with `getDefaultConfig`
 
 ```tsx
 import { mainnet, optimism } from 'wagmi/chains';
@@ -50,7 +50,7 @@ const config = getDefaultConfig({
 });
 ```
 
-Приклад з використанням `createConfig`
+Example with `createConfig`
 
 ```tsx
 import { mainnet, optimism } from 'wagmi/chains';
