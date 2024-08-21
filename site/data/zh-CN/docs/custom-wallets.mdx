@@ -1,17 +1,17 @@
 ---
-title: 自定义钱包
-description: 创建自定义钱包
+title: Custom Wallets
+description: Create a custom wallet
 ---
 
-# 自定义钱包
+# Custom Wallets
 
-## 创建自定义钱包
+## Create a custom wallet
 
-> 注意：此API不稳定，很可能在不久的将来发生变化。 我们建议现在避免更改钱包列表。 我们将随着时间推移增加更多内置钱包。 注意：此API不稳定，很可能在不久的将来发生变化。 我们建议现在避免更改钱包列表。 我们将随着时间推移增加更多内置钱包。  如果您对任何特定的钱包有兴趣，[请告诉我们](https://github.com/rainbow-me/rainbowkit/issues)。
+> Note: This API is unstable and likely to change in the near future. We will be adding more built-in wallets over time. [Let us know](https://github.com/rainbow-me/rainbowkit/issues) if there are any particular wallets you're interested in.
 
-`钱包`函数类型提供帮助你定义自己的自定义钱包。 `Wallet`函数类型提供帮助你定义自己的自定义钱包。 您的`Wallet`函数返回值上可以配置以下属性： `Wallet`函数类型提供帮助你定义自己的自定义钱包。您的`Wallet`函数返回值上可以配置以下属性： `Wallet`函数类型提供帮助你定义自己的自定义钱包。您的`Wallet`函数返回值上可以配置以下属性： `Wallet`函数类型提供帮助你定义自己的自定义钱包。您的`Wallet`函数返回值上可以配置以下属性：
+The `Wallet` function type is provided to help you define your own custom wallets. The following properties can be configured on the return value of your `Wallet` function:
 
-### 钱包属性
+### Wallet Properties
 
 <PropsTable
   data={[
@@ -134,7 +134,7 @@ description: 创建自定义钱包
   ]}
 />
 
-### 下载链接属性
+### DownloadUrls Properties
 
 <PropsTable
   data={[
@@ -206,7 +206,7 @@ description: 创建自定义钱包
 
 ### 示例
 
-例如，要使用 WalletConnect 创建一个自定义钱包：
+For example, to create a custom wallet using WalletConnect:
 
 ```tsx
 import { Wallet, getWalletConnectConnector } from '@rainbow-me/rainbowkit';
@@ -278,4 +278,4 @@ export const rainbow = ({ projectId }: MyWalletOptions): Wallet => ({
 });
 ```
 
-然后，您可以在[钱包列表](/docs/custom-wallet-list)中添加您的自定义钱包。
+You can then add your custom wallet in the [wallet list](/docs/custom-wallet-list).
