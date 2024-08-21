@@ -1,39 +1,39 @@
 ---
-title: การตรวจสอบตัวตน
-description: การตรวจสอบตัวตนของผู้ใช้ของคุณ
+title: Authentication
+description: Authenticating your users
 ---
 
-# การตรวจสอบตัวตน
+# Authentication
 
-## การให้การเข้าถึงที่ผ่านการตรวจสอบตัวตนไปยังแอปพลิเคชันของคุณ
+## Providing authenticated access to your application
 
-คุณสามารถเลือกที่จะบังคับให้ผู้ใช้ลงชื่อเข้าใช้ด้วยการส่งข้อความโดยใช้กระเป๋าเงินของพวกเขาระหว่างการเชื่อมต่อ ซึ่งจะพิสูจน์ว่าพวกเขาเป็นเจ้าของบัญชีที่เชื่อมต่อและให้คุณสร้างเซสชันผู้ใช้ที่ผ่านการตรวจสอบตัวตนด้วยการเข้าถึงแบบพิเศษไปยังแอปพลิเคชันของคุณ
+You can optionally enforce that users sign a message with their wallet during the connection process, proving that they own the connected account and allowing you to create an authenticated user session with privileged access to your application.
 
-ทั้งนี้เป็นไปได้ที่จะ[รวมกับแบ็กเอนด์ที่กำหนดเองและรูปแบบข้อความ](/docs/custom-authentication) แต่ RainbowKit ให้การสนับสนุนระดับต้น ๆ สำหรับ [การเข้าสู่ระบบด้วย Ethereum](https://login.xyz) และ [NextAuth.js.](https://next-auth.js.org)
+While it's possible to [integrate with custom back-ends and message formats,](/docs/custom-authentication) RainbowKit provides first-class support for [Sign-In with Ethereum](https://login.xyz) and [NextAuth.js.](https://next-auth.js.org)
 
-### ตั้งค่าการเข้าสู่ระบบด้วย Ethereum และ NextAuth.js
+### Set up Sign-In with Ethereum and NextAuth.js
 
-หากคุณยังไม่ได้ตั้งค่าโปรเจค [Next.js](https://nextjs.org) ของคุณ ให้ตั้งค่าอย่างแรกด้วย [official Sign-In with Ethereum boilerplate for NextAuth.js.](https://docs.login.xyz/integrations/nextauth.js)
+If you haven't already, first set up your [Next.js](https://nextjs.org) project with the [official Sign-In with Ethereum boilerplate for NextAuth.js.](https://docs.login.xyz/integrations/nextauth.js)
 
-#### ติดตั้ง
+#### Install
 
-ติดตั้งแพคเกจ `@rainbow-me/rainbowkit-siwe-next-auth` และ peer dependency ที่เกี่ยวข้อง, [ethers](https://docs.ethers.org/v5/).
+Install the `@rainbow-me/rainbowkit-siwe-next-auth` package and its peer dependency, [ethers](https://docs.ethers.org/v5/).
 
 ```bash
 npm install @rainbow-me/rainbowkit-siwe-next-auth siwe@^2 ethers@^5
 ```
 
-> หมายเหตุ: `siwe` ต้องการ peer dependency [ethers](https://docs.ethers.org/v5/), ในขณะที่ [wagmi](https://wagmi.sh/) ตอนนี้ใช้ [viem](https://viem.sh) ทางเลือก.
+> Note: `siwe` requires the [ethers](https://docs.ethers.org/v5/) peer dependency, while [wagmi](https://wagmi.sh/) now relies on the alternative [viem](https://viem.sh).
 
-#### ตั้งค่า provider
+#### Set up the provider
 
-ในส่วนของคอมโพเนนต์ 'App' ของคุณ, ทำการ import `RainbowKitSiweNextAuthProvider`.
+In your `App` component, import `RainbowKitSiweNextAuthProvider`.
 
 ```tsx
 import { RainbowKitSiweNextAuthProvider } from '@rainbow-me/rainbowkit-siwe-next-auth';
 ```
 
-หุ้มส่วนของ `RainbowKitProvider` ด้วย `RainbowKitSiweNextAuthProvider`, โดยที่ต้องการยังอยู่ภายใน `SessionProvider` ของ NextAuth เพื่อให้เข้าถึง session ได้.
+Wrap `RainbowKitProvider` with `RainbowKitSiweNextAuthProvider`, ensuring it's nested within NextAuth's `SessionProvider` so that it has access to the session.
 
 ```tsx
 import { RainbowKitSiweNextAuthProvider } from '@rainbow-me/rainbowkit-siwe-next-auth';
@@ -71,13 +71,13 @@ export default function App({
 }
 ```
 
-ด้วย `RainbowKitSiweNextAuthProvider` ที่ถูกตั้งไว้, ผู้ใช้ของคุณจะถูกพิจารณาเพื่อยืนยันตัวตนโดยการลงนามในข้อความหลังจากที่เชื่อมต่อกระเป๋าเงินของพวกเขา.
+With `RainbowKitSiweNextAuthProvider` in place, your users will now be prompted to authenticate by signing a message once they've connected their wallet.
 
-#### ปรับแต่งตัวเลือกข้อความ SIWE
+#### Customize the SIWE message options
 
-คุณสามารถปรับแต่ง[ตัวเลือกข้อความ SIWE](https://github.com/spruceid/siwe/blob/v1.1.6/packages/siwe/lib/client.ts#L29) โดยการส่งฟังก์ชันไปยัง prop `getSiweMessageOptions` บน `RainbowKitSiweNextAuthProvider`.
+You can customize the [SIWE message options](https://github.com/spruceid/siwe/blob/v1.1.6/packages/siwe/lib/client.ts#L29) by passing a function to the `getSiweMessageOptions` prop on `RainbowKitSiweNextAuthProvider`.
 
-ฟังก์ชันนี้จะถูกเรียกเมื่อมีการสร้างข้อความใหม่ ฟังก์ชันนี้จะถูกเรียกเมื่อมีการสร้างข้อความใหม่ ฟังก์ชันนี้จะถูกเรียกเมื่อมีการสร้างข้อความใหม่ ตัวเลือกที่ส่งคืนจากฟังก์ชันนี้จะถูกผสานกับค่าเริ่มต้น ตัวเลือกที่ส่งคืนจากฟังก์ชันนี้จะถูกผสานกับค่าเริ่มต้น ฟังก์ชันนี้จะถูกเรียกเมื่อมีการสร้างข้อความใหม่ ฟังก์ชันนี้จะถูกเรียกเมื่อมีการสร้างข้อความใหม่ ฟังก์ชันนี้จะถูกเรียกเมื่อมีการสร้างข้อความใหม่ ตัวเลือกที่ส่งคืนจากฟังก์ชันนี้จะถูกผสานกับค่าเริ่มต้น ตัวเลือกที่ส่งคืนจากฟังก์ชันนี้จะถูกผสานกับค่าเริ่มต้น ฟังก์ชันนี้จะถูกเรียกเมื่อมีการสร้างข้อความใหม่ ฟังก์ชันนี้จะถูกเรียกเมื่อมีการสร้างข้อความใหม่ ตัวเลือกที่ส่งคืนจากฟังก์ชันนี้จะถูกผสานกับค่าเริ่มต้น ตัวเลือกที่ส่งคืนจากฟังก์ชันนี้จะถูกผสานกับค่าเริ่มต้น
+This function will be called whenever a new message is created. Options returned from this function will be merged with the defaults.
 
 ```tsx
 import {
@@ -96,13 +96,13 @@ const getSiweMessageOptions: GetSiweMessageOptions = () => ({
 </RainbowKitSiweNextAuthProvider>;
 ```
 
-#### เข้าถึงเซสชันด้านเซิร์ฟเวอร์
+#### Access the session server-side
 
-คุณสามารถเข้าถึงโทเค็นเซสชันด้วยฟังก์ชัน `getToken` ของ NextAuth ที่นำเข้าจาก `next-auth/jwt` หากผู้ใช้รับรองความถูกต้องสำเร็จ 'sub' ของโทเค็นเซสชัน (ซึ่งเป็น "subject" ของโทเค็น หรือผู้ใช้) จะเป็นที่อยู่ของผู้ใช้ หากผู้ใช้รับรองความถูกต้องสำเร็จ 'sub' ของโทเค็นเซสชัน (ซึ่งเป็น "subject" ของโทเค็น หรือผู้ใช้) จะเป็นที่อยู่ของผู้ใช้ หากผู้ใช้รับรองความถูกต้องสำเร็จ 'sub' ของโทเค็นเซสชัน (ซึ่งเป็น "subject" ของโทเค็น หรือผู้ใช้) จะเป็นที่อยู่ของผู้ใช้ หากผู้ใช้รับรองความถูกต้องสำเร็จ 'sub' ของโทเค็นเซสชัน (ซึ่งเป็น "subject" ของโทเค็น หรือผู้ใช้) จะเป็นที่อยู่ของผู้ใช้ หากผู้ใช้รับรองความถูกต้องสำเร็จ 'sub' ของโทเค็นเซสชัน (ซึ่งเป็น "subject" ของโทเค็น หรือผู้ใช้) จะเป็นที่อยู่ของผู้ใช้ หากผู้ใช้รับรองความถูกต้องสำเร็จ 'sub' ของโทเค็นเซสชัน (ซึ่งเป็น "subject" ของโทเค็น หรือผู้ใช้) จะเป็นที่อยู่ของผู้ใช้
+You can access the session token with NextAuth's `getToken` function imported from `next-auth/jwt`. If the user has successfully authenticated, the session token's `sub` property (the "subject" of the token, i.e. the user) will be the user's address.
 
-คุณยังสามารถส่งต่อวัตถุเซสชันที่ได้รับการแก้ไขจากเซิร์ฟเวอร์ผ่าน `getServerSideProps` ให้ NextAuth ไม่จำเป็นต้องแก้ไขอีกครั้งทางลูกค้า
+You can also pass down the resolved session object from the server via `getServerSideProps` so that NextAuth doesn't need to resolve it again on the client.
 
-ตัวอย่างเช่น:
+For example:
 
 ```tsx
 import { GetServerSideProps, InferGetServerSidePropsType } from 'next';
@@ -143,7 +143,7 @@ export default function AuthenticatedPage({
 }
 ```
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการจัดการเซสชัน คุณสามารถอ้างอิงเอกสารต่อไปนี้:
+For more information about managing the session, you can refer to the following documentation:
 
-- [คู่มือการรับรองความถูกต้องของ Next.js](https://nextjs.org/docs/authentication)
-- [เอกสาร NextAuth.js](https://next-auth.js.org)
+- [Next.js authentication guide](https://nextjs.org/docs/authentication)
+- [NextAuth.js documentation](https://next-auth.js.org)
