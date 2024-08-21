@@ -1,17 +1,17 @@
 ---
-title: 사용자 정의 지갑
-description: 사용자 정의 지갑 생성
+title: Custom Wallets
+description: Create a custom wallet
 ---
 
-# 사용자 정의 지갑
+# Custom Wallets
 
-## 사용자 정의 지갑 생성
+## Create a custom wallet
 
-> 참고: 이 API는 불안정하며 가까운 미래에 변경될 가능성이 있습니다. 저희는 시간이 지남에 따라 더 많은 내장 지갑을 추가할 예정입니다. 관심 있는 특정 지갑이 있다면 [알려주세요](https://github.com/rainbow-me/rainbowkit/issues).
+> Note: This API is unstable and likely to change in the near future. We will be adding more built-in wallets over time. [Let us know](https://github.com/rainbow-me/rainbowkit/issues) if there are any particular wallets you're interested in.
 
-`Wallet` 기능 유형은 사용자 정의 지갑을 정의하는 데 도움이 됩니다. 다음 속성들은 `Wallet` 기능의 반환 값에 설정할 수 있습니다:
+The `Wallet` function type is provided to help you define your own custom wallets. The following properties can be configured on the return value of your `Wallet` function:
 
-### 지갑 속성
+### Wallet Properties
 
 <PropsTable
   data={[
@@ -134,7 +134,7 @@ description: 사용자 정의 지갑 생성
   ]}
 />
 
-### DownloadUrls 속성
+### DownloadUrls Properties
 
 <PropsTable
   data={[
@@ -206,7 +206,7 @@ description: 사용자 정의 지갑 생성
 
 ### 예제
 
-예를 들어, WalletConnect를 사용하여 사용자 정의 지갑을 생성하는 방법:
+For example, to create a custom wallet using WalletConnect:
 
 ```tsx
 import { Wallet, getWalletConnectConnector } from '@rainbow-me/rainbowkit';
@@ -278,4 +278,4 @@ export const rainbow = ({ projectId }: MyWalletOptions): Wallet => ({
 });
 ```
 
-그런 다음 사용자 정의 지갑을 [지갑 목록](/docs/custom-wallet-list)에 추가할 수 있습니다.
+You can then add your custom wallet in the [wallet list](/docs/custom-wallet-list).
