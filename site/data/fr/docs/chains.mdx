@@ -1,35 +1,35 @@
 ---
-title: Chaînes
-description: Personnalisation des chaînes
+title: Chains
+description: Customizing chains
 ---
 
-# Chaînes
+# Chains
 
-## Personnalisation des chaînes
+## Customizing chains
 
-RainbowKit est conçu pour s'intégrer avec [l'objet `chain` de wagmi](https://wagmi.sh/react/chains). Consultez la liste des chaînes prises en charge [here](https://wagmi.sh/react/chains#supported-chains).
+RainbowKit is designed to integrate with [wagmi’s `chain` object](https://wagmi.sh/react/chains). Check out the list of supported chains [here](https://wagmi.sh/react/chains#supported-chains).
 
-### Personnalisation de la chaîne initiale
+### Customizing the initial chain
 
-Par défaut, RainbowKit se connectera à la première chaîne fournie à Wagmi. Ce comportement peut être personnalisé via la propriété `initialChain`.
+By default, RainbowKit will connect to the first chain supplied to Wagmi. This behavior can be customized via the `initialChain` prop.
 
-La chaîne initiale peut être configurée en utilisant un ID de chaîne.
+The initial chain can be configured using a chain ID.
 
 ```tsx
 <RainbowKitProvider initialChain={1}>
 ```
 
-Pour plus de commodité, vous pouvez également passer un objet de chaîne.
+As a convenience, you can also pass a chain object.
 
 ```tsx
 <RainbowKitProvider initialChain={mainnet}>
 ```
 
-### Métadonnées de chaîne personnalisées
+### Custom chain metadata
 
-Plusieurs icônes et arrière-plans de chaîne sont fournis par défaut, mais vous pouvez personnaliser l'icône et l'arrière-plan pour chaque chaîne en utilisant les propriétés `iconUrl` et `iconBackground`.
+Several chain icons and backgrounds are provided by default, but you can customize the icon and background for each chain using the `iconUrl` and `iconBackground` properties.
 
-Exemple avec `getDefaultConfig`
+Example with `getDefaultConfig`
 
 ```tsx
 import { mainnet, optimism } from 'wagmi/chains';
@@ -50,7 +50,7 @@ const config = getDefaultConfig({
 });
 ```
 
-Exemple avec `createConfig`
+Example with `createConfig`
 
 ```tsx
 import { mainnet, optimism } from 'wagmi/chains';
