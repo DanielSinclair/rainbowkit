@@ -1,19 +1,19 @@
 ---
-title: 모달 후크
-description: 프로그래밍 방식으로 후크를 통해 모달 열기
+title: Modal Hooks
+description: Programmatically open modals via Hooks
 ---
 
-# 모달 후크
+# Modal Hooks
 
-## 프로그래밍 방식으로 후크를 통해 모달 열기
+## Programmatically open modals via Hooks
 
-다음과 같은 후크가 제공되어 응용 프로그램의 어디에서나 프로그래밍 방식으로 모달을 열 수 있습니다.
+The following Hooks are provided to allow the programmatic opening of modals anywhere in your application.
 
 - `useConnectModal`
 - `useAccountModal`
 - `useChainModal`
 
-각 후크는 해당 모달을 열기 위한 함수를 포함하는 객체를 반환합니다. 모달이 열릴 수 있는 필요한 상태에 응용 프로그램이 없으면 반환된 함수는 정의되지 않은 상태가 됩니다.
+Each of these Hooks returns an object with a function for opening its respective modal. Note that the returned functions will be undefined if your application is not in the required state for the modal to be open.
 
 ```tsx
 import {
@@ -51,7 +51,7 @@ export const YourApp = () => {
 };
 ```
 
-각 후크는 또한 모달의 상태에 대한 부울을 반환합니다. 일반적으로 사용자의 지갑 연결 상태에 직접 반응하기 위해 와그미 후크(i.e. `useAccount`)에 순수하게 의존하는 것이 좋습니다. Connect 모달의 상태에 의존하는 것보다는.
+Each hook also returns a boolean for the status of the modal. It is typically recommended that you rely purely on Wagmi hooks (i.e. `useAccount`) to react to a user's wallet connection status directly, rather than relying on the state of the Connect Modal.
 
 ```tsx
 const { connectModalOpen } = useConnectModal();
@@ -59,6 +59,6 @@ const { accountModalOpen } = useAccountModal();
 const { chainModalOpen } = useChainModal();
 ```
 
-RainbowKit은 방해받지 않고 반응성을 유지하도록 설계되었으므로, dApps는 사용자가 지갑을 연결했는지 여부에 관계없이 사용자 인터페이스를 항상 렌더링해야 합니다. 사용자는 MetaMask에서 직접 지갑을 연결하거나 연결을 해제할 수 있으므로, dApp은 즉시 기본 연결 상태에 반응하여야 합니다.
+RainbowKit is designed to be non-interruptive and responsive, so dApps should always render an interface for users whether or not they have connected their wallet. A user could connect or disconnect their wallet directly from MetaMask, so the dApp must be responsive to the underlying connection status directly.
 
-사용자 검증을 위해 이더리움으로 로그인 같은 메커니즘에 의존하는 dApps는 대신 [Authentication](/docs/authentication) 기능에 의존해야 합니다.
+dApps that rely on mechanisms like Sign-in with Ethereum for user verification should instead rely on the [Authentication](/docs/authentication) feature.
