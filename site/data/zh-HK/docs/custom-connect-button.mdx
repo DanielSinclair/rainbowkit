@@ -1,15 +1,15 @@
 ---
-title: Custom ConnectButton
-description: Creating a custom ConnectButton
+title: 自定 ConnectButton
+description: 創建自定 ConnectButton
 ---
 
-# Custom ConnectButton
+# 自定 ConnectButton
 
-## Creating a custom ConnectButton
+## 創建自定 ConnectButton
 
-You can use the low-level `ConnectButton.Custom` to create your own custom connection button. This component renders a function, which includes everything you need to re-implement the built-in buttons.
+你可以使用低層的 `ConnectButton.Custom` 來創建自己的連接按鈕。 這個元件會渲染一個函數，包含了重新實現內置按鈕所需的一切。
 
-A minimal re-implementation of the built-in buttons would look something like this:
+內置按鈕的最小重新實現應該會像這樣：
 
 ```tsx
 import { ConnectButton } from '@rainbow-me/rainbowkit';
@@ -111,18 +111,16 @@ export const YourApp = () => {
 };
 ```
 
-The following props are passed to your render function.
+以下的參數會傳遞給你的渲染函數。
 
-### Account properties
+### 帳戶屬性
 
-<PropsTable
-  data={[
+<PropsTable data={[
     {
       name: 'account',
       required: false,
       type: 'object | undefined',
-      description:
-        'Object containing details about the current account, described below',
+      description: '包含目前帳戶詳細資訊的物件，詳情如下',
     },
     {
       name: 'account.address',
@@ -130,7 +128,7 @@ The following props are passed to your render function.
       type: 'string',
       description: (
         <>
-          The full account address, e.g.
+          完整的帳戶地址，例如
           "0x7a3d05c70581bD345fe117c06e45f9669205384f"
         </>
       ),
@@ -139,7 +137,7 @@ The following props are passed to your render function.
       name: 'account.balanceDecimals',
       required: false,
       type: 'string | undefined	',
-      description: 'The account balance in decimals',
+      description: '帳戶餘額的小數位數',
     },
     {
       name: 'account.balanceFormatted',
@@ -147,7 +145,7 @@ The following props are passed to your render function.
       type: 'string | undefined	',
       description: (
         <>
-          The account balance formatted as a string, e.g.{' '}
+          帳戶餘額格式為字串，例如{' '}
           <code>1.234567890123456789</code>
         </>
       ),
@@ -158,7 +156,7 @@ The following props are passed to your render function.
       type: 'string | undefined	',
       description: (
         <>
-          The currency symbol for the balance, e.g. <code>ETH</code>
+          帳戶餘額的貨幣符號，例如 <code>ETH</code>
         </>
       ),
     },
@@ -168,8 +166,8 @@ The following props are passed to your render function.
       type: 'string | undefined	',
       description: (
         <>
-          The balance formatted to 3 significant digits, plus the
-          symbol, e.g. <code>1.23 ETH</code>
+          帳戶餘額格式化到3個有效位數，加上
+          符號，例如 <code>1.23 ETH</code>
         </>
       ),
     },
@@ -179,8 +177,8 @@ The following props are passed to your render function.
       type: 'string',
       description: (
         <>
-          The ENS name, or a truncated version of the address, e.g.{' '}
-          <code>"rainbowwallet.eth"</code> or <code>"0x7a…384f"</code>
+          ENS 名稱或者截斷的地址，例如{' '}
+          <code>"rainbowwallet.eth"</code> 或 <code>"0x7a…384f"</code>
         </>
       ),
     },
@@ -188,7 +186,7 @@ The following props are passed to your render function.
       name: 'account.ensAvatar',
       required: false,
       type: 'string	| undefined',
-      description: 'The ENS avatar URI',
+      description: 'ENS 頭像的 URI',
     },
     {
       name: 'account.ensName',
@@ -196,7 +194,7 @@ The following props are passed to your render function.
       type: 'string	| undefined',
       description: (
         <>
-          The ENS name, e.g. <code>rainbowwallet.eth</code>
+          ENS 名稱，例如 <code>rainbowwallet.eth</code>
         </>
       ),
     },
@@ -204,42 +202,36 @@ The following props are passed to your render function.
       name: 'account.hasPendingTransactions',
       required: false,
       type: 'boolean',
-      description:
-        'Boolean indicating whether the account has pending transactions for the current chain',
+      description: '布林值，指出該帳戶是否在當前鏈上有待處理的交易',
     },
-  ]}
-/>
+  ]} />
 
-### Chain properties
+### 鏈屬性
 
-<PropsTable
-  data={[
+<PropsTable data={[
     {
       name: 'chain',
       required: false,
       type: 'object | undefined',
-      description:
-        'Object containing details about the current chain, described below',
+      description: '包含當前鏈詳細資訊的物件，詳情如下',
     },
     {
       name: 'chain.hasIcon',
       required: false,
       type: 'boolean',
-      description: 'Whether the chain as an icon specified',
+      description: '鏈是否有指定的圖示',
     },
     {
       name: 'chain.iconUrl',
       required: false,
       type: 'string | undefined',
-      description:
-        'The chain icon URL (which may be also be undefined while downloading Base64 data URLs)',
+      description: '鏈圖示的 URL（在下載 Base64 資料 URL 時也可能為未定義）',
     },
     {
       name: 'chain.iconBackground',
       required: false,
       type: 'string | undefined',
-      description:
-        'The chain icon background which will be visible while images are loading',
+      description: '圖示加載期間所見的背景色',
     },
     {
       name: 'chain.id',
@@ -247,7 +239,7 @@ The following props are passed to your render function.
       type: 'number',
       description: (
         <>
-          The chain ID, e.g. <code>1</code>
+          鏈 ID，例如 <code>1</code>
         </>
       ),
     },
@@ -257,7 +249,7 @@ The following props are passed to your render function.
       type: 'string | undefined',
       description: (
         <>
-          The chain name, e.g. <code>"Ethereum"</code>
+          鏈名稱，例如 <code>"Ethereum"</code>
         </>
       ),
     },
@@ -265,74 +257,64 @@ The following props are passed to your render function.
       name: 'chain.unsupported',
       required: false,
       type: 'boolean | undefined',
-      description:
-        'Boolean indicating whether the current chain is unsupported',
+      description: '布林值，指出當前鏈是否不受支持',
     },
-  ]}
-/>
+  ]} />
 
-### Modal state properties
+### 模式狀態屬性
 
-<PropsTable
-  data={[
+<PropsTable data={[
     {
       name: 'openAccountModal',
       required: false,
       type: '() => void',
-      description: 'Function to open the account modal',
+      description: '打開帳戶模式的函數',
     },
     {
       name: 'openChainModal',
       required: false,
       type: '() => void',
-      description: 'Function to open the chain modal',
+      description: '打開鏈模式的函數',
     },
     {
       name: 'openConnectModal',
       required: false,
       type: '() => void',
-      description: 'Function to open the connect modal',
+      description: '打開連接模式的函數',
     },
     {
       name: 'accountModalOpen',
       required: false,
       type: 'boolean',
-      description:
-        'Boolean indicating whether the account modal is open',
+      description: '布林值，指出帳戶模式是否打開',
     },
     {
       name: 'chainModalOpen',
       required: false,
       type: 'boolean',
-      description: 'Boolean indicating whether the chain modal is open',
+      description: '布林值，指出鏈模式是否打開',
     },
     {
       name: 'connectModalOpen',
       required: false,
       type: 'boolean',
-      description:
-        'Boolean indicating whether the connect modal is open',
+      description: '布林值，指出連接模式是否打開',
     },
-  ]}
-/>
+  ]} />
 
-### General state properties
+### 常規狀態屬性
 
-<PropsTable
-  data={[
+<PropsTable data={[
     {
       name: 'mounted',
       required: false,
       type: 'boolean',
-      description:
-        'Boolean indicating whether the component has mounted',
+      description: '布林值，指出組件是否已掛載',
     },
     {
       name: 'authenticationStatus',
       required: false,
       type: '"loading" | "unauthenticated" | "authenticated" | undefined',
-      description:
-        'The authentication status, or undefined if authentication has not been configured',
+      description: '認證狀態，或者如果未配置認證則為 undefined',
     },
-  ]}
-/>
+  ]} />
