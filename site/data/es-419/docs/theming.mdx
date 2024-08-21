@@ -60,7 +60,7 @@ Las funciones de tema incorporadas también aceptan un objeto de opciones, permi
       default: '"#0E76FD"',
       type: 'string',
       description:
-        'The background/text color of various interactive elements.',
+        'El color de fondo/texto de varios elementos interactivos.',
     },
     {
       name: 'accentColorForeground',
@@ -68,7 +68,7 @@ Las funciones de tema incorporadas también aceptan un objeto de opciones, permi
       default: '"white"',
       type: 'string',
       description:
-        'The color used for foreground elements rendered on top of the accent color.',
+        'El color utilizado para los elementos en primer plano renderizados sobre el color de acento.',
     },
     {
       name: 'borderRadius',
@@ -76,7 +76,7 @@ Las funciones de tema incorporadas también aceptan un objeto de opciones, permi
       default: 'large',
       type: '"none" | "small" | "medium" | "large"',
       typeSimple: 'enum',
-      description: 'The size of the entire border radius scale.',
+      description: 'El tamaño de la escala completa del radio de borde.',
     },
     {
       name: 'fontStack',
@@ -84,8 +84,7 @@ Las funciones de tema incorporadas también aceptan un objeto de opciones, permi
       default: 'rounded',
       type: '"rounded" | "system"',
       typeSimple: 'enum',
-      description:
-        "The font stack used throughout the UI. Note that `rounded` attempts to use SF Pro Rounded, falling back to system fonts when it isn't available.",
+      description: "La pila de fuentes utilizada en toda la interfaz de usuario. Nota que `rounded` intenta usar SF Pro Rounded, volviendo a fuentes del sistema cuando no está disponible.",
     },
     {
       name: 'overlayBlur',
@@ -93,10 +92,10 @@ Las funciones de tema incorporadas también aceptan un objeto de opciones, permi
       default: 'none',
       type: '"large" | "small" | "none"',
       typeSimple: 'enum',
-      description: 'The modal backdrop blur.',
+      description: 'El desenfoque del fondo modal.',
     },
   ]}
-/>
+/>. Nota que `rounded` intenta usar SF Pro Rounded, volviendo a fuentes del sistema cuando no está disponible.
 
 Por ejemplo, para personalizar el tema oscuro con un color de acento morado y una escala de radio de borde `medium`:
 
@@ -142,9 +141,9 @@ const App = () => {
 
 #### Función de tema
 
-Aquí hay varias formas en las que puedes usar la propiedad `tema`.
-
 Use el tema `temaOscuro`.
+
+Use el tema `temaMedianoche`.
 
 ```tsx
 import { RainbowKitProvider, darkTheme } from '@rainbow-me/rainbowkit';
@@ -156,7 +155,7 @@ export const App = () => (
 );
 ```
 
-Use el tema `temaMedianoche`.
+Use el tema `midnightTheme`.
 
 ```tsx
 import {
@@ -173,9 +172,9 @@ export const App = () => (
 
 #### Color de acento
 
-Aquí hay varias formas en las que puedes usar la configuración `colorDeAcento`.
-
 Establezca el color de acento en un valor personalizado de púrpura.
+
+Establezca el color de acento en el preset `verde` incorporado.
 
 ```tsx
 import { RainbowKitProvider, darkTheme } from '@rainbow-me/rainbowkit';
@@ -216,9 +215,9 @@ const App = () => {
 
 #### Radio de borde
 
-Aquí hay varias formas en las que puedes usar la configuración `radioDeBorde`.
-
 Establezca el radio del borde en `medio`.
+
+Establezca el radio del borde en `ninguno`.
 
 ```tsx
 import { RainbowKitProvider, darkTheme } from '@rainbow-me/rainbowkit';
@@ -260,9 +259,9 @@ const App = () => {
 
 #### Pila de fuentes
 
-Por defecto, la `fontStack` está configurada a `rounded`. Pero aquí está cómo puedes usar la configuración `fontStack`.
+Pero aquí está cómo puedes usar la configuración `fontStack`. Establece la pila de fuentes en `system`.
 
-Establece la pila de fuentes a `system`.
+Establece la pila de fuentes en `system`.
 
 ```tsx
 import { RainbowKitProvider, darkTheme } from '@rainbow-me/rainbowkit';
@@ -283,7 +282,7 @@ const App = () => {
 
 #### Desenfoque de superposición
 
-Por defecto, el `overlayBlur` está configurado a `none`. Pero aquí está cómo puedes usar la configuración `overlayBlur`.
+Pero aquí está cómo puedes usar la configuración `overlayBlur`. Establece el desenfoque de superposición a `small`.
 
 Establece el desenfoque de superposición a `small`.
 
@@ -304,14 +303,14 @@ const App = () => {
 };
 ```
 
-#### Mezclar y combinar
+#### Aquí hay algunas distintas formas en las que puedes utilizar diferentes temas, con las props `accentColor`, `borderRadius` y `fontStack` juntas.
 
-Aquí hay algunas distintas formas en las que puedes utilizar diferentes temas, con las props `accentColor`, `borderRadius` y `fontStack` juntas.
+Utilice el tema `lightTheme`
 
-- Utilice el tema `lightTheme`
 - Establece el color de acento a un valor morado personalizado
-- Establece el radio del borde a `medium`
+- Establezca el radio del borde en `medio`
 - Establece la pila de fuentes en `system`
+- Utilice el tema `midnightTheme`
 
 ```tsx
 import { RainbowKitProvider, lightTheme } from '@rainbow-me/rainbowkit';
@@ -333,10 +332,10 @@ const App = () => {
 };
 ```
 
-- Utilice el tema `midnightTheme`
 - Establece el color de acento al preset incorporado `pink`.
 - Establece el radio del borde a `small`
-- Establece la pila de fuentes en `system`
+- Soporte para modo oscuro
+- Utilice el tema `midnightTheme`
 
 ```tsx
 import {
@@ -360,7 +359,7 @@ const App = () => {
 };
 ```
 
-#### Soporte para modo oscuro
+#### Si su aplicación utiliza la consulta de medios estándar `prefers-color-scheme: dark` para cambiar entre los modos de luz y oscuridad, puede proporcionar opcionalmente un objeto de tema dinámico que contenga los valores `lightMode` y `darkMode`.
 
 Si su aplicación utiliza la consulta de medios estándar `prefers-color-scheme: dark` para cambiar entre los modos de luz y oscuridad, puede proporcionar opcionalmente un objeto de tema dinámico que contenga los valores `lightMode` y `darkMode`.
 
