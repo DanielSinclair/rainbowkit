@@ -1,13 +1,13 @@
 ---
-title: WalletButton
-description: Using and customizing the WalletButton
+title: КнопкаПортмонетка
+description: Использование и настройка КнопкиПортмонетка
 ---
 
-# WalletButton
+# КнопкаПортмонетка
 
-> Note: The `WalletButton` currently relies on the EIP-1193 wallet standard, but will support EIP-6963 in the near future.
+> Примечание: В настоящее время `КнопкаПортмонетка` опирается на стандарт кошелька EIP-1193, но в ближайшем будущем будет поддерживать EIP-6963.
 
-The new `WalletButton` component helps dApps with custom wallet list implementations adopt RainbowKit and all of it's maintenance-free benefits.
+Новый компонент `КнопкаПортмонетка` помогает dApps с кастомными списками кошельков использовать RainbowKit и все его преимущества, не требующие обслуживания.
 
 ```tsx
 import { WalletButton } from '@rainbow-me/rainbowkit';
@@ -17,7 +17,7 @@ import { WalletButton } from '@rainbow-me/rainbowkit';
 <WalletButton wallet="coinbase" />
 ```
 
-Like the `ConnectButton`, the `WalletButton.Custom` component is available for custom implementations and styling.
+Как и `ConnectButton`, компонент `КнопкаПортмонетка.Custom` доступен для кастомных реализаций и стилизации.
 
 ```tsx
 <WalletButton.Custom wallet="rainbow">
@@ -35,10 +35,10 @@ Like the `ConnectButton`, the `WalletButton.Custom` component is available for c
 </WalletButton.Custom>
 ```
 
-Most dApps are best served by the [ConnectButton](https://www.rainbowkit.com/docs/connect-button). Reference the docs [here](https://www.rainbowkit.com/docs/wallet-button) for more information about `WalletButton` adoption and usecases.
+Большинство dApps лучше всего используют [ConnectButton](https://www.rainbowkit.com/docs/connect-button). Обратитесь к документации [здесь](https://www.rainbowkit.com/docs/wallet-button) для получения дополнительной информации о внедрении и использовании `КнопкаПортмонетка`.
 
 #### Демо
 
-Press the buttons below to see what this RainbowKit entry point looks like.
+Нажмите на кнопки ниже, чтобы увидеть, как выглядит эта точка входа RainbowKit.
 
 <WalletButtonDemo />
