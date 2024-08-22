@@ -1,17 +1,17 @@
 ---
-title: Custom Wallets
-description: Create a custom wallet
+title: กระเป๋าเงินที่กำหนดเอง
+description: สร้างกระเป๋าเงินที่กำหนดเอง
 ---
 
-# Custom Wallets
+# กระเป๋าเงินที่กำหนดเอง
 
-## Create a custom wallet
+## สร้างกระเป๋าเงินที่กำหนดเอง
 
-> Note: This API is unstable and likely to change in the near future. We will be adding more built-in wallets over time. [Let us know](https://github.com/rainbow-me/rainbowkit/issues) if there are any particular wallets you're interested in.
+> หมายเหตุ: API นี้ไม่เสถียรและมีความเป็นไปได้ที่จะเปลี่ยนแปลงในอนาคตใกล้ เราจะเพิ่มกระเป๋าเงินที่สร้างมาแล้วในอนาคต [แจ้งให้เรารู้](https://github.com/rainbow-me/rainbowkit/issues) หากมีกระเป๋าเงินเฉพาะที่คุณสนใจ
 
-The `Wallet` function type is provided to help you define your own custom wallets. The following properties can be configured on the return value of your `Wallet` function:
+ฟังก์ชันประเภท `Wallet` ได้รับการให้เพื่อช่วยคุณกำหนดกระเป๋าเงินที่กำหนดเองของคุณเอง คุณสามารถกำหนดค่าทรัพย์สินต่อไปนี้บนค่าที่คืนกลับของฟังก์ชัน `Wallet` ของคุณ:
 
-### Wallet Properties
+### คุณสมบัติของ Wallet
 
 <PropsTable
   data={[
@@ -134,7 +134,7 @@ The `Wallet` function type is provided to help you define your own custom wallet
   ]}
 />
 
-### DownloadUrls Properties
+### คุณสมบัติของ DownloadUrls
 
 <PropsTable
   data={[
@@ -206,7 +206,7 @@ The `Wallet` function type is provided to help you define your own custom wallet
 
 ### ตัวอย่าง
 
-For example, to create a custom wallet using WalletConnect:
+เช่น เพื่อสร้างกระเป๋าเงินที่กำหนดเองโดยใช้ WalletConnect:
 
 ```tsx
 import { Wallet, getWalletConnectConnector } from '@rainbow-me/rainbowkit';
@@ -278,4 +278,4 @@ export const rainbow = ({ projectId }: MyWalletOptions): Wallet => ({
 });
 ```
 
-You can then add your custom wallet in the [wallet list](/docs/custom-wallet-list).
+คุณสามารถเพิ่มกระเป๋าเงินที่กำหนดเองของคุณใน[รายการกระเป๋าเงิน](/docs/custom-wallet-list).
