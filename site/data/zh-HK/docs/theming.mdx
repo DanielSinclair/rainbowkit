@@ -60,7 +60,7 @@ export const App = () => (
       default: '"#0E76FD"',
       type: 'string',
       description:
-        '各種互動元素的背景/文本顏色。',
+        'The background/text color of various interactive elements.',
     },
     {
       name: 'accentColorForeground',
@@ -68,7 +68,7 @@ export const App = () => (
       default: '"white"',
       type: 'string',
       description:
-        '突出顏色之上呈現前景元素的顏色。',
+        'The color used for foreground elements rendered on top of the accent color.',
     },
     {
       name: 'borderRadius',
@@ -76,7 +76,7 @@ export const App = () => (
       default: 'large',
       type: '"none" | "small" | "medium" | "large"',
       typeSimple: 'enum',
-      description: '整個邊框半徑範圍的大小。',
+      description: 'The size of the entire border radius scale.',
     },
     {
       name: 'fontStack',
@@ -85,7 +85,18 @@ export const App = () => (
       type: '"rounded" | "system"',
       typeSimple: 'enum',
       description:
-        "整個 UI 使用的字體堆棧。 請注意，`rounded` 會嘗試使用 SF Pro Rounded，當不可用時會退回到系統字體。
+        "The font stack used throughout the UI. Note that `rounded` attempts to use SF Pro Rounded, falling back to system fonts when it isn't available.",
+    },
+    {
+      name: 'overlayBlur',
+      required: false,
+      default: 'none',
+      type: '"large" | "small" | "none"',
+      typeSimple: 'enum',
+      description: 'The modal backdrop blur.',
+    },
+  ]}
+/>
 
 例如，要使用紫色的輔色和 `medium` 的邊框半徑來自訂暗主題：
 
