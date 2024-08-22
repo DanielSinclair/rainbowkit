@@ -1,13 +1,13 @@
 ---
 title: ConnectButton
-description: Using and customising the ConnectButton
+description: Menggunakan dan menyesuaikan ConnectButton
 ---
 
 # ConnectButton
 
-## Using and customising the ConnectButton
+## Menggunakan dan menyesuaikan ConnectButton
 
-This is the main component. It is responsible for rendering the connect/disconnect button, as well as chain-swapping UI.
+Ini adalah komponen utama. Bertanggung jawab untuk menampilkan tombol koneksi / pemutusan, serta UI pergantian rantai.
 
 ```tsx
 import { ConnectButton } from '@rainbow-me/rainbowkit';
@@ -17,11 +17,11 @@ export const YourApp = () => {
 };
 ```
 
-> Note: Make sure your app is wrapped in the necessary providers. [Read more](/docs/installation#wrap-providers).
+> Catatan: Pastikan aplikasi Anda dibungkus dalam penyedia yang diperlukan. [Baca lebih lanjut](/docs/installation#wrap-providers).
 
 ### Props
 
-The `ConnectButton` component exposes several props to customize its appearance, including toggling the visibility of different elements.
+Komponen `ConnectButton` menyediakan beberapa props untuk menyesuaikan tampilannya, termasuk mengaktifkan / menonaktifkan visibilitas elemen yang berbeda.
 
 <PropsTable
   data={[
@@ -62,71 +62,71 @@ The `ConnectButton` component exposes several props to customize its appearance,
   ]}
 />
 
-> Note: the built-in `largeScreen` breakpoint is `768px`.
+> Catatan: breakpoint `largeScreen` bawaan adalah `768px`.
 
 ### Contoh
 
 #### Label
 
-Use the `label` prop to set a custom `ConnectButton` text.
+Gunakan prop `label` untuk mengatur teks `ConnectButton` khusus.
 
 ```tsx
 <ConnectButton label="__Sign in__" />
 ```
 
-#### Account status
+#### Status akun
 
-Here are a few different ways you can use the `accountStatus` prop.
+Berikut beberapa cara berbeda yang bisa Anda gunakan pada prop `accountStatus`.
 
-Only show the account's avatar.
+Hanya menampilkan avatar akun.
 
 ```tsx
 <ConnectButton accountStatus="__avatar__" />
 ```
 
-Only show the account's address.
+Hanya menampilkan alamat akun.
 
 ```tsx
 <ConnectButton accountStatus="__address__" />
 ```
 
-#### Chain status
+#### Status rantai
 
-Here are a few different ways you can use the `chainStatus` prop.
+Berikut beberapa cara berbeda yang bisa Anda gunakan pada prop `chainStatus`.
 
-Only show the current chain's icon.
+Hanya menampilkan ikon rantai saat ini.
 
 ```tsx
 <ConnectButton chainStatus="__icon__" />
 ```
 
-Only show the current chain's name.
+Hanya menampilkan nama rantai saat ini.
 
 ```tsx
 <ConnectButton chainStatus="__name__" />
 ```
 
-Hide the chain UI entirely.
+Menyembunyikan UI rantai sepenuhnya.
 
 ```tsx
 <ConnectButton chainStatus="__none__" />
 ```
 
-#### Show balance
+#### Tampilkan saldo
 
-Use the `showBalance` prop to hide/show the balance.
+Gunakan prop `showBalance` untuk menyembunyikan / menampilkan saldo.
 
-Hide the balance.
+Sembunyikan saldo.
 
 ```tsx
 <ConnectButton showBalance={__false__} />
 ```
 
-#### Responsive
+#### Responsif
 
-These props can also be defined in a responsive format.
+Props ini juga dapat didefinisikan dalam format responsif.
 
-On small screens, only show account icon. But on large screens, show icon and address.
+Pada layar kecil, hanya menampilkan ikon akun. Tetapi pada layar besar, menampilkan ikon dan alamat.
 
 ```tsx
 <ConnectButton
@@ -137,7 +137,7 @@ On small screens, only show account icon. But on large screens, show icon and ad
 />
 ```
 
-On small screens, hide balance. But on large screens, show it.
+Pada layar kecil, sembunyikan saldo. Tetapi pada layar besar, tampilkan.
 
 ```tsx
 <ConnectButton
