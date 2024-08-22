@@ -1,35 +1,35 @@
 ---
-title: Chains
-description: Customizing chains
+title: Сети
+description: Настройка сетей
 ---
 
-# Chains
+# Сети
 
-## Customizing chains
+## Настройка сетей
 
-RainbowKit is designed to integrate with [wagmi’s `chain` object](https://wagmi.sh/react/chains). Check out the list of supported chains [here](https://wagmi.sh/react/chains#supported-chains).
+RainbowKit разработан для интеграции с [объектом `chain` от wagmi](https://wagmi.sh/react/chains). Ознакомьтесь со списком поддерживаемых сетей [here](https://wagmi.sh/react/chains#supported-chains).
 
-### Customizing the initial chain
+### Настройка начальной сети
 
-By default, RainbowKit will connect to the first chain supplied to Wagmi. This behavior can be customized via the `initialChain` prop.
+По умолчанию RainbowKit подключится к первой сети, предоставленной Wagmi. Это поведение можно настроить с помощью свойства `initialChain`.
 
-The initial chain can be configured using a chain ID.
+Начальная сеть может быть настроена с использованием идентификатора цепочки.
 
 ```tsx
 <RainbowKitProvider initialChain={1}>
 ```
 
-As a convenience, you can also pass a chain object.
+Для удобства вы также можете передать объект цепочки.
 
 ```tsx
 <RainbowKitProvider initialChain={mainnet}>
 ```
 
-### Custom chain metadata
+### Пользовательские данные сети
 
-Several chain icons and backgrounds are provided by default, but you can customize the icon and background for each chain using the `iconUrl` and `iconBackground` properties.
+Несколько значков и фонов сетей предоставляются по умолчанию, но вы можете настроить значок и фон для каждой сети, используя свойства `iconUrl` и `iconBackground`.
 
-Example with `getDefaultConfig`
+Пример с `getDefaultConfig`
 
 ```tsx
 import { mainnet, optimism } from 'wagmi/chains';
@@ -50,7 +50,7 @@ const config = getDefaultConfig({
 });
 ```
 
-Example with `createConfig`
+Пример с `createConfig`
 
 ```tsx
 import { mainnet, optimism } from 'wagmi/chains';
