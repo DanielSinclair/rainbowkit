@@ -1,13 +1,13 @@
 ---
 title: ConnectButton
-description: Using and customising the ConnectButton
+description: การใช้และปรับแต่ง ConnectButton
 ---
 
 # ConnectButton
 
-## Using and customising the ConnectButton
+## การใช้และปรับแต่ง ConnectButton
 
-This is the main component. It is responsible for rendering the connect/disconnect button, as well as chain-swapping UI.
+นี่คือส่วนประกอบหลัก มีหน้าที่ในการแสดงผลปุ่มเชื่อมต่อ/ยกเลิกการเชื่อมต่อ รวมถึง UI การสลับ chain
 
 ```tsx
 import { ConnectButton } from '@rainbow-me/rainbowkit';
@@ -17,11 +17,11 @@ export const YourApp = () => {
 };
 ```
 
-> Note: Make sure your app is wrapped in the necessary providers. [Read more](/docs/installation#wrap-providers).
+> หมายเหตุ: ตรวจสอบให้แน่ใจว่าแอปของคุณถูกห่อด้วยผู้ให้บริการที่จำเป็น [อ่านเพิ่มเติม](/docs/installation#wrap-providers).
 
-### Props
+### พร็อพ
 
-The `ConnectButton` component exposes several props to customize its appearance, including toggling the visibility of different elements.
+องค์ประกอบ `ConnectButton` เผยพร็อพหลายตัวให้กำหนดลักษณะของมัน ซึ่งรวมถึงการแสดง/ซ่อนขององค์ประกอบต่างๆ
 
 <PropsTable
   data={[
@@ -62,71 +62,71 @@ The `ConnectButton` component exposes several props to customize its appearance,
   ]}
 />
 
-> Note: the built-in `largeScreen` breakpoint is `768px`.
+> หมายเหตุ: ขนาดการแบ่งจอที่กำหนดในตัวของ `largeScreen` คือ `768px`
 
 ### ตัวอย่าง
 
-#### Label
+#### ป้ายชื่อ
 
-Use the `label` prop to set a custom `ConnectButton` text.
+ใช้พร็อพ `label` เพื่อกำหนดข้อความ ConnectButton เอง
 
 ```tsx
 <ConnectButton label="__Sign in__" />
 ```
 
-#### Account status
+#### สถานะบัญชี
 
-Here are a few different ways you can use the `accountStatus` prop.
+นี่คือบางวิธีที่คุณสามารถใช้พร็อพ `accountStatus`
 
-Only show the account's avatar.
+แสดงเฉพาะอวตารของบัญชี
 
 ```tsx
 <ConnectButton accountStatus="__avatar__" />
 ```
 
-Only show the account's address.
+แสดงเฉพาะที่อยู่ของบัญชี
 
 ```tsx
 <ConnectButton accountStatus="__address__" />
 ```
 
-#### Chain status
+#### สถานะ chain
 
-Here are a few different ways you can use the `chainStatus` prop.
+นี่คือบางวิธีที่คุณสามารถใช้พร็อพ `chainStatus`
 
-Only show the current chain's icon.
+แสดงเฉพาะไอคอนของ chain ปัจจุบัน
 
 ```tsx
 <ConnectButton chainStatus="__icon__" />
 ```
 
-Only show the current chain's name.
+แสดงเฉพาะชื่อของ chain ปัจจุบัน
 
 ```tsx
 <ConnectButton chainStatus="__name__" />
 ```
 
-Hide the chain UI entirely.
+ซ่อน UI ของ chain ทั้งหมด
 
 ```tsx
 <ConnectButton chainStatus="__none__" />
 ```
 
-#### Show balance
+#### แสดงยอดเงิน
 
-Use the `showBalance` prop to hide/show the balance.
+ใช้พร็อพ `showBalance` เพื่อซ่อน/แสดงยอดเงิน
 
-Hide the balance.
+ซ่อนยอดเงิน
 
 ```tsx
 <ConnectButton showBalance={__false__} />
 ```
 
-#### Responsive
+#### การตอบสนอง
 
-These props can also be defined in a responsive format.
+พร็อพเหล่านี้ยังสามารถกำหนดในรูปแบบการตอบสนองได้
 
-On small screens, only show account icon. But on large screens, show icon and address.
+บนหน้าจอขนาดเล็ก แสดงเฉพาะไอคอนบัญชี แต่ในหน้าจอขนาดใหญ่ แสดงไอคอนและที่อยู่
 
 ```tsx
 <ConnectButton
@@ -137,7 +137,7 @@ On small screens, only show account icon. But on large screens, show icon and ad
 />
 ```
 
-On small screens, hide balance. But on large screens, show it.
+บนหน้าจอขนาดเล็ก ซ่อนยอดเงิน แต่บนหน้าจอขนาดใหญ่ แสดงมัน
 
 ```tsx
 <ConnectButton
