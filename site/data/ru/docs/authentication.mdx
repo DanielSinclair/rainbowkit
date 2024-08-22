@@ -1,39 +1,39 @@
 ---
-title: Authentication
-description: Authenticating your users
+title: Аутентификация
+description: Аутентификация ваших пользователей
 ---
 
-# Authentication
+# Аутентификация
 
-## Providing authenticated access to your application
+## Предоставление аутентифицированного доступа к вашему приложению
 
-You can optionally enforce that users sign a message with their wallet during the connection process, proving that they own the connected account and allowing you to create an authenticated user session with privileged access to your application.
+Вы можете по желанию требовать, чтобы пользователи подписывали сообщение своим кошельком в процессе подключения, доказывая таким образом, что они владеют подключенным аккаунтом, и позволить вам создать аутентифицированный пользовательский сеанс с привилегированным доступом к вашему приложению.
 
-While it's possible to [integrate with custom back-ends and message formats,](/docs/custom-authentication) RainbowKit provides first-class support for [Sign-In with Ethereum](https://login.xyz) and [NextAuth.js.](https://next-auth.js.org)
+Хотя возможно интегрироваться с собственными бэк-эндами и форматами сообщений, RainbowKit предоставляет первоклассную поддержку [Вход по Ethereum](https://login.xyz) и [NextAuth.js.](https://next-auth.js.org)
 
-### Set up Sign-In with Ethereum and NextAuth.js
+### Настройка Входа по Ethereum и NextAuth.js
 
-If you haven't already, first set up your [Next.js](https://nextjs.org) project with the [official Sign-In with Ethereum boilerplate for NextAuth.js.](https://docs.login.xyz/integrations/nextauth.js)
+Если вы еще этого не сделали, сначала настройте свой проект [Next.js](https://nextjs.org) с [официальным шаблоном Вход по Ethereum для NextAuth.js.](https://docs.login.xyz/integrations/nextauth.js)
 
-#### Install
+#### Установить
 
-Install the `@rainbow-me/rainbowkit-siwe-next-auth` package and its peer dependency, [ethers](https://docs.ethers.org/v5/).
+Установите пакет `@rainbow-me/rainbowkit-siwe-next-auth` и его зависимость однорангового уровня, [ethers](https://docs.ethers.org/v5/).
 
 ```bash
 npm install @rainbow-me/rainbowkit-siwe-next-auth siwe@^2 ethers@^5
 ```
 
-> Note: `siwe` requires the [ethers](https://docs.ethers.org/v5/) peer dependency, while [wagmi](https://wagmi.sh/) now relies on the alternative [viem](https://viem.sh).
+> Примечание: требуется `siwe` [ethers](https://docs.ethers.org/v5/) одноранговая зависимость, в то время как [wagmi](https://wagmi.sh/) теперь опирается на альтернативу [viem](https://viem.sh).
 
-#### Set up the provider
+#### Настройте провайдера
 
-In your `App` component, import `RainbowKitSiweNextAuthProvider`.
+В вашем компоненте `App` импортируйте `RainbowKitSiweNextAuthProvider`.
 
 ```tsx
 import { RainbowKitSiweNextAuthProvider } from '@rainbow-me/rainbowkit-siwe-next-auth';
 ```
 
-Wrap `RainbowKitProvider` with `RainbowKitSiweNextAuthProvider`, ensuring it's nested within NextAuth's `SessionProvider` so that it has access to the session.
+Оберните `RainbowKitProvider` с помощью `RainbowKitSiweNextAuthProvider`, убедившись, что он вложен в `SessionProvider` от NextAuth, чтобы иметь доступ к сессии.
 
 ```tsx
 import { RainbowKitSiweNextAuthProvider } from '@rainbow-me/rainbowkit-siwe-next-auth';
@@ -71,13 +71,13 @@ export default function App({
 }
 ```
 
-With `RainbowKitSiweNextAuthProvider` in place, your users will now be prompted to authenticate by signing a message once they've connected their wallet.
+С `RainbowKitSiweNextAuthProvider` на месте, ваши пользователи теперь будут призываться к аутентификации путем подписания сообщения после того, как они подключили свой кошелек.
 
-#### Customize the SIWE message options
+#### Настройте параметры сообщения SIWE
 
-You can customize the [SIWE message options](https://github.com/spruceid/siwe/blob/v1.1.6/packages/siwe/lib/client.ts#L29) by passing a function to the `getSiweMessageOptions` prop on `RainbowKitSiweNextAuthProvider`.
+Вы можете настроить [опции сообщений SIWE](https://github.com/spruceid/siwe/blob/v1.1.6/packages/siwe/lib/client.ts#L29), передав функцию в свойство `getSiweMessageOptions` на `RainbowKitSiweNextAuthProvider`.
 
-This function will be called whenever a new message is created. Options returned from this function will be merged with the defaults.
+Эта функция будет вызываться всякий раз, когда создается новое сообщение. Опции, возвращенные из этой функции, будут объединены с настройками по умолчанию.
 
 ```tsx
 import {
@@ -96,13 +96,13 @@ const getSiweMessageOptions: GetSiweMessageOptions = () => ({
 </RainbowKitSiweNextAuthProvider>;
 ```
 
-#### Access the session server-side
+#### Доступ к серверной сессии
 
-You can access the session token with NextAuth's `getToken` function imported from `next-auth/jwt`. If the user has successfully authenticated, the session token's `sub` property (the "subject" of the token, i.e. the user) will be the user's address.
+Вы можете получить доступ к токену сессии с помощью функции `getToken` от NextAuth, импортированной из `next-auth/jwt`. Если пользователь успешно прошел аутентификацию, свойство `sub` токена сессии ("субъект" токена, т.е. пользователь) будет адресом пользователя.
 
-You can also pass down the resolved session object from the server via `getServerSideProps` so that NextAuth doesn't need to resolve it again on the client.
+Вы также можете передать объект сессии, разрешенный на сервере, через `getServerSideProps`, чтобы NextAuth не нужно было разрешать его снова на клиенте.
 
-For example:
+Например:
 
 ```tsx
 import { GetServerSideProps, InferGetServerSidePropsType } from 'next';
@@ -143,7 +143,7 @@ export default function AuthenticatedPage({
 }
 ```
 
-For more information about managing the session, you can refer to the following documentation:
+Для получения дополнительной информации о управлении сессией вы можете обратиться к следующей документации:
 
-- [Next.js authentication guide](https://nextjs.org/docs/authentication)
-- [NextAuth.js documentation](https://next-auth.js.org)
+- [Руководство по аутентификации Next.js](https://nextjs.org/docs/authentication)
+- [Документация NextAuth.js](https://next-auth.js.org)
