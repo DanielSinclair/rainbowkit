@@ -1,13 +1,13 @@
 ---
-title: Custom App Info
-description: Customizing your app's info
+title: Infos de l'application personnalisée
+description: Personnalisation des informations de votre application
 ---
 
-# Custom App Info
+# Infos de l'application personnalisée
 
-## Customizing your app’s info
+## Personnalisation des informations de votre application
 
-You can pass your app’s info in the `appInfo` prop for `RainbowKitProvider`. Properties you can modify are your app's name (`appName`) and the link where the “Learn More” button in the connection modal redirects to (`learnMoreUrl`):
+Vous pouvez passer les informations de votre application dans la propriété `appInfo` pour `RainbowKitProvider`. Les propriétés que vous pouvez modifier sont le nom de votre application (`appName`) et le lien où le bouton « En savoir plus » dans la fenêtre de connexion redirige (`learnMoreUrl`) :
 
 ```tsx
 import { RainbowKitProvider } from '@rainbow-me/rainbowkit';
@@ -27,9 +27,9 @@ const App = () => {
 };
 ```
 
-### Add a Disclaimer
+### Ajouter un avertissement
 
-You can provide your own disclaimer to be displayed at the bottom of the connection modal. The `disclaimer` property in `appInfo` takes a `DisclaimerComponent` with arguments `Text` and `Link`. You can use it to build your own disclaimer that inherits the theming system. We export the `DisclaimerComponent` type for TypeScript users:
+Vous pouvez fournir votre propre avertissement à afficher en bas de la fenêtre de connexion. La propriété `disclaimer` dans `appInfo` prend un `DisclaimerComponent` avec les arguments `Text` et `Link`. Vous pouvez l'utiliser pour construire votre propre avertissement qui hérite du système de thème. Nous exportons le type `DisclaimerComponent` pour les utilisateurs de TypeScript :
 
 ```tsx
 import {
