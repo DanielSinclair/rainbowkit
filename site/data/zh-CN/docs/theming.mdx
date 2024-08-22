@@ -52,7 +52,51 @@ export const App = () => (
 
 内置主题功能还接受一个选项对象，允许您从几种不同的视觉样式中选择。
 
-
+<PropsTable
+  data={[
+    {
+      name: 'accentColor',
+      required: false,
+      default: '"#0E76FD"',
+      type: 'string',
+      description:
+        'The background/text color of various interactive elements.',
+    },
+    {
+      name: 'accentColorForeground',
+      required: false,
+      default: '"white"',
+      type: 'string',
+      description:
+        'The color used for foreground elements rendered on top of the accent color.',
+    },
+    {
+      name: 'borderRadius',
+      required: false,
+      default: 'large',
+      type: '"none" | "small" | "medium" | "large"',
+      typeSimple: 'enum',
+      description: 'The size of the entire border radius scale.',
+    },
+    {
+      name: 'fontStack',
+      required: false,
+      default: 'rounded',
+      type: '"rounded" | "system"',
+      typeSimple: 'enum',
+      description:
+        "The font stack used throughout the UI. Note that `rounded` attempts to use SF Pro Rounded, falling back to system fonts when it isn't available.",
+    },
+    {
+      name: 'overlayBlur',
+      required: false,
+      default: 'none',
+      type: '"large" | "small" | "none"',
+      typeSimple: 'enum',
+      description: 'The modal backdrop blur.',
+    },
+  ]}
+/>
 
 例如，要使用紫罗兰色的重音颜色和`中等`边界半径尺寸自定义深色主题：
 
