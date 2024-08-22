@@ -1,15 +1,15 @@
 ---
-title: Custom ConnectButton
-description: Creating a custom ConnectButton
+title: ปุ่มเชื่อมต่อที่กำหนดเอง
+description: การสร้าง ConnectButton ที่กำหนดเอง
 ---
 
-# Custom ConnectButton
+# ปุ่มเชื่อมต่อที่กำหนดเอง
 
-## Creating a custom ConnectButton
+## การสร้าง ConnectButton ที่กำหนดเอง
 
-You can use the low-level `ConnectButton.Custom` to create your own custom connection button. This component renders a function, which includes everything you need to re-implement the built-in buttons.
+คุณสามารถใช้ `ConnectButton.Custom` ระดับต่ำเพื่อสร้างปุ่มการเชื่อมต่อที่กำหนดเองของคุณเอง คอมโพเนนต์นี้ทำการเรนเดอร์ฟังก์ชัน ซึ่งรวมทุกอย่างที่คุณต้องการในการดำเนินการใหม่กับปุ่มที่สร้างขึ้น คอมโพเนนต์นี้ทำการเรนเดอร์ฟังก์ชัน ซึ่งรวมทุกอย่างที่คุณต้องการในการดำเนินการใหม่กับปุ่มที่สร้างขึ้น
 
-A minimal re-implementation of the built-in buttons would look something like this:
+การดำเนินการใหม่ขั้นต่ำของปุ่มที่สร้างขึ้นอาจดูเช่นนี้:
 
 ```tsx
 import { ConnectButton } from '@rainbow-me/rainbowkit';
@@ -111,9 +111,9 @@ export const YourApp = () => {
 };
 ```
 
-The following props are passed to your render function.
+Props ต่อไปนี้จะถูกส่งไปยังฟังก์ชันเรนเดอร์ของคุณ.
 
-### Account properties
+### คุณสมบัติของบัญชี
 
 <PropsTable
   data={[
@@ -210,7 +210,7 @@ The following props are passed to your render function.
   ]}
 />
 
-### Chain properties
+### คุณสมบัติของเชื่อมโยง
 
 <PropsTable
   data={[
@@ -271,7 +271,7 @@ The following props are passed to your render function.
   ]}
 />
 
-### Modal state properties
+### คุณสมบัติของสถานะ Modal
 
 <PropsTable
   data={[
@@ -316,7 +316,7 @@ The following props are passed to your render function.
   ]}
 />
 
-### General state properties
+### คุณสมบัติของสถานะทั่วไป
 
 <PropsTable
   data={[
