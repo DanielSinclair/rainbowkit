@@ -1,17 +1,17 @@
 ---
-title: Custom Wallets
-description: Create a custom wallet
+title: カスタムウォレット
+description: カスタムウォレットを作成
 ---
 
-# Custom Wallets
+# カスタムウォレット
 
-## Create a custom wallet
+## カスタムウォレットを作成
 
-> Note: This API is unstable and likely to change in the near future. We will be adding more built-in wallets over time. [Let us know](https://github.com/rainbow-me/rainbowkit/issues) if there are any particular wallets you're interested in.
+> 注意: このAPIは不安定で、近い将来に変更される可能性があります。 時間をかけて、内蔵ウォレットを増やしていきます。 [お知らせください](https://github.com/rainbow-me/rainbowkit/issues) あなたが興味を持っている特定のウォレットがあれば。
 
-The `Wallet` function type is provided to help you define your own custom wallets. The following properties can be configured on the return value of your `Wallet` function:
+`Wallet`関数型は、独自のカスタムウォレットを定義するのに役立ちます。 次のプロパティは `Wallet` 関数の戻り値に設定できます：
 
-### Wallet Properties
+### ウォレットのプロパティ
 
 <PropsTable
   data={[
@@ -134,7 +134,7 @@ The `Wallet` function type is provided to help you define your own custom wallet
   ]}
 />
 
-### DownloadUrls Properties
+### DownloadUrls のプロパティ
 
 <PropsTable
   data={[
@@ -206,7 +206,7 @@ The `Wallet` function type is provided to help you define your own custom wallet
 
 ### 例
 
-For example, to create a custom wallet using WalletConnect:
+例えば、WalletConnectを使用してカスタムウォレットを作成するには:
 
 ```tsx
 import { Wallet, getWalletConnectConnector } from '@rainbow-me/rainbowkit';
@@ -278,4 +278,4 @@ export const rainbow = ({ projectId }: MyWalletOptions): Wallet => ({
 });
 ```
 
-You can then add your custom wallet in the [wallet list](/docs/custom-wallet-list).
+あなたはその後、カスタムウォレットを[ウォレットリスト](/docs/custom-wallet-list)に追加することができます。
