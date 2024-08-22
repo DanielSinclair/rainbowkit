@@ -122,7 +122,7 @@ export const YourApp = () => {
       required: false,
       type: 'object | undefined',
       description:
-        '包含有關當前帳戶詳細信息的對象，如下所述',
+        'Object containing details about the current account, described below',
     },
     {
       name: 'account.address',
@@ -130,7 +130,7 @@ export const YourApp = () => {
       type: 'string',
       description: (
         <>
-          完整的帳戶地址，例如
+          The full account address, e.g.
           "0x7a3d05c70581bD345fe117c06e45f9669205384f"
         </>
       ),
@@ -139,7 +139,7 @@ export const YourApp = () => {
       name: 'account.balanceDecimals',
       required: false,
       type: 'string | undefined	',
-      description: '以小數表示的帳戶餘額',
+      description: 'The account balance in decimals',
     },
     {
       name: 'account.balanceFormatted',
@@ -147,7 +147,7 @@ export const YourApp = () => {
       type: 'string | undefined	',
       description: (
         <>
-          帳戶餘額格式化為字符串，例如{' '}
+          The account balance formatted as a string, e.g.{' '}
           <code>1.234567890123456789</code>
         </>
       ),
@@ -158,7 +158,7 @@ export const YourApp = () => {
       type: 'string | undefined	',
       description: (
         <>
-          餘額的貨幣符號，例如 <code>ETH</code>
+          The currency symbol for the balance, e.g. <code>ETH</code>
         </>
       ),
     },
@@ -168,8 +168,8 @@ export const YourApp = () => {
       type: 'string | undefined	',
       description: (
         <>
-          餘額格式化為 3 位有效數字，加上
-          符號，例如 <code>1.23 ETH</code>
+          The balance formatted to 3 significant digits, plus the
+          symbol, e.g. <code>1.23 ETH</code>
         </>
       ),
     },
@@ -179,8 +179,8 @@ export const YourApp = () => {
       type: 'string',
       description: (
         <>
-          ENS 名稱，或地址的截斷版本，例如{' '}
-          <code>"rainbowwallet.eth"</code> 或 <code>"0x7a…384f"</code>
+          The ENS name, or a truncated version of the address, e.g.{' '}
+          <code>"rainbowwallet.eth"</code> or <code>"0x7a…384f"</code>
         </>
       ),
     },
@@ -188,7 +188,7 @@ export const YourApp = () => {
       name: 'account.ensAvatar',
       required: false,
       type: 'string	| undefined',
-      description: 'ENS 頭像 URI',
+      description: 'The ENS avatar URI',
     },
     {
       name: 'account.ensName',
@@ -196,7 +196,7 @@ export const YourApp = () => {
       type: 'string	| undefined',
       description: (
         <>
-          ENS 名稱，例如 <code>rainbowwallet.eth</code>
+          The ENS name, e.g. <code>rainbowwallet.eth</code>
         </>
       ),
     },
@@ -205,7 +205,7 @@ export const YourApp = () => {
       required: false,
       type: 'boolean',
       description:
-        '布爾值，指示帳戶是否有當前鏈的待處理交易',
+        'Boolean indicating whether the account has pending transactions for the current chain',
     },
   ]}
 />
@@ -219,27 +219,27 @@ export const YourApp = () => {
       required: false,
       type: 'object | undefined',
       description:
-        '包含有關當前鏈詳細信息的對象，如下所述',
+        'Object containing details about the current chain, described below',
     },
     {
       name: 'chain.hasIcon',
       required: false,
       type: 'boolean',
-      description: '鏈是否有指定圖標',
+      description: 'Whether the chain as an icon specified',
     },
     {
       name: 'chain.iconUrl',
       required: false,
       type: 'string | undefined',
       description:
-        '鏈圖標的網址（在下載 Base64 數據網址時可能為未定義）',
+        'The chain icon URL (which may be also be undefined while downloading Base64 data URLs)',
     },
     {
       name: 'chain.iconBackground',
       required: false,
       type: 'string | undefined',
       description:
-        '鏈圖標背景，在加載圖像時可見',
+        'The chain icon background which will be visible while images are loading',
     },
     {
       name: 'chain.id',
@@ -247,7 +247,7 @@ export const YourApp = () => {
       type: 'number',
       description: (
         <>
-          鏈 ID，例如 <code>1</code>
+          The chain ID, e.g. <code>1</code>
         </>
       ),
     },
@@ -257,7 +257,7 @@ export const YourApp = () => {
       type: 'string | undefined',
       description: (
         <>
-          鏈名稱，例如 <code>"Ethereum"</code>
+          The chain name, e.g. <code>"Ethereum"</code>
         </>
       ),
     },
@@ -266,7 +266,7 @@ export const YourApp = () => {
       required: false,
       type: 'boolean | undefined',
       description:
-        '布爾值，指示當前鏈是否不受支持',
+        'Boolean indicating whether the current chain is unsupported',
     },
   ]}
 />
@@ -279,39 +279,39 @@ export const YourApp = () => {
       name: 'openAccountModal',
       required: false,
       type: '() => void',
-      description: '打開帳戶模態框的函數',
+      description: 'Function to open the account modal',
     },
     {
       name: 'openChainModal',
       required: false,
       type: '() => void',
-      description: '打開鏈模態框的函數',
+      description: 'Function to open the chain modal',
     },
     {
       name: 'openConnectModal',
       required: false,
       type: '() => void',
-      description: '打開連接模態框的函數',
+      description: 'Function to open the connect modal',
     },
     {
       name: 'accountModalOpen',
       required: false,
       type: 'boolean',
       description:
-        '布爾值，指示帳戶模態框是否已打開',
+        'Boolean indicating whether the account modal is open',
     },
     {
       name: 'chainModalOpen',
       required: false,
       type: 'boolean',
-      description: '布爾值，指示鏈模態框是否已打開',
+      description: 'Boolean indicating whether the chain modal is open',
     },
     {
       name: 'connectModalOpen',
       required: false,
       type: 'boolean',
       description:
-        '布爾值，指示連接模態框是否已打開',
+        'Boolean indicating whether the connect modal is open',
     },
   ]}
 />
@@ -325,14 +325,14 @@ export const YourApp = () => {
       required: false,
       type: 'boolean',
       description:
-        '布爾值，指示組件是否已掛載',
+        'Boolean indicating whether the component has mounted',
     },
     {
       name: 'authenticationStatus',
       required: false,
       type: '"loading" | "unauthenticated" | "authenticated" | undefined',
       description:
-        '身份驗證狀態，或如果尚未配置身份驗證則為 undefined',
+        'The authentication status, or undefined if authentication has not been configured',
     },
   ]}
 />
