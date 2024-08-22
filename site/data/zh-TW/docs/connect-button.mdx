@@ -30,7 +30,7 @@ export const YourApp = () => {
       required: false,
       default: 'Connect Wallet',
       type: 'string',
-      description: '在連接按鈕上顯示的文本標籤',
+      description: 'The text label displayed on the Connect button',
     },
     {
       name: 'accountStatus',
@@ -39,7 +39,7 @@ export const YourApp = () => {
       type: '"avatar" | "address" | "full" | { smallScreen: AccountStatus, largeScreen?: AccountStatus }',
       typeSimple: 'enum',
       description:
-        "是否顯示活動帳戶的頭像和/或地址",
+        "Whether the active account's avatar and/or address is displayed",
     },
     {
       name: 'chainStatus',
@@ -48,7 +48,7 @@ export const YourApp = () => {
       type: '"icon" | "name" | "full" | "none" | { smallScreen: ChainStatus, largeScreen?: ChainStatus }',
       typeSimple: 'enum',
       description:
-        "是否顯示當前鏈的圖標和/或名稱，或完全隱藏",
+        "Whether the current chain's icon and/or name is displayed, or hidden entirely",
     },
     {
       name: 'showBalance',
@@ -57,7 +57,7 @@ export const YourApp = () => {
       type: 'boolean | { smallScreen: boolean, largeScreen?: boolean }',
       typeSimple: 'enum',
       description:
-        '是否在帳戶名稱旁邊顯示餘額',
+        'Whether the balance is visible next to the account name',
     },
   ]}
 />
