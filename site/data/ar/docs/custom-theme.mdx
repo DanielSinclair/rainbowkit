@@ -1,17 +1,15 @@
 ---
-title: Custom Theme
-description: Creating a custom theme
+title: سمة مخصصة
+description: إنشاء سمة مخصصة
 ---
 
-# Custom Theme
+# سمة مخصصة
 
-## Creating a custom theme
+## إنشاء سمة مخصصة
 
-> Note: This API is unstable and likely to change
-> in the near future. We recommend sticking with the [built-in themes](/docs/theming) for
-> now.
+> ملاحظة: هذا الواجهة البرمجية للتطبيقات غير مستقرة ومرجح أن تتغير في المستقبل القريب. نوصي بالالتزام باستخدام [السمات المدمجة](/docs/theming) في الوقت الحالي.
 
-While the built-in themes provide some level of customization, the `Theme` type is provided to help you define your own custom themes with lower-level access to the underlying theme variables.
+بينما توفر السمات المدمجة بعض مستوى من التخصيص، يتم توفير نوع `Theme` لمساعدتك في تعريف سماتك المخصصة مع الوصول إلى متغيرات السمة الأساسية.
 
 ```tsx
 import { RainbowKitProvider, Theme } from '@rainbow-me/rainbowkit';
@@ -79,17 +77,17 @@ const App = () => (
 )
 ```
 
-### Extending a built-in theme
+### تمديد سمة مدمجة
 
-You can extend a built-in theme without having to re-define the entire theme. This is useful when you only want to override specific theme tokens.
+يمكنك تمديد سمة مدمجة دون الحاجة إلى إعادة تعريف السمة بالكامل. هذا مفيد عندما تريد فقط تجاوز رموز السمة المحددة.
 
-To do that, install `lodash.merge` (or equivalent):
+للقيام بذلك، قم بتثبيت `lodash.merge` (أو ما يعادله):
 
 ```bash
 npm install lodash.merge
 ```
 
-Import it, along with the theme you want to extend (eg: `darkTheme`) and the TypeScript `Theme` type:
+استورده مع السمة التي تريد تمديدها (على سبيل المثال: `darkTheme`) ونوع `Theme` في TypeScript:
 
 ```tsx
 import merge from 'lodash.merge';
@@ -100,7 +98,7 @@ import {
 } from '@rainbow-me/rainbowkit';
 ```
 
-Then, merge the built-in theme, with the theme tokens you'd like to override. In this example, I'm overriding the `accentColor` token to match my brand's accent color.
+ثم، ادمج السمة المدمجة مع رموز السمة التي تريد تجاوزها. في هذا المثال، أنا أتجاوز رمز `accentColor` ليتناسب مع لون التمييز الخاص بعلامتي التجارية.
 
 ```tsx
 const myTheme = merge(darkTheme(), {
@@ -110,7 +108,7 @@ const myTheme = merge(darkTheme(), {
 } as Theme);
 ```
 
-Finally, you can now pass your custom theme to `RainbowKitProvider`'s `theme` prop.
+أخيرًا، يمكنك الآن تمرير سمة مخصصة إلى خاصية `theme` لـ `RainbowKitProvider`.
 
 ```tsx
 const App = () => {
@@ -122,16 +120,16 @@ const App = () => {
 };
 ```
 
-### Creating custom theme selectors
+### إنشاء محددات سمة مخصصة
 
-If your app is server/statically rendered and allows users to manually toggle between themes, RainbowKit's theming system can be hooked up to custom CSS selectors with the following functions that can be used with any CSS-in-JS system:
+إذا كان تطبيقك مُقدمًا بواسطة الخادم/ثابت ويسمح للمستخدمين بالتنقل يدويًا بين السمات، يمكن ربط نظام السمات الخاص بـ RainbowKit بمحددات CSS المخصصة باستخدام الدوال التالية التي يمكن استخدامها مع أي نظام CSS في Javascript:
 
 - `cssStringFromTheme`
 - `cssObjectFromTheme`
 
-These functions return CSS that sets all required theme variables. Since both strings and objects are supported, this can be integrated with any CSS-in-JS system.
+تعيد هذه الدوال CSS الذي يحدد جميع متغيرات السمة المطلوبة. نظرًا لدعم السلاسل النصية والكائنات، يمكن دمج هذا مع أي نظام CSS في Javascript.
 
-As a basic example, you can render your own `style` element with custom selectors for each theme. Since we're taking control of rendering the theme's CSS, we're passing `null` to the `theme` prop so that RainbowKitProvider doesn't render any styles for us. Also note the use of the extends option on the cssStringFromTheme function which omits any theme variables that are the same as the base theme.
+كمثال بسيط، يمكنك عرض عنصر `style` الخاص بك مع المحددات المخصصة لكل سمة. نظرًا لأننا نتحكم في عرض CSS للسمات، فإننا نقوم بتمرير `null` إلى خاصية `theme` حتى لا يقوم RainbowKitProvider بعرض أي أنماط لنا. لاحظ أيضًا استخدام خيار extends في دالة cssStringFromTheme الذي يحذف أي متغيرات سمة تكون متطابقة مع السمة الأساسية.
 
 ```tsx
 import {
