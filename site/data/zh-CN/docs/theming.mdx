@@ -52,62 +52,7 @@ export const App = () => (
 
 内置主题功能还接受一个选项对象，允许您从几种不同的视觉样式中选择。
 
-<PropsTable
-  data={[
-    {
-      name: 'accentColor',
-      required: false,
-      default: '"#0E76FD"',
-      type: 'string',
-      description:
-        '各种交互元素的背景/文本颜色。',
-    },
-    {
-      name: 'accentColorForeground',
-      required: false,
-      default: '"white"',
-      type: 'string',
-      description:
-        '在accentColor之上的前景元素所使用的颜色。',
-    },
-    {
-      name: 'borderRadius',
-      required: false,
-      default: 'large',
-      type: '"none" | "small" | "medium" | "large"',
-      typeSimple: 'enum',
-      description: '整个边框半径尺度的大小。',
-    },
-    {
-      name: 'fontStack',
-      required: false,
-      default: 'rounded',
-      type: '"rounded" | "system"',
-      typeSimple: 'enum',
-      description:
-        "UI中使用的字体堆栈。请注意，`rounded` 尝试使用 SF Pro Rounded，当它不可用时，回退到系统字体。",
-    },
-    {
-      name: 'overlayBlur',
-      required: false,
-      default: 'none',
-      type: '"large" | "small" | "none"',
-      typeSimple: 'enum',
-      description: '模态背景模糊。',
-    },
-  ]}
-/> 注意，`rounded` 尝试使用 SF Pro Rounded 字体，当它不可用时会退回到系统字体。
-    },
-    {
-      name: 'overlayBlur',
-      required: false,
-      default: 'none',
-      type: '"large" | "small" | "none"',
-      typeSimple: 'enum',
-      description: '模态背景模糊效果.',
-    },
-  ]}
-/>
+
 
 例如，要使用紫罗兰色的重音颜色和`中等`边界半径尺寸自定义深色主题：
 
