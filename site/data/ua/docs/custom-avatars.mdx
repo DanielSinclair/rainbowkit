@@ -1,13 +1,13 @@
 ---
-title: Custom Avatars
-description: Customizing your app's user avatar
+title: Користувацькі Аватари
+description: Налаштування аватару користувача вашого додатку
 ---
 
-# Custom Avatars
+# Користувацькі Аватари
 
-## Customizing your app’s user avatar
+## Налаштування аватару користувача вашого додатку
 
-By default we provide an avatar for users in case their ENS image is not set, but you can customize this by providing your own avatar component. You can import the `AvatarComponent` type if using TypeScript:
+За замовчуванням ми надаємо аватар для користувачів, якщо їхнє зображення ENS не встановлено, але ви можете налаштувати це, надавши свій власний компонент аватара. Ви можете імпортувати тип `AvatarComponent`, якщо використовуєте TypeScript:
 
 ```tsx
 import {
@@ -48,4 +48,4 @@ const App = () => {
 };
 ```
 
-The `AvatarComponent` passed to the `avatar` prop has prop types as follows: `<{ address: string; ensImage?: string | null; size: number;}>`
+Компонент `AvatarComponent`, переданий в властивість `avatar`, має такі типи властивостей: `<{ address: string; ensImage?: string | null; size: number;}>`
