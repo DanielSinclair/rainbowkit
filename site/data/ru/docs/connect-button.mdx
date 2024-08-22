@@ -1,13 +1,13 @@
 ---
 title: ConnectButton
-description: Using and customising the ConnectButton
+description: Использование и настройка ConnectButton
 ---
 
 # ConnectButton
 
-## Using and customising the ConnectButton
+## Использование и настройка ConnectButton
 
-This is the main component. It is responsible for rendering the connect/disconnect button, as well as chain-swapping UI.
+Это основной компонент. Он отвечает за рендеринг кнопки подключения/отключения, а также интерфейса смены сети.
 
 ```tsx
 import { ConnectButton } from '@rainbow-me/rainbowkit';
@@ -17,11 +17,11 @@ export const YourApp = () => {
 };
 ```
 
-> Note: Make sure your app is wrapped in the necessary providers. [Read more](/docs/installation#wrap-providers).
+> Примечание: убедитесь, что ваше приложение обернуто в необходимые провайдеры. [Подробнее](/docs/installation#wrap-providers).
 
-### Props
+### Свойства
 
-The `ConnectButton` component exposes several props to customize its appearance, including toggling the visibility of different elements.
+Компонент `ConnectButton` предоставляет несколько свойств для настройки его внешнего вида, включая переключение видимости различных элементов.
 
 <PropsTable
   data={[
@@ -62,71 +62,71 @@ The `ConnectButton` component exposes several props to customize its appearance,
   ]}
 />
 
-> Note: the built-in `largeScreen` breakpoint is `768px`.
+> Примечание: встроенная точка останова `largeScreen` - `768px`.
 
 ### Примеры
 
-#### Label
+#### Метка
 
-Use the `label` prop to set a custom `ConnectButton` text.
+Используйте свойство `label` для установки текста настраиваемой кнопки `ConnectButton`.
 
 ```tsx
 <ConnectButton label="__Sign in__" />
 ```
 
-#### Account status
+#### Статус аккаунта
 
-Here are a few different ways you can use the `accountStatus` prop.
+Вот несколько способов использования свойства `accountStatus`.
 
-Only show the account's avatar.
+Показывать только аватар аккаунта.
 
 ```tsx
 <ConnectButton accountStatus="__avatar__" />
 ```
 
-Only show the account's address.
+Показывать только адрес аккаунта.
 
 ```tsx
 <ConnectButton accountStatus="__address__" />
 ```
 
-#### Chain status
+#### Статус сети
 
-Here are a few different ways you can use the `chainStatus` prop.
+Вот несколько способов использования свойства `chainStatus`.
 
-Only show the current chain's icon.
+Показывать только иконку текущей сети.
 
 ```tsx
 <ConnectButton chainStatus="__icon__" />
 ```
 
-Only show the current chain's name.
+Показывать только имя текущей сети.
 
 ```tsx
 <ConnectButton chainStatus="__name__" />
 ```
 
-Hide the chain UI entirely.
+Полностью скрыть интерфейс сети.
 
 ```tsx
 <ConnectButton chainStatus="__none__" />
 ```
 
-#### Show balance
+#### Показать баланс
 
-Use the `showBalance` prop to hide/show the balance.
+Используйте свойство `showBalance` для скрытия/показа баланса.
 
-Hide the balance.
+Скрыть баланс.
 
 ```tsx
 <ConnectButton showBalance={__false__} />
 ```
 
-#### Responsive
+#### Адаптивность
 
-These props can also be defined in a responsive format.
+Эти свойства также можно определить в адаптивном формате.
 
-On small screens, only show account icon. But on large screens, show icon and address.
+На малых экранах показывать только иконку аккаунта. Но на больших экранах показывать и иконку, и адрес.
 
 ```tsx
 <ConnectButton
@@ -137,7 +137,7 @@ On small screens, only show account icon. But on large screens, show icon and ad
 />
 ```
 
-On small screens, hide balance. But on large screens, show it.
+На малых экранах скрывать баланс. Но на больших экранах показывать его.
 
 ```tsx
 <ConnectButton
