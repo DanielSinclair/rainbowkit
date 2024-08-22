@@ -1,35 +1,35 @@
 ---
-title: Chains
-description: Customizing chains
+title: السلاسل
+description: تخصيص السلاسل
 ---
 
-# Chains
+# السلاسل
 
-## Customizing chains
+## تخصيص السلاسل
 
-RainbowKit is designed to integrate with [wagmi’s `chain` object](https://wagmi.sh/react/chains). Check out the list of supported chains [here](https://wagmi.sh/react/chains#supported-chains).
+تم تصميم RainbowKit للتكامل مع [كائن `chain` الخاص بـ wagmi](https://wagmi.sh/react/chains). تحقق من قائمة السلاسل المدعومة [here](https://wagmi.sh/react/chains#supported-chains).
 
-### Customizing the initial chain
+### تخصيص السلسلة الأولية
 
-By default, RainbowKit will connect to the first chain supplied to Wagmi. This behavior can be customized via the `initialChain` prop.
+بشكل افتراضي، سيقوم RainbowKit بالاتصال بالسلسلة الأولى المقدمة إلى Wagmi. يمكن تخصيص هذا السلوك عبر خاصية `initialChain`.
 
-The initial chain can be configured using a chain ID.
+يمكن تكوين السلسلة الأولية باستخدام معرف السلسلة.
 
 ```tsx
 <RainbowKitProvider initialChain={1}>
 ```
 
-As a convenience, you can also pass a chain object.
+للراحة، يمكنك أيضًا تمرير كائن السلسلة.
 
 ```tsx
 <RainbowKitProvider initialChain={mainnet}>
 ```
 
-### Custom chain metadata
+### بيانات وصفية خاصة بالسلاسل المخصصة
 
-Several chain icons and backgrounds are provided by default, but you can customize the icon and background for each chain using the `iconUrl` and `iconBackground` properties.
+يتم توفير العديد من أيقونات السلاسل والخلفيات بشكل افتراضي، ولكن يمكنك تخصيص أيقونة وخلفية كل سلسلة باستخدام خاصيتي `iconUrl` و `iconBackground`.
 
-Example with `getDefaultConfig`
+مثال مع `getDefaultConfig`
 
 ```tsx
 import { mainnet, optimism } from 'wagmi/chains';
@@ -50,7 +50,7 @@ const config = getDefaultConfig({
 });
 ```
 
-Example with `createConfig`
+مثال باستخدام `createConfig`
 
 ```tsx
 import { mainnet, optimism } from 'wagmi/chains';
