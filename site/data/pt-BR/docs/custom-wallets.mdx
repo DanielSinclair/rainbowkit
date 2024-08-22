@@ -1,17 +1,17 @@
 ---
-title: Custom Wallets
-description: Create a custom wallet
+title: Carteiras Personalizadas
+description: Criar uma carteira personalizada
 ---
 
-# Custom Wallets
+# Carteiras Personalizadas
 
-## Create a custom wallet
+## Criar uma carteira personalizada
 
-> Note: This API is unstable and likely to change in the near future. We will be adding more built-in wallets over time. [Let us know](https://github.com/rainbow-me/rainbowkit/issues) if there are any particular wallets you're interested in.
+> Nota: Esta API é instável e provavelmente mudará em um futuro próximo. Estaremos adicionando mais carteiras integradas ao longo do tempo. [Informe-nos](https://github.com/rainbow-me/rainbowkit/issues) se houver carteiras específicas que interessem a você.
 
-The `Wallet` function type is provided to help you define your own custom wallets. The following properties can be configured on the return value of your `Wallet` function:
+O tipo de função `Wallet` é fornecido para ajudá-lo a definir suas próprias carteiras personalizadas. As seguintes propriedades podem ser configuradas no valor de retorno da sua função `Wallet`:
 
-### Wallet Properties
+### Propriedades da Carteira
 
 <PropsTable
   data={[
@@ -134,7 +134,7 @@ The `Wallet` function type is provided to help you define your own custom wallet
   ]}
 />
 
-### DownloadUrls Properties
+### Propriedades DownloadUrls
 
 <PropsTable
   data={[
@@ -206,7 +206,7 @@ The `Wallet` function type is provided to help you define your own custom wallet
 
 ### Exemplos
 
-For example, to create a custom wallet using WalletConnect:
+Por exemplo, para criar uma carteira personalizada usando WalletConnect:
 
 ```tsx
 import { Wallet, getWalletConnectConnector } from '@rainbow-me/rainbowkit';
@@ -278,4 +278,4 @@ export const rainbow = ({ projectId }: MyWalletOptions): Wallet => ({
 });
 ```
 
-You can then add your custom wallet in the [wallet list](/docs/custom-wallet-list).
+Você pode então adicionar sua carteira personalizada na [lista de carteiras](/docs/custom-wallet-list).
