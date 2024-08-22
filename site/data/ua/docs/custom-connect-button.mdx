@@ -1,15 +1,15 @@
 ---
-title: Custom ConnectButton
-description: Creating a custom ConnectButton
+title: Користувацька кнопка підключення
+description: Створення користувацької кнопки підключення
 ---
 
-# Custom ConnectButton
+# Користувацька кнопка підключення
 
-## Creating a custom ConnectButton
+## Створення користувацької кнопки підключення
 
 You can use the low-level `ConnectButton.Custom` to create your own custom connection button. This component renders a function, which includes everything you need to re-implement the built-in buttons.
 
-A minimal re-implementation of the built-in buttons would look something like this:
+Мінімальна повторна реалізація вбудованих кнопок може виглядати приблизно так:
 
 ```tsx
 import { ConnectButton } from '@rainbow-me/rainbowkit';
@@ -111,9 +111,9 @@ export const YourApp = () => {
 };
 ```
 
-The following props are passed to your render function.
+Наступні властивості передаються вашій функції відтворення.
 
-### Account properties
+### Властивості облікового запису
 
 <PropsTable
   data={[
@@ -210,7 +210,7 @@ The following props are passed to your render function.
   ]}
 />
 
-### Chain properties
+### Властивості ланцюга
 
 <PropsTable
   data={[
@@ -271,7 +271,7 @@ The following props are passed to your render function.
   ]}
 />
 
-### Modal state properties
+### Властивості стану модального вікна
 
 <PropsTable
   data={[
@@ -316,7 +316,7 @@ The following props are passed to your render function.
   ]}
 />
 
-### General state properties
+### Загальні властивості стану
 
 <PropsTable
   data={[
