@@ -60,7 +60,7 @@ export const App = () => (
       default: '"#0E76FD"',
       type: 'string',
       description:
-        '各種互動元素的背景/文字顏色。',
+        'The background/text color of various interactive elements.',
     },
     {
       name: 'accentColorForeground',
@@ -68,7 +68,7 @@ export const App = () => (
       default: '"white"',
       type: 'string',
       description:
-        '在強調色上的前景元素所使用的顏色。',
+        'The color used for foreground elements rendered on top of the accent color.',
     },
     {
       name: 'borderRadius',
@@ -76,7 +76,7 @@ export const App = () => (
       default: 'large',
       type: '"none" | "small" | "medium" | "large"',
       typeSimple: 'enum',
-      description: '整個邊框半徑刻度的大小。',
+      description: 'The size of the entire border radius scale.',
     },
     {
       name: 'fontStack',
@@ -85,7 +85,7 @@ export const App = () => (
       type: '"rounded" | "system"',
       typeSimple: 'enum',
       description:
-        '整個UI使用的字體堆疊。請注意，如果`rounded`不可用，將會使用系統字體。',
+        "The font stack used throughout the UI. Note that `rounded` attempts to use SF Pro Rounded, falling back to system fonts when it isn't available.",
     },
     {
       name: 'overlayBlur',
@@ -93,10 +93,10 @@ export const App = () => (
       default: 'none',
       type: '"large" | "small" | "none"',
       typeSimple: 'enum',
-      description: '模態背景的模糊效果。',
+      description: 'The modal backdrop blur.',
     },
   ]}
-/> 例如，以紫色強調色和`medium`邊框半徑比例來自定義暗主題：
+/>
 
 每個主題還提供數個強調色預設值（`blue`、`green`、`orange`、`pink`、`purple`、`red`），可以展開到選項對象中。
 
