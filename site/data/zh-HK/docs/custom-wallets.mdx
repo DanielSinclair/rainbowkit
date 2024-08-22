@@ -19,45 +19,45 @@ description: 建立自訂錢包
       name: 'id',
       required: true,
       type: 'string',
-      description: '每個錢包的唯一 ID',
+      description: 'Unique ID per wallet',
     },
     {
       name: 'name',
       required: true,
       type: 'string',
-      description: '人可讀的錢包名稱',
+      description: 'Human-readable wallet name',
     },
     {
       name: 'rdns',
       required: false,
       type: 'string',
-      description: '支援 EIP6963 的錢包 RDNS',
+      description: 'RDNS for wallet which supports EIP6963',
     },
     {
       name: 'shortName',
       required: false,
       type: 'string | undefined',
-      description: '行動裝置使用的可選短名稱',
+      description: 'Optional short name for mobile use',
     },
     {
       name: 'iconUrl',
       required: true,
       type: 'string | (() => Promise<string>)',
       description:
-        '錢包圖標的 URL，或 Promise 返回 Base64 資料 URL',
+        'URL for wallet icon, or a promise that resolves to a Base64 data URL',
     },
     {
       name: 'iconAccent',
       required: false,
       type: 'string',
       description:
-        '在下載流中特別使用的顏色，用於具有瀏覽器擴充套件和行動應用程式的錢包',
+        'Accent color used in download flows for wallets with both a browser extension and a mobile app',
     },
     {
       name: 'iconBackground',
       required: true,
       type: 'string',
-      description: '圖標載入期間的背景顏色',
+      description: 'Background color while the wallet icon loads',
     },
     {
       name: 'installed',
@@ -65,8 +65,8 @@ description: 建立自訂錢包
       type: 'boolean | undefined',
       description: (
         <>
-          是否已知安裝此錢包，或{' '}
-          <code>undefined</code> 如果無法確定
+          Whether the wallet is known to be installed, or{' '}
+          <code>undefined</code> if indeterminate
         </>
       ),
     },
@@ -75,7 +75,7 @@ description: 建立自訂錢包
       required: false,
       type: '{ android?: string, ios?: string, mobile?: string, qrCode?: string, chrome?: string, firefox?: string, edge?: string, safari?: string, opera?: string, browserExtension?: string } | undefined',
       typeSimple: 'DownloadUrls | undefined',
-      description: '包含下載 URL 的物件',
+      description: 'Object containing download URLs',
     },
     {
       name: 'hidden',
@@ -83,7 +83,7 @@ description: 建立自訂錢包
       type: '(args: { wallets: Array<{ id: string, connector: Connector, installed?: boolean }> }) => boolean',
       typeSimple: '(args) => boolean | undefined',
       description:
-        '計算是否隱藏此錢包的函數',
+        'Function for calculating whether this wallet should be hidden from the list. This is useful for defining generic fallback wallets, e.g. the built-in "Injected Wallet" fallback makes use of this feature',
     },
     {
       name: 'createConnector',
@@ -91,7 +91,7 @@ description: 建立自訂錢包
       type: '() => RainbowKitConnector',
       typeSimple: 'RainbowKitConnector',
       description:
-        '提供連接器實例和不同連接方法配置的函數，如下所述',
+        'Function for providing the connector instance and configuration for different connection methods, described below',
     },
     {
       name: 'mobile',
@@ -99,14 +99,14 @@ description: 建立自訂錢包
       type: '{ getUri?: (uri: string) => string }',
       typeSimple: 'object',
       description:
-        '解析行動裝置錢包連接 URI 的函數',
+        'Function for resolving a mobile wallet connection URI',
     },
     {
       name: 'desktop',
       required: false,
       type: '{ getUri?: (uri: string) => string }',
       typeSimple: 'object',
-      description: '解析桌面應用深度連結的函數',
+      description: 'Function for resolving a desktop app deep link',
     },
     {
       name: 'qrCode',
@@ -114,7 +114,7 @@ description: 建立自訂錢包
       type: "{ getUri: (uri: string) => string, instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }> }}}",
       typeSimple: 'object',
       description:
-        '包含解析 QR 碼 URI 函數的物件，外加可選的行動錢包設定說明',
+        'Object containing a function for resolving the QR code URI, plus optional mobile wallet setup instructions',
     },
     {
       name: 'extension',
@@ -122,17 +122,17 @@ description: 建立自訂錢包
       type: "{ instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }> }}}",
       typeSimple: 'object',
       description:
-        '包含可選瀏覽器擴充套件設置說明的物件',
+        'Object containing optional browser extension setup instructions',
     },
     {
       name: 'createConnector',
       required: true,
       type: "createConnector: (details: WalletDetailsParams) => CreateConnectorFn",
       typeSimple: '(details: WalletDetailsParams) => CreateConnectorFn',
-      description: '提供連接器實例的函數',
+      description: 'Function for providing the connector instance',
     },
   ]}
-/> (args) => boolean | undefined
+/>
 
 ### 下載網址屬性
 
@@ -155,51 +155,51 @@ description: 建立自訂錢包
       required: false,
       type: 'string',
       description:
-        '當 `android` 或 `ios` 不可用時，提供行動使用者的登陸頁面',
+        'Landing page for mobile users when `android` or `ios` are unavailable',
     },
     {
       name: 'qrCode',
       required: false,
       type: 'string',
       description:
-        '用戶掃描行動下載 QR 碼後的登陸頁面',
+        'Landing page for users that scan the mobile download QR Code',
     },
     {
       name: 'chrome',
       required: false,
       type: 'string',
-      description: 'Chrome 網頁商店 URL',
+      description: 'Chrome Web Store URL',
     },
     {
       name: 'edge',
       required: false,
       type: 'string',
-      description: 'Microsoft Edge 附加元件 URL',
+      description: 'Microsoft Edge Add-ons URL',
     },
     {
       name: 'firefox',
       required: false,
       type: 'string',
-      description: 'Firefox 瀏覽器附加元件 URL',
+      description: 'Firefox Browser Add-ons URL',
     },
     {
       name: 'opera',
       required: false,
       type: 'string',
-      description: 'Opera 附加元件 URL',
+      description: 'Opera add-ons URL',
     },
     {
       name: 'safari',
       required: false,
       type: 'string',
-      description: 'Mac 應用程式商店 URL',
+      description: 'Mac App Store URL',
     },
     {
       name: 'browserExtension',
       required: false,
       type: 'string',
       description:
-        '當瀏覽器相容的 URL 不可用時，提供桌面擴充套件使用者的登陸頁面',
+        'Landing page for desktop extension users when browser-compatible URLs are unavailable',
     },
   ]}
 />
