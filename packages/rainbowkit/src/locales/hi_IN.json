@@ -1268,10 +1268,10 @@
       "qr_code": {
         "step1": {
           "title": "Valora ऐप खोलें",
-          "description": "We recommend putting Valora on your home screen for quicker access."
+          "description": "हम सलाह देते हैं कि आप Valora को अपने होम स्क्रीन पर रखें, इससे तेजी से एक्सेस करने में आसानी होगी।"
         },
         "step2": {
-          "title": "Create or import a wallet",
+          "title": "एक वॉलेट बनाएं या आयात करें",
           "description": "नया बटुआ बनाएं या मौजूदा को आयात करें।"
         },
         "step3": {
