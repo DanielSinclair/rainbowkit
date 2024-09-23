@@ -322,20 +322,6 @@
           "description": "Setelah Anda memiliki dompet, klik pada Sambungkan untuk terhubung melalui Bloom. Sebuah permintaan sambungan akan muncul di aplikasi untuk Anda konfirmasi.",
           "title": "Klik pada Sambungkan"
         }
-      },
-      "qr_code": {
-        "step1": {
-          "title": "Buka aplikasi Bloom Wallet",
-          "description": "Kami merekomendasikan untuk meletakkan Bloom Wallet di layar utama Anda untuk akses yang lebih cepat."
-        },
-        "step2": {
-          "description": "Buat atau impor sebuah dompet menggunakan frasa pemulihan Anda.",
-          "title": "Buat atau Impor Dompet"
-        },
-        "step3": {
-          "description": "Setelah Anda memiliki dompet, klik pada Sambungkan untuk terhubung melalui Bloom. Sebuah permintaan sambungan akan muncul di aplikasi untuk Anda konfirmasi.",
-          "title": "Klik pada Sambungkan"
-        }
       }
     },
     "bybit": {
@@ -1275,6 +1261,22 @@
         "step3": {
           "title": "Pindai kode",
           "description": "Ketuk WalletConnect lalu Beralih ke Scanner. Setelah Anda scan, muncul prompt koneksi untuk Anda menghubungkan dompet Anda."
+        }
+      }
+    },
+    "valora": {
+      "qr_code": {
+        "step1": {
+          "title": "Buka aplikasi Valora",
+          "description": "We recommend putting Valora on your home screen for quicker access."
+        },
+        "step2": {
+          "title": "Create or import a wallet",
+          "description": "Buat dompet baru atau impor yang sudah ada."
+        },
+        "step3": {
+          "title": "Tekan tombol scan",
+          "description": "Setelah Anda memindai, akan muncul petunjuk koneksi untuk Anda menghubungkan dompet Anda."
         }
       }
     }
