@@ -322,20 +322,6 @@
           "description": "Después de tener una billetera, haga clic en Conectar para conectarse a través de Bloom. Aparecerá un aviso de conexión en la aplicación para que confirme la conexión.",
           "title": "Haga clic en Conectar"
         }
-      },
-      "qr_code": {
-        "step1": {
-          "title": "Abra la aplicación Bloom Wallet",
-          "description": "Recomendamos colocar Bloom Wallet en su pantalla de inicio para un acceso más rápido."
-        },
-        "step2": {
-          "description": "Cree o importe una billetera usando su frase de recuperación.",
-          "title": "Crear o Importar una Billetera"
-        },
-        "step3": {
-          "description": "Después de tener una billetera, haga clic en Conectar para conectarse a través de Bloom. Aparecerá un aviso de conexión en la aplicación para que confirme la conexión.",
-          "title": "Haga clic en Conectar"
-        }
       }
     },
     "bybit": {
@@ -1275,6 +1261,22 @@
         "step3": {
           "title": "Escanea el código",
           "description": "Toca WalletConnect y luego cambia a Scanner. Después de escanear, aparecerá un aviso de conexión para que conectes tu billetera."
+        }
+      }
+    },
+    "valora": {
+      "qr_code": {
+        "step1": {
+          "title": "Abre la aplicación Valora",
+          "description": "We recommend putting Valora on your home screen for quicker access."
+        },
+        "step2": {
+          "title": "Create or import a wallet",
+          "description": "Crea una nueva billetera o importa una existente."
+        },
+        "step3": {
+          "title": "Toque el botón de escaneo",
+          "description": "Después de escanear, aparecerá un mensaje de conexión para que conecte su billetera."
         }
       }
     }
