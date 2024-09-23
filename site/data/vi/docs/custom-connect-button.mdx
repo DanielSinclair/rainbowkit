@@ -1,15 +1,15 @@
 ---
-title: Custom ConnectButton
-description: Creating a custom ConnectButton
+title: Nút Kết Nối Tùy Chỉnh
+description: Tạo một Nút Kết Nối Tùy Chỉnh
 ---
 
-# Custom ConnectButton
+# Nút Kết Nối Tùy Chỉnh
 
-## Creating a custom ConnectButton
+## Tạo một Nút Kết Nối Tùy Chỉnh
 
-You can use the low-level `ConnectButton.Custom` to create your own custom connection button. This component renders a function, which includes everything you need to re-implement the built-in buttons.
+Bạn có thể sử dụng `ConnectButton.Custom` cấp thấp để tạo nút kết nối tùy chỉnh của riêng bạn. Thành phần này kết xuất một hàm, bao gồm tất cả những gì bạn cần để tái triển khai các nút tích hợp sẵn.
 
-A minimal re-implementation of the built-in buttons would look something like this:
+Một tái triển khai tối thiểu của các nút tích hợp sẵn sẽ trông giống như sau:
 
 ```tsx
 import { ConnectButton } from '@rainbow-me/rainbowkit';
@@ -111,9 +111,9 @@ export const YourApp = () => {
 };
 ```
 
-The following props are passed to your render function.
+Các thuộc tính sau đây được truyền vào hàm kết xuất của bạn.
 
-### Account properties
+### Thuộc tính tài khoản
 
 <PropsTable
   data={[
@@ -210,7 +210,7 @@ The following props are passed to your render function.
   ]}
 />
 
-### Chain properties
+### Thuộc tính chuỗi
 
 <PropsTable
   data={[
@@ -271,7 +271,7 @@ The following props are passed to your render function.
   ]}
 />
 
-### Modal state properties
+### Thuộc tính trạng thái mô-đun
 
 <PropsTable
   data={[
@@ -316,7 +316,7 @@ The following props are passed to your render function.
   ]}
 />
 
-### General state properties
+### Thuộc tính trạng thái chung
 
 <PropsTable
   data={[
