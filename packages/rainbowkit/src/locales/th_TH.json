@@ -1268,10 +1268,10 @@
       "qr_code": {
         "step1": {
           "title": "เปิดแอพ Valora",
-          "description": "We recommend putting Valora on your home screen for quicker access."
+          "description": "เราขอแนะนำให้คุณวาง Valora ไว้ที่หน้าจอหลักของคุณเพื่อเข้าถึงได้เร็วขึ้น"
         },
         "step2": {
-          "title": "Create or import a wallet",
+          "title": "สร้างหรือนำเข้ากระเป๋าเงิน",
           "description": "สร้างกระเป๋าเงินใหม่หรือนำเข้าที่มีอยู่แล้ว."
         },
         "step3": {
