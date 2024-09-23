@@ -1267,11 +1267,11 @@
     "valora": {
       "qr_code": {
         "step1": {
-          "title": "Open the Valora app",
-          "description": "We recommend putting Valora on your home screen for quicker access."
+          "title": "Mở ứng dụng Valora",
+          "description": "Chúng tôi khuyến nghị đặt Valora trên màn hình chính của bạn để truy cập nhanh hơn."
         },
         "step2": {
-          "title": "Create or import a wallet",
+          "title": "Tạo hoặc nhập ví",
           "description": "Tạo ví mới hoặc nhập ví hiện có."
         },
         "step3": {
