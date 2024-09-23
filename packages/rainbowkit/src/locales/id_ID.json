@@ -1268,10 +1268,10 @@
       "qr_code": {
         "step1": {
           "title": "Buka aplikasi Valora",
-          "description": "We recommend putting Valora on your home screen for quicker access."
+          "description": "Kami merekomendasikan untuk meletakkan Valora di layar utama Anda untuk akses lebih cepat."
         },
         "step2": {
-          "title": "Create or import a wallet",
+          "title": "Buat atau Impor dompet",
           "description": "Buat dompet baru atau impor yang sudah ada."
         },
         "step3": {
