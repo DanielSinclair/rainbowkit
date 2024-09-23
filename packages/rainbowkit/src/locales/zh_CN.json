@@ -322,20 +322,6 @@
           "description": "拥有钱包后，点击连接以通过 Bloom 连接。应用中会出现一个连接提示，供您确认连接。",
           "title": "点击连接"
         }
-      },
-      "qr_code": {
-        "step1": {
-          "title": "打开 Bloom 钱包应用",
-          "description": "我们建议将 Bloom 钱包添加到主屏幕上，以便更快地访问。"
-        },
-        "step2": {
-          "description": "使用恢复短语创建或导入钱包。",
-          "title": "创建或导入钱包"
-        },
-        "step3": {
-          "description": "拥有钱包后，点击连接以通过 Bloom 连接。应用中会出现一个连接提示，供您确认连接。",
-          "title": "点击连接"
-        }
       }
     },
     "bybit": {
@@ -1275,6 +1261,22 @@
         "step3": {
           "title": "扫描代码",
           "description": "点击 WalletConnect 然后切换到扫描器。你扫描后，会出现一个连接提示让你连接你的钱包。"
+        }
+      }
+    },
+    "valora": {
+      "qr_code": {
+        "step1": {
+          "title": "打开Valora应用程序",
+          "description": "We recommend putting Valora on your home screen for quicker access."
+        },
+        "step2": {
+          "title": "Create or import a wallet",
+          "description": "创建新钱包或导入现有钱包。"
+        },
+        "step3": {
+          "title": "点击扫描按钮",
+          "description": "在您扫描后，将出现连接提示，供您连接您的钱包。"
         }
       }
     }
