@@ -1268,10 +1268,10 @@
       "qr_code": {
         "step1": {
           "title": "Abre la aplicación Valora",
-          "description": "We recommend putting Valora on your home screen for quicker access."
+          "description": "Recomendamos poner Valora en tu pantalla de inicio para un acceso más rápido."
         },
         "step2": {
-          "title": "Create or import a wallet",
+          "title": "Crear o Importar una billetera",
           "description": "Crea una nueva billetera o importa una existente."
         },
         "step3": {
