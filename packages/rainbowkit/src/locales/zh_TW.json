@@ -322,20 +322,6 @@
           "description": "擁有錢包後，點擊連接通過 Bloom 連接。應用程序中會出現連接提示，讓您確認連接。",
           "title": "點擊連接"
         }
-      },
-      "qr_code": {
-        "step1": {
-          "title": "打開 Bloom Wallet 應用程序",
-          "description": "我們建議將 Bloom Wallet 添加到主屏幕以便更快速訪問。"
-        },
-        "step2": {
-          "description": "使用恢復短語創建或導入錢包。",
-          "title": "創建或導入錢包"
-        },
-        "step3": {
-          "description": "擁有錢包後，點擊連接通過 Bloom 連接。應用程序中會出現連接提示，讓您確認連接。",
-          "title": "點擊連接"
-        }
       }
     },
     "bybit": {
@@ -1275,6 +1261,22 @@
         "step3": {
           "title": "掃描代碼",
           "description": "點擊 WalletConnect 然後切換到掃描儀。掃描後，會出現連接提示，讓您連接錢包。"
+        }
+      }
+    },
+    "valora": {
+      "qr_code": {
+        "step1": {
+          "title": "打開 Valora 應用程式",
+          "description": "We recommend putting Valora on your home screen for quicker access."
+        },
+        "step2": {
+          "title": "Create or import a wallet",
+          "description": "創建一個新的錢包或導入現有的錢包。"
+        },
+        "step3": {
+          "title": "點擊掃描按鈕",
+          "description": "掃描後，將出現連接提示以連接您的錢包。"
         }
       }
     }
