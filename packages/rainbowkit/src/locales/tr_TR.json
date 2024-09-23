@@ -322,19 +322,51 @@
           "description": "Bir cüzdanınız olduktan sonra, Bloom üzerinden bağlanmak için Bağlan'a tıklayın. Uygulamada bağlantıyı onaylamanız için bir bağlantı istemi belirecektir.",
           "title": "Bağlan'a tıklayın"
         }
-      },
+      }
+    },
+    "bybit": {
       "qr_code": {
         "step1": {
-          "title": "Bloom Cüzdan uygulamasını açın",
-          "description": "Daha hızlı erişim için Bloom Cüzdan'ı ana ekranınıza koymayı öneririz."
+          "description": "Cüzdanınıza daha hızlı erişim için Bybit'i ana ekranınıza koymayı öneririz.",
+          "title": "Bybit uygulamasını açın"
         },
         "step2": {
-          "description": "Kurtarma ifadenizle bir cüzdan oluşturun veya içe aktarın.",
+          "description": "Telefonunuzdaki yedekleme özelliğimizi kullanarak cüzdanınızı kolayca yedekleyebilirsiniz.",
           "title": "Cüzdan Oluştur veya Cüzdanı İçe Aktar"
         },
         "step3": {
-          "description": "Bir cüzdanınız olduktan sonra, Bloom üzerinden bağlanmak için Bağlan'a tıklayın. Uygulamada bağlantıyı onaylamanız için bir bağlantı istemi belirecektir.",
-          "title": "Bağlan'a tıklayın"
+          "description": "Taradıktan sonra, cüzdanınızı bağlamak için bir bağlantı istemi görünecektir.",
+          "title": "Tarayıcı düğmesine dokunun"
+        }
+      },
+      "extension": {
+        "step1": {
+          "description": "Tarayıcınızın sağ üst köşesine tıklayın ve kolay erişim için Bybit Cüzdan'ı sabitleyin.",
+          "title": "Bybit Cüzdan uzantısını yükleyin"
+        },
+        "step2": {
+          "description": "Yeni bir cüzdan oluşturun veya mevcut birini içe aktarın.",
+          "title": "Bir cüzdan oluşturun veya içe aktarın"
+        },
+        "step3": {
+          "description": "Bybit Cüzdan'ı ayarladıktan sonra, tarayıcıyı yenilemek ve uzantıyı yüklemek için aşağıdaki butona tıklayın.",
+          "title": "Tarayıcınızı yenileyin"
+        }
+      }
+    },
+    "binance": {
+      "qr_code": {
+        "step1": {
+          "description": "Cüzdanınıza daha hızlı erişim için Binance'u ana ekranınıza koymanızı öneririz.",
+          "title": "Binance uygulamasını açın"
+        },
+        "step2": {
+          "description": "Telefonunuzdaki yedekleme özelliğimizi kullanarak cüzdanınızı kolayca yedekleyebilirsiniz.",
+          "title": "Cüzdan Oluştur veya Cüzdanı İçe Aktar"
+        },
+        "step3": {
+          "description": "Taradıktan sonra, cüzdanınızı bağlamak için bir bağlantı istemi görünecektir.",
+          "title": "CüzdanBağlantısı düğmesine dokunun"
         }
       }
     },
@@ -1275,6 +1307,22 @@
         "step3": {
           "title": "Kodu tarayın",
           "description": "WalletConnect'e dokunun ve ardından Tarayıcı'ya geçin. Taramadan sonra, cüzdanınızı bağlamak için bir bağlantı istemi belirecektir."
+        }
+      }
+    },
+    "valora": {
+      "qr_code": {
+        "step1": {
+          "title": "Valora uygulamasını açın",
+          "description": "We recommend putting Valora on your home screen for quicker access."
+        },
+        "step2": {
+          "title": "Create or import a wallet",
+          "description": "Yeni bir cüzdan oluşturun veya mevcut birini içe aktarın."
+        },
+        "step3": {
+          "title": "Tarayıcı düğmesine dokunun",
+          "description": "Taradıktan sonra, cüzdanınızı bağlamak için bir bağlantı istemi görünecektir."
         }
       }
     }

@@ -322,19 +322,51 @@
           "description": "Après avoir obtenu un portefeuille, cliquez sur Connecter pour vous connecter via Bloom. Une invite de connexion apparaîtra dans l'application pour que vous confirmiez la connexion.",
           "title": "Cliquez sur Connecter"
         }
-      },
+      }
+    },
+    "bybit": {
       "qr_code": {
         "step1": {
-          "title": "Ouvrez l'application Bloom Wallet",
-          "description": "Nous recommandons de placer Bloom Wallet sur votre écran d'accueil pour un accès plus rapide."
+          "description": "Nous recommandons de placer Bybit sur votre écran d'accueil pour un accès plus rapide à votre portefeuille.",
+          "title": "Ouvrez l'application Bybit"
         },
         "step2": {
-          "description": "Créez ou importez un portefeuille en utilisant votre phrase de récupération.",
+          "description": "Vous pouvez facilement sauvegarder votre portefeuille en utilisant notre fonction de sauvegarde sur votre téléphone.",
           "title": "Créer ou Importer un Portefeuille"
         },
         "step3": {
-          "description": "Après avoir obtenu un portefeuille, cliquez sur Connecter pour vous connecter via Bloom. Une invite de connexion apparaîtra dans l'application pour que vous confirmiez la connexion.",
-          "title": "Cliquez sur Connecter"
+          "description": "Après avoir numérisé, une invite de connexion apparaîtra pour vous permettre de connecter votre portefeuille.",
+          "title": "Appuyez sur le bouton de scan"
+        }
+      },
+      "extension": {
+        "step1": {
+          "description": "Cliquez en haut à droite de votre navigateur et épinglez le portefeuille Bybit pour un accès facile.",
+          "title": "Installez l'extension Bybit Wallet"
+        },
+        "step2": {
+          "description": "Créez un nouveau portefeuille ou importez-en un existant.",
+          "title": "Créer ou Importer un portefeuille"
+        },
+        "step3": {
+          "description": "Une fois que vous avez configuré Bybit Wallet, cliquez ci-dessous pour rafraîchir le navigateur et charger l'extension.",
+          "title": "Rafraîchissez votre navigateur"
+        }
+      }
+    },
+    "binance": {
+      "qr_code": {
+        "step1": {
+          "description": "Nous vous recommandons de mettre Binance sur votre écran d'accueil pour un accès plus rapide à votre portefeuille.",
+          "title": "Ouvrez l'application Binance"
+        },
+        "step2": {
+          "description": "Vous pouvez facilement sauvegarder votre portefeuille en utilisant notre fonction de sauvegarde sur votre téléphone.",
+          "title": "Créer ou Importer un Portefeuille"
+        },
+        "step3": {
+          "description": "Après avoir numérisé, une invite de connexion apparaîtra pour vous permettre de connecter votre portefeuille.",
+          "title": "Appuyez sur le bouton WalletConnect"
         }
       }
     },
@@ -1275,6 +1307,22 @@
         "step3": {
           "title": "Scannez le code",
           "description": "Appuyez sur WalletConnect puis passez au Scanner. Une fois que vous avez scanné, une invite de connexion apparaîtra pour que vous puissiez connecter votre portefeuille."
+        }
+      }
+    },
+    "valora": {
+      "qr_code": {
+        "step1": {
+          "title": "Ouvrez l'application Valora",
+          "description": "We recommend putting Valora on your home screen for quicker access."
+        },
+        "step2": {
+          "title": "Create or import a wallet",
+          "description": "Créez un nouveau portefeuille ou importez-en un existant."
+        },
+        "step3": {
+          "title": "Appuyez sur le bouton de scan",
+          "description": "Après avoir numérisé, une invite de connexion apparaîtra pour vous permettre de connecter votre portefeuille."
         }
       }
     }

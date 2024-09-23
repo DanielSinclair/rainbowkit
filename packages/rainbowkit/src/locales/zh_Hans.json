@@ -322,51 +322,19 @@
           "description": "拥有钱包后，点击连接以通过 Bloom 连接。应用中会出现一个连接提示，供您确认连接。",
           "title": "点击连接"
         }
-      }
-    },
-    "bybit": {
-      "qr_code": {
-        "step1": {
-          "description": "我们建议将 Bybit 添加到您的主屏幕上，以便更快访问您的钱包。",
-          "title": "打开 Bybit 应用"
-        },
-        "step2": {
-          "description": "您可以使用我们的手机上的备份功能轻松备份您的钱包。",
-          "title": "创建或导入钱包"
-        },
-        "step3": {
-          "description": "在您扫描后，将出现连接提示，供您连接您的钱包。",
-          "title": "点击扫描按钮"
-        }
       },
-      "extension": {
-        "step1": {
-          "description": "点击浏览器右上角并固定 Bybit Wallet，便于快速访问。",
-          "title": "安装 Bybit Wallet 扩展程序"
-        },
-        "step2": {
-          "description": "创建新钱包或导入现有钱包。",
-          "title": "创建或导入钱包。"
-        },
-        "step3": {
-          "description": "设置 Bybit Wallet 后，点击下方刷新浏览器并加载扩展程序。",
-          "title": "刷新您的浏览器"
-        }
-      }
-    },
-    "binance": {
       "qr_code": {
         "step1": {
-          "description": "我们建议将Binance放在您的主屏幕上，以便更快地访问您的钱包。",
-          "title": "打开 Binance 应用"
+          "title": "打开 Bloom 钱包应用",
+          "description": "我们建议将 Bloom 钱包添加到主屏幕上，以便更快地访问。"
         },
         "step2": {
-          "description": "您可以使用我们的手机上的备份功能轻松备份您的钱包。",
+          "description": "使用恢复短语创建或导入钱包。",
           "title": "创建或导入钱包"
         },
         "step3": {
-          "description": "在您扫描后，将出现连接提示，供您连接您的钱包。",
-          "title": "点击WalletConnect按钮"
+          "description": "拥有钱包后，点击连接以通过 Bloom 连接。应用中会出现一个连接提示，供您确认连接。",
+          "title": "点击连接"
         }
       }
     },
@@ -1307,22 +1275,6 @@
         "step3": {
           "title": "扫描代码",
           "description": "点击 WalletConnect 然后切换到扫描器。你扫描后，会出现一个连接提示让你连接你的钱包。"
-        }
-      }
-    },
-    "valora": {
-      "qr_code": {
-        "step1": {
-          "title": "打开Valora应用程序",
-          "description": "We recommend putting Valora on your home screen for quicker access."
-        },
-        "step2": {
-          "title": "Create or import a wallet",
-          "description": "创建新钱包或导入现有钱包。"
-        },
-        "step3": {
-          "title": "点击扫描按钮",
-          "description": "在您扫描后，将出现连接提示，供您连接您的钱包。"
         }
       }
     }

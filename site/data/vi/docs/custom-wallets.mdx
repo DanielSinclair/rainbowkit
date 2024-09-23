@@ -1,17 +1,17 @@
 ---
-title: Carteras Personalizadas
-description: Crear una billetera personalizada
+title: Ví tùy chỉnh
+description: Tạo ví tùy chỉnh
 ---
 
-# Carteras Personalizadas
+# Ví tùy chỉnh
 
-## Crear una billetera personalizada
+## Tạo ví tùy chỉnh
 
-> Nota: Esta API es inestable y es probable que cambie en un futuro cercano. Agregaremos más billeteras incorporadas con el tiempo. [Háganos saber](https://github.com/rainbow-me/rainbowkit/issues) si hay alguna billetera particular que le interese.
+> Lưu ý: API này không ổn định và có thể thay đổi trong thời gian tới. Chúng tôi sẽ thêm nhiều ví được tích hợp sẵn qua thời gian. [Cho chúng tôi biết](https://github.com/rainbow-me/rainbowkit/issues) nếu có bất kỳ ví nào mà bạn quan tâm.
 
-El tipo de función `Wallet` se proporciona para ayudarlo a definir sus propias billeteras personalizadas. Las siguientes propiedades se pueden configurar en el valor de retorno de su función `Wallet`:
+Loại hàm `Wallet` được cung cấp để giúp bạn định nghĩa ví tùy chỉnh của riêng mình. Các thuộc tính sau có thể được cấu hình trên giá trị trả về của hàm `Wallet` của bạn:
 
-### Propiedades de la Billetera
+### Thuộc tính ví
 
 <PropsTable
   data={[
@@ -19,45 +19,45 @@ El tipo de función `Wallet` se proporciona para ayudarlo a definir sus propias 
       name: 'id',
       required: true,
       type: 'string',
-      description: 'ID único por billetera',
+      description: 'Unique ID per wallet',
     },
     {
       name: 'name',
       required: true,
       type: 'string',
-      description: 'Nombre legible por humanos de la billetera',
+      description: 'Human-readable wallet name',
     },
     {
       name: 'rdns',
       required: false,
       type: 'string',
-      description: 'RDNS para billetera que soporta EIP6963',
+      description: 'RDNS for wallet which supports EIP6963',
     },
     {
       name: 'shortName',
       required: false,
       type: 'string | undefined',
-      description: 'Nombre corto opcional para uso móvil',
+      description: 'Optional short name for mobile use',
     },
     {
       name: 'iconUrl',
       required: true,
       type: 'string | (() => Promise<string>)',
       description:
-        'URL para el icono de la billetera, o una promesa que resuelve a una URL de datos en Base64.',
+        'URL for wallet icon, or a promise that resolves to a Base64 data URL',
     },
     {
       name: 'iconAccent',
       required: false,
       type: 'string',
       description:
-        'Color de acento utilizado en los flujos de descarga para billeteras con una extensión de navegador y una aplicación móvil.',
+        'Accent color used in download flows for wallets with both a browser extension and a mobile app',
     },
     {
       name: 'iconBackground',
       required: true,
       type: 'string',
-      description: 'Color de fondo mientras se carga el ícono de la billetera.',
+      description: 'Background color while the wallet icon loads',
     },
     {
       name: 'installed',
@@ -65,8 +65,8 @@ El tipo de función `Wallet` se proporciona para ayudarlo a definir sus propias 
       type: 'boolean | undefined',
       description: (
         <>
-          Si se sabe que la billetera está instalada, o{' '}
-          <code>undefined</code> si no se puede determinar.
+          Whether the wallet is known to be installed, or{' '}
+          <code>undefined</code> if indeterminate
         </>
       ),
     },
@@ -75,7 +75,7 @@ El tipo de función `Wallet` se proporciona para ayudarlo a definir sus propias 
       required: false,
       type: '{ android?: string, ios?: string, mobile?: string, qrCode?: string, chrome?: string, firefox?: string, edge?: string, safari?: string, opera?: string, browserExtension?: string } | undefined',
       typeSimple: 'DownloadUrls | undefined',
-      description: 'Objeto que contiene URLs de descarga.',
+      description: 'Object containing download URLs',
     },
     {
       name: 'hidden',
@@ -83,7 +83,7 @@ El tipo de función `Wallet` se proporciona para ayudarlo a definir sus propias 
       type: '(args: { wallets: Array<{ id: string, connector: Connector, installed?: boolean }> }) => boolean',
       typeSimple: '(args) => boolean | undefined',
       description:
-        'Función para calcular si esta billetera debe ocultarse de la lista. Esto es útil para definir billeteras de respaldo genéricas, por ejemplo, el respaldo incorporado de "Billetera Inyectada" hace uso de esta función.',
+        'Function for calculating whether this wallet should be hidden from the list. This is useful for defining generic fallback wallets, e.g. the built-in "Injected Wallet" fallback makes use of this feature',
     },
     {
       name: 'createConnector',
@@ -91,7 +91,7 @@ El tipo de función `Wallet` se proporciona para ayudarlo a definir sus propias 
       type: '() => RainbowKitConnector',
       typeSimple: 'RainbowKitConnector',
       description:
-        'Función para proporcionar la instancia del conector y la configuración para diferentes métodos de conexión, descritos a continuación.',
+        'Function for providing the connector instance and configuration for different connection methods, described below',
     },
     {
       name: 'mobile',
@@ -99,14 +99,14 @@ El tipo de función `Wallet` se proporciona para ayudarlo a definir sus propias 
       type: '{ getUri?: (uri: string) => string }',
       typeSimple: 'object',
       description:
-        'Función para resolver un URI de conexión de billetera móvil.',
+        'Function for resolving a mobile wallet connection URI',
     },
     {
       name: 'desktop',
       required: false,
       type: '{ getUri?: (uri: string) => string }',
       typeSimple: 'object',
-      description: 'Función para resolver un enlace profundo de la aplicación de escritorio.',
+      description: 'Function for resolving a desktop app deep link',
     },
     {
       name: 'qrCode',
@@ -114,7 +114,7 @@ El tipo de función `Wallet` se proporciona para ayudarlo a definir sus propias 
       type: "{ getUri: (uri: string) => string, instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }> }}}",
       typeSimple: 'object',
       description:
-        'Objeto que contiene una función para resolver el URI del código QR, además de instrucciones adicionales para configurar la billetera móvil.',
+        'Object containing a function for resolving the QR code URI, plus optional mobile wallet setup instructions',
     },
     {
       name: 'extension',
@@ -122,19 +122,19 @@ El tipo de función `Wallet` se proporciona para ayudarlo a definir sus propias 
       type: "{ instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }> }}}",
       typeSimple: 'object',
       description:
-        'Objeto que contiene instrucciones opcionales para configurar la extensión del navegador.',
+        'Object containing optional browser extension setup instructions',
     },
     {
       name: 'createConnector',
       required: true,
       type: "createConnector: (details: WalletDetailsParams) => CreateConnectorFn",
       typeSimple: '(details: WalletDetailsParams) => CreateConnectorFn',
-      description: 'Función para proporcionar la instancia del conector.',
+      description: 'Function for providing the connector instance',
     },
   ]}
-/> Esto es útil para definir billeteras de respaldo genéricas, por ejemplo, el respaldo integrado de "Billetera Inyectada" hace uso de esta función.
+/>
 
-### Propiedades de DownloadUrls
+### Thuộc tính DownloadUrls
 
 <PropsTable
   data={[
@@ -142,71 +142,71 @@ El tipo de función `Wallet` se proporciona para ayudarlo a definir sus propias 
       name: 'android',
       required: false,
       type: 'string',
-      description: 'URL de Google Play',
+      description: 'Google Play URL',
     },
     {
       name: 'ios',
       required: false,
       type: 'string',
-      description: 'URL de Apple App Store',
+      description: 'Apple App Store URL',
     },
     {
       name: 'mobile',
       required: false,
       type: 'string',
       description:
-        'Página de aterrizaje para usuarios móviles cuando `android` o `ios` no están disponibles',
+        'Landing page for mobile users when `android` or `ios` are unavailable',
     },
     {
       name: 'qrCode',
       required: false,
       type: 'string',
       description:
-        'Página de aterrizaje para usuarios que escanean el código QR de descarga móvil',
+        'Landing page for users that scan the mobile download QR Code',
     },
     {
       name: 'chrome',
       required: false,
       type: 'string',
-      description: 'URL de Chrome Web Store',
+      description: 'Chrome Web Store URL',
     },
     {
       name: 'edge',
       required: false,
       type: 'string',
-      description: 'URL de Microsoft Edge Add-ons',
+      description: 'Microsoft Edge Add-ons URL',
     },
     {
       name: 'firefox',
       required: false,
       type: 'string',
-      description: 'URL de complementos de Firefox',
+      description: 'Firefox Browser Add-ons URL',
     },
     {
       name: 'opera',
       required: false,
       type: 'string',
-      description: 'URL de complementos de Opera',
+      description: 'Opera add-ons URL',
     },
     {
       name: 'safari',
       required: false,
       type: 'string',
-      description: 'URL de Mac App Store',
+      description: 'Mac App Store URL',
     },
     {
       name: 'browserExtension',
       required: false,
       type: 'string',
       description:
-        'Página de aterrizaje para usuarios de extensión de escritorio cuando las URLs compatibles con el navegador no están disponibles',
+        'Landing page for desktop extension users when browser-compatible URLs are unavailable',
     },
   ]}
 />
 
-### Ejemplos
+### Ví dụ
 
-Por ejemplo, para crear una billetera personalizada utilizando WalletConnect:
+Ví dụ, để tạo ví tùy chỉnh sử dụng WalletConnect:
 
 ```tsx
 import { Wallet, getWalletConnectConnector } from '@rainbow-me/rainbowkit';
@@ -278,4 +278,4 @@ export const rainbow = ({ projectId }: MyWalletOptions): Wallet => ({
 });
 ```
 
-Luego puedes agregar tu billetera personalizada en la [lista de billeteras](/docs/custom-wallet-list).
+Bạn có thể thêm ví tùy chỉnh của mình vào [danh sách ví](/docs/custom-wallet-list).

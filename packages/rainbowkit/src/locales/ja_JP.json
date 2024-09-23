@@ -322,19 +322,51 @@
           "description": "ウォレットを持った後、Bloomを介して接続するには「Connect」をクリックします。アプリ内で接続を確認するプロンプトが表示されます。",
           "title": "「Connect」をクリック"
         }
-      },
+      }
+    },
+    "bybit": {
       "qr_code": {
         "step1": {
-          "title": "Bloom Walletアプリを開く",
-          "description": "Bloom Walletをホーム画面に置くことをお勧めします。これにより、より迅速にアクセスできます。"
+          "description": "より速くウォレットにアクセスするために、ホーム画面にBybitを追加することをお勧めします。",
+          "title": "Bybitアプリを開きます"
         },
         "step2": {
-          "description": "リカバリーフレーズを使用してウォレットを作成またはインポートします。",
+          "description": "電話のバックアップ機能を使用して、ウォレットを簡単にバックアップすることができます。",
           "title": "ウォレットを作成またはインポート"
         },
         "step3": {
-          "description": "ウォレットを持った後、Bloomを介して接続するには「Connect」をクリックします。アプリ内で接続を確認するプロンプトが表示されます。",
-          "title": "「Connect」をクリック"
+          "description": "スキャン後、ウォレットを接続するための接続プロンプトが表示されます。",
+          "title": "「スキャン」ボタンをタップします"
+        }
+      },
+      "extension": {
+        "step1": {
+          "description": "ブラウザの右上をクリックして、簡単にアクセスできるようにBybit Walletをピン留めしてください。",
+          "title": "Bybit Wallet拡張機能をインストールします"
+        },
+        "step2": {
+          "description": "新しいウォレットを作成するか、既存のものをインポートします。",
+          "title": "ウォレットを作成またはインポートする"
+        },
+        "step3": {
+          "description": "Bybit Walletの設定が完了したら、以下をクリックしてブラウザを更新し、拡張機能を読み込んでください。",
+          "title": "ブラウザを更新する"
+        }
+      }
+    },
+    "binance": {
+      "qr_code": {
+        "step1": {
+          "description": "ウォレットへの迅速なアクセスのため、Binanceをホーム画面に設定することを推奨します。",
+          "title": "Binanceアプリを開く"
+        },
+        "step2": {
+          "description": "電話のバックアップ機能を使用して、ウォレットを簡単にバックアップすることができます。",
+          "title": "ウォレットを作成またはインポート"
+        },
+        "step3": {
+          "description": "スキャン後、ウォレットを接続するための接続プロンプトが表示されます。",
+          "title": "WalletConnectボタンをタップします"
         }
       }
     },
@@ -1275,6 +1307,22 @@
         "step3": {
           "title": "コードをスキャンする",
           "description": "WalletConnectをタップし、スキャナーに切り替えてください。スキャン後、ウォレットを接続するための接続プロンプトが表示されます。"
+        }
+      }
+    },
+    "valora": {
+      "qr_code": {
+        "step1": {
+          "title": "Valoraアプリを開く",
+          "description": "We recommend putting Valora on your home screen for quicker access."
+        },
+        "step2": {
+          "title": "Create or import a wallet",
+          "description": "新しいウォレットを作成するか、既存のものをインポートします。"
+        },
+        "step3": {
+          "title": "「スキャン」ボタンをタップします",
+          "description": "スキャン後、ウォレットを接続するための接続プロンプトが表示されます。"
         }
       }
     }
