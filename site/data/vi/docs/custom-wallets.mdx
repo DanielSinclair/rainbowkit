@@ -1,17 +1,17 @@
 ---
-title: Custom Wallets
-description: Create a custom wallet
+title: Ví tùy chỉnh
+description: Tạo ví tùy chỉnh
 ---
 
-# Custom Wallets
+# Ví tùy chỉnh
 
-## Create a custom wallet
+## Tạo ví tùy chỉnh
 
-> Note: This API is unstable and likely to change in the near future. We will be adding more built-in wallets over time. [Let us know](https://github.com/rainbow-me/rainbowkit/issues) if there are any particular wallets you're interested in.
+> Lưu ý: API này không ổn định và có thể thay đổi trong thời gian tới. Chúng tôi sẽ thêm nhiều ví được tích hợp sẵn qua thời gian. [Cho chúng tôi biết](https://github.com/rainbow-me/rainbowkit/issues) nếu có bất kỳ ví nào mà bạn quan tâm.
 
-The `Wallet` function type is provided to help you define your own custom wallets. The following properties can be configured on the return value of your `Wallet` function:
+Loại hàm `Wallet` được cung cấp để giúp bạn định nghĩa ví tùy chỉnh của riêng mình. Các thuộc tính sau có thể được cấu hình trên giá trị trả về của hàm `Wallet` của bạn:
 
-### Wallet Properties
+### Thuộc tính ví
 
 <PropsTable
   data={[
@@ -134,7 +134,7 @@ The `Wallet` function type is provided to help you define your own custom wallet
   ]}
 />
 
-### DownloadUrls Properties
+### Thuộc tính DownloadUrls
 
 <PropsTable
   data={[
@@ -204,9 +204,9 @@ The `Wallet` function type is provided to help you define your own custom wallet
   ]}
 />
 
-### Examples
+### Ví dụ
 
-For example, to create a custom wallet using WalletConnect:
+Ví dụ, để tạo ví tùy chỉnh sử dụng WalletConnect:
 
 ```tsx
 import { Wallet, getWalletConnectConnector } from '@rainbow-me/rainbowkit';
@@ -278,4 +278,4 @@ export const rainbow = ({ projectId }: MyWalletOptions): Wallet => ({
 });
 ```
 
-You can then add your custom wallet in the [wallet list](/docs/custom-wallet-list).
+Bạn có thể thêm ví tùy chỉnh của mình vào [danh sách ví](/docs/custom-wallet-list).
