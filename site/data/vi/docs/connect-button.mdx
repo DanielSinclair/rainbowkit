@@ -1,13 +1,13 @@
 ---
-title: ConnectButton
-description: Using and customising the ConnectButton
+title: Nút Kết Nối
+description: Sử dụng và tùy chỉnh Nút Kết Nối
 ---
 
-# ConnectButton
+# Nút Kết Nối
 
-## Using and customising the ConnectButton
+## Sử dụng và tùy chỉnh Nút Kết Nối
 
-This is the main component. It is responsible for rendering the connect/disconnect button, as well as chain-swapping UI.
+Đây là thành phần chính. Nó chịu trách nhiệm vẽ nút kết nối/ngắt kết nối, cũng như giao diện trao đổi chuỗi.
 
 ```tsx
 import { ConnectButton } from '@rainbow-me/rainbowkit';
@@ -17,11 +17,11 @@ export const YourApp = () => {
 };
 ```
 
-> Note: Make sure your app is wrapped in the necessary providers. [Read more](/docs/installation#wrap-providers).
+> Lưu ý: Đảm bảo ứng dụng của bạn được bao trong nhà cung cấp cần thiết. [Đọc thêm](/docs/installation#wrap-providers).
 
-### Props
+### Thuộc tính
 
-The `ConnectButton` component exposes several props to customize its appearance, including toggling the visibility of different elements.
+Thành phần `ConnectButton` cung cấp nhiều thuộc tính để tùy chỉnh giao diện của nó, bao gồm bật/tắt hiển thị các phần tử khác nhau.
 
 <PropsTable
   data={[
@@ -62,71 +62,71 @@ The `ConnectButton` component exposes several props to customize its appearance,
   ]}
 />
 
-> Note: the built-in `largeScreen` breakpoint is `768px`.
+> Lưu ý: điểm ngắt `largeScreen` tích hợp là `768px`.
 
-### Examples
+### Ví dụ
 
-#### Label
+#### Nhãn
 
-Use the `label` prop to set a custom `ConnectButton` text.
+Sử dụng thuộc tính `label` để đặt văn bản tuỳ chỉnh cho `ConnectButton`.
 
 ```tsx
 <ConnectButton label="__Sign in__" />
 ```
 
-#### Account status
+#### Trạng thái tài khoản
 
-Here are a few different ways you can use the `accountStatus` prop.
+Đây là một vài cách khác nhau bạn có thể sử dụng thuộc tính `accountStatus`.
 
-Only show the account's avatar.
+Chỉ hiển thị ảnh đại diện của tài khoản.
 
 ```tsx
 <ConnectButton accountStatus="__avatar__" />
 ```
 
-Only show the account's address.
+Chỉ hiển thị địa chỉ của tài khoản.
 
 ```tsx
 <ConnectButton accountStatus="__address__" />
 ```
 
-#### Chain status
+#### Trạng thái chuỗi
 
-Here are a few different ways you can use the `chainStatus` prop.
+Đây là một vài cách khác nhau bạn có thể sử dụng thuộc tính `chainStatus`.
 
-Only show the current chain's icon.
+Chỉ hiển thị biểu tượng chuỗi hiện tại.
 
 ```tsx
 <ConnectButton chainStatus="__icon__" />
 ```
 
-Only show the current chain's name.
+Chỉ hiển thị tên chuỗi hiện tại.
 
 ```tsx
 <ConnectButton chainStatus="__name__" />
 ```
 
-Hide the chain UI entirely.
+Ẩn hoàn toàn giao diện chuỗi.
 
 ```tsx
 <ConnectButton chainStatus="__none__" />
 ```
 
-#### Show balance
+#### Hiển thị số dư
 
-Use the `showBalance` prop to hide/show the balance.
+Sử dụng thuộc tính `showBalance` để ẩn/hiển thị số dư.
 
-Hide the balance.
+Ẩn số dư.
 
 ```tsx
 <ConnectButton showBalance={__false__} />
 ```
 
-#### Responsive
+#### Đáp ứng
 
-These props can also be defined in a responsive format.
+Các thuộc tính này cũng có thể được định nghĩa ở định dạng đáp ứng.
 
-On small screens, only show account icon. But on large screens, show icon and address.
+Trên màn hình nhỏ, chỉ hiển thị biểu tượng tài khoản. Nhưng trên màn hình lớn, hiển thị biểu tượng và địa chỉ.
 
 ```tsx
 <ConnectButton
@@ -137,7 +137,7 @@ On small screens, only show account icon. But on large screens, show icon and ad
 />
 ```
 
-On small screens, hide balance. But on large screens, show it.
+Trên màn hình nhỏ, ẩn số dư. Nhưng trên màn hình lớn, hiển thị nó.
 
 ```tsx
 <ConnectButton
