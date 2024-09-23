@@ -1,215 +1,215 @@
 {
   "connect_wallet": {
-    "label": "Connect Wallet",
+    "label": "Kết nối Ví",
     "wrong_network": {
-      "label": "Wrong network"
+      "label": "Mạng sai"
     }
   },
   "intro": {
-    "title": "What is a Wallet?",
-    "description": "A wallet is used to send, receive, store, and display digital assets. It's also a new way to log in, without needing to create new accounts and passwords on every website.",
+    "title": "Ví là gì?",
+    "description": "Một chiếc ví được sử dụng để gửi, nhận, lưu trữ và hiển thị tài sản số. Nó cũng là một cách mới để đăng nhập, mà không cần tạo tài khoản và mật khẩu mới trên mỗi trang web.",
     "digital_asset": {
-      "title": "A Home for your Digital Assets",
-      "description": "Wallets are used to send, receive, store, and display digital assets like Ethereum and NFTs."
+      "title": "Ngôi nhà cho tài sản số của bạn",
+      "description": "Ví được sử dụng để gửi, nhận, lưu trữ và hiển thị các tài sản số như Ethereum và NFT."
     },
     "login": {
-      "title": "A New Way to Log In",
-      "description": "Instead of creating new accounts and passwords on every website, just connect your wallet."
+      "title": "Một cách mới để đăng nhập",
+      "description": "Thay vì tạo tài khoản và mật khẩu mới trên mỗi trang web, chỉ cần kết nối ví của bạn."
     },
     "get": {
-      "label": "Get a Wallet"
+      "label": "Lấy một chiếc ví"
     },
     "learn_more": {
-      "label": "Learn More"
+      "label": "Tìm hiểu thêm"
     }
   },
   "sign_in": {
-    "label": "Verify your account",
-    "description": "To finish connecting, you must sign a message in your wallet to verify that you are the owner of this account.",
+    "label": "Xác minh tài khoản của bạn",
+    "description": "Để hoàn thành kết nối, bạn phải ký một thông điệp trong ví của bạn để xác minh rằng bạn là chủ sở hữu của tài khoản này.",
     "message": {
-      "send": "Sign message",
-      "preparing": "Preparing message...",
-      "cancel": "Cancel",
-      "preparing_error": "Error preparing message, please retry!"
+      "send": "Ký thông điệp",
+      "preparing": "Đang chuẩn bị thông điệp...",
+      "cancel": "Hủy bỏ",
+      "preparing_error": "Lỗi chuẩn bị thông điệp, vui lòng thử lại!"
     },
     "signature": {
-      "waiting": "Waiting for signature...",
-      "verifying": "Verifying signature...",
-      "signing_error": "Error signing message, please retry!",
-      "verifying_error": "Error verifying signature, please retry!",
-      "oops_error": "Oops, something went wrong!"
+      "waiting": "Đang chờ chữ ký...",
+      "verifying": "Đang xác minh chữ ký...",
+      "signing_error": "Lỗi ký thông điệp, vui lòng thử lại!",
+      "verifying_error": "Lỗi xác minh chữ ký, vui lòng thử lại!",
+      "oops_error": "Ôi, có gì đó không ổn!"
     }
   },
   "connect": {
-    "label": "Connect",
-    "title": "Connect a Wallet",
+    "label": "Kết nối",
+    "title": "Kết nối một chiếc ví",
     "new_to_ethereum": {
-      "description": "New to Ethereum wallets?",
+      "description": "Mới sử dụng ví Ethereum?",
       "learn_more": {
-        "label": "Learn More"
+        "label": "Tìm hiểu thêm"
       }
     },
     "learn_more": {
-      "label": "Learn more"
+      "label": "Tìm hiểu thêm"
     },
-    "recent": "Recent",
+    "recent": "Gần đây",
     "status": {
-      "opening": "Opening %{wallet}...",
-      "connecting": "Connecting",
-      "connect_mobile": "Continue in %{wallet}",
-      "not_installed": "%{wallet} is not installed",
-      "not_available": "%{wallet} is not available",
-      "confirm": "Confirm connection in the extension",
-      "confirm_mobile": "Accept connection request in the wallet"
+      "opening": "Đang mở %{wallet}...",
+      "connecting": "Đang kết nối",
+      "connect_mobile": "Tiếp tục trong %{wallet}",
+      "not_installed": "%{wallet} chưa được cài đặt",
+      "not_available": "%{wallet} không khả dụng",
+      "confirm": "Xác nhận kết nối trong tiện ích mở rộng",
+      "confirm_mobile": "Chấp nhận yêu cầu kết nối trong ví"
     },
     "secondary_action": {
       "get": {
-        "description": "Don't have %{wallet}?",
-        "label": "GET"
+        "description": "Không có %{wallet}?",
+        "label": "LẤY"
       },
       "install": {
-        "label": "INSTALL"
+        "label": "CÀI ĐẶT"
       },
       "retry": {
-        "label": "RETRY"
+        "label": "THỬ LẠI"
       }
     },
     "walletconnect": {
       "description": {
-        "full": "Need the official WalletConnect modal?",
-        "compact": "Need the WalletConnect modal?"
+        "full": "Cần modal WalletConnect chính thức?",
+        "compact": "Cần modal WalletConnect?"
       },
       "open": {
-        "label": "OPEN"
+        "label": "MỞ"
       }
     }
   },
   "connect_scan": {
-    "title": "Scan with %{wallet}",
-    "fallback_title": "Scan with your phone"
+    "title": "Quét bằng %{wallet}",
+    "fallback_title": "Quét bằng điện thoại của bạn"
   },
   "connector_group": {
-    "installed": "Installed",
-    "recommended": "Recommended",
-    "other": "Other",
-    "popular": "Popular",
-    "more": "More",
-    "others": "Others"
+    "installed": "Đã cài đặt",
+    "recommended": "Đề xuất",
+    "other": "Khác",
+    "popular": "Phổ biến",
+    "more": "Thêm",
+    "others": "Khác"
   },
   "get": {
-    "title": "Get a Wallet",
+    "title": "Lấy một chiếc ví",
     "action": {
-      "label": "GET"
+      "label": "LẤY"
     },
     "mobile": {
-      "description": "Mobile Wallet"
+      "description": "Ví di động"
     },
     "extension": {
-      "description": "Browser Extension"
+      "description": "Tiện ích mở rộng trình duyệt"
     },
     "mobile_and_extension": {
-      "description": "Mobile Wallet and Extension"
+      "description": "Ví di động và Tiện ích mở rộng"
     },
     "mobile_and_desktop": {
-      "description": "Mobile and Desktop Wallet"
+      "description": "Ví di động và máy tính để bàn"
     },
     "looking_for": {
-      "title": "Not what you're looking for?",
+      "title": "Không phải cái bạn đang tìm kiếm?",
       "mobile": {
-        "description": "Select a wallet on the main screen to get started with a different wallet provider."
+        "description": "Chọn một chiếc ví trên màn hình chính để bắt đầu với một nhà cung cấp ví khác."
       },
       "desktop": {
-        "compact_description": "Select a wallet on the main screen to get started with a different wallet provider.",
-        "wide_description": "Select a wallet on the left to get started with a different wallet provider."
+        "compact_description": "Chọn một chiếc ví trên màn hình chính để bắt đầu với một nhà cung cấp ví khác.",
+        "wide_description": "Chọn một chiếc ví bên trái để bắt đầu với một nhà cung cấp ví khác."
       }
     }
   },
   "get_options": {
-    "title": "Get started with %{wallet}",
-    "short_title": "Get %{wallet}",
+    "title": "Bắt đầu với %{wallet}",
+    "short_title": "Lấy %{wallet}",
     "mobile": {
-      "title": "%{wallet} for Mobile",
-      "description": "Use the mobile wallet to explore the world of Ethereum.",
+      "title": "%{wallet} cho di động",
+      "description": "Sử dụng ví di động để khám phá thế giới của Ethereum.",
       "download": {
-        "label": "Get the app"
+        "label": "Tải ứng dụng"
       }
     },
     "extension": {
-      "title": "%{wallet} for %{browser}",
-      "description": "Access your wallet right from your favorite web browser.",
+      "title": "%{wallet} cho %{browser}",
+      "description": "Truy cập ví của bạn ngay từ trình duyệt web yêu thích của bạn.",
       "download": {
-        "label": "Add to %{browser}"
+        "label": "Thêm vào %{browser}"
       }
     },
     "desktop": {
-      "title": "%{wallet} for %{platform}",
-      "description": "Access your wallet natively from your powerful desktop.",
+      "title": "%{wallet} cho %{platform}",
+      "description": "Truy cập ví của bạn natively từ máy tính để bàn mạnh mẽ của bạn.",
       "download": {
-        "label": "Add to %{platform}"
+        "label": "Thêm vào %{platform}"
       }
     }
   },
   "get_mobile": {
-    "title": "Install %{wallet}",
-    "description": "Scan with your phone to download on iOS or Android",
+    "title": "Cài đặt %{wallet}",
+    "description": "Quét bằng điện thoại của bạn để tải về trên iOS hoặc Android",
     "continue": {
-      "label": "Continue"
+      "label": "Tiếp tục"
     }
   },
   "get_instructions": {
     "mobile": {
       "connect": {
-        "label": "Connect"
+        "label": "Kết nối"
       },
       "learn_more": {
-        "label": "Learn More"
+        "label": "Tìm hiểu thêm"
       }
     },
     "extension": {
       "refresh": {
-        "label": "Refresh"
+        "label": "Làm mới"
       },
       "learn_more": {
-        "label": "Learn More"
+        "label": "Tìm hiểu thêm"
       }
     },
     "desktop": {
       "connect": {
-        "label": "Connect"
+        "label": "Kết nối"
       },
       "learn_more": {
-        "label": "Learn More"
+        "label": "Tìm hiểu thêm"
       }
     }
   },
   "chains": {
-    "title": "Switch Networks",
-    "wrong_network": "Wrong network detected, switch or disconnect to continue.",
-    "confirm": "Confirm in Wallet",
-    "switching_not_supported": "Your wallet does not support switching networks from %{appName}. Try switching networks from within your wallet instead.",
-    "switching_not_supported_fallback": "Your wallet does not support switching networks from this app. Try switching networks from within your wallet instead.",
-    "disconnect": "Disconnect",
-    "connected": "Connected"
+    "title": "Chuyển đổi Mạng",
+    "wrong_network": "Phát hiện mạng sai, chuyển đổi hoặc ngắt kết nối để tiếp tục.",
+    "confirm": "Xác nhận trong Ví",
+    "switching_not_supported": "Ví của bạn không hỗ trợ chuyển đổi mạng từ %{appName}. Thử chuyển đổi mạng từ trong ví của bạn thay vì.",
+    "switching_not_supported_fallback": "Ví của bạn không hỗ trợ chuyển đổi mạng từ ứng dụng này. Thử chuyển đổi mạng từ trong ví của bạn thay vì.",
+    "disconnect": "Ngắt kết nối",
+    "connected": "Đã kết nối"
   },
   "profile": {
     "disconnect": {
-      "label": "Disconnect"
+      "label": "Ngắt kết nối"
     },
     "copy_address": {
-      "label": "Copy Address",
-      "copied": "Copied!"
+      "label": "Sao chép Địa chỉ",
+      "copied": "Đã sao chép!"
     },
     "explorer": {
-      "label": "View more on explorer"
+      "label": "Xem thêm trên explorer"
     },
     "transactions": {
-      "description": "%{appName} transactions will appear here...",
-      "description_fallback": "Your transactions will appear here...",
+      "description": "Các giao dịch %{appName} sẽ xuất hiện ở đây...",
+      "description_fallback": "Các giao dịch của bạn sẽ xuất hiện ở đây...",
       "recent": {
-        "title": "Recent Transactions"
+        "title": "Giao dịch gần đây"
       },
       "clear": {
-        "label": "Clear All"
+        "label": "Xóa tất cả"
       }
     }
   },
@@ -217,1064 +217,1066 @@
     "argent": {
       "qr_code": {
         "step1": {
-          "description": "Put Argent on your home screen for faster access to your wallet.",
-          "title": "Open the Argent app"
+          "description": "Đặt Argent lên màn hình chính của bạn để truy cập nhanh hơn vào ví của bạn.",
+          "title": "Mở ứng dụng Argent"
         },
         "step2": {
-          "description": "Create a wallet and username, or import an existing wallet.",
-          "title": "Create or Import a Wallet"
+          "description": "Tạo ví và tên người dùng, hoặc nhập ví hiện có.",
+          "title": "Tạo hoặc Nhập ví"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the Scan QR button"
+          "description": "Sau khi bạn quét, một lời nhắc kết nối sẽ xuất hiện để bạn kết nối ví của mình.",
+          "title": "Nhấn nút Quét QR"
         }
       }
     },
     "bifrost": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Bifrost Wallet on your home screen for quicker access.",
-          "title": "Open the Bifrost Wallet app"
+          "description": "Chúng tôi khuyên bạn nên đặt ví Bifrost lên màn hình chính của bạn để truy cập nhanh hơn.",
+          "title": "Mở ứng dụng Bifrost Wallet"
         },
         "step2": {
-          "description": "Create or import a wallet using your recovery phrase.",
-          "title": "Create or Import a Wallet"
+          "description": "Tạo hoặc nhập ví bằng cách sử dụng cụm từ khôi phục của bạn.",
+          "title": "Tạo hoặc Nhập ví"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the scan button"
+          "description": "Sau khi bạn quét, một lời nhắc kết nối sẽ xuất hiện để bạn kết nối ví của mình.",
+          "title": "Nhấn nút quét"
         }
       }
     },
     "bitget": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Bitget Wallet on your home screen for quicker access.",
-          "title": "Open the Bitget Wallet app"
+          "description": "Chúng tôi khuyên bạn nên đặt ví Bitget lên màn hình chính của bạn để truy cập nhanh hơn.",
+          "title": "Mở ứng dụng Bitget Wallet"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai.",
+          "title": "Tạo hoặc Nhập ví"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the scan button"
+          "description": "Sau khi bạn quét, một lời nhắc kết nối sẽ xuất hiện để bạn kết nối ví của mình.",
+          "title": "Nhấn nút quét"
         }
       },
       "extension": {
         "step1": {
-          "description": "We recommend pinning Bitget Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Bitget Wallet extension"
+          "description": "Chúng tôi khuyên bạn nên ghim ví Bitget vào thanh tác vụ để truy cập nhanh hơn vào ví của bạn.",
+          "title": "Cài đặt tiện ích mở rộng Bitget Wallet"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai.",
+          "title": "Tạo hoặc Nhập ví"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng.",
+          "title": "Làm mới trình duyệt của bạn"
         }
       }
     },
     "bitski": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Bitski to your taskbar for quicker access to your wallet.",
-          "title": "Install the Bitski extension"
+          "description": "Chúng tôi khuyên bạn nên ghim Bitski vào thanh tác vụ để truy cập nhanh hơn vào ví của bạn.",
+          "title": "Cài đặt tiện ích mở rộng Bitski"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai.",
+          "title": "Tạo hoặc Nhập ví"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng.",
+          "title": "Làm mới trình duyệt của bạn"
         }
       }
     },
     "bitverse": {
       "qr_code": {
         "step1": {
-          "title": "Open the Bitverse Wallet app",
-          "description": "Add Bitverse Wallet to your home screen for faster access to your wallet."
+          "title": "Mở ứng dụng Bitverse Wallet",
+          "description": "Thêm Bitverse Wallet vào màn hình chính để truy cập nhanh hơn vào ví của bạn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Tạo ví mới hoặc nhập ví hiện có."
         },
         "step3": {
-          "title": "Tap the QR icon and scan",
-          "description": "Tap the QR icon on your homescreen, scan the code and confirm the prompt to connect."
+          "title": "Nhấn vào biểu tượng QR và quét",
+          "description": "Nhấn vào biểu tượng QR trên màn hình chính của bạn, quét mã và xác nhận nhắc nhở để kết nối."
         }
       }
     },
     "bloom": {
       "desktop": {
         "step1": {
-          "title": "Open the Bloom Wallet app",
-          "description": "We recommend putting Bloom Wallet on your home screen for quicker access."
+          "title": "Mở ứng dụng Bloom Wallet",
+          "description": "Chúng tôi khuyến nghị đặt Bloom Wallet lên màn hình chính để truy cập nhanh hơn."
         },
         "step2": {
-          "description": "Create or import a wallet using your recovery phrase.",
-          "title": "Create or Import a Wallet"
+          "description": "Tạo hoặc nhập ví bằng cách sử dụng cụm từ khôi phục của bạn.",
+          "title": "Tạo hoặc Nhập ví"
         },
         "step3": {
-          "description": "After you have a wallet, click on Connect to connect via Bloom. A connection prompt in the app will appear for you to confirm the connection.",
-          "title": "Click on Connect"
-        }
-      },
-      "qr_code": {
-        "step1": {
-          "title": "Open the Bloom Wallet app",
-          "description": "We recommend putting Bloom Wallet on your home screen for quicker access."
-        },
-        "step2": {
-          "description": "Create or import a wallet using your recovery phrase.",
-          "title": "Create or Import a Wallet"
-        },
-        "step3": {
-          "description": "After you have a wallet, click on Connect to connect via Bloom. A connection prompt in the app will appear for you to confirm the connection.",
-          "title": "Click on Connect"
+          "description": "Sau khi bạn có ví, hãy nhấp vào Kết nối để kết nối qua Bloom. Một lời nhắc kết nối trong ứng dụng sẽ xuất hiện để bạn xác nhận kết nối.",
+          "title": "Nhấn vào Kết nối"
         }
       }
     },
     "bybit": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Bybit on your home screen for faster access to your wallet.",
-          "title": "Open the Bybit app"
+          "description": "Chúng tôi khuyên bạn nên đặt Bybit vào màn hình chính để truy cập nhanh hơn vào ví của bạn.",
+          "title": "Mở ứng dụng Bybit"
         },
         "step2": {
-          "description": "You can easily backup your wallet using our backup feature on your phone.",
-          "title": "Create or Import a Wallet"
+          "description": "Bạn có thể dễ dàng sao lưu ví của mình bằng tính năng sao lưu trên điện thoại của chúng tôi.",
+          "title": "Tạo hoặc Nhập ví"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the scan button"
+          "description": "Sau khi bạn quét, một lời nhắc kết nối sẽ xuất hiện để bạn kết nối ví của mình.",
+          "title": "Nhấn nút quét"
         }
       },
       "extension": {
         "step1": {
-          "description": "Click at the top right of your browser and pin Bybit Wallet for easy access.",
-          "title": "Install the Bybit Wallet extension"
+          "description": "Nhấp vào góc trên bên phải của trình duyệt và ghim Bybit Wallet để truy cập dễ dàng.",
+          "title": "Cài đặt tiện ích mở rộng Bybit Wallet"
         },
         "step2": {
-          "description": "Create a new wallet or import an existing one.",
-          "title": "Create or Import a wallet"
+          "description": "Tạo ví mới hoặc nhập ví hiện có.",
+          "title": "Tạo hoặc Nhập ví"
         },
         "step3": {
-          "description": "Once you set up Bybit Wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Sau khi bạn thiết lập Bybit Wallet, nhấp vào bên dưới để làm mới trình duyệt và tải tiện ích mở rộng.",
+          "title": "Làm mới trình duyệt của bạn"
         }
       }
     },
     "binance": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Binance on your home screen for faster access to your wallet.",
-          "title": "Open the Binance app"
+          "description": "Chúng tôi khuyên bạn nên đặt Binance vào màn hình chính để truy cập nhanh hơn vào ví của bạn.",
+          "title": "Mở ứng dụng Binance"
         },
         "step2": {
-          "description": "You can easily backup your wallet using our backup feature on your phone.",
-          "title": "Create or Import a Wallet"
+          "description": "Bạn có thể dễ dàng sao lưu ví của mình bằng tính năng sao lưu trên điện thoại của chúng tôi.",
+          "title": "Tạo hoặc Nhập ví"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the WalletConnect button"
+          "description": "Sau khi bạn quét, một lời nhắc kết nối sẽ xuất hiện để bạn kết nối ví của mình.",
+          "title": "Nhấn nút WalletConnect"
         }
       }
     },
     "coin98": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Coin98 Wallet on your home screen for faster access to your wallet.",
-          "title": "Open the Coin98 Wallet app"
+          "description": "Chúng tôi khuyên bạn nên đặt ví Coin98 lên màn hình chính của bạn để truy cập nhanh hơn vào ví của bạn.",
+          "title": "Mở ứng dụng Coin98 Wallet"
         },
         "step2": {
-          "description": "You can easily backup your wallet using our backup feature on your phone.",
-          "title": "Create or Import a Wallet"
+          "description": "Bạn có thể dễ dàng sao lưu ví của mình bằng tính năng sao lưu trên điện thoại của chúng tôi.",
+          "title": "Tạo hoặc Nhập ví"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the WalletConnect button"
+          "description": "Sau khi bạn quét, một lời nhắc kết nối sẽ xuất hiện để bạn kết nối ví của mình.",
+          "title": "Nhấn nút WalletConnect"
         }
       },
       "extension": {
         "step1": {
-          "description": "Click at the top right of your browser and pin Coin98 Wallet for easy access.",
-          "title": "Install the Coin98 Wallet extension"
+          "description": "Nhấp vào góc trên bên phải của trình duyệt của bạn và ghim ví Coin98 để truy cập dễ dàng.",
+          "title": "Cài đặt tiện ích mở rộng Coin98 Wallet"
         },
         "step2": {
-          "description": "Create a new wallet or import an existing one.",
-          "title": "Create or Import a wallet"
+          "description": "Tạo ví mới hoặc nhập ví hiện có.",
+          "title": "Tạo hoặc Nhập ví"
         },
         "step3": {
-          "description": "Once you set up Coin98 Wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Một khi bạn thiết lập xong ví Coin98, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng.",
+          "title": "Làm mới trình duyệt của bạn"
         }
       }
     },
     "coinbase": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Coinbase Wallet on your home screen for quicker access.",
-          "title": "Open the Coinbase Wallet app"
+          "description": "Chúng tôi khuyên bạn nên đặt ví Coinbase lên màn hình chính của bạn để truy cập nhanh hơn.",
+          "title": "Mở ứng dụng Coinbase Wallet"
         },
         "step2": {
-          "description": "You can easily backup your wallet using the cloud backup feature.",
-          "title": "Create or Import a Wallet"
+          "description": "Bạn có thể dễ dàng sao lưu ví của mình bằng tính năng sao lưu trên đám mây.",
+          "title": "Tạo hoặc Nhập ví"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the scan button"
+          "description": "Sau khi bạn quét, một lời nhắc kết nối sẽ xuất hiện để bạn kết nối ví của mình.",
+          "title": "Nhấn nút quét"
         }
       },
       "extension": {
         "step1": {
-          "description": "We recommend pinning Coinbase Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Coinbase Wallet extension"
+          "description": "Chúng tôi khuyên bạn nên ghim ví Coinbase vào thanh tác vụ để truy cập nhanh hơn vào ví của bạn.",
+          "title": "Cài đặt tiện ích mở rộng Coinbase Wallet"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai.",
+          "title": "Tạo hoặc Nhập ví"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng.",
+          "title": "Làm mới trình duyệt của bạn"
         }
       }
     },
     "compass": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Compass Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Compass Wallet extension"
+          "description": "Chúng tôi khuyên bạn nên ghim Compass Wallet vào thanh tác vụ để truy cập nhanh hơn vào ví của bạn.",
+          "title": "Cài đặt tiện ích mở rộng Compass Wallet"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai.",
+          "title": "Tạo hoặc Nhập ví"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng.",
+          "title": "Làm mới trình duyệt của bạn"
         }
       }
     },
     "core": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Core on your home screen for faster access to your wallet.",
-          "title": "Open the Core app"
+          "description": "Chúng tôi khuyên bạn nên đặt Core lên màn hình chính của bạn để truy cập nhanh hơn vào ví của bạn.",
+          "title": "Mở ứng dụng Core"
         },
         "step2": {
-          "description": "You can easily backup your wallet using our backup feature on your phone.",
-          "title": "Create or Import a Wallet"
+          "description": "Bạn có thể dễ dàng sao lưu ví của mình bằng tính năng sao lưu trên điện thoại của chúng tôi.",
+          "title": "Tạo hoặc Nhập ví"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the WalletConnect button"
+          "description": "Sau khi bạn quét, một lời nhắc kết nối sẽ xuất hiện để bạn kết nối ví của mình.",
+          "title": "Nhấn nút WalletConnect"
         }
       },
       "extension": {
         "step1": {
-          "description": "We recommend pinning Core to your taskbar for quicker access to your wallet.",
-          "title": "Install the Core extension"
+          "description": "Chúng tôi khuyên bạn nên ghim Core vào thanh tác vụ của bạn để truy cập nhanh vào ví của bạn.",
+          "title": "Cài đặt tiện ích mở rộng Core"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai.",
+          "title": "Tạo hoặc Nhập ví"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng.",
+          "title": "Làm mới trình duyệt của bạn"
         }
       }
     },
     "fox": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting FoxWallet on your home screen for quicker access.",
-          "title": "Open the FoxWallet app"
+          "description": "Chúng tôi khuyên bạn nên thêm FoxWallet vào màn hình chính của bạn để truy cập nhanh.",
+          "title": "Mở ứng dụng FoxWallet"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai.",
+          "title": "Tạo hoặc Nhập ví"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the scan button"
+          "description": "Sau khi bạn quét, một lời nhắc kết nối sẽ xuất hiện để bạn kết nối ví của mình.",
+          "title": "Nhấn nút quét"
         }
       }
     },
     "frontier": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Frontier Wallet on your home screen for quicker access.",
-          "title": "Open the Frontier Wallet app"
+          "description": "Chúng tôi khuyên bạn nên thêm Frontier Wallet vào màn hình chính của bạn để truy cập nhanh.",
+          "title": "Mở ứng dụng Frontier Wallet"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai.",
+          "title": "Tạo hoặc Nhập ví"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the scan button"
+          "description": "Sau khi bạn quét, một lời nhắc kết nối sẽ xuất hiện để bạn kết nối ví của mình.",
+          "title": "Nhấn nút quét"
         }
       },
       "extension": {
         "step1": {
-          "description": "We recommend pinning Frontier Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Frontier Wallet extension"
+          "description": "Chúng tôi khuyên bạn nên ghim Frontier Wallet vào thanh tác vụ của bạn để truy cập nhanh vào ví của bạn.",
+          "title": "Cài đặt tiện ích mở rộng Frontier Wallet"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai.",
+          "title": "Tạo hoặc Nhập ví"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng.",
+          "title": "Làm mới trình duyệt của bạn"
         }
       }
     },
     "im_token": {
       "qr_code": {
         "step1": {
-          "title": "Open the imToken app",
-          "description": "Put imToken app on your home screen for faster access to your wallet."
+          "title": "Mở ứng dụng imToken",
+          "description": "Thêm ứng dụng imToken vào màn hình chính của bạn để truy cập nhanh vào ví của bạn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Tạo ví mới hoặc nhập ví hiện có."
         },
         "step3": {
-          "title": "Tap Scanner Icon in top right corner",
-          "description": "Choose New Connection, then scan the QR code and confirm the prompt to connect."
+          "title": "Nhấn vào biểu tượng Máy quét ở góc trên cùng bên phải",
+          "description": "Chọn Kết nối mới, sau đó quét mã QR và xác nhận nhắc nhở để kết nối."
         }
       }
     },
     "iopay": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting ioPay on your home screen for faster access to your wallet.",
-          "title": "Open the ioPay app"
+          "description": "Chúng tôi khuyên bạn nên đặt ioPay vào màn hình chính để truy cập nhanh hơn vào ví của bạn.",
+          "title": "Mở ứng dụng ioPay"
         },
         "step2": {
-          "description": "You can easily backup your wallet using our backup feature on your phone.",
-          "title": "Create or Import a Wallet"
+          "description": "Bạn có thể dễ dàng sao lưu ví của mình bằng tính năng sao lưu trên điện thoại của chúng tôi.",
+          "title": "Tạo hoặc Nhập ví"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the WalletConnect button"
+          "description": "Sau khi bạn quét, một lời nhắc kết nối sẽ xuất hiện để bạn kết nối ví của mình.",
+          "title": "Nhấn nút WalletConnect"
         }
       }
     },
     "kaikas": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Kaikas to your taskbar for quicker access to your wallet.",
-          "title": "Install the Kaikas extension"
+          "description": "Chúng tôi khuyên bạn nên ghim Kaikas vào thanh tác vụ để truy cập nhanh hơn vào ví của bạn.",
+          "title": "Cài đặt tiện ích mở rộng Kaikas"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai.",
+          "title": "Tạo hoặc Nhập ví"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng.",
+          "title": "Làm mới trình duyệt của bạn"
         }
       },
       "qr_code": {
         "step1": {
-          "title": "Open the Kaikas app",
-          "description": "Put Kaikas app on your home screen for faster access to your wallet."
+          "title": "Mở ứng dụng Kaikas",
+          "description": "Đặt ứng dụng Kaikas vào màn hình chính để truy cập nhanh hơn vào ví của bạn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Tạo ví mới hoặc nhập ví hiện có."
         },
         "step3": {
-          "title": "Tap Scanner Icon in top right corner",
-          "description": "Choose New Connection, then scan the QR code and confirm the prompt to connect."
+          "title": "Nhấn vào biểu tượng Máy quét ở góc trên cùng bên phải",
+          "description": "Chọn Kết nối mới, sau đó quét mã QR và xác nhận nhắc nhở để kết nối."
         }
       }
     },
     "kaia": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Kaia to your taskbar for quicker access to your wallet.",
-          "title": "Install the Kaia extension"
+          "description": "Chúng tôi khuyên bạn nên ghim Kaia vào thanh tác vụ để truy cập nhanh hơn vào ví của bạn.",
+          "title": "Cài đặt tiện ích mở rộng Kaia"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai.",
+          "title": "Tạo hoặc Nhập ví"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng.",
+          "title": "Làm mới trình duyệt của bạn"
         }
       },
       "qr_code": {
         "step1": {
-          "title": "Open the Kaia app",
-          "description": "Put Kaia app on your home screen for faster access to your wallet."
+          "title": "Mở ứng dụng Kaia",
+          "description": "Đặt ứng dụng Kaia lên màn hình chính của bạn để truy cập ví nhanh hơn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Tạo ví mới hoặc nhập ví hiện có."
         },
         "step3": {
-          "title": "Tap Scanner Icon in top right corner",
-          "description": "Choose New Connection, then scan the QR code and confirm the prompt to connect."
+          "title": "Nhấn vào biểu tượng Máy quét ở góc trên cùng bên phải",
+          "description": "Chọn Kết nối mới, sau đó quét mã QR và xác nhận nhắc nhở để kết nối."
         }
       }
     },
     "kraken": {
       "qr_code": {
         "step1": {
-          "title": "Open the Kraken Wallet app",
-          "description": "Add Kraken Wallet to your home screen for faster access to your wallet."
+          "title": "Mở ứng dụng Kraken Wallet",
+          "description": "Thêm Kraken Wallet vào màn hình chính để truy cập nhanh hơn vào ví của bạn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Tạo ví mới hoặc nhập ví hiện có."
         },
         "step3": {
-          "title": "Tap the QR icon and scan",
-          "description": "Tap the QR icon on your homescreen, scan the code and confirm the prompt to connect."
+          "title": "Nhấn vào biểu tượng QR và quét",
+          "description": "Nhấn vào biểu tượng QR trên màn hình chính của bạn, quét mã và xác nhận nhắc nhở để kết nối."
         }
       }
     },
     "kresus": {
       "qr_code": {
         "step1": {
-          "title": "Open the Kresus Wallet app",
-          "description": "Add Kresus Wallet to your home screen for faster access to your wallet."
+          "title": "Mở ứng dụng Kresus Wallet",
+          "description": "Thêm Kresus Wallet vào màn hình chính để truy cập nhanh hơn vào ví của bạn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Tạo ví mới hoặc nhập ví hiện có."
         },
         "step3": {
-          "title": "Tap the QR icon and scan",
-          "description": "Tap the QR icon on your homescreen, scan the code and confirm the prompt to connect."
+          "title": "Nhấn vào biểu tượng QR và quét",
+          "description": "Nhấn vào biểu tượng QR trên màn hình chính của bạn, quét mã và xác nhận nhắc nhở để kết nối."
         }
       }
     },
     "magicEden": {
       "extension": {
         "step1": {
-          "title": "Install the Magic Eden extension",
-          "description": "We recommend pinning Magic Eden to your taskbar for easier access to your wallet."
+          "title": "Cài đặt tiện ích mở rộng Magic Eden",
+          "description": "Chúng tôi khuyên bạn nên ghim Magic Eden vào thanh tác vụ để truy cập ví của bạn dễ dàng hơn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret recovery phrase with anyone."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Hãy chắc chắn sao lưu ví của bạn bằng phương pháp an toàn. Không bao giờ chia sẻ cụm từ khôi phục bí mật của bạn với bất kỳ ai."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Làm mới trình duyệt của bạn",
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng."
         }
       }
     },
     "metamask": {
       "qr_code": {
         "step1": {
-          "title": "Open the MetaMask app",
-          "description": "We recommend putting MetaMask on your home screen for quicker access."
+          "title": "Mở ứng dụng MetaMask",
+          "description": "Chúng tôi khuyên bạn nên thêm MetaMask vào màn hình chính của bạn để truy cập nhanh."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai."
         },
         "step3": {
-          "title": "Tap the scan button",
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet."
+          "title": "Nhấn nút quét",
+          "description": "Sau khi bạn quét, một lời nhắc kết nối sẽ xuất hiện để bạn kết nối ví của mình."
         }
       },
       "extension": {
         "step1": {
-          "title": "Install the MetaMask extension",
-          "description": "We recommend pinning MetaMask to your taskbar for quicker access to your wallet."
+          "title": "Cài đặt tiện ích mở rộng MetaMask",
+          "description": "Chúng tôi khuyên bạn nên ghim MetaMask vào thanh tác vụ của bạn để truy cập nhanh vào ví của bạn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Làm mới trình duyệt của bạn",
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng."
         }
       }
     },
     "nestwallet": {
       "extension": {
         "step1": {
-          "title": "Install the NestWallet extension",
-          "description": "We recommend pinning NestWallet to your taskbar for quicker access to your wallet."
+          "title": "Cài đặt tiện ích mở rộng NestWallet",
+          "description": "Chúng tôi khuyên bạn nên ghim NestWallet vào thanh tác vụ để truy cập nhanh hơn vào ví của bạn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Làm mới trình duyệt của bạn",
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng."
         }
       }
     },
     "okx": {
       "qr_code": {
         "step1": {
-          "title": "Open the OKX Wallet app",
-          "description": "We recommend putting OKX Wallet on your home screen for quicker access."
+          "title": "Mở ứng dụng OKX Wallet",
+          "description": "Chúng tôi khuyên bạn nên thêm OKX Wallet vào màn hình chính của bạn để truy cập nhanh."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai."
         },
         "step3": {
-          "title": "Tap the scan button",
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet."
+          "title": "Nhấn nút quét",
+          "description": "Sau khi bạn quét, một lời nhắc kết nối sẽ xuất hiện để bạn kết nối ví của mình."
         }
       },
       "extension": {
         "step1": {
-          "title": "Install the OKX Wallet extension",
-          "description": "We recommend pinning OKX Wallet to your taskbar for quicker access to your wallet."
+          "title": "Cài đặt tiện ích mở rộng OKX Wallet",
+          "description": "Chúng tôi khuyên bạn nên ghim OKX Wallet vào thanh tác vụ của bạn để truy cập nhanh vào ví của bạn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Làm mới trình duyệt của bạn",
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng."
         }
       }
     },
     "omni": {
       "qr_code": {
         "step1": {
-          "title": "Open the Omni app",
-          "description": "Add Omni to your home screen for faster access to your wallet."
+          "title": "Mở ứng dụng Omni",
+          "description": "Thêm Omni vào màn hình chính của bạn để truy cập nhanh vào ví của bạn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Tạo ví mới hoặc nhập ví hiện có."
         },
         "step3": {
-          "title": "Tap the QR icon and scan",
-          "description": "Tap the QR icon on your home screen, scan the code and confirm the prompt to connect."
+          "title": "Nhấn vào biểu tượng QR và quét",
+          "description": "Nhấn vào biểu tượng QR trên màn hình chính của bạn, quét mã và xác nhận nhắc nhở để kết nối."
         }
       }
     },
     "1inch": {
       "qr_code": {
         "step1": {
-          "description": "Put 1inch Wallet on your home screen for faster access to your wallet.",
-          "title": "Open the 1inch Wallet app"
+          "description": "Đặt 1inch Wallet vào màn hình chính để truy cập nhanh hơn vào ví của bạn.",
+          "title": "Mở ứng dụng 1inch Wallet"
         },
         "step2": {
-          "description": "Create a wallet and username, or import an existing wallet.",
-          "title": "Create or Import a Wallet"
+          "description": "Tạo ví và tên người dùng, hoặc nhập ví hiện có.",
+          "title": "Tạo hoặc Nhập ví"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the Scan QR button"
+          "description": "Sau khi bạn quét, một lời nhắc kết nối sẽ xuất hiện để bạn kết nối ví của mình.",
+          "title": "Nhấn nút Quét QR"
         }
       }
     },
     "token_pocket": {
       "qr_code": {
         "step1": {
-          "title": "Open the TokenPocket app",
-          "description": "We recommend putting TokenPocket on your home screen for quicker access."
+          "title": "Mở ứng dụng TokenPocket",
+          "description": "Chúng tôi khuyên bạn nên thêm TokenPocket vào màn hình chính của bạn để truy cập nhanh."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai."
         },
         "step3": {
-          "title": "Tap the scan button",
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet."
+          "title": "Nhấn nút quét",
+          "description": "Sau khi bạn quét, một lời nhắc kết nối sẽ xuất hiện để bạn kết nối ví của mình."
         }
       },
       "extension": {
         "step1": {
-          "title": "Install the TokenPocket extension",
-          "description": "We recommend pinning TokenPocket to your taskbar for quicker access to your wallet."
+          "title": "Cài đặt tiện ích mở rộng TokenPocket",
+          "description": "Chúng tôi khuyên bạn nên ghim TokenPocket vào thanh tác vụ của bạn để truy cập nhanh vào ví của bạn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Làm mới trình duyệt của bạn",
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng."
         }
       }
     },
     "trust": {
       "qr_code": {
         "step1": {
-          "title": "Open the Trust Wallet app",
-          "description": "Put Trust Wallet on your home screen for faster access to your wallet."
+          "title": "Mở ứng dụng Trust Wallet",
+          "description": "Thêm Trust Wallet vào màn hình chính của bạn để truy cập nhanh vào ví của bạn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Tạo ví mới hoặc nhập ví hiện có."
         },
         "step3": {
-          "title": "Tap WalletConnect in Settings",
-          "description": "Choose New Connection, then scan the QR code and confirm the prompt to connect."
+          "title": "Nhấn vào WalletConnect trong Cài đặt",
+          "description": "Chọn Kết nối mới, sau đó quét mã QR và xác nhận nhắc nhở để kết nối."
         }
       },
       "extension": {
         "step1": {
-          "title": "Install the Trust Wallet extension",
-          "description": "Click at the top right of your browser and pin Trust Wallet for easy access."
+          "title": "Cài đặt tiện ích mở rộng Trust Wallet",
+          "description": "Nhấp vào góc trên cùng bên phải của trình duyệt của bạn và ghim Trust Wallet để dễ dàng truy cập."
         },
         "step2": {
-          "title": "Create or Import a wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Tạo ví mới hoặc nhập ví hiện có."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up Trust Wallet, click below to refresh the browser and load up the extension."
+          "title": "Làm mới trình duyệt của bạn",
+          "description": "Sau khi bạn thiết lập Trust Wallet, nhấp vào bên dưới để làm mới trình duyệt và tải tiện ích mở rộng."
         }
       }
     },
     "uniswap": {
       "qr_code": {
         "step1": {
-          "title": "Open the Uniswap app",
-          "description": "Add Uniswap Wallet to your home screen for faster access to your wallet."
+          "title": "Mở ứng dụng Uniswap",
+          "description": "Thêm Uniswap Wallet vào màn hình chính của bạn để truy cập nhanh vào ví của bạn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Tạo ví mới hoặc nhập ví hiện có."
         },
         "step3": {
-          "title": "Tap the QR icon and scan",
-          "description": "Tap the QR icon on your homescreen, scan the code and confirm the prompt to connect."
+          "title": "Nhấn vào biểu tượng QR và quét",
+          "description": "Nhấn vào biểu tượng QR trên màn hình chính của bạn, quét mã và xác nhận nhắc nhở để kết nối."
         }
       }
     },
     "zerion": {
       "qr_code": {
         "step1": {
-          "title": "Open the Zerion app",
-          "description": "We recommend putting Zerion on your home screen for quicker access."
+          "title": "Mở ứng dụng Zerion",
+          "description": "Chúng tôi khuyên bạn nên đặt Zerion trên màn hình chính để truy cập nhanh hơn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai."
         },
         "step3": {
-          "title": "Tap the scan button",
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet."
+          "title": "Nhấn nút quét",
+          "description": "Sau khi bạn quét, một lời nhắc kết nối sẽ xuất hiện để bạn kết nối ví của mình."
         }
       },
       "extension": {
         "step1": {
-          "title": "Install the Zerion extension",
-          "description": "We recommend pinning Zerion to your taskbar for quicker access to your wallet."
+          "title": "Cài đặt tiện ích mở rộng Zerion",
+          "description": "Chúng tôi khuyên bạn nên ghim Zerion vào thanh tác vụ để truy cập ví nhanh hơn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Làm mới trình duyệt của bạn",
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng."
         }
       }
     },
     "rainbow": {
       "qr_code": {
         "step1": {
-          "title": "Open the Rainbow app",
-          "description": "We recommend putting Rainbow on your home screen for faster access to your wallet."
+          "title": "Mở ứng dụng Rainbow",
+          "description": "Chúng tôi khuyên bạn nên đặt Rainbow trên màn hình chính để truy cập ví nhanh hơn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "You can easily backup your wallet using our backup feature on your phone."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Bạn có thể dễ dàng sao lưu ví của mình bằng tính năng sao lưu trên điện thoại của chúng tôi."
         },
         "step3": {
-          "title": "Tap the scan button",
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet."
+          "title": "Nhấn nút quét",
+          "description": "Sau khi bạn quét, một lời nhắc kết nối sẽ xuất hiện để bạn kết nối ví của mình."
         }
       }
     },
     "enkrypt": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Enkrypt Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Enkrypt Wallet extension"
+          "description": "Chúng tôi khuyên bạn nên ghim Enkrypt Wallet vào thanh tác vụ để truy cập ví nhanh hơn.",
+          "title": "Cài đặt tiện ích mở rộng Enkrypt Wallet"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai.",
+          "title": "Tạo hoặc Nhập ví"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng.",
+          "title": "Làm mới trình duyệt của bạn"
         }
       }
     },
     "frame": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Frame to your taskbar for quicker access to your wallet.",
-          "title": "Install Frame & the companion extension"
+          "description": "Chúng tôi khuyên bạn nên ghim Frame vào thanh tác vụ để truy cập ví nhanh hơn.",
+          "title": "Cài đặt Frame và tiện ích mở rộng kèm theo"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai.",
+          "title": "Tạo hoặc Nhập ví"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng.",
+          "title": "Làm mới trình duyệt của bạn"
         }
       }
     },
     "one_key": {
       "extension": {
         "step1": {
-          "title": "Install the OneKey Wallet extension",
-          "description": "We recommend pinning OneKey Wallet to your taskbar for quicker access to your wallet."
+          "title": "Cài đặt tiện ích mở rộng OneKey Wallet",
+          "description": "Chúng tôi khuyên bạn nên ghim OneKey Wallet vào thanh tác vụ để truy cập ví nhanh hơn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Làm mới trình duyệt của bạn",
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng."
         }
       }
     },
     "phantom": {
       "extension": {
         "step1": {
-          "title": "Install the Phantom extension",
-          "description": "We recommend pinning Phantom to your taskbar for easier access to your wallet."
+          "title": "Cài đặt tiện ích mở rộng Phantom",
+          "description": "Chúng tôi khuyên bạn nên ghim Phantom vào thanh tác vụ để truy cập ví dễ dàng hơn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret recovery phrase with anyone."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Hãy chắc chắn sao lưu ví của bạn bằng phương pháp an toàn. Không bao giờ chia sẻ cụm từ khôi phục bí mật của bạn với bất kỳ ai."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Làm mới trình duyệt của bạn",
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng."
         }
       }
     },
     "rabby": {
       "extension": {
         "step1": {
-          "title": "Install the Rabby extension",
-          "description": "We recommend pinning Rabby to your taskbar for quicker access to your wallet."
+          "title": "Cài đặt tiện ích mở rộng Rabby",
+          "description": "Chúng tôi khuyên bạn nên ghim Rabby vào thanh tác vụ để truy cập ví nhanh hơn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Làm mới trình duyệt của bạn",
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng."
         }
       }
     },
     "ronin": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Ronin Wallet on your home screen for quicker access.",
-          "title": "Open the Ronin Wallet app"
+          "description": "Chúng tôi khuyên bạn nên đặt Ronin Wallet vào màn hình chính để truy cập nhanh hơn.",
+          "title": "Mở ứng dụng Ronin Wallet"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai.",
+          "title": "Tạo hoặc Nhập ví"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the scan button"
+          "description": "Sau khi bạn quét, một lời nhắc kết nối sẽ xuất hiện để bạn kết nối ví của mình.",
+          "title": "Nhấn nút quét"
         }
       },
       "extension": {
         "step1": {
-          "description": "We recommend pinning Ronin Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Ronin Wallet extension"
+          "description": "Chúng tôi khuyên bạn nên ghim Ronin Wallet vào thanh tác vụ để truy cập nhanh hơn vào ví của bạn.",
+          "title": "Cài đặt tiện ích mở rộng Ronin Wallet"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai.",
+          "title": "Tạo hoặc Nhập ví"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng.",
+          "title": "Làm mới trình duyệt của bạn"
         }
       }
     },
     "ramper": {
       "extension": {
         "step1": {
-          "title": "Install the Ramper extension",
-          "description": "We recommend pinning Ramper to your taskbar for easier access to your wallet."
+          "title": "Cài đặt tiện ích mở rộng Ramper",
+          "description": "Chúng tôi khuyên bạn nên ghim Ramper vào thanh tác vụ để truy cập ví của bạn dễ dàng hơn."
         },
         "step2": {
-          "title": "Create a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Tạo một Ví",
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Làm mới trình duyệt của bạn",
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng."
         }
       }
     },
     "safeheron": {
       "extension": {
         "step1": {
-          "title": "Install the Core extension",
-          "description": "We recommend pinning Safeheron to your taskbar for quicker access to your wallet."
+          "title": "Cài đặt tiện ích mở rộng Core",
+          "description": "Chúng tôi khuyên bạn nên ghim Safeheron vào thanh tác vụ để truy cập ví nhanh hơn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Làm mới trình duyệt của bạn",
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng."
         }
       }
     },
     "taho": {
       "extension": {
         "step1": {
-          "title": "Install the Taho extension",
-          "description": "We recommend pinning Taho to your taskbar for quicker access to your wallet."
+          "title": "Cài đặt tiện ích mở rộng Taho",
+          "description": "Chúng tôi khuyên bạn nên ghim Taho vào thanh tác vụ để truy cập ví nhanh hơn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Làm mới trình duyệt của bạn",
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng."
         }
       }
     },
     "talisman": {
       "extension": {
         "step1": {
-          "title": "Install the Talisman extension",
-          "description": "We recommend pinning Talisman to your taskbar for quicker access to your wallet."
+          "title": "Cài đặt tiện ích mở rộng Talisman",
+          "description": "Chúng tôi khuyên bạn nên ghim Talisman vào thanh tác vụ để truy cập ví nhanh hơn."
         },
         "step2": {
-          "title": "Create or Import an Ethereum Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your recovery phrase with anyone."
+          "title": "Tạo hoặc Nhập một Ethereum Wallet",
+          "description": "Hãy chắc chắn sao lưu ví của bạn bằng phương pháp an toàn. Không bao giờ chia sẻ cụm từ khôi phục của bạn với bất kỳ ai."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Làm mới trình duyệt của bạn",
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng."
         }
       }
     },
     "xdefi": {
       "extension": {
         "step1": {
-          "title": "Install the XDEFI Wallet extension",
-          "description": "We recommend pinning XDEFI Wallet to your taskbar for quicker access to your wallet."
+          "title": "Cài đặt tiện ích mở rộng XDEFI Wallet",
+          "description": "Chúng tôi khuyên bạn nên ghim XDEFI Wallet vào thanh tác vụ để truy cập ví nhanh hơn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Làm mới trình duyệt của bạn",
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng."
         }
       }
     },
     "zeal": {
       "qr_code": {
         "step1": {
-          "title": "Open the Zeal app",
-          "description": "Add Zeal Wallet to your home screen for faster access to your wallet."
+          "title": "Mở ứng dụng Zeal",
+          "description": "Thêm Zeal Wallet vào màn hình chính để truy cập nhanh hơn vào ví của bạn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Tạo ví mới hoặc nhập ví hiện có."
         },
         "step3": {
-          "title": "Tap the QR icon and scan",
-          "description": "Tap the QR icon on your homescreen, scan the code and confirm the prompt to connect."
+          "title": "Nhấn vào biểu tượng QR và quét",
+          "description": "Nhấn vào biểu tượng QR trên màn hình chính của bạn, quét mã và xác nhận nhắc nhở để kết nối."
         }
       },
       "extension": {
         "step1": {
-          "title": "Install the Zeal extension",
-          "description": "We recommend pinning Zeal to your taskbar for quicker access to your wallet."
+          "title": "Cài đặt tiện ích mở rộng Zeal",
+          "description": "Chúng tôi khuyên bạn nên ghim Zeal vào thanh tác vụ để truy cập ví nhanh hơn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Làm mới trình duyệt của bạn",
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng."
         }
       }
     },
     "safepal": {
       "extension": {
         "step1": {
-          "title": "Install the SafePal Wallet extension",
-          "description": "Click at the top right of your browser and pin SafePal Wallet for easy access."
+          "title": "Cài đặt tiện ích mở rộng SafePal Wallet",
+          "description": "Nhấp vào phía trên bên phải trình duyệt của bạn và ghim SafePal Wallet để truy cập dễ dàng."
         },
         "step2": {
-          "title": "Create or Import a wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Tạo ví mới hoặc nhập ví hiện có."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up SafePal Wallet, click below to refresh the browser and load up the extension."
+          "title": "Làm mới trình duyệt của bạn",
+          "description": "Sau khi cài đặt SafePal Wallet, bấm vào bên dưới để làm mới trình duyệt và tải tiện ích mở rộng."
         }
       },
       "qr_code": {
         "step1": {
-          "title": "Open the SafePal Wallet app",
-          "description": "Put SafePal Wallet on your home screen for faster access to your wallet."
+          "title": "Mở ứng dụng SafePal Wallet",
+          "description": "Đặt SafePal Wallet trên màn hình chính để truy cập ví nhanh hơn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Tạo ví mới hoặc nhập ví hiện có."
         },
         "step3": {
-          "title": "Tap WalletConnect in Settings",
-          "description": "Choose New Connection, then scan the QR code and confirm the prompt to connect."
+          "title": "Nhấn vào WalletConnect trong Cài đặt",
+          "description": "Chọn Kết nối mới, sau đó quét mã QR và xác nhận nhắc nhở để kết nối."
         }
       }
     },
     "desig": {
       "extension": {
         "step1": {
-          "title": "Install the Desig extension",
-          "description": "We recommend pinning Desig to your taskbar for easier access to your wallet."
+          "title": "Cài đặt tiện ích mở rộng Desig",
+          "description": "Chúng tôi khuyên bạn nên ghim Desig vào thanh tác vụ để truy cập ví dễ dàng hơn."
         },
         "step2": {
-          "title": "Create a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Tạo một Ví",
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Làm mới trình duyệt của bạn",
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng."
         }
       }
     },
     "subwallet": {
       "extension": {
         "step1": {
-          "title": "Install the SubWallet extension",
-          "description": "We recommend pinning SubWallet to your taskbar for quicker access to your wallet."
+          "title": "Cài đặt tiện ích mở rộng SubWallet",
+          "description": "Chúng tôi khuyến nghị ghim SubWallet vào thanh tác vụ để truy cập ví của bạn nhanh hơn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your recovery phrase with anyone."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Hãy chắc chắn sao lưu ví của bạn bằng phương pháp an toàn. Không bao giờ chia sẻ cụm từ khôi phục của bạn với bất kỳ ai."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Làm mới trình duyệt của bạn",
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng."
         }
       },
       "qr_code": {
         "step1": {
-          "title": "Open the SubWallet app",
-          "description": "We recommend putting SubWallet on your home screen for quicker access."
+          "title": "Mở ứng dụng SubWallet",
+          "description": "Chúng tôi khuyến nghị đặt SubWallet lên màn hình chính để truy cập nhanh hơn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai."
         },
         "step3": {
-          "title": "Tap the scan button",
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet."
+          "title": "Nhấn nút quét",
+          "description": "Sau khi bạn quét, một lời nhắc kết nối sẽ xuất hiện để bạn kết nối ví của mình."
         }
       }
     },
     "clv": {
       "extension": {
         "step1": {
-          "title": "Install the CLV Wallet extension",
-          "description": "We recommend pinning CLV Wallet to your taskbar for quicker access to your wallet."
+          "title": "Cài đặt tiện ích mở rộng CLV Wallet",
+          "description": "Chúng tôi khuyến nghị ghim CLV Wallet vào thanh tác vụ để truy cập ví của bạn nhanh hơn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Làm mới trình duyệt của bạn",
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng."
         }
       },
       "qr_code": {
         "step1": {
-          "title": "Open the CLV Wallet app",
-          "description": "We recommend putting CLV Wallet on your home screen for quicker access."
+          "title": "Mở ứng dụng CLV Wallet",
+          "description": "Chúng tôi khuyến nghị đặt CLV Wallet lên màn hình chính để truy cập nhanh hơn."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai."
         },
         "step3": {
-          "title": "Tap the scan button",
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet."
+          "title": "Nhấn nút quét",
+          "description": "Sau khi bạn quét, một lời nhắc kết nối sẽ xuất hiện để bạn kết nối ví của mình."
         }
       }
     },
     "okto": {
       "qr_code": {
         "step1": {
-          "title": "Open the Okto app",
-          "description": "Add Okto to your home screen for quick access"
+          "title": "Mở ứng dụng Okto",
+          "description": "Thêm Okto vào màn hình chính để truy cập nhanh chóng"
         },
         "step2": {
-          "title": "Create an MPC Wallet",
-          "description": "Create an account and generate a wallet"
+          "title": "Tạo ví MPC",
+          "description": "Tạo tài khoản và tạo ví"
         },
         "step3": {
-          "title": "Tap WalletConnect in Settings",
-          "description": "Tap the Scan QR icon at the top right and confirm the prompt to connect."
+          "title": "Nhấn vào WalletConnect trong Cài đặt",
+          "description": "Nhấn vào biểu tượng Quét mã QR ở trên cùng bên phải và xác nhận lời nhắc để kết nối."
         }
       }
     },
     "ledger": {
       "desktop": {
         "step1": {
-          "title": "Open the Ledger Live app",
-          "description": "We recommend putting Ledger Live on your home screen for quicker access."
+          "title": "Mở ứng dụng Ledger Live",
+          "description": "Chúng tôi khuyến nghị đặt Ledger Live lên màn hình chính để truy cập nhanh hơn."
         },
         "step2": {
-          "title": "Set up your Ledger",
-          "description": "Set up a new Ledger or connect to an existing one."
+          "title": "Thiết lập Ledger của bạn",
+          "description": "Thiết lập một Ledger mới hoặc kết nối với một cái hiện có."
         },
         "step3": {
-          "title": "Connect",
-          "description": "A connection prompt will appear for you to connect your wallet."
+          "title": "Kết nối",
+          "description": "Một lời nhắc kết nối sẽ xuất hiện để bạn kết nối ví của mình."
         }
       },
       "qr_code": {
         "step1": {
-          "title": "Open the Ledger Live app",
-          "description": "We recommend putting Ledger Live on your home screen for quicker access."
+          "title": "Mở ứng dụng Ledger Live",
+          "description": "Chúng tôi khuyến nghị đặt Ledger Live lên màn hình chính để truy cập nhanh hơn."
         },
         "step2": {
-          "title": "Set up your Ledger",
-          "description": "You can either sync with the desktop app or connect your Ledger."
+          "title": "Thiết lập Ledger của bạn",
+          "description": "Bạn có thể đồng bộ hóa với ứng dụng máy tính để bàn hoặc kết nối Ledger của bạn."
         },
         "step3": {
-          "title": "Scan the code",
-          "description": "Tap WalletConnect then Switch to Scanner. After you scan, a connection prompt will appear for you to connect your wallet."
+          "title": "Quét mã",
+          "description": "Nhấn vào WalletConnect sau đó Chuyển sang Máy quét. Sau khi bạn quét, một lời nhắc kết nối sẽ xuất hiện để bạn kết nối ví của mình."
+        }
+      }
+    },
+    "valora": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the Valora app",
+          "description": "We recommend putting Valora on your home screen for quicker access."
+        },
+        "step2": {
+          "title": "Create or import a wallet",
+          "description": "Tạo ví mới hoặc nhập ví hiện có."
+        },
+        "step3": {
+          "title": "Nhấn nút quét",
+          "description": "Sau khi bạn quét, một lời nhắc kết nối sẽ xuất hiện để bạn kết nối ví của mình."
         }
       }
     }
