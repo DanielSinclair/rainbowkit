@@ -1,53 +1,53 @@
 {
   "landing": {
-    "headline": "The best way to connect a wallet",
-    "subheadline": "Designed for everyone. Built for developers.",
-    "cta": "View the Docs",
-    "adopters": "The siqqest Web3 teams are using RainbowKit to improve their products, delight their users and save time when building.",
+    "headline": "Cách tốt nhất để kết nối ví",
+    "subheadline": "Được thiết kế cho mọi người. Được xây dựng cho nhà phát triển.",
+    "cta": "Xem tài liệu",
+    "adopters": "Các đội ngũ Web3 hàng đầu đang sử dụng RainbowKit để cải thiện sản phẩm của họ, làm hài lòng người dùng và tiết kiệm thời gian khi xây dựng.",
     "playground": {
-      "headline": "Give RainbowKit a spin",
-      "subheadline": "Make your Ethereum login experience feel right at home on your website. RainbowKit allows you to fully customize color, border radius, wallet providers and a lot more — all through an easy-to-use API. Get a feel for it below!",
+      "headline": "Thử RainbowKit",
+      "subheadline": "Làm cho trải nghiệm đăng nhập Ethereum của bạn trở nên thân thiện trên trang web của bạn. RainbowKit cho phép bạn tùy chỉnh hoàn toàn màu sắc, bán kính viền, nhà cung cấp ví và nhiều thứ khác — tất cả đều thông qua API dễ sử dụng. Trải nghiệm thử dưới đây!",
       "modal": "Modal",
-      "mode": "Mode",
-      "accent": "Accent",
-      "radius": "Radius",
+      "mode": "Chế độ",
+      "accent": "Điểm nhấn",
+      "radius": "Bán kính",
       "large": "L",
       "medium": "M",
       "small": "S"
     },
     "developers": {
-      "headline": "Rainbow 🤝 Developers",
-      "subheadline": "RainbowKit provides a fast, easy and highly customizable way for developers to add a great wallet experience to their application. We handle the hard stuff so developers and teams can focus on building amazing products and communities for their users.",
-      "installation": "Easy Installation",
-      "themes": "Built-in Themes",
-      "darkmode": "Light and Dark Mode",
-      "appstore": "App Store and Google Play Integration",
-      "custom_themes": "Custom Themes",
-      "custom_wallet_list": "Custom Wallets List",
-      "custom_chain": "Custom Chains",
-      "custom_connect": "Custom Connect Button"
+      "headline": "Rainbow 🤝 Nhà phát triển",
+      "subheadline": "RainbowKit cung cấp một cách nhanh chóng, dễ dàng và có thể tùy chỉnh cao để các nhà phát triển thêm trải nghiệm ví tuyệt vời vào ứng dụng của họ. Chúng tôi xử lý những việc khó khăn để các nhà phát triển và đội ngũ có thể tập trung vào việc xây dựng các sản phẩm và cộng đồng tuyệt vời cho người dùng của họ.",
+      "installation": "Dễ dàng cài đặt",
+      "themes": "Chủ đề tích hợp sẵn",
+      "darkmode": "Chế độ sáng và tối",
+      "appstore": "Tích hợp App Store và Google Play",
+      "custom_themes": "Chủ đề tùy chỉnh",
+      "custom_wallet_list": "Danh sách ví tùy chỉnh",
+      "custom_chain": "Chuỗi tùy chỉnh",
+      "custom_connect": "Nút kết nối tùy chỉnh"
     },
     "madeby": {
-      "headline": "Made with ❤️ by your frens at",
-      "subheadline": "Building RainbowKit has been an incredibly fun effort across many people at Rainbow and our frens at other companies. We're always looking to make RainbowKit better, so please let us know how we can improve.",
-      "twitter_cta": "Follow us on Twitter",
-      "feedback_cta": "Share feedback with us"
+      "headline": "Được tạo bởi ❤️ từ nhóm của bạn tại",
+      "subheadline": "Xây dựng RainbowKit đã là một nỗ lực vô cùng thú vị từ nhiều người tại Rainbow và các công ty khác. Chúng tôi luôn tìm kiếm để cải thiện RainbowKit, vì vậy hãy cho chúng tôi biết cách nào chúng tôi có thể cải thiện.",
+      "twitter_cta": "Theo dõi chúng tôi trên Twitter",
+      "feedback_cta": "Chia sẻ phản hồi với chúng tôi"
     },
     "footer": {
-      "mediakit": "media kit",
-      "terms": "terms of use",
-      "privacy": "privacy policy"
+      "mediakit": "bộ công cụ truyền thông",
+      "terms": "điều khoản sử dụng",
+      "privacy": "chính sách bảo mật"
     },
     "meta": {
-      "description": "The best way to connect a wallet 🌈"
+      "description": "Cách tốt nhất để kết nối ví 🌈"
     }
   },
   "docs": {
     "sidebar": {
       "section": {
-        "overview": "Overview",
-        "getting_started": "Getting Started",
-        "advanced": "Advanced"
+        "overview": "Tổng quan",
+        "getting_started": "Bắt đầu",
+        "advanced": "Nâng cao"
       }
     }
   }
