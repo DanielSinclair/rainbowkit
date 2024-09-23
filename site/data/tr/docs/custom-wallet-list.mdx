@@ -78,7 +78,7 @@ import { walletConnectWallet } from '@rainbow-me/rainbowkit/wallets';
 
 ##### Injected Wallet
 
-`window.ethereum` var olduğu ancak listenizde başka bir cüzdan tarafından sağlanmadığı senaryolar için tasarlanmış bir yedek cüzdan seçeneğidir. Bu cüzdan, yedek olarak gerekli olmadığında veya kullanılabilir bir enjekte edilmiş cüzdan olmadığında otomatik olarak kendini listeden gizleyecektir. Bu cüzdan, yedekleme gerekmediğinde veya enjekte edilmiş bir cüzdan mevcut olmadığında otomatik olarak listeden gizlenecektir.
+`window.ethereum` var olduğu ancak listenizde başka bir cüzdan tarafından sağlanmadığı senaryolar için tasarlanmış bir yedek cüzdan seçeneğidir. Bu cüzdan, yedek olarak gerekli olmadığında veya kullanılabilir bir enjekte edilmiş cüzdan olmadığında otomatik olarak kendini listeden gizleyecektir.
 
 Safe Wallet
 
@@ -181,7 +181,7 @@ coinbaseWallet.preference = 'smartWalletOnly';
 import { coin98Wallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Dawn Wallet
+#### Safe Cüzdan
 
 ```tsx
 import { compassWallet } from '@rainbow-me/rainbowkit/compassWallet';
@@ -241,7 +241,7 @@ import { imTokenWallet } from '@rainbow-me/rainbowkit/wallets';
 import { iopayWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Kraken Wallet
+#### Gate Cüzdan
 
 ```tsx
 import { kaiaWallet } from '@rainbow-me/rainbowkit/wallets';
@@ -377,6 +377,12 @@ import { trustWallet } from '@rainbow-me/rainbowkit/wallets';
 
 ```tsx
 import { uniswapWallet } from '@rainbow-me/rainbowkit/wallets';
+```
+
+#### Valora
+
+```tsx
+import { valoraWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
 #### XDEFI Cüzdanı
