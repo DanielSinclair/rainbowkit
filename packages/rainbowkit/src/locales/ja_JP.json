@@ -322,20 +322,6 @@
           "description": "ウォレットを持った後、Bloomを介して接続するには「Connect」をクリックします。アプリ内で接続を確認するプロンプトが表示されます。",
           "title": "「Connect」をクリック"
         }
-      },
-      "qr_code": {
-        "step1": {
-          "title": "Bloom Walletアプリを開く",
-          "description": "Bloom Walletをホーム画面に置くことをお勧めします。これにより、より迅速にアクセスできます。"
-        },
-        "step2": {
-          "description": "リカバリーフレーズを使用してウォレットを作成またはインポートします。",
-          "title": "ウォレットを作成またはインポート"
-        },
-        "step3": {
-          "description": "ウォレットを持った後、Bloomを介して接続するには「Connect」をクリックします。アプリ内で接続を確認するプロンプトが表示されます。",
-          "title": "「Connect」をクリック"
-        }
       }
     },
     "bybit": {
@@ -1275,6 +1261,22 @@
         "step3": {
           "title": "コードをスキャンする",
           "description": "WalletConnectをタップし、スキャナーに切り替えてください。スキャン後、ウォレットを接続するための接続プロンプトが表示されます。"
+        }
+      }
+    },
+    "valora": {
+      "qr_code": {
+        "step1": {
+          "title": "Valoraアプリを開く",
+          "description": "We recommend putting Valora on your home screen for quicker access."
+        },
+        "step2": {
+          "title": "Create or import a wallet",
+          "description": "新しいウォレットを作成するか、既存のものをインポートします。"
+        },
+        "step3": {
+          "title": "「スキャン」ボタンをタップします",
+          "description": "スキャン後、ウォレットを接続するための接続プロンプトが表示されます。"
         }
       }
     }
