@@ -1268,10 +1268,10 @@
       "qr_code": {
         "step1": {
           "title": "Valora uygulamasını açın",
-          "description": "We recommend putting Valora on your home screen for quicker access."
+          "description": "Daha hızlı erişim için Valora'yı ana ekranınıza koymanızı öneririz."
         },
         "step2": {
-          "title": "Create or import a wallet",
+          "title": "Bir cüzdan oluşturun veya içe aktarın",
           "description": "Yeni bir cüzdan oluşturun veya mevcut birini içe aktarın."
         },
         "step3": {
