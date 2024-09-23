@@ -1,17 +1,16 @@
 ---
-title: Custom Theme
-description: Creating a custom theme
+title: Chủ đề tùy chỉnh
+description: Tạo chủ đề tùy chỉnh
 ---
 
-# Custom Theme
+# Chủ đề tùy chỉnh
 
-## Creating a custom theme
+## Tạo chủ đề tùy chỉnh
 
-> Note: This API is unstable and likely to change
-> in the near future. We recommend sticking with the [built-in themes](/docs/theming) for
-> now.
+> Lưu ý: API này không ổn định và có khả năng thay đổi
+> trong tương lai gần. Chúng tôi khuyến nghị bạn sử dụng [chủ đề tích hợp](/docs/theming) vào lúc này.
 
-While the built-in themes provide some level of customization, the `Theme` type is provided to help you define your own custom themes with lower-level access to the underlying theme variables.
+Mặc dù các chủ đề tích hợp cung cấp một số mức độ tùy chỉnh, loại `Theme` được cung cấp để giúp bạn định nghĩa các chủ đề tùy chỉnh của riêng bạn với quyền truy cập cấp thấp hơn vào các biến chủ đề cơ bản.
 
 ```tsx
 import { RainbowKitProvider, Theme } from '@rainbow-me/rainbowkit';
@@ -79,17 +78,17 @@ const App = () => (
 )
 ```
 
-### Extending a built-in theme
+### Mở rộng chủ đề tích hợp
 
-You can extend a built-in theme without having to re-define the entire theme. This is useful when you only want to override specific theme tokens.
+Bạn có thể mở rộng một chủ đề tích hợp mà không cần phải định nghĩa lại toàn bộ chủ đề. Điều này hữu ích khi bạn chỉ muốn ghi đè các token chủ đề cụ thể.
 
-To do that, install `lodash.merge` (or equivalent):
+Để làm điều đó, cài đặt `lodash.merge` (hoặc tương đương):
 
 ```bash
 npm install lodash.merge
 ```
 
-Import it, along with the theme you want to extend (eg: `darkTheme`) and the TypeScript `Theme` type:
+Nhập nó, cùng với chủ đề bạn muốn mở rộng (vd: `darkTheme`) và loại `Theme` của TypeScript:
 
 ```tsx
 import merge from 'lodash.merge';
@@ -100,7 +99,7 @@ import {
 } from '@rainbow-me/rainbowkit';
 ```
 
-Then, merge the built-in theme, with the theme tokens you'd like to override. In this example, I'm overriding the `accentColor` token to match my brand's accent color.
+Sau đó, hợp nhất chủ đề tích hợp, với các token chủ đề bạn muốn ghi đè. Trong ví dụ này, tôi đang ghi đè token `accentColor` để phù hợp với màu nhấn thương hiệu của tôi.
 
 ```tsx
 const myTheme = merge(darkTheme(), {
@@ -110,7 +109,7 @@ const myTheme = merge(darkTheme(), {
 } as Theme);
 ```
 
-Finally, you can now pass your custom theme to `RainbowKitProvider`'s `theme` prop.
+Cuối cùng, bạn có thể chuyển chủ đề tùy chỉnh của mình đến prop `theme` của `RainbowKitProvider`.
 
 ```tsx
 const App = () => {
@@ -122,16 +121,16 @@ const App = () => {
 };
 ```
 
-### Creating custom theme selectors
+### Tạo bộ chọn chủ đề tùy chỉnh
 
-If your app is server/statically rendered and allows users to manually toggle between themes, RainbowKit's theming system can be hooked up to custom CSS selectors with the following functions that can be used with any CSS-in-JS system:
+Nếu ứng dụng của bạn được render trên máy chủ hoặc render tĩnh và cho phép người dùng chuyển đổi giữa các chủ đề, hệ thống chủ đề của RainbowKit có thể được kết nối với các bộ chọn CSS tùy chỉnh với các hàm sau đây, có thể sử dụng với bất kỳ hệ thống CSS-in-JS nào:
 
 - `cssStringFromTheme`
 - `cssObjectFromTheme`
 
-These functions return CSS that sets all required theme variables. Since both strings and objects are supported, this can be integrated with any CSS-in-JS system.
+Những hàm này trả về CSS thiết lập tất cả các biến chủ đề cần thiết. Vì cả chuỗi và đối tượng đều được hỗ trợ, điều này có thể tích hợp với bất kỳ hệ thống CSS-in-JS nào.
 
-As a basic example, you can render your own `style` element with custom selectors for each theme. Since we're taking control of rendering the theme's CSS, we're passing `null` to the `theme` prop so that RainbowKitProvider doesn't render any styles for us. Also note the use of the extends option on the cssStringFromTheme function which omits any theme variables that are the same as the base theme.
+Với một ví dụ cơ bản, bạn có thể render phần tử `style` của riêng mình với các bộ chọn tùy chỉnh cho mỗi chủ đề. Vì chúng tôi đang kiểm soát việc render CSS của chủ đề, chúng tôi chuyển `null` cho prop `theme` để RainbowKitProvider không render bất kỳ kiểu nào cho chúng tôi. Cũng lưu ý việc sử dụng tùy chọn extends trên hàm cssStringFromTheme để loại bỏ bất kỳ biến chủ đề nào giống với chủ đề cơ bản.
 
 ```tsx
 import {
