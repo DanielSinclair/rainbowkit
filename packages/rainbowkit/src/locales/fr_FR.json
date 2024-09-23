@@ -322,20 +322,6 @@
           "description": "Après avoir obtenu un portefeuille, cliquez sur Connecter pour vous connecter via Bloom. Une invite de connexion apparaîtra dans l'application pour que vous confirmiez la connexion.",
           "title": "Cliquez sur Connecter"
         }
-      },
-      "qr_code": {
-        "step1": {
-          "title": "Ouvrez l'application Bloom Wallet",
-          "description": "Nous recommandons de placer Bloom Wallet sur votre écran d'accueil pour un accès plus rapide."
-        },
-        "step2": {
-          "description": "Créez ou importez un portefeuille en utilisant votre phrase de récupération.",
-          "title": "Créer ou Importer un Portefeuille"
-        },
-        "step3": {
-          "description": "Après avoir obtenu un portefeuille, cliquez sur Connecter pour vous connecter via Bloom. Une invite de connexion apparaîtra dans l'application pour que vous confirmiez la connexion.",
-          "title": "Cliquez sur Connecter"
-        }
       }
     },
     "bybit": {
@@ -1275,6 +1261,22 @@
         "step3": {
           "title": "Scannez le code",
           "description": "Appuyez sur WalletConnect puis passez au Scanner. Une fois que vous avez scanné, une invite de connexion apparaîtra pour que vous puissiez connecter votre portefeuille."
+        }
+      }
+    },
+    "valora": {
+      "qr_code": {
+        "step1": {
+          "title": "Ouvrez l'application Valora",
+          "description": "We recommend putting Valora on your home screen for quicker access."
+        },
+        "step2": {
+          "title": "Create or import a wallet",
+          "description": "Créez un nouveau portefeuille ou importez-en un existant."
+        },
+        "step3": {
+          "title": "Appuyez sur le bouton de scan",
+          "description": "Après avoir numérisé, une invite de connexion apparaîtra pour vous permettre de connecter votre portefeuille."
         }
       }
     }
