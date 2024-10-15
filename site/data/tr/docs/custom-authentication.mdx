@@ -7,13 +7,13 @@ description: Kendi kimlik doğrulama arka ucunuzla bağlantı kurun
 
 ## Kendi kimlik doğrulama arka ucunuzla bağlantı kurun
 
-While RainbowKit provides [first-class support for Sign-In with Ethereum and NextAuth,](/docs/authentication#set-up-sign-in-with-ethereum-and-nextauth) you can also integrate with custom back-ends and message formats.
+RainbowKit, Ethereum ve NextAuth ile Giriş için birinci sınıf desteğini sağlasa da, özel arka uçlar ve mesaj formatlarıyla da entegrasyon yapabilirsiniz.
 
 ### Özel bir adaptör oluşturma
 
 Öncelikle bir kimlik doğrulama adaptörü oluşturun. Bu, RainbowKit'in mesajlar oluşturmasına/hazırlamasına ve arka uçunuzla iletişim kurmasına olanak sağlar.
 
-As an example, we could make an authentication adapter that lets us use [Sign-In with Ethereum](https://login.xyz) against some custom API endpoints, like [iron-session](https://github.com/rainbow-me/rainbowkit/tree/main/examples/with-next-siwe-iron-session).
+Örneğin, bize Ethereum ile Giriş yapmayı sağlayan özel API uç noktalarına, [iron-session](https://github.com/rainbow-me/rainbowkit/tree/main/examples/with-next-siwe-iron-session) gibi, karşı bir kimlik doğrulama adaptörü yapabiliriz.
 
 ```tsx
 import { createAuthenticationAdapter } from '@rainbow-me/rainbowkit';
