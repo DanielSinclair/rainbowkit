@@ -233,8 +233,8 @@
     "best": {
       "qr_code": {
         "step1": {
-          "title": "Open the Best Wallet app",
-          "description": "Add Best Wallet to your home screen for faster access to your wallet."
+          "title": "打開 Best Wallet 應用程式",
+          "description": "將 Best Wallet 加到主畫面以更快地開啟你的錢包。"
         },
         "step2": {
           "title": "創建或導入錢包",
@@ -959,8 +959,8 @@
     "paraswap": {
       "qr_code": {
         "step1": {
-          "title": "Open the ParaSwap app",
-          "description": "Add ParaSwap Wallet to your home screen for faster access to your wallet."
+          "title": "打開 ParaSwap 應用程式",
+          "description": "將 ParaSwap Wallet 加到主畫面以更快地開啟你的錢包。"
         },
         "step2": {
           "title": "創建或導入錢包",
