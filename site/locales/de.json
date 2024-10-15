@@ -1,53 +1,53 @@
 {
   "landing": {
-    "headline": "The best way to connect a wallet",
-    "subheadline": "Designed for everyone. Built for developers.",
-    "cta": "View the Docs",
-    "adopters": "The siqqest Web3 teams are using RainbowKit to improve their products, delight their users and save time when building.",
+    "headline": "Der beste Weg, eine Wallet zu verbinden",
+    "subheadline": "Für alle gestaltet. Für Entwickler gebaut.",
+    "cta": "Dokumentation ansehen",
+    "adopters": "Die angesagtesten Web3-Teams nutzen RainbowKit, um ihre Produkte zu verbessern, ihre Nutzer zu begeistern und Zeit bei der Entwicklung zu sparen.",
     "playground": {
-      "headline": "Give RainbowKit a spin",
-      "subheadline": "Make your Ethereum login experience feel right at home on your website. RainbowKit allows you to fully customize color, border radius, wallet providers and a lot more — all through an easy-to-use API. Get a feel for it below!",
+      "headline": "Probieren Sie RainbowKit aus",
+      "subheadline": "Gestalten Sie Ihr Ethereum-Login-Erlebnis auf Ihrer Website ganz nach Ihrem Geschmack. RainbowKit ermöglicht es Ihnen, Farben, Randradien, Wallet-Anbieter und vieles mehr vollständig anzupassen – alles über eine benutzerfreundliche API. Erleben Sie es unten!",
       "modal": "Modal",
-      "mode": "Mode",
-      "accent": "Accent",
+      "mode": "Modus",
+      "accent": "Akzent",
       "radius": "Radius",
       "large": "L",
       "medium": "M",
       "small": "S"
     },
     "developers": {
-      "headline": "Rainbow 🤝 Developers",
-      "subheadline": "RainbowKit provides a fast, easy and highly customizable way for developers to add a great wallet experience to their application. We handle the hard stuff so developers and teams can focus on building amazing products and communities for their users.",
-      "installation": "Easy Installation",
-      "themes": "Built-in Themes",
-      "darkmode": "Light and Dark Mode",
-      "appstore": "App Store and Google Play Integration",
-      "custom_themes": "Custom Themes",
-      "custom_wallet_list": "Custom Wallets List",
-      "custom_chain": "Custom Chains",
-      "custom_connect": "Custom Connect Button"
+      "headline": "Rainbow 🤝 Entwickler",
+      "subheadline": "RainbowKit bietet Entwicklern eine schnelle, einfache und hoch anpassbare Möglichkeit, ein großartiges Wallet-Erlebnis in ihre Anwendung zu integrieren. Wir übernehmen die schwierigen Aufgaben, sodass sich Entwickler und Teams auf den Aufbau erstaunlicher Produkte und Communities für ihre Nutzer konzentrieren können.",
+      "installation": "Einfache Installation",
+      "themes": "Eingebaute Themes",
+      "darkmode": "Heller und Dunkler Modus",
+      "appstore": "Integration von App Store und Google Play",
+      "custom_themes": "Benutzerdefinierte Themes",
+      "custom_wallet_list": "Benutzerdefinierte Wallet-Liste",
+      "custom_chain": "Benutzerdefinierte Chains",
+      "custom_connect": "Benutzerdefinierte Verbindungs-Schaltfläche"
     },
     "madeby": {
-      "headline": "Made with ❤️ by your frens at",
-      "subheadline": "Building RainbowKit has been an incredibly fun effort across many people at Rainbow and our frens at other companies. We're always looking to make RainbowKit better, so please let us know how we can improve.",
-      "twitter_cta": "Follow us on Twitter",
-      "feedback_cta": "Share feedback with us"
+      "headline": "Hergestellt mit ❤️ von Ihren Freunden bei",
+      "subheadline": "Die Entwicklung von RainbowKit war ein unglaublich spaßiges Unterfangen, an dem viele Leute bei Rainbow und unsere Freunde bei anderen Unternehmen beteiligt sind. Wir sind ständig bemüht, RainbowKit zu verbessern, also lassen Sie uns bitte wissen, wie wir uns verbessern können.",
+      "twitter_cta": "Folgen Sie uns auf Twitter",
+      "feedback_cta": "Teilen Sie Ihr Feedback mit uns"
     },
     "footer": {
-      "mediakit": "media kit",
-      "terms": "terms of use",
-      "privacy": "privacy policy"
+      "mediakit": "Medienkit",
+      "terms": "Nutzungsbedingungen",
+      "privacy": "Datenschutzrichtlinie"
     },
     "meta": {
-      "description": "The best way to connect a wallet 🌈"
+      "description": "Der beste Weg, eine Wallet zu verbinden 🌈"
     }
   },
   "docs": {
     "sidebar": {
       "section": {
-        "overview": "Overview",
-        "getting_started": "Getting Started",
-        "advanced": "Advanced"
+        "overview": "Übersicht",
+        "getting_started": "Erste Schritte",
+        "advanced": "Erweitert"
       }
     }
   }
