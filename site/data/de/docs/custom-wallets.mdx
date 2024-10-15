@@ -1,17 +1,17 @@
 ---
-title: Custom Wallets
-description: Create a custom wallet
+title: Benutzerdefinierte Wallets
+description: Erstellen Sie ein benutzerdefiniertes Wallet
 ---
 
-# Custom Wallets
+# Benutzerdefinierte Wallets
 
-## Create a custom wallet
+## Erstellen Sie ein benutzerdefiniertes Wallet
 
-> Note: This API is unstable and likely to change in the near future. We will be adding more built-in wallets over time. [Let us know](https://github.com/rainbow-me/rainbowkit/issues) if there are any particular wallets you're interested in.
+> Hinweis: Diese API ist instabil und wird sich wahrscheinlich in naher Zukunft ändern. Wir werden im Laufe der Zeit mehr integrierte Wallets hinzufügen. [Lassen Sie es uns wissen](https://github.com/rainbow-me/rainbowkit/issues), wenn es bestimmte Wallets gibt, die Sie interessieren.
 
-The `Wallet` function type is provided to help you define your own custom wallets. The following properties can be configured on the return value of your `Wallet` function:
+Der `Wallet` Funktionstyp wird bereitgestellt, um Ihnen bei der Definition Ihrer eigenen benutzerdefinierten Wallets zu helfen. Die folgenden Eigenschaften können im Rückgabewert Ihrer `Wallet` Funktion konfiguriert werden:
 
-### Wallet Properties
+### Wallet-Eigenschaften
 
 <PropsTable
   data={[
@@ -134,7 +134,7 @@ The `Wallet` function type is provided to help you define your own custom wallet
   ]}
 />
 
-### DownloadUrls Properties
+### DownloadUrls-Eigenschaften
 
 <PropsTable
   data={[
@@ -204,9 +204,9 @@ The `Wallet` function type is provided to help you define your own custom wallet
   ]}
 />
 
-### Examples
+### Beispiele
 
-For example, to create a custom wallet using WalletConnect:
+Zum Beispiel, um ein benutzerdefiniertes Wallet mit WalletConnect zu erstellen:
 
 ```tsx
 import { Wallet, getWalletConnectConnector } from '@rainbow-me/rainbowkit';
@@ -278,4 +278,4 @@ export const rainbow = ({ projectId }: MyWalletOptions): Wallet => ({
 });
 ```
 
-You can then add your custom wallet in the [wallet list](/docs/custom-wallet-list).
+Sie können dann Ihr benutzerdefiniertes Wallet in die [Wallet-Liste](/docs/custom-wallet-list) aufnehmen.
