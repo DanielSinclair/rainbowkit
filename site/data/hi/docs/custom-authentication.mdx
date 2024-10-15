@@ -7,13 +7,13 @@ description: अपने स्वयं के प्रमाणीकरण 
 
 ## अपने स्वयं के प्रमाणीकरण बैक-एंड से जुड़ें
 
-While RainbowKit provides [first-class support for Sign-In with Ethereum and NextAuth,](/docs/authentication#set-up-sign-in-with-ethereum-and-nextauth) you can also integrate with custom back-ends and message formats.
+हालांकि RainbowKit [Ethereum और NextAuth के साथ साइन-इन के लिए पहले दर्जे की सपोर्ट](/docs/authentication#set-up-sign-in-with-ethereum-and-nextauth) प्रदान करता है, आप कस्टम बैक-एंड्स और संदेश प्रारूपों के साथ भी एकीकृत कर सकते हैं।
 
 ### एक कस्टम एडाप्टर बनाना
 
 पहले एक प्रमाणीकरण एडाप्टर बनाएं। यह RainbowKit को संदेशों को बनाने/तैयार करने और आपके बैक-एंड के साथ संचार करने की अनुमति देता है।
 
-As an example, we could make an authentication adapter that lets us use [Sign-In with Ethereum](https://login.xyz) against some custom API endpoints, like [iron-session](https://github.com/rainbow-me/rainbowkit/tree/main/examples/with-next-siwe-iron-session).
+उदाहरण के लिए, हम एक प्रमाणीकरण एडाप्टर बना सकते हैं जो हमें [Ethereum के साथ साइन-इन करने](https://login.xyz) की अनुमति देता है कुछ कस्टम एपीआई एंडपॉइंट्स, [जैसे कि iron-session](https://github.com/rainbow-me/rainbowkit/tree/main/examples/with-next-siwe-iron-session).
 
 ```tsx
 import { createAuthenticationAdapter } from '@rainbow-me/rainbowkit';
