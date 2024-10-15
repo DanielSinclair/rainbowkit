@@ -233,8 +233,8 @@
     "best": {
       "qr_code": {
         "step1": {
-          "title": "Open the Best Wallet app",
-          "description": "Add Best Wallet to your home screen for faster access to your wallet."
+          "title": "Best Wallet uygulamasını açın",
+          "description": "Cüzdanınıza daha hızlı erişim için Best Wallet'ı ana ekranınıza ekleyin."
         },
         "step2": {
           "title": "Cüzdan Oluştur veya Cüzdanı İçe Aktar",
@@ -959,8 +959,8 @@
     "paraswap": {
       "qr_code": {
         "step1": {
-          "title": "Open the ParaSwap app",
-          "description": "Add ParaSwap Wallet to your home screen for faster access to your wallet."
+          "title": "ParaSwap uygulamasını açın",
+          "description": "Cüzdanınıza daha hızlı erişim için ParaSwap Cüzdanınızı ana ekranınıza ekleyin."
         },
         "step2": {
           "title": "Cüzdan Oluştur veya Cüzdanı İçe Aktar",
