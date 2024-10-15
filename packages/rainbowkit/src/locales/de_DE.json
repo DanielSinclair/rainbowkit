@@ -1,215 +1,215 @@
 {
   "connect_wallet": {
-    "label": "Connect Wallet",
+    "label": "Wallet verbinden",
     "wrong_network": {
-      "label": "Wrong network"
+      "label": "Falsches Netzwerk"
     }
   },
   "intro": {
-    "title": "What is a Wallet?",
-    "description": "A wallet is used to send, receive, store, and display digital assets. It's also a new way to log in, without needing to create new accounts and passwords on every website.",
+    "title": "Was ist ein Wallet?",
+    "description": "Ein Wallet wird verwendet, um digitale Assets zu senden, empfangen, speichern und anzeigen. Es ist auch eine neue Möglichkeit, sich anzumelden, ohne auf jeder Website neue Konten und Passwörter erstellen zu müssen.",
     "digital_asset": {
-      "title": "A Home for your Digital Assets",
-      "description": "Wallets are used to send, receive, store, and display digital assets like Ethereum and NFTs."
+      "title": "Ein Zuhause für Ihre digitalen Vermögenswerte",
+      "description": "Wallets werden verwendet, um digitale Assets wie Ethereum und NFTs zu senden, empfangen, speichern und anzeigen."
     },
     "login": {
-      "title": "A New Way to Log In",
-      "description": "Instead of creating new accounts and passwords on every website, just connect your wallet."
+      "title": "Eine neue Möglichkeit, sich anzumelden",
+      "description": "Anstatt auf jeder Website neue Konten und Passwörter zu erstellen, verbinden Sie einfach Ihr Wallet."
     },
     "get": {
-      "label": "Get a Wallet"
+      "label": "Ein Wallet holen"
     },
     "learn_more": {
-      "label": "Learn More"
+      "label": "Mehr erfahren"
     }
   },
   "sign_in": {
-    "label": "Verify your account",
-    "description": "To finish connecting, you must sign a message in your wallet to verify that you are the owner of this account.",
+    "label": "Verifizieren Sie Ihr Konto",
+    "description": "Um die Verbindung abzuschließen, müssen Sie eine Nachricht in Ihrem Wallet signieren, um zu verifizieren, dass Sie der Inhaber dieses Kontos sind.",
     "message": {
-      "send": "Sign message",
-      "preparing": "Preparing message...",
-      "cancel": "Cancel",
-      "preparing_error": "Error preparing message, please retry!"
+      "send": "Nachricht signieren",
+      "preparing": "Nachricht wird vorbereitet...",
+      "cancel": "Abbrechen",
+      "preparing_error": "Fehler beim Vorbereiten der Nachricht, bitte erneut versuchen!"
     },
     "signature": {
-      "waiting": "Waiting for signature...",
-      "verifying": "Verifying signature...",
-      "signing_error": "Error signing message, please retry!",
-      "verifying_error": "Error verifying signature, please retry!",
-      "oops_error": "Oops, something went wrong!"
+      "waiting": "Warten auf Signatur...",
+      "verifying": "Signatur wird überprüft...",
+      "signing_error": "Fehler beim Signieren der Nachricht, bitte erneut versuchen!",
+      "verifying_error": "Fehler bei der Überprüfung der Signatur, bitte erneut versuchen!",
+      "oops_error": "Oops, etwas ist schiefgelaufen!"
     }
   },
   "connect": {
-    "label": "Connect",
-    "title": "Connect a Wallet",
+    "label": "Verbinden",
+    "title": "Ein Wallet verbinden",
     "new_to_ethereum": {
-      "description": "New to Ethereum wallets?",
+      "description": "Neu bei Ethereum-Wallets?",
       "learn_more": {
-        "label": "Learn More"
+        "label": "Mehr erfahren"
       }
     },
     "learn_more": {
-      "label": "Learn more"
+      "label": "Mehr erfahren"
     },
-    "recent": "Recent",
+    "recent": "Zuletzt",
     "status": {
-      "opening": "Opening %{wallet}...",
-      "connecting": "Connecting",
-      "connect_mobile": "Continue in %{wallet}",
-      "not_installed": "%{wallet} is not installed",
-      "not_available": "%{wallet} is not available",
-      "confirm": "Confirm connection in the extension",
-      "confirm_mobile": "Accept connection request in the wallet"
+      "opening": "%{wallet} wird geöffnet...",
+      "connecting": "Verbinden",
+      "connect_mobile": "Fahren Sie in %{wallet} fort",
+      "not_installed": "%{wallet} ist nicht installiert",
+      "not_available": "%{wallet} ist nicht verfügbar",
+      "confirm": "Bestätigen Sie die Verbindung in der Erweiterung",
+      "confirm_mobile": "Akzeptieren Sie die Verbindungsanfrage im Wallet"
     },
     "secondary_action": {
       "get": {
-        "description": "Don't have %{wallet}?",
-        "label": "GET"
+        "description": "Haben Sie kein %{wallet}?",
+        "label": "HOLEN"
       },
       "install": {
-        "label": "INSTALL"
+        "label": "INSTALLIEREN"
       },
       "retry": {
-        "label": "RETRY"
+        "label": "ERNEUT VERSUCHEN"
       }
     },
     "walletconnect": {
       "description": {
-        "full": "Need the official WalletConnect modal?",
-        "compact": "Need the WalletConnect modal?"
+        "full": "Benötigen Sie das offizielle WalletConnect-Modul?",
+        "compact": "Benötigen Sie das WalletConnect-Modul?"
       },
       "open": {
-        "label": "OPEN"
+        "label": "ÖFFNEN"
       }
     }
   },
   "connect_scan": {
-    "title": "Scan with %{wallet}",
-    "fallback_title": "Scan with your phone"
+    "title": "Mit %{wallet} scannen",
+    "fallback_title": "Mit Ihrem Telefon scannen"
   },
   "connector_group": {
-    "installed": "Installed",
-    "recommended": "Recommended",
-    "other": "Other",
-    "popular": "Popular",
-    "more": "More",
-    "others": "Others"
+    "installed": "Installiert",
+    "recommended": "Empfohlen",
+    "other": "Andere",
+    "popular": "Beliebt",
+    "more": "Mehr",
+    "others": "Andere"
   },
   "get": {
-    "title": "Get a Wallet",
+    "title": "Ein Wallet holen",
     "action": {
-      "label": "GET"
+      "label": "HOLEN"
     },
     "mobile": {
-      "description": "Mobile Wallet"
+      "description": "Mobiles Wallet"
     },
     "extension": {
-      "description": "Browser Extension"
+      "description": "Browser-Erweiterung"
     },
     "mobile_and_extension": {
-      "description": "Mobile Wallet and Extension"
+      "description": "Mobiles Wallet und Erweiterung"
     },
     "mobile_and_desktop": {
-      "description": "Mobile and Desktop Wallet"
+      "description": "Mobile und Desktop Wallet"
     },
     "looking_for": {
-      "title": "Not what you're looking for?",
+      "title": "Nicht das, wonach Sie suchen?",
       "mobile": {
-        "description": "Select a wallet on the main screen to get started with a different wallet provider."
+        "description": "Wählen Sie auf dem Hauptbildschirm ein Wallet aus, um mit einem anderen Wallet-Anbieter zu beginnen."
       },
       "desktop": {
-        "compact_description": "Select a wallet on the main screen to get started with a different wallet provider.",
-        "wide_description": "Select a wallet on the left to get started with a different wallet provider."
+        "compact_description": "Wählen Sie auf dem Hauptbildschirm ein Wallet aus, um mit einem anderen Wallet-Anbieter zu beginnen.",
+        "wide_description": "Wählen Sie links ein Wallet aus, um mit einem anderen Wallet-Anbieter zu beginnen."
       }
     }
   },
   "get_options": {
-    "title": "Get started with %{wallet}",
-    "short_title": "Get %{wallet}",
+    "title": "Beginnen Sie mit %{wallet}",
+    "short_title": "%{wallet} besorgen",
     "mobile": {
-      "title": "%{wallet} for Mobile",
-      "description": "Use the mobile wallet to explore the world of Ethereum.",
+      "title": "%{wallet} für Mobilgeräte",
+      "description": "Verwenden Sie das mobile Wallet, um die Welt von Ethereum zu erkunden.",
       "download": {
-        "label": "Get the app"
+        "label": "App herunterladen"
       }
     },
     "extension": {
-      "title": "%{wallet} for %{browser}",
-      "description": "Access your wallet right from your favorite web browser.",
+      "title": "%{wallet} für %{browser}",
+      "description": "Greifen Sie direkt von Ihrem bevorzugten Webbrowser auf Ihr Wallet zu.",
       "download": {
-        "label": "Add to %{browser}"
+        "label": "Zu %{browser} hinzufügen"
       }
     },
     "desktop": {
-      "title": "%{wallet} for %{platform}",
-      "description": "Access your wallet natively from your powerful desktop.",
+      "title": "%{wallet} für %{platform}",
+      "description": "Greifen Sie nativ von Ihrem leistungsstarken Desktop auf Ihr Wallet zu.",
       "download": {
-        "label": "Add to %{platform}"
+        "label": "Hinzufügen zu %{platform}"
       }
     }
   },
   "get_mobile": {
-    "title": "Install %{wallet}",
-    "description": "Scan with your phone to download on iOS or Android",
+    "title": "%{wallet} installieren",
+    "description": "Scannen Sie mit Ihrem Telefon, um auf iOS oder Android herunterzuladen",
     "continue": {
-      "label": "Continue"
+      "label": "Fortfahren"
     }
   },
   "get_instructions": {
     "mobile": {
       "connect": {
-        "label": "Connect"
+        "label": "Verbinden"
       },
       "learn_more": {
-        "label": "Learn More"
+        "label": "Mehr erfahren"
       }
     },
     "extension": {
       "refresh": {
-        "label": "Refresh"
+        "label": "Aktualisieren"
       },
       "learn_more": {
-        "label": "Learn More"
+        "label": "Mehr erfahren"
       }
     },
     "desktop": {
       "connect": {
-        "label": "Connect"
+        "label": "Verbinden"
       },
       "learn_more": {
-        "label": "Learn More"
+        "label": "Mehr erfahren"
       }
     }
   },
   "chains": {
-    "title": "Switch Networks",
-    "wrong_network": "Wrong network detected, switch or disconnect to continue.",
-    "confirm": "Confirm in Wallet",
-    "switching_not_supported": "Your wallet does not support switching networks from %{appName}. Try switching networks from within your wallet instead.",
-    "switching_not_supported_fallback": "Your wallet does not support switching networks from this app. Try switching networks from within your wallet instead.",
-    "disconnect": "Disconnect",
-    "connected": "Connected"
+    "title": "Netzwerke wechseln",
+    "wrong_network": "Falsches Netzwerk erkannt, wechseln oder trennen Sie die Verbindung, um fortzufahren.",
+    "confirm": "Im Wallet bestätigen",
+    "switching_not_supported": "Ihr Wallet unterstützt das Wechseln von Netzwerken von %{appName} aus nicht. Versuchen Sie stattdessen, innerhalb Ihres Wallets die Netzwerke zu wechseln.",
+    "switching_not_supported_fallback": "Ihr Wallet unterstützt das Wechseln von Netzwerken von dieser App aus nicht. Versuchen Sie stattdessen, innerhalb Ihres Wallets die Netzwerke zu wechseln.",
+    "disconnect": "Trennen",
+    "connected": "Verbunden"
   },
   "profile": {
     "disconnect": {
-      "label": "Disconnect"
+      "label": "Trennen"
     },
     "copy_address": {
-      "label": "Copy Address",
-      "copied": "Copied!"
+      "label": "Adresse kopieren",
+      "copied": "Kopiert!"
     },
     "explorer": {
-      "label": "View more on explorer"
+      "label": "Mehr im Explorer ansehen"
     },
     "transactions": {
-      "description": "%{appName} transactions will appear here...",
-      "description_fallback": "Your transactions will appear here...",
+      "description": "%{appName}-Transaktionen werden hier angezeigt...",
+      "description_fallback": "Ihre Transaktionen werden hier angezeigt...",
       "recent": {
-        "title": "Recent Transactions"
+        "title": "Neueste Transaktionen"
       },
       "clear": {
-        "label": "Clear All"
+        "label": "Alles löschen"
       }
     }
   },
@@ -217,1098 +217,1098 @@
     "argent": {
       "qr_code": {
         "step1": {
-          "description": "Put Argent on your home screen for faster access to your wallet.",
-          "title": "Open the Argent app"
+          "description": "Fügen Sie Argent zu Ihrem Startbildschirm hinzu, um schneller auf Ihr Wallet zuzugreifen.",
+          "title": "Öffnen Sie die Argent-App"
         },
         "step2": {
-          "description": "Create a wallet and username, or import an existing wallet.",
-          "title": "Create or Import a Wallet"
+          "description": "Erstellen Sie ein Wallet und einen Benutzernamen oder importieren Sie ein bestehendes Wallet.",
+          "title": "Erstellen oder importieren Sie ein Wallet"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the Scan QR button"
+          "description": "Nach dem Scannen erscheint eine Verbindungsmeldung, um Ihr Wallet zu verbinden.",
+          "title": "Tippen Sie auf die Schaltfläche QR-Scan"
         }
       }
     },
     "best": {
       "qr_code": {
         "step1": {
-          "title": "Open the Best Wallet app",
-          "description": "Add Best Wallet to your home screen for faster access to your wallet."
+          "title": "Öffnen Sie die Best Wallet-App",
+          "description": "Fügen Sie die Best Wallet zu Ihrem Startbildschirm hinzu, um schneller auf Ihre Wallet zuzugreifen."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Erstellen Sie ein neues Wallet oder importieren Sie ein bestehendes."
         },
         "step3": {
-          "title": "Tap the QR icon and scan",
-          "description": "Tap the QR icon on your homescreen, scan the code and confirm the prompt to connect."
+          "title": "Tippen Sie auf das QR-Symbol und scannen Sie",
+          "description": "Tippen Sie auf das QR-Symbol auf Ihrem Startbildschirm, scannen Sie den Code und bestätigen Sie die Eingabeaufforderung, um die Verbindung herzustellen."
         }
       }
     },
     "bifrost": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Bifrost Wallet on your home screen for quicker access.",
-          "title": "Open the Bifrost Wallet app"
+          "description": "Wir empfehlen, die Bifrost Wallet auf Ihren Startbildschirm zu legen, um schneller darauf zugreifen zu können.",
+          "title": "Öffnen Sie die Bifrost Wallet-App"
         },
         "step2": {
-          "description": "Create or import a wallet using your recovery phrase.",
-          "title": "Create or Import a Wallet"
+          "description": "Erstellen oder importieren Sie ein Wallet mit Ihrer Wiederherstellungsphrase.",
+          "title": "Erstellen oder importieren Sie ein Wallet"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the scan button"
+          "description": "Nach dem Scannen erscheint eine Verbindungsmeldung, um Ihr Wallet zu verbinden.",
+          "title": "Tippen Sie auf die Scan-Schaltfläche"
         }
       }
     },
     "bitget": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Bitget Wallet on your home screen for quicker access.",
-          "title": "Open the Bitget Wallet app"
+          "description": "Wir empfehlen, die Bitget Wallet auf Ihren Startbildschirm zu legen, um schneller darauf zugreifen zu können.",
+          "title": "Öffnen Sie die Bitget Wallet-App"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem.",
+          "title": "Erstellen oder importieren Sie ein Wallet"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the scan button"
+          "description": "Nach dem Scannen erscheint eine Verbindungsmeldung, um Ihr Wallet zu verbinden.",
+          "title": "Tippen Sie auf die Scan-Schaltfläche"
         }
       },
       "extension": {
         "step1": {
-          "description": "We recommend pinning Bitget Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Bitget Wallet extension"
+          "description": "Wir empfehlen, die Bitget Wallet in Ihre Taskleiste zu heften, um schneller auf Ihr Wallet zugreifen zu können.",
+          "title": "Installieren Sie die Bitget Wallet-Erweiterung"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem.",
+          "title": "Erstellen oder importieren Sie ein Wallet"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden.",
+          "title": "Aktualisieren Sie Ihren Browser"
         }
       }
     },
     "bitski": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Bitski to your taskbar for quicker access to your wallet.",
-          "title": "Install the Bitski extension"
+          "description": "Wir empfehlen, Bitski in Ihre Taskleiste zu heften, um schneller auf Ihr Wallet zugreifen zu können.",
+          "title": "Installieren Sie die Bitski-Erweiterung"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem.",
+          "title": "Erstellen oder importieren Sie ein Wallet"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden.",
+          "title": "Aktualisieren Sie Ihren Browser"
         }
       }
     },
     "bitverse": {
       "qr_code": {
         "step1": {
-          "title": "Open the Bitverse Wallet app",
-          "description": "Add Bitverse Wallet to your home screen for faster access to your wallet."
+          "title": "Öffnen Sie die Bitverse Wallet App",
+          "description": "Fügen Sie die Bitverse Wallet Ihrem Startbildschirm hinzu, um schneller auf Ihr Wallet zuzugreifen."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Erstellen Sie ein neues Wallet oder importieren Sie ein bestehendes."
         },
         "step3": {
-          "title": "Tap the QR icon and scan",
-          "description": "Tap the QR icon on your homescreen, scan the code and confirm the prompt to connect."
+          "title": "Tippen Sie auf das QR-Symbol und scannen Sie",
+          "description": "Tippen Sie auf das QR-Symbol auf Ihrem Startbildschirm, scannen Sie den Code und bestätigen Sie die Eingabeaufforderung, um die Verbindung herzustellen."
         }
       }
     },
     "bloom": {
       "desktop": {
         "step1": {
-          "title": "Open the Bloom Wallet app",
-          "description": "We recommend putting Bloom Wallet on your home screen for quicker access."
+          "title": "Öffnen Sie die Bloom Wallet-App",
+          "description": "Wir empfehlen, Bloom Wallet auf Ihrem Startbildschirm abzulegen, um schneller darauf zugreifen zu können."
         },
         "step2": {
-          "description": "Create or import a wallet using your recovery phrase.",
-          "title": "Create or Import a Wallet"
+          "description": "Erstellen oder importieren Sie ein Wallet mit Ihrer Wiederherstellungsphrase.",
+          "title": "Erstellen oder importieren Sie ein Wallet"
         },
         "step3": {
-          "description": "After you have a wallet, click on Connect to connect via Bloom. A connection prompt in the app will appear for you to confirm the connection.",
-          "title": "Click on Connect"
+          "description": "Nachdem Sie ein Wallet haben, klicken Sie auf „Verbinden“, um über Bloom eine Verbindung herzustellen. Eine Verbindungsmeldung in der App wird angezeigt, um die Verbindung zu bestätigen.",
+          "title": "Klicken Sie auf Verbinden"
         }
       }
     },
     "bybit": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Bybit on your home screen for faster access to your wallet.",
-          "title": "Open the Bybit app"
+          "description": "Wir empfehlen, Bybit auf Ihrem Startbildschirm abzulegen, um schneller darauf zuzugreifen.",
+          "title": "Öffnen Sie die Bybit App"
         },
         "step2": {
-          "description": "You can easily backup your wallet using our backup feature on your phone.",
-          "title": "Create or Import a Wallet"
+          "description": "Sie können Ihr Wallet ganz einfach mit unserer Backup-Funktion auf Ihrem Telefon sichern.",
+          "title": "Erstellen oder importieren Sie ein Wallet"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the scan button"
+          "description": "Nach dem Scannen erscheint eine Verbindungsmeldung, um Ihr Wallet zu verbinden.",
+          "title": "Tippen Sie auf die Scan-Schaltfläche"
         }
       },
       "extension": {
         "step1": {
-          "description": "Click at the top right of your browser and pin Bybit Wallet for easy access.",
-          "title": "Install the Bybit Wallet extension"
+          "description": "Klicken Sie oben rechts in Ihrem Browser und heften Sie Bybit Wallet für einfachen Zugriff an.",
+          "title": "Installieren Sie die Bybit Wallet Erweiterung"
         },
         "step2": {
-          "description": "Create a new wallet or import an existing one.",
-          "title": "Create or Import a wallet"
+          "description": "Erstellen Sie ein neues Wallet oder importieren Sie ein bestehendes.",
+          "title": "Erstellen oder importieren Sie ein Wallet"
         },
         "step3": {
-          "description": "Once you set up Bybit Wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Sobald Sie das Bybit Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden.",
+          "title": "Aktualisieren Sie Ihren Browser"
         }
       }
     },
     "binance": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Binance on your home screen for faster access to your wallet.",
-          "title": "Open the Binance app"
+          "description": "Wir empfehlen, Binance auf Ihrem Startbildschirm abzulegen, um schneller darauf zuzugreifen.",
+          "title": "Öffnen Sie die Binance App"
         },
         "step2": {
-          "description": "You can easily backup your wallet using our backup feature on your phone.",
-          "title": "Create or Import a Wallet"
+          "description": "Sie können Ihr Wallet ganz einfach mit unserer Backup-Funktion auf Ihrem Telefon sichern.",
+          "title": "Erstellen oder importieren Sie ein Wallet"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the WalletConnect button"
+          "description": "Nach dem Scannen erscheint eine Verbindungsmeldung, um Ihr Wallet zu verbinden.",
+          "title": "Tippen Sie auf die WalletConnect-Schaltfläche"
         }
       }
     },
     "coin98": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Coin98 Wallet on your home screen for faster access to your wallet.",
-          "title": "Open the Coin98 Wallet app"
+          "description": "Wir empfehlen, die Coin98 Wallet auf Ihren Startbildschirm zu legen, um schneller darauf zugreifen zu können.",
+          "title": "Öffnen Sie die Coin98 Wallet-App"
         },
         "step2": {
-          "description": "You can easily backup your wallet using our backup feature on your phone.",
-          "title": "Create or Import a Wallet"
+          "description": "Sie können Ihr Wallet ganz einfach mit unserer Backup-Funktion auf Ihrem Telefon sichern.",
+          "title": "Erstellen oder importieren Sie ein Wallet"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the WalletConnect button"
+          "description": "Nach dem Scannen erscheint eine Verbindungsmeldung, um Ihr Wallet zu verbinden.",
+          "title": "Tippen Sie auf die WalletConnect-Schaltfläche"
         }
       },
       "extension": {
         "step1": {
-          "description": "Click at the top right of your browser and pin Coin98 Wallet for easy access.",
-          "title": "Install the Coin98 Wallet extension"
+          "description": "Klicken Sie oben rechts in Ihrem Browser und heften Sie die Coin98 Wallet an, um einen einfachen Zugriff zu ermöglichen.",
+          "title": "Installieren Sie die Coin98 Wallet-Erweiterung"
         },
         "step2": {
-          "description": "Create a new wallet or import an existing one.",
-          "title": "Create or Import a wallet"
+          "description": "Erstellen Sie ein neues Wallet oder importieren Sie ein bestehendes.",
+          "title": "Erstellen oder importieren Sie ein Wallet"
         },
         "step3": {
-          "description": "Once you set up Coin98 Wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Sobald Sie die Coin98 Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden.",
+          "title": "Aktualisieren Sie Ihren Browser"
         }
       }
     },
     "coinbase": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Coinbase Wallet on your home screen for quicker access.",
-          "title": "Open the Coinbase Wallet app"
+          "description": "Wir empfehlen, die Coinbase Wallet auf Ihren Startbildschirm zu legen, um schneller darauf zugreifen zu können.",
+          "title": "Öffnen Sie die Coinbase Wallet-App"
         },
         "step2": {
-          "description": "You can easily backup your wallet using the cloud backup feature.",
-          "title": "Create or Import a Wallet"
+          "description": "Sie können Ihr Wallet problemlos mit der Cloud-Backup-Funktion sichern.",
+          "title": "Erstellen oder importieren Sie ein Wallet"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the scan button"
+          "description": "Nach dem Scannen erscheint eine Verbindungsmeldung, um Ihr Wallet zu verbinden.",
+          "title": "Tippen Sie auf die Scan-Schaltfläche"
         }
       },
       "extension": {
         "step1": {
-          "description": "We recommend pinning Coinbase Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Coinbase Wallet extension"
+          "description": "Wir empfehlen, die Coinbase Wallet in Ihre Taskleiste zu heften, um schneller auf Ihr Wallet zugreifen zu können.",
+          "title": "Installieren Sie die Coinbase Wallet-Erweiterung"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem.",
+          "title": "Erstellen oder importieren Sie ein Wallet"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden.",
+          "title": "Aktualisieren Sie Ihren Browser"
         }
       }
     },
     "compass": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Compass Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Compass Wallet extension"
+          "description": "Wir empfehlen, die Compass Wallet an Ihre Taskleiste zu heften, um schneller auf Ihr Wallet zuzugreifen.",
+          "title": "Installieren Sie die Compass Wallet Erweiterung"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem.",
+          "title": "Erstellen oder importieren Sie ein Wallet"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden.",
+          "title": "Aktualisieren Sie Ihren Browser"
         }
       }
     },
     "core": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Core on your home screen for faster access to your wallet.",
-          "title": "Open the Core app"
+          "description": "Wir empfehlen, Core auf Ihren Startbildschirm zu legen, um schneller auf Ihr Wallet zuzugreifen.",
+          "title": "Öffnen Sie die Core-App"
         },
         "step2": {
-          "description": "You can easily backup your wallet using our backup feature on your phone.",
-          "title": "Create or Import a Wallet"
+          "description": "Sie können Ihr Wallet ganz einfach mit unserer Backup-Funktion auf Ihrem Telefon sichern.",
+          "title": "Erstellen oder importieren Sie ein Wallet"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the WalletConnect button"
+          "description": "Nach dem Scannen erscheint eine Verbindungsmeldung, um Ihr Wallet zu verbinden.",
+          "title": "Tippen Sie auf die WalletConnect-Schaltfläche"
         }
       },
       "extension": {
         "step1": {
-          "description": "We recommend pinning Core to your taskbar for quicker access to your wallet.",
-          "title": "Install the Core extension"
+          "description": "Wir empfehlen, Core an Ihre Taskleiste anzuheften, um schneller auf Ihr Wallet zugreifen zu können.",
+          "title": "Installieren Sie die Core-Erweiterung"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem.",
+          "title": "Erstellen oder importieren Sie ein Wallet"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden.",
+          "title": "Aktualisieren Sie Ihren Browser"
         }
       }
     },
     "fox": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting FoxWallet on your home screen for quicker access.",
-          "title": "Open the FoxWallet app"
+          "description": "Wir empfehlen, FoxWallet auf Ihrem Startbildschirm zu platzieren, um schnelleren Zugriff zu erhalten.",
+          "title": "Öffnen Sie die FoxWallet-App"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem.",
+          "title": "Erstellen oder importieren Sie ein Wallet"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the scan button"
+          "description": "Nach dem Scannen erscheint eine Verbindungsmeldung, um Ihr Wallet zu verbinden.",
+          "title": "Tippen Sie auf die Scan-Schaltfläche"
         }
       }
     },
     "frontier": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Frontier Wallet on your home screen for quicker access.",
-          "title": "Open the Frontier Wallet app"
+          "description": "Wir empfehlen, Frontier Wallet auf Ihrem Startbildschirm zu platzieren, um schnelleren Zugriff zu erhalten.",
+          "title": "Öffnen Sie die Frontier Wallet-App"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem.",
+          "title": "Erstellen oder importieren Sie ein Wallet"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the scan button"
+          "description": "Nach dem Scannen erscheint eine Verbindungsmeldung, um Ihr Wallet zu verbinden.",
+          "title": "Tippen Sie auf die Scan-Schaltfläche"
         }
       },
       "extension": {
         "step1": {
-          "description": "We recommend pinning Frontier Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Frontier Wallet extension"
+          "description": "Wir empfehlen, Frontier Wallet an Ihre Taskleiste anzuheften, um schneller auf Ihr Wallet zugreifen zu können.",
+          "title": "Installieren Sie die Frontier Wallet-Erweiterung"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem.",
+          "title": "Erstellen oder importieren Sie ein Wallet"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden.",
+          "title": "Aktualisieren Sie Ihren Browser"
         }
       }
     },
     "im_token": {
       "qr_code": {
         "step1": {
-          "title": "Open the imToken app",
-          "description": "Put imToken app on your home screen for faster access to your wallet."
+          "title": "Öffnen Sie die imToken-App",
+          "description": "Platzieren Sie die imToken-App auf Ihrem Startbildschirm für schnelleren Zugriff auf Ihr Wallet."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Erstellen Sie ein neues Wallet oder importieren Sie ein bestehendes."
         },
         "step3": {
-          "title": "Tap Scanner Icon in top right corner",
-          "description": "Choose New Connection, then scan the QR code and confirm the prompt to connect."
+          "title": "Tippen Sie auf das Scanner-Symbol in der oberen rechten Ecke",
+          "description": "Wählen Sie Neue Verbindung, dann scannen Sie den QR-Code und bestätigen Sie die Eingabeaufforderung, um die Verbindung herzustellen."
         }
       }
     },
     "iopay": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting ioPay on your home screen for faster access to your wallet.",
-          "title": "Open the ioPay app"
+          "description": "Wir empfehlen, ioPay auf Ihrem Startbildschirm abzulegen, um schneller darauf zuzugreifen.",
+          "title": "Öffnen Sie die ioPay App"
         },
         "step2": {
-          "description": "You can easily backup your wallet using our backup feature on your phone.",
-          "title": "Create or Import a Wallet"
+          "description": "Sie können Ihr Wallet ganz einfach mit unserer Backup-Funktion auf Ihrem Telefon sichern.",
+          "title": "Erstellen oder importieren Sie ein Wallet"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the WalletConnect button"
+          "description": "Nach dem Scannen erscheint eine Verbindungsmeldung, um Ihr Wallet zu verbinden.",
+          "title": "Tippen Sie auf die WalletConnect-Schaltfläche"
         }
       }
     },
     "kaikas": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Kaikas to your taskbar for quicker access to your wallet.",
-          "title": "Install the Kaikas extension"
+          "description": "Wir empfehlen, Kaikas an Ihre Taskleiste zu heften, um schneller auf Ihr Wallet zuzugreifen.",
+          "title": "Installieren Sie die Kaikas Erweiterung"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem.",
+          "title": "Erstellen oder importieren Sie ein Wallet"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden.",
+          "title": "Aktualisieren Sie Ihren Browser"
         }
       },
       "qr_code": {
         "step1": {
-          "title": "Open the Kaikas app",
-          "description": "Put Kaikas app on your home screen for faster access to your wallet."
+          "title": "Öffnen Sie die Kaikas App",
+          "description": "Legen Sie die Kaikas App auf Ihrem Startbildschirm ab, um schneller auf Ihr Wallet zuzugreifen."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Erstellen Sie ein neues Wallet oder importieren Sie ein bestehendes."
         },
         "step3": {
-          "title": "Tap Scanner Icon in top right corner",
-          "description": "Choose New Connection, then scan the QR code and confirm the prompt to connect."
+          "title": "Tippen Sie auf das Scanner-Symbol in der oberen rechten Ecke",
+          "description": "Wählen Sie Neue Verbindung, dann scannen Sie den QR-Code und bestätigen Sie die Eingabeaufforderung, um die Verbindung herzustellen."
         }
       }
     },
     "kaia": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Kaia to your taskbar for quicker access to your wallet.",
-          "title": "Install the Kaia extension"
+          "description": "Wir empfehlen, Kaia an Ihre Taskleiste zu heften, um schneller auf Ihr Wallet zuzugreifen.",
+          "title": "Installieren Sie die Kaia Erweiterung"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem.",
+          "title": "Erstellen oder importieren Sie ein Wallet"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden.",
+          "title": "Aktualisieren Sie Ihren Browser"
         }
       },
       "qr_code": {
         "step1": {
-          "title": "Open the Kaia app",
-          "description": "Put Kaia app on your home screen for faster access to your wallet."
+          "title": "Öffnen Sie die Kaia-App",
+          "description": "Legen Sie die Kaia-App auf Ihren Startbildschirm für schnelleren Zugriff auf Ihre Wallet."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Erstellen Sie ein neues Wallet oder importieren Sie ein bestehendes."
         },
         "step3": {
-          "title": "Tap Scanner Icon in top right corner",
-          "description": "Choose New Connection, then scan the QR code and confirm the prompt to connect."
+          "title": "Tippen Sie auf das Scanner-Symbol in der oberen rechten Ecke",
+          "description": "Wählen Sie Neue Verbindung, dann scannen Sie den QR-Code und bestätigen Sie die Eingabeaufforderung, um die Verbindung herzustellen."
         }
       }
     },
     "kraken": {
       "qr_code": {
         "step1": {
-          "title": "Open the Kraken Wallet app",
-          "description": "Add Kraken Wallet to your home screen for faster access to your wallet."
+          "title": "Öffnen Sie die Kraken Wallet App",
+          "description": "Fügen Sie die Kraken Wallet Ihrem Startbildschirm hinzu, um schneller auf Ihr Wallet zuzugreifen."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Erstellen Sie ein neues Wallet oder importieren Sie ein bestehendes."
         },
         "step3": {
-          "title": "Tap the QR icon and scan",
-          "description": "Tap the QR icon on your homescreen, scan the code and confirm the prompt to connect."
+          "title": "Tippen Sie auf das QR-Symbol und scannen Sie",
+          "description": "Tippen Sie auf das QR-Symbol auf Ihrem Startbildschirm, scannen Sie den Code und bestätigen Sie die Eingabeaufforderung, um die Verbindung herzustellen."
         }
       }
     },
     "kresus": {
       "qr_code": {
         "step1": {
-          "title": "Open the Kresus Wallet app",
-          "description": "Add Kresus Wallet to your home screen for faster access to your wallet."
+          "title": "Öffnen Sie die Kresus Wallet App",
+          "description": "Fügen Sie die Kresus Wallet Ihrem Startbildschirm hinzu, um schneller auf Ihr Wallet zuzugreifen."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Erstellen Sie ein neues Wallet oder importieren Sie ein bestehendes."
         },
         "step3": {
-          "title": "Tap the QR icon and scan",
-          "description": "Tap the QR icon on your homescreen, scan the code and confirm the prompt to connect."
+          "title": "Tippen Sie auf das QR-Symbol und scannen Sie",
+          "description": "Tippen Sie auf das QR-Symbol auf Ihrem Startbildschirm, scannen Sie den Code und bestätigen Sie die Eingabeaufforderung, um die Verbindung herzustellen."
         }
       }
     },
     "magicEden": {
       "extension": {
         "step1": {
-          "title": "Install the Magic Eden extension",
-          "description": "We recommend pinning Magic Eden to your taskbar for easier access to your wallet."
+          "title": "Installieren Sie die Magic Eden Erweiterung",
+          "description": "Wir empfehlen, Magic Eden an Ihre Taskleiste zu heften, um einfacher auf Ihr Wallet zuzugreifen."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret recovery phrase with anyone."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Stellen Sie sicher, dass Sie Ihre Wallet auf sichere Weise sichern. Teilen Sie niemals Ihren geheimen Wiederherstellungssatz mit anderen."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Aktualisieren Sie Ihren Browser",
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden."
         }
       }
     },
     "metamask": {
       "qr_code": {
         "step1": {
-          "title": "Open the MetaMask app",
-          "description": "We recommend putting MetaMask on your home screen for quicker access."
+          "title": "Öffnen Sie die MetaMask-App",
+          "description": "Wir empfehlen, MetaMask auf Ihrem Startbildschirm zu platzieren, um schnelleren Zugriff zu erhalten."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem."
         },
         "step3": {
-          "title": "Tap the scan button",
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet."
+          "title": "Tippen Sie auf die Scan-Schaltfläche",
+          "description": "Nach dem Scannen erscheint eine Verbindungsmeldung, um Ihr Wallet zu verbinden."
         }
       },
       "extension": {
         "step1": {
-          "title": "Install the MetaMask extension",
-          "description": "We recommend pinning MetaMask to your taskbar for quicker access to your wallet."
+          "title": "Installieren Sie die MetaMask-Erweiterung",
+          "description": "Wir empfehlen, MetaMask an Ihre Taskleiste anzuheften, um schneller auf Ihr Wallet zugreifen zu können."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Aktualisieren Sie Ihren Browser",
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden."
         }
       }
     },
     "nestwallet": {
       "extension": {
         "step1": {
-          "title": "Install the NestWallet extension",
-          "description": "We recommend pinning NestWallet to your taskbar for quicker access to your wallet."
+          "title": "Installieren Sie die NestWallet Erweiterung",
+          "description": "Wir empfehlen, die NestWallet an Ihre Taskleiste zu heften, um schneller auf Ihr Wallet zuzugreifen."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Aktualisieren Sie Ihren Browser",
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden."
         }
       }
     },
     "okx": {
       "qr_code": {
         "step1": {
-          "title": "Open the OKX Wallet app",
-          "description": "We recommend putting OKX Wallet on your home screen for quicker access."
+          "title": "Öffnen Sie die OKX Wallet-App",
+          "description": "Wir empfehlen, OKX Wallet auf Ihrem Startbildschirm zu platzieren, um schnelleren Zugriff zu erhalten."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem."
         },
         "step3": {
-          "title": "Tap the scan button",
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet."
+          "title": "Tippen Sie auf die Scan-Schaltfläche",
+          "description": "Nach dem Scannen erscheint eine Verbindungsmeldung, um Ihr Wallet zu verbinden."
         }
       },
       "extension": {
         "step1": {
-          "title": "Install the OKX Wallet extension",
-          "description": "We recommend pinning OKX Wallet to your taskbar for quicker access to your wallet."
+          "title": "Installieren Sie die OKX Wallet-Erweiterung",
+          "description": "Wir empfehlen, OKX Wallet an Ihre Taskleiste anzuheften, um schneller auf Ihr Wallet zugreifen zu können."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Aktualisieren Sie Ihren Browser",
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden."
         }
       }
     },
     "omni": {
       "qr_code": {
         "step1": {
-          "title": "Open the Omni app",
-          "description": "Add Omni to your home screen for faster access to your wallet."
+          "title": "Öffnen Sie die Omni-App",
+          "description": "Fügen Sie Omni Ihrem Startbildschirm hinzu, um schneller auf Ihr Wallet zuzugreifen."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Erstellen Sie ein neues Wallet oder importieren Sie ein bestehendes."
         },
         "step3": {
-          "title": "Tap the QR icon and scan",
-          "description": "Tap the QR icon on your home screen, scan the code and confirm the prompt to connect."
+          "title": "Tippen Sie auf das QR-Symbol und scannen Sie",
+          "description": "Tippen Sie auf das QR-Symbol auf Ihrem Startbildschirm, scannen Sie den Code und bestätigen Sie die Eingabeaufforderung, um die Verbindung herzustellen."
         }
       }
     },
     "1inch": {
       "qr_code": {
         "step1": {
-          "description": "Put 1inch Wallet on your home screen for faster access to your wallet.",
-          "title": "Open the 1inch Wallet app"
+          "description": "Legen Sie die 1inch Wallet auf Ihrem Startbildschirm ab, um schneller auf Ihr Wallet zuzugreifen.",
+          "title": "Öffnen Sie die 1inch Wallet App"
         },
         "step2": {
-          "description": "Create a wallet and username, or import an existing wallet.",
-          "title": "Create or Import a Wallet"
+          "description": "Erstellen Sie ein Wallet und einen Benutzernamen oder importieren Sie ein bestehendes Wallet.",
+          "title": "Erstellen oder importieren Sie ein Wallet"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the Scan QR button"
+          "description": "Nach dem Scannen erscheint eine Verbindungsmeldung, um Ihr Wallet zu verbinden.",
+          "title": "Tippen Sie auf die Schaltfläche QR-Scan"
         }
       }
     },
     "token_pocket": {
       "qr_code": {
         "step1": {
-          "title": "Open the TokenPocket app",
-          "description": "We recommend putting TokenPocket on your home screen for quicker access."
+          "title": "Öffnen Sie die TokenPocket-App",
+          "description": "Wir empfehlen, TokenPocket auf Ihrem Startbildschirm zu platzieren, um schnelleren Zugriff zu erhalten."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem."
         },
         "step3": {
-          "title": "Tap the scan button",
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet."
+          "title": "Tippen Sie auf die Scan-Schaltfläche",
+          "description": "Nach dem Scannen erscheint eine Verbindungsmeldung, um Ihr Wallet zu verbinden."
         }
       },
       "extension": {
         "step1": {
-          "title": "Install the TokenPocket extension",
-          "description": "We recommend pinning TokenPocket to your taskbar for quicker access to your wallet."
+          "title": "Installieren Sie die TokenPocket-Erweiterung",
+          "description": "Wir empfehlen, TokenPocket an Ihre Taskleiste anzuheften, um schneller auf Ihr Wallet zugreifen zu können."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Aktualisieren Sie Ihren Browser",
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden."
         }
       }
     },
     "trust": {
       "qr_code": {
         "step1": {
-          "title": "Open the Trust Wallet app",
-          "description": "Put Trust Wallet on your home screen for faster access to your wallet."
+          "title": "Öffnen Sie die Trust Wallet-App",
+          "description": "Platzieren Sie Trust Wallet auf Ihrem Startbildschirm für schnelleren Zugriff auf Ihr Wallet."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Erstellen Sie ein neues Wallet oder importieren Sie ein bestehendes."
         },
         "step3": {
-          "title": "Tap WalletConnect in Settings",
-          "description": "Choose New Connection, then scan the QR code and confirm the prompt to connect."
+          "title": "Tippen Sie auf WalletConnect in den Einstellungen",
+          "description": "Wählen Sie Neue Verbindung, dann scannen Sie den QR-Code und bestätigen Sie die Eingabeaufforderung, um die Verbindung herzustellen."
         }
       },
       "extension": {
         "step1": {
-          "title": "Install the Trust Wallet extension",
-          "description": "Click at the top right of your browser and pin Trust Wallet for easy access."
+          "title": "Installieren Sie die Trust Wallet-Erweiterung",
+          "description": "Klicken Sie oben rechts in Ihrem Browser und pinnen Sie Trust Wallet für einfachen Zugriff."
         },
         "step2": {
-          "title": "Create or Import a wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Erstellen Sie ein neues Wallet oder importieren Sie ein bestehendes."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up Trust Wallet, click below to refresh the browser and load up the extension."
+          "title": "Aktualisieren Sie Ihren Browser",
+          "description": "Sobald Sie Trust Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden."
         }
       }
     },
     "uniswap": {
       "qr_code": {
         "step1": {
-          "title": "Open the Uniswap app",
-          "description": "Add Uniswap Wallet to your home screen for faster access to your wallet."
+          "title": "Öffnen Sie die Uniswap-App",
+          "description": "Fügen Sie Uniswap Wallet Ihrem Startbildschirm hinzu, um schneller auf Ihr Wallet zuzugreifen."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Erstellen Sie ein neues Wallet oder importieren Sie ein bestehendes."
         },
         "step3": {
-          "title": "Tap the QR icon and scan",
-          "description": "Tap the QR icon on your homescreen, scan the code and confirm the prompt to connect."
+          "title": "Tippen Sie auf das QR-Symbol und scannen Sie",
+          "description": "Tippen Sie auf das QR-Symbol auf Ihrem Startbildschirm, scannen Sie den Code und bestätigen Sie die Eingabeaufforderung, um die Verbindung herzustellen."
         }
       }
     },
     "zerion": {
       "qr_code": {
         "step1": {
-          "title": "Open the Zerion app",
-          "description": "We recommend putting Zerion on your home screen for quicker access."
+          "title": "Öffnen Sie die Zerion-App",
+          "description": "Wir empfehlen, Zerion auf Ihrem Startbildschirm zu platzieren, um schnelleren Zugriff zu haben."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem."
         },
         "step3": {
-          "title": "Tap the scan button",
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet."
+          "title": "Tippen Sie auf die Scan-Schaltfläche",
+          "description": "Nach dem Scannen erscheint eine Verbindungsmeldung, um Ihr Wallet zu verbinden."
         }
       },
       "extension": {
         "step1": {
-          "title": "Install the Zerion extension",
-          "description": "We recommend pinning Zerion to your taskbar for quicker access to your wallet."
+          "title": "Installieren Sie die Zerion-Erweiterung",
+          "description": "Wir empfehlen, Zerion an Ihre Taskleiste anzuheften, um schnelleren Zugriff auf Ihre Wallet zu haben."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Aktualisieren Sie Ihren Browser",
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden."
         }
       }
     },
     "rainbow": {
       "qr_code": {
         "step1": {
-          "title": "Open the Rainbow app",
-          "description": "We recommend putting Rainbow on your home screen for faster access to your wallet."
+          "title": "Öffnen Sie die Rainbow-App",
+          "description": "Wir empfehlen, Rainbow auf Ihrem Startbildschirm zu platzieren, um schnelleren Zugriff auf Ihre Wallet zu haben."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "You can easily backup your wallet using our backup feature on your phone."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Sie können Ihr Wallet ganz einfach mit unserer Backup-Funktion auf Ihrem Telefon sichern."
         },
         "step3": {
-          "title": "Tap the scan button",
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet."
+          "title": "Tippen Sie auf die Scan-Schaltfläche",
+          "description": "Nach dem Scannen erscheint eine Verbindungsmeldung, um Ihr Wallet zu verbinden."
         }
       }
     },
     "enkrypt": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Enkrypt Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Enkrypt Wallet extension"
+          "description": "Wir empfehlen, die Enkrypt Wallet an Ihre Taskleiste anzuheften, um schnelleren Zugriff auf Ihre Wallet zu haben.",
+          "title": "Installieren Sie die Enkrypt Wallet-Erweiterung"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem.",
+          "title": "Erstellen oder importieren Sie ein Wallet"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden.",
+          "title": "Aktualisieren Sie Ihren Browser"
         }
       }
     },
     "frame": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Frame to your taskbar for quicker access to your wallet.",
-          "title": "Install Frame & the companion extension"
+          "description": "Wir empfehlen, Frame an Ihre Taskleiste anzuheften, um schnelleren Zugriff auf Ihre Wallet zu haben.",
+          "title": "Installieren Sie Frame und die zugehörige Erweiterung"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem.",
+          "title": "Erstellen oder importieren Sie ein Wallet"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden.",
+          "title": "Aktualisieren Sie Ihren Browser"
         }
       }
     },
     "one_key": {
       "extension": {
         "step1": {
-          "title": "Install the OneKey Wallet extension",
-          "description": "We recommend pinning OneKey Wallet to your taskbar for quicker access to your wallet."
+          "title": "Installieren Sie die OneKey Wallet-Erweiterung",
+          "description": "Wir empfehlen, die OneKey Wallet an Ihre Taskleiste anzuheften, um schnelleren Zugriff auf Ihre Wallet zu haben."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Aktualisieren Sie Ihren Browser",
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden."
         }
       }
     },
     "paraswap": {
       "qr_code": {
         "step1": {
-          "title": "Open the ParaSwap app",
-          "description": "Add ParaSwap Wallet to your home screen for faster access to your wallet."
+          "title": "Öffnen Sie die ParaSwap-App",
+          "description": "Fügen Sie die ParaSwap Wallet zu Ihrem Startbildschirm hinzu, um schneller auf Ihre Wallet zuzugreifen."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Erstellen Sie ein neues Wallet oder importieren Sie ein bestehendes."
         },
         "step3": {
-          "title": "Tap the QR icon and scan",
-          "description": "Tap the QR icon on your homescreen, scan the code and confirm the prompt to connect."
+          "title": "Tippen Sie auf das QR-Symbol und scannen Sie",
+          "description": "Tippen Sie auf das QR-Symbol auf Ihrem Startbildschirm, scannen Sie den Code und bestätigen Sie die Eingabeaufforderung, um die Verbindung herzustellen."
         }
       }
     },
     "phantom": {
       "extension": {
         "step1": {
-          "title": "Install the Phantom extension",
-          "description": "We recommend pinning Phantom to your taskbar for easier access to your wallet."
+          "title": "Installieren Sie die Phantom-Erweiterung",
+          "description": "Wir empfehlen, Phantom an Ihre Taskleiste anzuheften, um leichteren Zugriff auf Ihre Wallet zu haben."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret recovery phrase with anyone."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Stellen Sie sicher, dass Sie Ihre Wallet auf sichere Weise sichern. Teilen Sie niemals Ihren geheimen Wiederherstellungssatz mit anderen."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Aktualisieren Sie Ihren Browser",
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden."
         }
       }
     },
     "rabby": {
       "extension": {
         "step1": {
-          "title": "Install the Rabby extension",
-          "description": "We recommend pinning Rabby to your taskbar for quicker access to your wallet."
+          "title": "Installieren Sie die Rabby-Erweiterung",
+          "description": "Wir empfehlen, Rabby an Ihre Taskleiste anzuheften, um schnelleren Zugriff auf Ihre Wallet zu haben."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Aktualisieren Sie Ihren Browser",
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden."
         }
       }
     },
     "ronin": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Ronin Wallet on your home screen for quicker access.",
-          "title": "Open the Ronin Wallet app"
+          "description": "Wir empfehlen, die Ronin Wallet Ihrem Startbildschirm hinzuzufügen, um schneller darauf zuzugreifen.",
+          "title": "Öffnen Sie die Ronin Wallet App"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem.",
+          "title": "Erstellen oder importieren Sie ein Wallet"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the scan button"
+          "description": "Nach dem Scannen erscheint eine Verbindungsmeldung, um Ihr Wallet zu verbinden.",
+          "title": "Tippen Sie auf die Scan-Schaltfläche"
         }
       },
       "extension": {
         "step1": {
-          "description": "We recommend pinning Ronin Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Ronin Wallet extension"
+          "description": "Wir empfehlen, die Ronin Wallet an Ihre Taskleiste zu heften, um schneller darauf zuzugreifen.",
+          "title": "Installieren Sie die Ronin Wallet Erweiterung"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem.",
+          "title": "Erstellen oder importieren Sie ein Wallet"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden.",
+          "title": "Aktualisieren Sie Ihren Browser"
         }
       }
     },
     "ramper": {
       "extension": {
         "step1": {
-          "title": "Install the Ramper extension",
-          "description": "We recommend pinning Ramper to your taskbar for easier access to your wallet."
+          "title": "Installieren Sie die Ramper Erweiterung",
+          "description": "Wir empfehlen, Ramper an Ihre Taskleiste zu heften, um einfacher darauf zugreifen zu können."
         },
         "step2": {
-          "title": "Create a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Erstellen Sie eine Wallet",
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Aktualisieren Sie Ihren Browser",
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden."
         }
       }
     },
     "safeheron": {
       "extension": {
         "step1": {
-          "title": "Install the Core extension",
-          "description": "We recommend pinning Safeheron to your taskbar for quicker access to your wallet."
+          "title": "Installieren Sie die Core-Erweiterung",
+          "description": "Wir empfehlen, Safeheron an Ihre Taskleiste anzuheften, um schnelleren Zugriff auf Ihre Wallet zu haben."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Aktualisieren Sie Ihren Browser",
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden."
         }
       }
     },
     "taho": {
       "extension": {
         "step1": {
-          "title": "Install the Taho extension",
-          "description": "We recommend pinning Taho to your taskbar for quicker access to your wallet."
+          "title": "Installieren Sie die Taho-Erweiterung",
+          "description": "Wir empfehlen, Taho an Ihre Taskleiste anzuheften, um schnelleren Zugriff auf Ihre Wallet zu haben."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Aktualisieren Sie Ihren Browser",
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden."
         }
       }
     },
     "talisman": {
       "extension": {
         "step1": {
-          "title": "Install the Talisman extension",
-          "description": "We recommend pinning Talisman to your taskbar for quicker access to your wallet."
+          "title": "Installieren Sie die Talisman-Erweiterung",
+          "description": "Wir empfehlen, Talisman an Ihre Taskleiste anzuheften, um schnelleren Zugriff auf Ihre Wallet zu haben."
         },
         "step2": {
-          "title": "Create or Import an Ethereum Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your recovery phrase with anyone."
+          "title": "Erstellen oder Importieren Sie eine Ethereum-Wallet",
+          "description": "Stellen Sie sicher, dass Sie Ihre Wallet auf sichere Weise sichern. Teilen Sie niemals Ihre Wiederherstellungsphrase mit anderen."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Aktualisieren Sie Ihren Browser",
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden."
         }
       }
     },
     "xdefi": {
       "extension": {
         "step1": {
-          "title": "Install the XDEFI Wallet extension",
-          "description": "We recommend pinning XDEFI Wallet to your taskbar for quicker access to your wallet."
+          "title": "Installieren Sie die XDEFI Wallet-Erweiterung",
+          "description": "Wir empfehlen, die XDEFI Wallet an Ihre Taskleiste anzuheften, um schnelleren Zugriff auf Ihre Wallet zu haben."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Aktualisieren Sie Ihren Browser",
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden."
         }
       }
     },
     "zeal": {
       "qr_code": {
         "step1": {
-          "title": "Open the Zeal app",
-          "description": "Add Zeal Wallet to your home screen for faster access to your wallet."
+          "title": "Öffnen Sie die Zeal App",
+          "description": "Fügen Sie die Zeal Wallet Ihrem Startbildschirm hinzu, um schneller auf Ihr Wallet zuzugreifen."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Erstellen Sie ein neues Wallet oder importieren Sie ein bestehendes."
         },
         "step3": {
-          "title": "Tap the QR icon and scan",
-          "description": "Tap the QR icon on your homescreen, scan the code and confirm the prompt to connect."
+          "title": "Tippen Sie auf das QR-Symbol und scannen Sie",
+          "description": "Tippen Sie auf das QR-Symbol auf Ihrem Startbildschirm, scannen Sie den Code und bestätigen Sie die Eingabeaufforderung, um die Verbindung herzustellen."
         }
       },
       "extension": {
         "step1": {
-          "title": "Install the Zeal extension",
-          "description": "We recommend pinning Zeal to your taskbar for quicker access to your wallet."
+          "title": "Installieren Sie die Zeal-Erweiterung",
+          "description": "Wir empfehlen, Zeal an Ihre Taskleiste anzuheften, um schnelleren Zugriff auf Ihre Wallet zu haben."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Aktualisieren Sie Ihren Browser",
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden."
         }
       }
     },
     "safepal": {
       "extension": {
         "step1": {
-          "title": "Install the SafePal Wallet extension",
-          "description": "Click at the top right of your browser and pin SafePal Wallet for easy access."
+          "title": "Installieren Sie die SafePal Wallet-Erweiterung",
+          "description": "Klicken Sie oben rechts in Ihrem Browser und heften Sie SafePal Wallet für einfachen Zugriff an."
         },
         "step2": {
-          "title": "Create or Import a wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Erstellen Sie ein neues Wallet oder importieren Sie ein bestehendes."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up SafePal Wallet, click below to refresh the browser and load up the extension."
+          "title": "Aktualisieren Sie Ihren Browser",
+          "description": "Sobald Sie die SafePal Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden."
         }
       },
       "qr_code": {
         "step1": {
-          "title": "Open the SafePal Wallet app",
-          "description": "Put SafePal Wallet on your home screen for faster access to your wallet."
+          "title": "Öffnen Sie die SafePal Wallet-App",
+          "description": "Platzieren Sie SafePal Wallet auf Ihrem Startbildschirm, um schnelleren Zugriff auf Ihre Wallet zu haben."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Erstellen Sie ein neues Wallet oder importieren Sie ein bestehendes."
         },
         "step3": {
-          "title": "Tap WalletConnect in Settings",
-          "description": "Choose New Connection, then scan the QR code and confirm the prompt to connect."
+          "title": "Tippen Sie auf WalletConnect in den Einstellungen",
+          "description": "Wählen Sie Neue Verbindung, dann scannen Sie den QR-Code und bestätigen Sie die Eingabeaufforderung, um die Verbindung herzustellen."
         }
       }
     },
     "desig": {
       "extension": {
         "step1": {
-          "title": "Install the Desig extension",
-          "description": "We recommend pinning Desig to your taskbar for easier access to your wallet."
+          "title": "Installieren Sie die Desig-Erweiterung",
+          "description": "Wir empfehlen, Desig an Ihre Taskleiste anzuheften, um leichteren Zugriff auf Ihre Wallet zu haben."
         },
         "step2": {
-          "title": "Create a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Erstellen Sie eine Wallet",
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Aktualisieren Sie Ihren Browser",
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden."
         }
       }
     },
     "subwallet": {
       "extension": {
         "step1": {
-          "title": "Install the SubWallet extension",
-          "description": "We recommend pinning SubWallet to your taskbar for quicker access to your wallet."
+          "title": "Installieren Sie die SubWallet-Erweiterung",
+          "description": "Wir empfehlen, SubWallet an Ihre Taskleiste zu heften, um schneller auf Ihr Wallet zugreifen zu können."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your recovery phrase with anyone."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Stellen Sie sicher, dass Sie Ihre Wallet auf sichere Weise sichern. Teilen Sie niemals Ihre Wiederherstellungsphrase mit anderen."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Aktualisieren Sie Ihren Browser",
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden."
         }
       },
       "qr_code": {
         "step1": {
-          "title": "Open the SubWallet app",
-          "description": "We recommend putting SubWallet on your home screen for quicker access."
+          "title": "Öffnen Sie die SubWallet-App",
+          "description": "Wir empfehlen, SubWallet auf Ihrem Startbildschirm abzulegen, um schneller darauf zugreifen zu können."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem."
         },
         "step3": {
-          "title": "Tap the scan button",
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet."
+          "title": "Tippen Sie auf die Scan-Schaltfläche",
+          "description": "Nach dem Scannen erscheint eine Verbindungsmeldung, um Ihr Wallet zu verbinden."
         }
       }
     },
     "clv": {
       "extension": {
         "step1": {
-          "title": "Install the CLV Wallet extension",
-          "description": "We recommend pinning CLV Wallet to your taskbar for quicker access to your wallet."
+          "title": "Installieren Sie die CLV Wallet-Erweiterung",
+          "description": "Wir empfehlen, CLV Wallet an Ihre Taskleiste zu heften, um schneller auf Ihr Wallet zugreifen zu können."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Aktualisieren Sie Ihren Browser",
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden."
         }
       },
       "qr_code": {
         "step1": {
-          "title": "Open the CLV Wallet app",
-          "description": "We recommend putting CLV Wallet on your home screen for quicker access."
+          "title": "Öffnen Sie die CLV Wallet-App",
+          "description": "Wir empfehlen, CLV Wallet auf Ihrem Startbildschirm abzulegen, um schneller darauf zugreifen zu können."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem."
         },
         "step3": {
-          "title": "Tap the scan button",
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet."
+          "title": "Tippen Sie auf die Scan-Schaltfläche",
+          "description": "Nach dem Scannen erscheint eine Verbindungsmeldung, um Ihr Wallet zu verbinden."
         }
       }
     },
     "okto": {
       "qr_code": {
         "step1": {
-          "title": "Open the Okto app",
-          "description": "Add Okto to your home screen for quick access"
+          "title": "Öffnen Sie die Okto-App",
+          "description": "Fügen Sie Okto Ihrem Startbildschirm hinzu, um schnellen Zugriff zu erhalten"
         },
         "step2": {
-          "title": "Create an MPC Wallet",
-          "description": "Create an account and generate a wallet"
+          "title": "Erstellen Sie ein MPC-Wallet",
+          "description": "Erstellen Sie ein Konto und generieren Sie ein Wallet"
         },
         "step3": {
-          "title": "Tap WalletConnect in Settings",
-          "description": "Tap the Scan QR icon at the top right and confirm the prompt to connect."
+          "title": "Tippen Sie auf WalletConnect in den Einstellungen",
+          "description": "Tippen Sie auf das QR-Scan-Symbol oben rechts und bestätigen Sie die Aufforderung zum Verbinden."
         }
       }
     },
     "ledger": {
       "desktop": {
         "step1": {
-          "title": "Open the Ledger Live app",
-          "description": "We recommend putting Ledger Live on your home screen for quicker access."
+          "title": "Öffnen Sie die Ledger Live-App",
+          "description": "Wir empfehlen, Ledger Live auf Ihrem Startbildschirm abzulegen, um schneller darauf zugreifen zu können."
         },
         "step2": {
-          "title": "Set up your Ledger",
-          "description": "Set up a new Ledger or connect to an existing one."
+          "title": "Richten Sie Ihr Ledger ein",
+          "description": "Richten Sie ein neues Ledger ein oder verbinden Sie sich mit einem bestehenden."
         },
         "step3": {
-          "title": "Connect",
-          "description": "A connection prompt will appear for you to connect your wallet."
+          "title": "Verbinden",
+          "description": "Eine Verbindungsmeldung erscheint, um Ihr Wallet zu verbinden."
         }
       },
       "qr_code": {
         "step1": {
-          "title": "Open the Ledger Live app",
-          "description": "We recommend putting Ledger Live on your home screen for quicker access."
+          "title": "Öffnen Sie die Ledger Live-App",
+          "description": "Wir empfehlen, Ledger Live auf Ihrem Startbildschirm abzulegen, um schneller darauf zugreifen zu können."
         },
         "step2": {
-          "title": "Set up your Ledger",
-          "description": "You can either sync with the desktop app or connect your Ledger."
+          "title": "Richten Sie Ihr Ledger ein",
+          "description": "Sie können entweder mit der Desktop-App synchronisieren oder Ihr Ledger verbinden."
         },
         "step3": {
-          "title": "Scan the code",
-          "description": "Tap WalletConnect then Switch to Scanner. After you scan, a connection prompt will appear for you to connect your wallet."
+          "title": "Code scannen",
+          "description": "Tippen Sie auf WalletConnect und wechseln Sie dann zum Scanner. Nach dem Scannen erscheint eine Verbindungsmeldung, um Ihr Wallet zu verbinden."
         }
       }
     },
     "valora": {
       "qr_code": {
         "step1": {
-          "title": "Open the Valora app",
-          "description": "We recommend putting Valora on your home screen for quicker access."
+          "title": "Öffnen Sie die Valora-App",
+          "description": "Wir empfehlen, Valora für einen schnelleren Zugriff auf Ihrem Startbildschirm zu platzieren."
         },
         "step2": {
-          "title": "Create or import a wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Erstellen oder importieren Sie eine Wallet",
+          "description": "Erstellen Sie ein neues Wallet oder importieren Sie ein bestehendes."
         },
         "step3": {
-          "title": "Tap the scan button",
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet."
+          "title": "Tippen Sie auf die Scan-Schaltfläche",
+          "description": "Nach dem Scannen erscheint eine Verbindungsmeldung, um Ihr Wallet zu verbinden."
         }
       }
     }
