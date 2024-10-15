@@ -233,8 +233,8 @@
     "best": {
       "qr_code": {
         "step1": {
-          "title": "Open the Best Wallet app",
-          "description": "Add Best Wallet to your home screen for faster access to your wallet."
+          "title": "افتح تطبيق Best Wallet",
+          "description": "أضف محفظة Best إلى شاشتك الرئيسية للوصول الأسرع إلى محفظتك."
         },
         "step2": {
           "title": "إنشاء أو استيراد محفظة",
@@ -959,8 +959,8 @@
     "paraswap": {
       "qr_code": {
         "step1": {
-          "title": "Open the ParaSwap app",
-          "description": "Add ParaSwap Wallet to your home screen for faster access to your wallet."
+          "title": "افتح تطبيق ParaSwap",
+          "description": "أضف محفظة ParaSwap إلى شاشتك الرئيسية للوصول الأسرع إلى محفظتك."
         },
         "step2": {
           "title": "إنشاء أو استيراد محفظة",
