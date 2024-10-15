@@ -9,13 +9,13 @@ description: Mengotentikasi pengguna Anda
 
 Anda secara opsional dapat mewajibkan pengguna untuk menandatangani pesan dengan dompet mereka selama proses koneksi, membuktikan bahwa mereka memiliki akun yang terhubung dan memungkinkan Anda untuk membuat sesi pengguna terotentikasi dengan akses istimewa ke aplikasi Anda.
 
-While it's possible to [integrate with custom back-ends and message formats,](/docs/custom-authentication) RainbowKit provides first-class support for [Sign-In with Ethereum](https://login.xyz) and [NextAuth](https://next-auth.js.org).
+Sementara itu mungkin untuk [mengintegrasikan dengan back-end dan format pesan khusus,](/docs/custom-authentication) RainbowKit menyediakan dukungan kelas atas untuk [Masuk Dengan Ethereum](https://login.xyz) dan [NextAuth](https://next-auth.js.org).
 
-### Set up Sign-In with Ethereum and NextAuth
+### Atur Masuk Dengan Ethereum dan NextAuth
 
 #### Instal
 
-Install the `@rainbow-me/rainbowkit-siwe-next-auth` package.
+Instal paket `@rainbow-me/rainbowkit-siwe-next-auth`.
 
 ```bash
 npm install @rainbow-me/rainbowkit-siwe-next-auth
@@ -71,7 +71,7 @@ Dengan `RainbowKitSiweNextAuthProvider` di tempat, pengguna Anda sekarang akan d
 
 #### Sesuaikan opsi pesan SIWE
 
-You can customize the [SIWE message options](https://viem.sh/docs/siwe/utilities/createSiweMessage#parameters) by passing a function to the `getSiweMessageOptions` prop on `RainbowKitSiweNextAuthProvider`.
+Anda dapat menyesuaikan [opsi pesan SIWE](https://viem.sh/docs/siwe/utilities/createSiweMessage#parameters) dengan melewatkan fungsi ke prop `getSiweMessageOptions` pada `RainbowKitSiweNextAuthProvider`.
 
 Fungsi ini akan dipanggil setiap kali pesan baru dibuat. Opsi yang dikembalikan dari fungsi ini akan digabungkan dengan setelan bawaan.
 
@@ -142,4 +142,4 @@ export default function AuthenticatedPage({
 Untuk informasi lebih lanjut tentang mengelola sesi, Anda dapat merujuk ke dokumentasi berikut:
 
 - [Panduan otentikasi Next.js](https://nextjs.org/docs/authentication)
-- [NextAuth documentation](https://next-auth.js.org)
+- [Dokumentasi NextAuth](https://next-auth.js.org)
