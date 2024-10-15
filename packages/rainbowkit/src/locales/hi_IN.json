@@ -233,8 +233,8 @@
     "best": {
       "qr_code": {
         "step1": {
-          "title": "Open the Best Wallet app",
-          "description": "Add Best Wallet to your home screen for faster access to your wallet."
+          "title": "Best Wallet ऐप खोलें",
+          "description": "अपने होम स्क्रीन पर Best Wallet जोड़ें, इससे आपके वॉलेट तक तेजी से पहुंचने की सुविधा होगी।"
         },
         "step2": {
           "title": "वॉलेट बनाएं या आयात करें",
@@ -959,8 +959,8 @@
     "paraswap": {
       "qr_code": {
         "step1": {
-          "title": "Open the ParaSwap app",
-          "description": "Add ParaSwap Wallet to your home screen for faster access to your wallet."
+          "title": "ParaSwap ऐप खोलें",
+          "description": "अपने होम स्क्रीन पर ParaSwap Wallet जोड़ें, इससे आपके वॉलेट तक तेजी से पहुंचने की सुविधा होगी।"
         },
         "step2": {
           "title": "वॉलेट बनाएं या आयात करें",
