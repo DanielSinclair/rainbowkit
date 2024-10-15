@@ -7,13 +7,13 @@ description: Підключення до власного сервера авт�
 
 ## Підключення до власного сервера автентифікації
 
-While RainbowKit provides [first-class support for Sign-In with Ethereum and NextAuth,](/docs/authentication#set-up-sign-in-with-ethereum-and-nextauth) you can also integrate with custom back-ends and message formats.
+RainbowKit надає [першокласну підтримку для Sign-In with Ethereum та NextAuth,](/docs/authentication#set-up-sign-in-with-ethereum-and-nextauth) але ви також можете інтегруватися з власними серверами автентифікації та форматами повідомлень.
 
 ### Створення користувацького адаптера
 
 Спершу створіть адаптер автентифікації. Це дозволяє RainbowKit створювати/підготовляти повідомлення та спілкуватися з вашим сервером.
 
-As an example, we could make an authentication adapter that lets us use [Sign-In with Ethereum](https://login.xyz) against some custom API endpoints, like [iron-session](https://github.com/rainbow-me/rainbowkit/tree/main/examples/with-next-siwe-iron-session).
+Наприклад, ми можемо зробити адаптер автентифікації, який дозволяє нам використовувати [Sign-In with Ethereum](https://login.xyz) з деякими користувацькими API-кінцевими точками, як от [iron-session](https://github.com/rainbow-me/rainbowkit/tree/main/examples/with-next-siwe-iron-session).
 
 ```tsx
 import { createAuthenticationAdapter } from '@rainbow-me/rainbowkit';
