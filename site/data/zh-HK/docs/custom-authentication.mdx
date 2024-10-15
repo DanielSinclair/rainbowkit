@@ -7,13 +7,13 @@ description: 連接到你自己的身份驗證後端
 
 ## 連接到你自己的身份驗證後端
 
-While RainbowKit provides [first-class support for Sign-In with Ethereum and NextAuth,](/docs/authentication#set-up-sign-in-with-ethereum-and-nextauth) you can also integrate with custom back-ends and message formats.
+雖然 RainbowKit 提供完善的 [用 Ethereum 和 NextAuth 登入的支持，](/docs/authentication#set-up-sign-in-with-ethereum-and-nextauth) 你亦可以配合自定後端和訊息格式進行整合。
 
 ### 建立自訂適配器
 
 首先建立一個身份驗證適配器。 這樣 RainbowKit 就可以創建/準備消息並與你的後端通信。
 
-As an example, we could make an authentication adapter that lets us use [Sign-In with Ethereum](https://login.xyz) against some custom API endpoints, like [iron-session](https://github.com/rainbow-me/rainbowkit/tree/main/examples/with-next-siwe-iron-session).
+例如，我們可以製作一個認證適配器，讓我們可以使用 [用 Ethereum 登入](https://login.xyz) 對接一些自定 API 終端，如 [iron-session](https://github.com/rainbow-me/rainbowkit/tree/main/examples/with-next-siwe-iron-session)。
 
 ```tsx
 import { createAuthenticationAdapter } from '@rainbow-me/rainbowkit';
