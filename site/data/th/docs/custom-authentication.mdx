@@ -7,13 +7,13 @@ description: เชื่อมต่อกับระบบรับรอง�
 
 ## เชื่อมต่อกับระบบรับรองความถูกต้องด้านหลังของคุณเอง
 
-While RainbowKit provides [first-class support for Sign-In with Ethereum and NextAuth,](/docs/authentication#set-up-sign-in-with-ethereum-and-nextauth) you can also integrate with custom back-ends and message formats.
+ในขณะที่ RainbowKit ให้[การสนับสนุนระดับพิเศษสำหรับ Sign-In ด้วย Ethereum และ NextAuth,](/docs/authentication#set-up-sign-in-with-ethereum-and-nextauth) คุณสามารถรวมกับ back-ends ที่กำหนดเองและรูปแบบข้อความได้ด้วย
 
 ### การสร้าง adapter ที่กำหนดเอง
 
 ขั้นแรกสร้าง adapter สำหรับการรับรองความถูกต้อง ขั้นแรกสร้าง adapter สำหรับการรับรองความถูกต้อง นี่ช่วยให้ RainbowKit สร้าง/เตรียมข้อความและสื่อสารกับ back-end ของคุณ
 
-As an example, we could make an authentication adapter that lets us use [Sign-In with Ethereum](https://login.xyz) against some custom API endpoints, like [iron-session](https://github.com/rainbow-me/rainbowkit/tree/main/examples/with-next-siwe-iron-session).
+เป็นตัวอย่าง เราสามารถสร้าง adapter สำหรับการรับรองความถูกต้องที่ช่วยให้เราใช้ [Sign-In ด้วย Ethereum](https://login.xyz) อยู่ตรงข้ามกับจุดสิ้นสุด API ที่กำหนดเองได้, เช่น [iron-session](https://github.com/rainbow-me/rainbowkit/tree/main/examples/with-next-siwe-iron-session).
 
 ```tsx
 import { createAuthenticationAdapter } from '@rainbow-me/rainbowkit';
