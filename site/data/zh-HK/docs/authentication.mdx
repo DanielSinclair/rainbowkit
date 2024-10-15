@@ -9,13 +9,13 @@ description: 對用戶進行身份驗證
 
 您可以選擇強制用戶在連接過程中使用錢包簽署訊息，證明他們擁有已連接的帳戶，並允許您創建具權限的身份驗證用戶會話，以便訪問您的應用程式。
 
-While it's possible to [integrate with custom back-ends and message formats,](/docs/custom-authentication) RainbowKit provides first-class support for [Sign-In with Ethereum](https://login.xyz) and [NextAuth](https://next-auth.js.org).
+雖然可以[整合自定後端和消息格式，](/docs/custom-authentication)但RainbowKit對[以太坊登入](https://login.xyz)和[NextAuth](https://next-auth.js.org)提供一流的支援。
 
-### Set up Sign-In with Ethereum and NextAuth
+### 設置以太坊登入和NextAuth
 
 #### 安裝
 
-Install the `@rainbow-me/rainbowkit-siwe-next-auth` package.
+安裝 `@rainbow-me/rainbowkit-siwe-next-auth` 套件。
 
 ```bash
 npm install @rainbow-me/rainbowkit-siwe-next-auth
@@ -71,7 +71,7 @@ export default function App({
 
 #### 自訂 SIWE 訊息選項
 
-You can customize the [SIWE message options](https://viem.sh/docs/siwe/utilities/createSiweMessage#parameters) by passing a function to the `getSiweMessageOptions` prop on `RainbowKitSiweNextAuthProvider`.
+你可以透過將函數傳遞給`RainbowKitSiweNextAuthProvider`上的`getSiweMessageOptions`屬性來自定[SIWE消息選項](https://viem.sh/docs/siwe/utilities/createSiweMessage#parameters)。
 
 每當創建新的訊息時，都會調用此函數。 從此函數返回的選項將與默認選項合併。
 
@@ -142,4 +142,4 @@ export default function AuthenticatedPage({
 有關管理會話的更多信息，您可以參考以下文檔：
 
 - [Next.js 認證指南](https://nextjs.org/docs/authentication)
-- [NextAuth documentation](https://next-auth.js.org)
+- [NextAuth 文件](https://next-auth.js.org)
