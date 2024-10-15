@@ -7,13 +7,13 @@ description: Verbinde dich mit deinem eigenen Authentifizierungs-Back-End
 
 ## Verbinde dich mit deinem eigenen Authentifizierungs-Back-End
 
-While RainbowKit provides [first-class support for Sign-In with Ethereum and NextAuth,](/docs/authentication#set-up-sign-in-with-ethereum-and-nextauth) you can also integrate with custom back-ends and message formats.
+Während RainbowKit [erstklassige Unterstützung für Sign-In mit Ethereum und NextAuth](/docs/authentication#set-up-sign-in-with-ethereum-and-nextauth) bietet, können Sie auch mit benutzerdefinierten Back-Ends und Nachrichtenformaten integrieren.
 
 ### Erstellen eines benutzerdefinierten Adapters
 
 Erstelle zuerst einen Authentifizierungsadapter. Dies ermöglicht es RainbowKit, Nachrichten zu erstellen/vorzubereiten und mit deinem Back-End zu kommunizieren.
 
-As an example, we could make an authentication adapter that lets us use [Sign-In with Ethereum](https://login.xyz) against some custom API endpoints, like [iron-session](https://github.com/rainbow-me/rainbowkit/tree/main/examples/with-next-siwe-iron-session).
+Als Beispiel könnten wir einen Authentifizierungsadapter erstellen, der es uns ermöglicht, [Sign-In mit Ethereum](https://login.xyz) gegen einige benutzerdefinierte API-Endpunkte zu verwenden, wie [iron-session](https://github.com/rainbow-me/rainbowkit/tree/main/examples/with-next-siwe-iron-session).
 
 ```tsx
 import { createAuthenticationAdapter } from '@rainbow-me/rainbowkit';
