@@ -230,6 +230,22 @@
         }
       }
     },
+    "best": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the Best Wallet app",
+          "description": "Add Best Wallet to your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "Створити або Імпортувати Гаманець",
+          "description": "Створіть новий гаманець або імпортуйте існуючий."
+        },
+        "step3": {
+          "title": "Натисніть на іконку QR та відскануйте",
+          "description": "Торкніться іконки QR на вашому домашньому екрані, відскануйте код та підтвердіть запит на підключення."
+        }
+      }
+    },
     "bifrost": {
       "qr_code": {
         "step1": {
@@ -937,6 +953,22 @@
         "step3": {
           "title": "Оновіть ваш браузер",
           "description": "Після налаштування вашого гаманця, натисніть нижче, щоб оновити браузер і завантажити розширення."
+        }
+      }
+    },
+    "paraswap": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the ParaSwap app",
+          "description": "Add ParaSwap Wallet to your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "Створити або Імпортувати Гаманець",
+          "description": "Створіть новий гаманець або імпортуйте існуючий."
+        },
+        "step3": {
+          "title": "Натисніть на іконку QR та відскануйте",
+          "description": "Торкніться іконки QR на вашому домашньому екрані, відскануйте код та підтвердіть запит на підключення."
         }
       }
     },
