@@ -7,13 +7,13 @@ description: الاتصال بنظام المصادقة الخلفي الخاص 
 
 ## الاتصال بنظام المصادقة الخلفي الخاص بك
 
-While RainbowKit provides [first-class support for Sign-In with Ethereum and NextAuth,](/docs/authentication#set-up-sign-in-with-ethereum-and-nextauth) you can also integrate with custom back-ends and message formats.
+بينما يقدم RainbowKit [دعمًا من الدرجة الأولى لتسجيل الدخول باستخدام Ethereum وNextAuth،](/docs/authentication#set-up-sign-in-with-ethereum-and-nextauth) يمكنك أيضًا الدمج مع الخلفيات المخصصة وتنسيقات الرسائل.
 
 ### إنشاء محول مخصص
 
 قم أولاً بإنشاء محول للمصادقة. هذا يسمح لـ RainbowKit بإنشاء / تحضير الرسائل والاتصال بخادم الخلفية الخاص بك.
 
-As an example, we could make an authentication adapter that lets us use [Sign-In with Ethereum](https://login.xyz) against some custom API endpoints, like [iron-session](https://github.com/rainbow-me/rainbowkit/tree/main/examples/with-next-siwe-iron-session).
+كمثال، يمكننا صنع محول مصادقة يتيح لنا استخدام [تسجيل الدخول باستخدام Ethereum](https://login.xyz) ضد بعض النقاط النهائية المخصصة لواجهة برمجة التطبيقات، مثل [iron-session](https://github.com/rainbow-me/rainbowkit/tree/main/examples/with-next-siwe-iron-session).
 
 ```tsx
 import { createAuthenticationAdapter } from '@rainbow-me/rainbowkit';
