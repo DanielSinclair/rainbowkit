@@ -230,6 +230,22 @@
         }
       }
     },
+    "best": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the Best Wallet app",
+          "description": "Add Best Wallet to your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "지갑 생성 또는 가져오기",
+          "description": "새로운 지갑을 만들거나 기존의 지갑을 가져옵니다."
+        },
+        "step3": {
+          "title": "QR 아이콘을 탭하고 스캔하기",
+          "description": "홈화면의 QR 아이콘을 누르고 코드를 스캔하고 프롬프트를 확인하여 연결하세요."
+        }
+      }
+    },
     "bifrost": {
       "qr_code": {
         "step1": {
@@ -937,6 +953,22 @@
         "step3": {
           "title": "브라우저를 새로고침 하세요",
           "description": "지갑을 설정한 후 아래를 클릭하여 브라우저를 새로고침하고 확장 프로그램을 로드하세요."
+        }
+      }
+    },
+    "paraswap": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the ParaSwap app",
+          "description": "Add ParaSwap Wallet to your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "지갑 생성 또는 가져오기",
+          "description": "새로운 지갑을 만들거나 기존의 지갑을 가져옵니다."
+        },
+        "step3": {
+          "title": "QR 아이콘을 탭하고 스캔하기",
+          "description": "홈화면의 QR 아이콘을 누르고 코드를 스캔하고 프롬프트를 확인하여 연결하세요."
         }
       }
     },
