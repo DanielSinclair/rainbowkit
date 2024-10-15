@@ -223,8 +223,6 @@ wagmi v1 ต้องการ `viem` ที่เชื่อมโยงที
 npm i viem
 ```
 
-หมายเหตุ: wagmi ไม่ใช้อีกต่อไปในการใช้แพ็กเกจ `ethers` ภายใน. แต่ถ้าคุณพึ่งอาศัย [Authentication](https://www.rainbowkit.com/docs/authentication) API, `siwe` จะยังต้องการ `ethers` เป็นการพึ่งผู้พัฒนาคู่หา.
-
 **3. ให้แน่ใจว่า bundler และการเข้ากันได้ของ polyfill**
 
 ในเวอร์ชั่นก่อนหน้าของ wagmi ที่พึ่ง [ethers](https://docs.ethers.org/v5/), โมดูล `fs`, `net`, และ `tls` ที่ WalletConnect ต้องการถูก polyfilled โดยอัตโนมัติ. นี้ไม่ใช่กรณีอีกต่อไปด้วย RainbowKit v1 + wagmi v1, ซึ่งสร้างบน [viem](https://viem.sh/).
