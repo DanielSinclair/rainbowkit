@@ -230,6 +230,22 @@
         }
       }
     },
+    "best": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the Best Wallet app",
+          "description": "Add Best Wallet to your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "ウォレットを作成またはインポート",
+          "description": "新しいウォレットを作成するか、既存のものをインポートします。"
+        },
+        "step3": {
+          "title": "QRアイコンをタップしてスキャン",
+          "description": "ホーム画面のQRアイコンをタップし、コードをスキャンしてプロンプトを確認して接続します。"
+        }
+      }
+    },
     "bifrost": {
       "qr_code": {
         "step1": {
@@ -937,6 +953,22 @@
         "step3": {
           "title": "ブラウザを更新する",
           "description": "ウォレットを設定したら、以下をクリックしてブラウザを更新し、拡張機能をロードします。"
+        }
+      }
+    },
+    "paraswap": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the ParaSwap app",
+          "description": "Add ParaSwap Wallet to your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "ウォレットを作成またはインポート",
+          "description": "新しいウォレットを作成するか、既存のものをインポートします。"
+        },
+        "step3": {
+          "title": "QRアイコンをタップしてスキャン",
+          "description": "ホーム画面のQRアイコンをタップし、コードをスキャンしてプロンプトを確認して接続します。"
         }
       }
     },
