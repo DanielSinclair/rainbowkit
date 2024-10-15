@@ -9,13 +9,13 @@ description: Autenticando a tus usuarios
 
 Opcionalmente puedes exigir que los usuarios firmen un mensaje con su billetera durante el proceso de conexión, demostrando que son propietarios de la cuenta conectada y permitiéndote crear una sesión de usuario autenticada con acceso privilegiado a tu aplicación.
 
-While it's possible to [integrate with custom back-ends and message formats,](/docs/custom-authentication) RainbowKit provides first-class support for [Sign-In with Ethereum](https://login.xyz) and [NextAuth](https://next-auth.js.org).
+Mientras es posible [integrar con back-ends personalizados y formatos de mensajes,](/docs/autenticación-personalizada) RainbowKit proporciona soporte de primera clase para [Ingreso con Ethereum](https://login.xyz) y [NextAuth](https://next-auth.js.org).
 
-### Set up Sign-In with Ethereum and NextAuth
+### Configura el Ingreso con Ethereum y NextAuth
 
 #### Instalar
 
-Install the `@rainbow-me/rainbowkit-siwe-next-auth` package.
+Instala el paquete `@rainbow-me/rainbowkit-siwe-next-auth`.
 
 ```bash
 npm install @rainbow-me/rainbowkit-siwe-next-auth
@@ -71,7 +71,7 @@ Con `RainbowKitSiweNextAuthProvider` en su lugar, ahora se solicitará a sus usu
 
 #### Personalice las opciones de mensaje de SIWE
 
-You can customize the [SIWE message options](https://viem.sh/docs/siwe/utilities/createSiweMessage#parameters) by passing a function to the `getSiweMessageOptions` prop on `RainbowKitSiweNextAuthProvider`.
+Puede personalizar las [opciones de mensaje SIWE](https://viem.sh/docs/siwe/utilities/createSiweMessage#parameters) pasando una función a la propiedad `getSiweMessageOptions` en `RainbowKitSiweNextAuthProvider`.
 
 Esta función será llamada siempre que se cree un nuevo mensaje. Las opciones devueltas de esta función se combinarán con las predeterminadas.
 
@@ -142,4 +142,4 @@ export default function AuthenticatedPage({
 Para obtener más información sobre cómo gestionar la sesión, puede hacer referencia a la siguiente documentación:
 
 - [Guía de autenticación de Next.js](https://nextjs.org/docs/authentication)
-- [NextAuth documentation](https://next-auth.js.org)
+- [Documentación de NextAuth](https://next-auth.js.org)
