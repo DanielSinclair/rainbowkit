@@ -230,6 +230,22 @@
         }
       }
     },
+    "best": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the Best Wallet app",
+          "description": "Add Best Wallet to your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "Cüzdan Oluştur veya Cüzdanı İçe Aktar",
+          "description": "Yeni bir cüzdan oluşturun veya mevcut birini içe aktarın."
+        },
+        "step3": {
+          "title": "QR simgesine dokunun ve tarayın",
+          "description": "Ana ekranınızdaki QR simgesine dokunun, kodu tarayın ve bağlanmayı onaylamak için istemi kabul edin."
+        }
+      }
+    },
     "bifrost": {
       "qr_code": {
         "step1": {
@@ -937,6 +953,22 @@
         "step3": {
           "title": "Tarayıcınızı yenileyin",
           "description": "Cüzdanınızı kurduktan sonra, tarayıcıyı yenilemek ve eklentiyi yüklemek için aşağıya tıklayın."
+        }
+      }
+    },
+    "paraswap": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the ParaSwap app",
+          "description": "Add ParaSwap Wallet to your home screen for faster access to your wallet."
+        },
+        "step2": {
+          "title": "Cüzdan Oluştur veya Cüzdanı İçe Aktar",
+          "description": "Yeni bir cüzdan oluşturun veya mevcut birini içe aktarın."
+        },
+        "step3": {
+          "title": "QR simgesine dokunun ve tarayın",
+          "description": "Ana ekranınızdaki QR simgesine dokunun, kodu tarayın ve bağlanmayı onaylamak için istemi kabul edin."
         }
       }
     },
