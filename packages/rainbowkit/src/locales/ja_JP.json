@@ -1082,6 +1082,22 @@
         }
       }
     },
+    "wigwam": {
+      "extension": {
+        "step1": {
+          "title": "Install the Wigwam extension",
+          "description": "We recommend pinning Wigwam to your taskbar for quicker access to your wallet."
+        },
+        "step2": {
+          "title": "ウォレットを作成またはインポート",
+          "description": "ウォレットは安全な方法でバックアップしてください。秘密のフレーズを誰とも共有しないでください。"
+        },
+        "step3": {
+          "title": "ブラウザを更新する",
+          "description": "ウォレットを設定したら、以下をクリックしてブラウザを更新し、拡張機能を読み込みます。"
+        }
+      }
+    },
     "talisman": {
       "extension": {
         "step1": {
