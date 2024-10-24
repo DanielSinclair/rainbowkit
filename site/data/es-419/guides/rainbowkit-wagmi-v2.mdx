@@ -102,7 +102,7 @@ Si utiliza hooks de `wagmi` y acciones de `viem` en su dApp, necesitará seguir 
 
 Las billeteras que soportan el nuevo estándar de conexión EIP-6963 (incluyendo Rainbow, MetaMask y más) ahora aparecerán automáticamente en una sección `Instalado` durante la experiencia de Conectar Billetera. Esto asegura que los usuarios siempre puedan encontrar sus billeteras favoritas y conectarse a dApps sin conflictos o botones de reserva.
 
-Los desarrolladores continúan teniendo control total sobre la Lista de Billeteras Personalizadas para enfatizar las billeteras preferidas por los usuarios finales. Se recomienda que continúe incluyendo el `injectedWallet` y el `walletConnectWallet` en su lista para soportar todas las plataformas.
+Los desarrolladores continúan teniendo control total sobre la Lista de Billeteras Personalizadas para enfatizar las billeteras preferidas por los usuarios finales. It is encouraged that you continue to include the `injectedWallet` and `walletConnectWallet` in your list to support all platforms.
 
 **2. Configuración de Wagmi con getDefaultConfig**
 
@@ -169,7 +169,7 @@ const config = getDefaultConfig({
 +     ...mainnet,
 +     iconBackground: '#000',
 +     iconUrl: 'https://example.com/icons/ethereum.png',
-+   }, /* metadata overides */
++   }, /* metadata overrides */
 + ],
 });
 ```
