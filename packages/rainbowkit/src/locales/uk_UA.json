@@ -1085,8 +1085,8 @@
     "wigwam": {
       "extension": {
         "step1": {
-          "title": "Install the Wigwam extension",
-          "description": "We recommend pinning Wigwam to your taskbar for quicker access to your wallet."
+          "title": "Встановіть розширення Wigwam",
+          "description": "Ми рекомендуємо закріпити Wigwam на панелі задач для швидшого доступу до вашого гаманця."
         },
         "step2": {
           "title": "Створити або Імпортувати Гаманець",
