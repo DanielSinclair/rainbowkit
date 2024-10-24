@@ -1082,6 +1082,22 @@
         }
       }
     },
+    "wigwam": {
+      "extension": {
+        "step1": {
+          "title": "Install the Wigwam extension",
+          "description": "We recommend pinning Wigwam to your taskbar for quicker access to your wallet."
+        },
+        "step2": {
+          "title": "创建或导入钱包",
+          "description": "务必使用安全的方法备份您的钱包。决不与任何人分享您的秘密短语。"
+        },
+        "step3": {
+          "title": "刷新您的浏览器",
+          "description": "设置钱包后，点击下方刷新浏览器并加载扩展。"
+        }
+      }
+    },
     "talisman": {
       "extension": {
         "step1": {
