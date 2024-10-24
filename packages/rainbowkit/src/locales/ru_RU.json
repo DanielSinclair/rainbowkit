@@ -1082,6 +1082,22 @@
         }
       }
     },
+    "wigwam": {
+      "extension": {
+        "step1": {
+          "title": "Install the Wigwam extension",
+          "description": "We recommend pinning Wigwam to your taskbar for quicker access to your wallet."
+        },
+        "step2": {
+          "title": "Создать или Импортировать кошелек",
+          "description": "Обязательно сделайте резервную копию вашего кошелька с использованием безопасного метода. Никогда не делитесь своей секретной фразой с кем-либо."
+        },
+        "step3": {
+          "title": "Обновите ваш браузер",
+          "description": "После настройки вашего кошелька, нажмите ниже, чтобы обновить браузер и загрузить расширение."
+        }
+      }
+    },
     "talisman": {
       "extension": {
         "step1": {
