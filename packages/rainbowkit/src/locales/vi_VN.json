@@ -1085,8 +1085,8 @@
     "wigwam": {
       "extension": {
         "step1": {
-          "title": "Install the Wigwam extension",
-          "description": "We recommend pinning Wigwam to your taskbar for quicker access to your wallet."
+          "title": "Cài đặt tiện ích mở rộng Wigwam",
+          "description": "Chúng tôi khuyên bạn nên ghim Wigwam vào thanh tác vụ để truy cập ví của bạn nhanh hơn."
         },
         "step2": {
           "title": "Tạo hoặc Nhập ví",
