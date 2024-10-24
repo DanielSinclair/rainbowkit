@@ -1085,8 +1085,8 @@
     "wigwam": {
       "extension": {
         "step1": {
-          "title": "Install the Wigwam extension",
-          "description": "We recommend pinning Wigwam to your taskbar for quicker access to your wallet."
+          "title": "ติดตั้งส่วนขยาย Wigwam",
+          "description": "เราแนะนำให้หมุน Wigwam ไว้บน taskbar ของคุณเพื่อให้เข้าถึง wallet ได้เร็วขึ้น"
         },
         "step2": {
           "title": "สร้างหรือนำเข้า Wallet",
