@@ -1082,6 +1082,22 @@
         }
       }
     },
+    "wigwam": {
+      "extension": {
+        "step1": {
+          "title": "Install the Wigwam extension",
+          "description": "We recommend pinning Wigwam to your taskbar for quicker access to your wallet."
+        },
+        "step2": {
+          "title": "Tạo hoặc Nhập ví",
+          "description": "Hãy chắc chắn rằng bạn đã sao lưu ví của mình bằng phương pháp an toàn. Đừng bao giờ chia sẻ cụm từ bí mật của bạn với bất kỳ ai."
+        },
+        "step3": {
+          "title": "Làm mới trình duyệt của bạn",
+          "description": "Một khi bạn thiết lập xong ví của mình, nhấp vào dưới đây để làm mới trình duyệt và tải lại tiện ích mở rộng."
+        }
+      }
+    },
     "talisman": {
       "extension": {
         "step1": {
