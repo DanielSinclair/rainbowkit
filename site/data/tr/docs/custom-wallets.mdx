@@ -19,45 +19,45 @@ description: Özel bir cüzdan oluştur
       name: 'id',
       required: true,
       type: 'string',
-      description: 'Unique ID per wallet',
+      description: 'Her bir cüzdan için benzersiz ID.',
     },
     {
       name: 'name',
       required: true,
       type: 'string',
-      description: 'Human-readable wallet name',
+      description: 'İnsan tarafından okunabilir cüzdan adı.',
     },
     {
       name: 'rdns',
       required: false,
       type: 'string',
-      description: 'RDNS for wallet which supports EIP6963',
+      description: 'EIP6963\u0027ü destekleyen cüzdan için RDNS.',
     },
     {
       name: 'shortName',
       required: false,
       type: 'string | undefined',
-      description: 'Optional short name for mobile use',
+      description: 'Mobil kullanım için isteğe bağlı kısa ad.',
     },
     {
       name: 'iconUrl',
       required: true,
       type: 'string | (() => Promise<string>)',
       description:
-        'URL for wallet icon, or a promise that resolves to a Base64 data URL',
+        'Cüzdan ikonu için URL veya Base64 veri URL\u0027sine çözümlenen bir vaat.',
     },
     {
       name: 'iconAccent',
       required: false,
       type: 'string',
       description:
-        'Accent color used in download flows for wallets with both a browser extension and a mobile app',
+        'Hem tarayıcı eklentisi hem de mobil uygulaması bulunan cüzdanlar için indirme akışlarında kullanılan vurgu rengi.',
     },
     {
       name: 'iconBackground',
       required: true,
       type: 'string',
-      description: 'Background color while the wallet icon loads',
+      description: 'Cüzdan ikonu yüklenirken arka plan rengi.',
     },
     {
       name: 'installed',
@@ -65,8 +65,8 @@ description: Özel bir cüzdan oluştur
       type: 'boolean | undefined',
       description: (
         <>
-          Whether the wallet is known to be installed, or{' '}
-          <code>undefined</code> if indeterminate
+          Cüzdanın kurulu olup olmadığı veya <code>undefined</code>
+          {' '}belirlenememişse.
         </>
       ),
     },
@@ -75,7 +75,7 @@ description: Özel bir cüzdan oluştur
       required: false,
       type: '{ android?: string, ios?: string, mobile?: string, qrCode?: string, chrome?: string, firefox?: string, edge?: string, safari?: string, opera?: string, browserExtension?: string } | undefined',
       typeSimple: 'DownloadUrls | undefined',
-      description: 'Object containing download URLs',
+      description: 'İndirme URL\u0027lerini içeren nesne.',
     },
     {
       name: 'hidden',
@@ -83,7 +83,10 @@ description: Özel bir cüzdan oluştur
       type: '(args: { wallets: Array<{ id: string, connector: Connector, installed?: boolean }> }) => boolean',
       typeSimple: '(args) => boolean | undefined',
       description:
-        'Function for calculating whether this wallet should be hidden from the list. This is useful for defining generic fallback wallets, e.g. the built-in "Injected Wallet" fallback makes use of this feature',
+        'Bu cüzdanın listeden gizlenmesi gerekip gerekmediğini hesaplayan işlev.',
+    } 
+  ]}
+/> This is useful for defining generic fallback wallets, e.g. the built-in "Injected Wallet" fallback makes use of this feature',
     },
     {
       name: 'createConnector',
