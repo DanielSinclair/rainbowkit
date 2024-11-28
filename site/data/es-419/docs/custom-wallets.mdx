@@ -83,56 +83,7 @@ El tipo de función `Wallet` se proporciona para ayudarlo a definir sus propias 
       type: '(args: { wallets: Array<{ id: string, connector: Connector, installed?: boolean }> }) => boolean',
       typeSimple: '(args) => boolean | undefined',
       description:
-        'Function for calculating whether this wallet should be hidden from the list. This is useful for defining generic fallback wallets, e.g. the built-in "Injected Wallet" fallback makes use of this feature',
-    },
-    {
-      name: 'createConnector',
-      required: true,
-      type: '() => RainbowKitConnector',
-      typeSimple: 'RainbowKitConnector',
-      description:
-        'Function for providing the connector instance and configuration for different connection methods, described below',
-    },
-    {
-      name: 'mobile',
-      required: false,
-      type: '{ getUri?: (uri: string) => string }',
-      typeSimple: 'object',
-      description:
-        'Function for resolving a mobile wallet connection URI',
-    },
-    {
-      name: 'desktop',
-      required: false,
-      type: '{ getUri?: (uri: string) => string }',
-      typeSimple: 'object',
-      description: 'Function for resolving a desktop app deep link',
-    },
-    {
-      name: 'qrCode',
-      required: false,
-      type: "{ getUri: (uri: string) => string, instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }> }}}",
-      typeSimple: 'object',
-      description:
-        'Object containing a function for resolving the QR code URI, plus optional mobile wallet setup instructions',
-    },
-    {
-      name: 'extension',
-      required: false,
-      type: "{ instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }> }}}",
-      typeSimple: 'object',
-      description:
-        'Object containing optional browser extension setup instructions',
-    },
-    {
-      name: 'createConnector',
-      required: true,
-      type: "createConnector: (details: WalletDetailsParams) => CreateConnectorFn",
-      typeSimple: '(details: WalletDetailsParams) => CreateConnectorFn',
-      description: 'Function for providing the connector instance',
-    },
-  ]}
-/>
+        'Function for calculating whether this wallet should be hidden from the list. Esto es útil para definir billeteras de respaldo genéricas, por ejemplo, el respaldo integrado "Injected Wallet" hace uso de esta función.
 
 ### Propiedades de DownloadUrls
 
@@ -142,64 +93,64 @@ El tipo de función `Wallet` se proporciona para ayudarlo a definir sus propias 
       name: 'android',
       required: false,
       type: 'string',
-      description: 'URL de Google Play',
+      description: 'Google Play URL',
     },
     {
       name: 'ios',
       required: false,
       type: 'string',
-      description: 'URL de Apple App Store',
+      description: 'Apple App Store URL',
     },
     {
       name: 'mobile',
       required: false,
       type: 'string',
       description:
-        'Página de aterrizaje para usuarios móviles cuando `android` o `ios` no están disponibles',
+        'Landing page for mobile users when `android` or `ios` are unavailable',
     },
     {
       name: 'qrCode',
       required: false,
       type: 'string',
       description:
-        'Página de aterrizaje para usuarios que escanean el código QR de descarga móvil',
+        'Landing page for users that scan the mobile download QR Code',
     },
     {
       name: 'chrome',
       required: false,
       type: 'string',
-      description: 'URL de Chrome Web Store',
+      description: 'Chrome Web Store URL',
     },
     {
       name: 'edge',
       required: false,
       type: 'string',
-      description: 'URL de Microsoft Edge Add-ons',
+      description: 'Microsoft Edge Add-ons URL',
     },
     {
       name: 'firefox',
       required: false,
       type: 'string',
-      description: 'URL de complementos de Firefox',
+      description: 'Firefox Browser Add-ons URL',
     },
     {
       name: 'opera',
       required: false,
       type: 'string',
-      description: 'URL de complementos de Opera',
+      description: 'Opera add-ons URL',
     },
     {
       name: 'safari',
       required: false,
       type: 'string',
-      description: 'URL de Mac App Store',
+      description: 'Mac App Store URL',
     },
     {
       name: 'browserExtension',
       required: false,
       type: 'string',
       description:
-        'Página de aterrizaje para usuarios de extensión de escritorio cuando las URLs compatibles con el navegador no están disponibles',
+        'Landing page for desktop extension users when browser-compatible URLs are unavailable',
     },
   ]}
 />
