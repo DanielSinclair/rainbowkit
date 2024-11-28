@@ -1,215 +1,215 @@
 {
   "connect_wallet": {
-    "label": "Connect Wallet",
+    "label": "Sambungkan Dompet",
     "wrong_network": {
-      "label": "Wrong network"
+      "label": "Rangkaian salah"
     }
   },
   "intro": {
-    "title": "What is a Wallet?",
-    "description": "A wallet is used to send, receive, store, and display digital assets. It's also a new way to log in, without needing to create new accounts and passwords on every website.",
+    "title": "Apa itu Dompet?",
+    "description": "Dompet digunakan untuk menghantar, menerima, menyimpan, dan memaparkan aset digital. Ia juga cara baru untuk log masuk, tanpa perlu mencipta akaun dan kata laluan baru pada setiap laman web.",
     "digital_asset": {
-      "title": "A Home for your Digital Assets",
-      "description": "Wallets are used to send, receive, store, and display digital assets like Ethereum and NFTs."
+      "title": "Rumah untuk Aset Digital Anda",
+      "description": "Dompet digunakan untuk menghantar, menerima, menyimpan, dan memaparkan aset digital seperti Ethereum dan NFT."
     },
     "login": {
-      "title": "A New Way to Log In",
-      "description": "Instead of creating new accounts and passwords on every website, just connect your wallet."
+      "title": "Cara Baru untuk Log Masuk",
+      "description": "Daripada mencipta akaun dan kata laluan baru pada setiap laman web, cuma sambungkan dompet anda."
     },
     "get": {
-      "label": "Get a Wallet"
+      "label": "Dapatkan Dompet"
     },
     "learn_more": {
-      "label": "Learn More"
+      "label": "Ketahui Lebih Lanjut"
     }
   },
   "sign_in": {
-    "label": "Verify your account",
-    "description": "To finish connecting, you must sign a message in your wallet to verify that you are the owner of this account.",
+    "label": "Sahkan akaun anda",
+    "description": "Untuk melengkapkan sambungan, anda mesti menandatangani mesej dalam dompet anda untuk mengesahkan bahawa anda adalah pemilik akaun ini.",
     "message": {
-      "send": "Sign message",
-      "preparing": "Preparing message...",
-      "cancel": "Cancel",
-      "preparing_error": "Error preparing message, please retry!"
+      "send": "Hantar mesej",
+      "preparing": "Mempersiapkan mesej...",
+      "cancel": "Batal",
+      "preparing_error": "Ralat menyediakan mesej, sila cuba lagi!"
     },
     "signature": {
-      "waiting": "Waiting for signature...",
-      "verifying": "Verifying signature...",
-      "signing_error": "Error signing message, please retry!",
-      "verifying_error": "Error verifying signature, please retry!",
-      "oops_error": "Oops, something went wrong!"
+      "waiting": "Menunggu untuk tandatangan...",
+      "verifying": "Memeriksa tandatangan...",
+      "signing_error": "Ralat semasa menandatangani mesej, sila cuba lagi!",
+      "verifying_error": "Ralat memeriksa tandatangan, sila cuba lagi!",
+      "oops_error": "Oops, ada sesuatu yang tak kena!"
     }
   },
   "connect": {
-    "label": "Connect",
-    "title": "Connect a Wallet",
+    "label": "Sambung",
+    "title": "Sambungkan Dompet",
     "new_to_ethereum": {
-      "description": "New to Ethereum wallets?",
+      "description": "Baru dalam dompet Ethereum?",
       "learn_more": {
-        "label": "Learn More"
+        "label": "Ketahui Lebih Lanjut"
       }
     },
     "learn_more": {
-      "label": "Learn more"
+      "label": "Ketahui lebih lanjut"
     },
-    "recent": "Recent",
+    "recent": "Terkini",
     "status": {
-      "opening": "Opening %{wallet}...",
-      "connecting": "Connecting",
-      "connect_mobile": "Continue in %{wallet}",
-      "not_installed": "%{wallet} is not installed",
-      "not_available": "%{wallet} is not available",
-      "confirm": "Confirm connection in the extension",
-      "confirm_mobile": "Accept connection request in the wallet"
+      "opening": "Membuka %{wallet}...",
+      "connecting": "Menyambung",
+      "connect_mobile": "Teruskan dalam %{wallet}",
+      "not_installed": "%{wallet} tidak dipasang",
+      "not_available": "%{wallet} tidak tersedia",
+      "confirm": "Sahkan sambungan dalam sambungan",
+      "confirm_mobile": "Terima permintaan sambungan dalam dompet"
     },
     "secondary_action": {
       "get": {
-        "description": "Don't have %{wallet}?",
-        "label": "GET"
+        "description": "Tiada %{wallet}?",
+        "label": "DAPATKAN"
       },
       "install": {
-        "label": "INSTALL"
+        "label": "PASANG"
       },
       "retry": {
-        "label": "RETRY"
+        "label": "CUBA LAGI"
       }
     },
     "walletconnect": {
       "description": {
-        "full": "Need the official WalletConnect modal?",
-        "compact": "Need the WalletConnect modal?"
+        "full": "Perlu modal rasmi WalletConnect?",
+        "compact": "Perlu modal WalletConnect?"
       },
       "open": {
-        "label": "OPEN"
+        "label": "BUKA"
       }
     }
   },
   "connect_scan": {
-    "title": "Scan with %{wallet}",
-    "fallback_title": "Scan with your phone"
+    "title": "Imbas dengan %{wallet}",
+    "fallback_title": "Imbas dengan telefon anda"
   },
   "connector_group": {
-    "installed": "Installed",
-    "recommended": "Recommended",
-    "other": "Other",
+    "installed": "Dipasang",
+    "recommended": "Disarankan",
+    "other": "Lain",
     "popular": "Popular",
-    "more": "More",
-    "others": "Others"
+    "more": "Lainnya",
+    "others": "Lain-lain"
   },
   "get": {
-    "title": "Get a Wallet",
+    "title": "Dapatkan Dompet",
     "action": {
-      "label": "GET"
+      "label": "DAPATKAN"
     },
     "mobile": {
-      "description": "Mobile Wallet"
+      "description": "Dompet Mobil"
     },
     "extension": {
-      "description": "Browser Extension"
+      "description": "Sambungan Pelayar"
     },
     "mobile_and_extension": {
-      "description": "Mobile Wallet and Extension"
+      "description": "Dompet Mudah Alih dan Sambungan"
     },
     "mobile_and_desktop": {
-      "description": "Mobile and Desktop Wallet"
+      "description": "Wallet Mudah Alih dan Desktop"
     },
     "looking_for": {
-      "title": "Not what you're looking for?",
+      "title": "Bukan apa yang anda cari?",
       "mobile": {
-        "description": "Select a wallet on the main screen to get started with a different wallet provider."
+        "description": "Pilih dompet pada skrin utama untuk memulakan dengan penyedia dompet yang berbeza."
       },
       "desktop": {
-        "compact_description": "Select a wallet on the main screen to get started with a different wallet provider.",
-        "wide_description": "Select a wallet on the left to get started with a different wallet provider."
+        "compact_description": "Pilih dompet pada skrin utama untuk memulakan dengan penyedia dompet yang berbeza.",
+        "wide_description": "Pilih dompet di kiri untuk memulakan dengan penyedia dompet yang berbeza."
       }
     }
   },
   "get_options": {
-    "title": "Get started with %{wallet}",
-    "short_title": "Get %{wallet}",
+    "title": "Mula dengan %{wallet}",
+    "short_title": "Dapatkan %{wallet}",
     "mobile": {
-      "title": "%{wallet} for Mobile",
-      "description": "Use the mobile wallet to explore the world of Ethereum.",
+      "title": "%{wallet} untuk Mudah Alih",
+      "description": "Gunakan dompet mudah alih untuk meneroka dunia Ethereum.",
       "download": {
-        "label": "Get the app"
+        "label": "Dapatkan aplikasi"
       }
     },
     "extension": {
-      "title": "%{wallet} for %{browser}",
-      "description": "Access your wallet right from your favorite web browser.",
+      "title": "%{wallet} untuk %{browser}",
+      "description": "Akses dompet anda terus dari pelayar web kegemaran anda.",
       "download": {
-        "label": "Add to %{browser}"
+        "label": "Tambah ke %{browser}"
       }
     },
     "desktop": {
-      "title": "%{wallet} for %{platform}",
-      "description": "Access your wallet natively from your powerful desktop.",
+      "title": "%{wallet} untuk %{platform}",
+      "description": "Akses dompet anda secara asli dari desktop yang kuat.",
       "download": {
-        "label": "Add to %{platform}"
+        "label": "Tambah ke %{platform}"
       }
     }
   },
   "get_mobile": {
-    "title": "Install %{wallet}",
-    "description": "Scan with your phone to download on iOS or Android",
+    "title": "Pasang %{wallet}",
+    "description": "Imbas dengan telefon anda untuk memuat turun pada iOS atau Android",
     "continue": {
-      "label": "Continue"
+      "label": "Teruskan"
     }
   },
   "get_instructions": {
     "mobile": {
       "connect": {
-        "label": "Connect"
+        "label": "Sambung"
       },
       "learn_more": {
-        "label": "Learn More"
+        "label": "Ketahui Lebih Lanjut"
       }
     },
     "extension": {
       "refresh": {
-        "label": "Refresh"
+        "label": "Segarkan"
       },
       "learn_more": {
-        "label": "Learn More"
+        "label": "Ketahui Lebih Lanjut"
       }
     },
     "desktop": {
       "connect": {
-        "label": "Connect"
+        "label": "Sambung"
       },
       "learn_more": {
-        "label": "Learn More"
+        "label": "Ketahui Lebih Lanjut"
       }
     }
   },
   "chains": {
-    "title": "Switch Networks",
-    "wrong_network": "Wrong network detected, switch or disconnect to continue.",
-    "confirm": "Confirm in Wallet",
-    "switching_not_supported": "Your wallet does not support switching networks from %{appName}. Try switching networks from within your wallet instead.",
-    "switching_not_supported_fallback": "Your wallet does not support switching networks from this app. Try switching networks from within your wallet instead.",
-    "disconnect": "Disconnect",
-    "connected": "Connected"
+    "title": "Tukar Rangkaian",
+    "wrong_network": "Rangkaian yang salah dikesan, tukar atau putuskan untuk meneruskan.",
+    "confirm": "Sahkan dalam Dompet",
+    "switching_not_supported": "Dompet anda tidak menyokong pertukaran rangkaian dari %{appName}. Cuba tukar rangkaian dari dalam dompet anda sebaliknya.",
+    "switching_not_supported_fallback": "Dompet anda tidak menyokong pertukaran rangkaian daripada aplikasi ini. Cuba tukar rangkaian dari dalam dompet anda sebaliknya.",
+    "disconnect": "Putuskan Sambungan",
+    "connected": "Disambung"
   },
   "profile": {
     "disconnect": {
-      "label": "Disconnect"
+      "label": "Putuskan Sambungan"
     },
     "copy_address": {
-      "label": "Copy Address",
-      "copied": "Copied!"
+      "label": "Salin Alamat",
+      "copied": "Disalin!"
     },
     "explorer": {
-      "label": "View more on explorer"
+      "label": "Lihat lebih banyak pada peneroka"
     },
     "transactions": {
-      "description": "%{appName} transactions will appear here...",
-      "description_fallback": "Your transactions will appear here...",
+      "description": "Transaksi %{appName} akan muncul di sini...",
+      "description_fallback": "Transaksi anda akan muncul di sini...",
       "recent": {
-        "title": "Recent Transactions"
+        "title": "Transaksi Terkini"
       },
       "clear": {
-        "label": "Clear All"
+        "label": "Kosongkan Semua"
       }
     }
   },
@@ -217,1114 +217,1114 @@
     "argent": {
       "qr_code": {
         "step1": {
-          "description": "Put Argent on your home screen for faster access to your wallet.",
-          "title": "Open the Argent app"
+          "description": "Letakkan Argent pada skrin utama anda untuk akses lebih pantas ke dompet anda.",
+          "title": "Buka aplikasi Argent"
         },
         "step2": {
-          "description": "Create a wallet and username, or import an existing wallet.",
-          "title": "Create or Import a Wallet"
+          "description": "Cipta dompet dan nama pengguna, atau import dompet sedia ada.",
+          "title": "Cipta atau Import Dompet"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the Scan QR button"
+          "description": "Setelah anda mengimbas, prompt sambungan akan muncul untuk anda sambungkan dompet anda.",
+          "title": "Ketuk butang Imbas QR"
         }
       }
     },
     "best": {
       "qr_code": {
         "step1": {
-          "title": "Open the Best Wallet app",
-          "description": "Add Best Wallet to your home screen for faster access to your wallet."
+          "title": "Buka aplikasi Best Wallet",
+          "description": "Tambah Best Wallet ke skrin utama anda untuk akses lebih cepat ke dompet anda."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Cipta atau Import Dompet",
+          "description": "Cipta dompet baharu atau import dompet sedia ada."
         },
         "step3": {
-          "title": "Tap the QR icon and scan",
-          "description": "Tap the QR icon on your homescreen, scan the code and confirm the prompt to connect."
+          "title": "Ketuk ikon QR dan imbas",
+          "description": "Ketik ikon QR pada skrin utama anda, imbas kod dan sahkan permintaan untuk bersambung."
         }
       }
     },
     "bifrost": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Bifrost Wallet on your home screen for quicker access.",
-          "title": "Open the Bifrost Wallet app"
+          "description": "Kami mengesyorkan meletakkan Bifrost Wallet pada skrin utama anda untuk akses lebih pantas.",
+          "title": "Buka aplikasi Bifrost Wallet"
         },
         "step2": {
-          "description": "Create or import a wallet using your recovery phrase.",
-          "title": "Create or Import a Wallet"
+          "description": "Cipta atau import dompet menggunakan frasa pemulihan anda.",
+          "title": "Cipta atau Import Dompet"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the scan button"
+          "description": "Setelah anda mengimbas, prompt sambungan akan muncul untuk anda sambungkan dompet anda.",
+          "title": "Ketuk butang Imbas"
         }
       }
     },
     "bitget": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Bitget Wallet on your home screen for quicker access.",
-          "title": "Open the Bitget Wallet app"
+          "description": "Kami mengesyorkan meletakkan Bitget Wallet pada skrin utama anda untuk akses lebih pantas.",
+          "title": "Buka aplikasi Bitget Wallet"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja.",
+          "title": "Cipta atau Import Dompet"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the scan button"
+          "description": "Setelah anda mengimbas, prompt sambungan akan muncul untuk anda sambungkan dompet anda.",
+          "title": "Ketuk butang Imbas"
         }
       },
       "extension": {
         "step1": {
-          "description": "We recommend pinning Bitget Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Bitget Wallet extension"
+          "description": "Kami mengesyorkan mengaitkan Bitget Wallet ke bar tugas anda untuk akses lebih pantas ke dompet anda.",
+          "title": "Pasang lanjutan Bitget Wallet"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja.",
+          "title": "Cipta atau Import Dompet"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan.",
+          "title": "Segarkan pelayar anda"
         }
       }
     },
     "bitski": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Bitski to your taskbar for quicker access to your wallet.",
-          "title": "Install the Bitski extension"
+          "description": "Kami mengesyorkan mengaitkan Bitski ke bar tugas anda untuk akses lebih pantas ke dompet anda.",
+          "title": "Pasang lanjutan Bitski"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja.",
+          "title": "Cipta atau Import Dompet"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan.",
+          "title": "Segarkan pelayar anda"
         }
       }
     },
     "bitverse": {
       "qr_code": {
         "step1": {
-          "title": "Open the Bitverse Wallet app",
-          "description": "Add Bitverse Wallet to your home screen for faster access to your wallet."
+          "title": "Buka aplikasi Bitverse Wallet",
+          "description": "Tambahkan Bitverse Wallet ke skrin utama anda untuk akses yang lebih cepat ke dompet anda."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Cipta atau Import Dompet",
+          "description": "Cipta dompet baharu atau import dompet sedia ada."
         },
         "step3": {
-          "title": "Tap the QR icon and scan",
-          "description": "Tap the QR icon on your homescreen, scan the code and confirm the prompt to connect."
+          "title": "Ketuk ikon QR dan imbas",
+          "description": "Ketik ikon QR pada skrin utama anda, imbas kod dan sahkan permintaan untuk bersambung."
         }
       }
     },
     "bloom": {
       "desktop": {
         "step1": {
-          "title": "Open the Bloom Wallet app",
-          "description": "We recommend putting Bloom Wallet on your home screen for quicker access."
+          "title": "Buka aplikasi Bloom Wallet",
+          "description": "Kami mengesyorkan meletakkan Bloom Wallet pada skrin utama anda untuk akses yang lebih cepat."
         },
         "step2": {
-          "description": "Create or import a wallet using your recovery phrase.",
-          "title": "Create or Import a Wallet"
+          "description": "Cipta atau import dompet menggunakan frasa pemulihan anda.",
+          "title": "Cipta atau Import Dompet"
         },
         "step3": {
-          "description": "After you have a wallet, click on Connect to connect via Bloom. A connection prompt in the app will appear for you to confirm the connection.",
-          "title": "Click on Connect"
+          "description": "Setelah anda mempunyai dompet, klik pada Sambung untuk menyambung melalui Bloom. Satu gesaan sambungan dalam aplikasi akan muncul untuk anda mengesahkan sambungan.",
+          "title": "Klik pada Sambung"
         }
       }
     },
     "bybit": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Bybit on your home screen for faster access to your wallet.",
-          "title": "Open the Bybit app"
+          "description": "Kami mengesyorkan meletakkan Bybit pada skrin utama anda untuk akses yang lebih cepat ke dompet anda.",
+          "title": "Buka aplikasi Bybit"
         },
         "step2": {
-          "description": "You can easily backup your wallet using our backup feature on your phone.",
-          "title": "Create or Import a Wallet"
+          "description": "Anda boleh membuat sandaran dompet anda dengan mudah menggunakan ciri sandaran kami pada telefon anda.",
+          "title": "Cipta atau Import Dompet"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the scan button"
+          "description": "Setelah anda mengimbas, prompt sambungan akan muncul untuk anda sambungkan dompet anda.",
+          "title": "Ketuk butang Imbas"
         }
       },
       "extension": {
         "step1": {
-          "description": "Click at the top right of your browser and pin Bybit Wallet for easy access.",
-          "title": "Install the Bybit Wallet extension"
+          "description": "Klik pada bahagian kanan atas pelayar anda dan sematkan Bybit Wallet untuk akses mudah.",
+          "title": "Pasang sambungan Bybit Wallet"
         },
         "step2": {
-          "description": "Create a new wallet or import an existing one.",
-          "title": "Create or Import a wallet"
+          "description": "Cipta dompet baharu atau import dompet sedia ada.",
+          "title": "Buat atau Import dompet"
         },
         "step3": {
-          "description": "Once you set up Bybit Wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Sebaik sahaja anda menyediakan Bybit Wallet, klik di bawah untuk menyegar semula pelayar dan memuat sambungan.",
+          "title": "Segarkan pelayar anda"
         }
       }
     },
     "binance": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Binance on your home screen for faster access to your wallet.",
-          "title": "Open the Binance app"
+          "description": "Kami mengesyorkan anda meletakkan Binance di skrin utama anda untuk akses lebih cepat ke dompet anda.",
+          "title": "Buka aplikasi Binance"
         },
         "step2": {
-          "description": "You can easily backup your wallet using our backup feature on your phone.",
-          "title": "Create or Import a Wallet"
+          "description": "Anda boleh membuat sandaran dompet anda dengan mudah menggunakan ciri sandaran kami pada telefon anda.",
+          "title": "Cipta atau Import Dompet"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the WalletConnect button"
+          "description": "Setelah anda mengimbas, prompt sambungan akan muncul untuk anda sambungkan dompet anda.",
+          "title": "Ketuk butang WalletConnect"
         }
       }
     },
     "coin98": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Coin98 Wallet on your home screen for faster access to your wallet.",
-          "title": "Open the Coin98 Wallet app"
+          "description": "Kami mengesyorkan meletakkan Coin98 Wallet pada skrin utama anda untuk akses lebih pantas ke dompet anda.",
+          "title": "Buka aplikasi Coin98 Wallet"
         },
         "step2": {
-          "description": "You can easily backup your wallet using our backup feature on your phone.",
-          "title": "Create or Import a Wallet"
+          "description": "Anda boleh membuat sandaran dompet anda dengan mudah menggunakan ciri sandaran kami pada telefon anda.",
+          "title": "Cipta atau Import Dompet"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the WalletConnect button"
+          "description": "Setelah anda mengimbas, prompt sambungan akan muncul untuk anda sambungkan dompet anda.",
+          "title": "Ketuk butang WalletConnect"
         }
       },
       "extension": {
         "step1": {
-          "description": "Click at the top right of your browser and pin Coin98 Wallet for easy access.",
-          "title": "Install the Coin98 Wallet extension"
+          "description": "Klik di sudut kanan atas pelayar anda dan pin Coin98 Wallet untuk akses mudah.",
+          "title": "Pasang sambungan Coin98 Wallet"
         },
         "step2": {
-          "description": "Create a new wallet or import an existing one.",
-          "title": "Create or Import a wallet"
+          "description": "Cipta dompet baharu atau import dompet sedia ada.",
+          "title": "Buat atau Import dompet"
         },
         "step3": {
-          "description": "Once you set up Coin98 Wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Sebaik sahaja anda menyediakan Coin98 Wallet, klik di bawah untuk menyegar semula pelayar dan memuatkan sambungan.",
+          "title": "Segarkan pelayar anda"
         }
       }
     },
     "coinbase": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Coinbase Wallet on your home screen for quicker access.",
-          "title": "Open the Coinbase Wallet app"
+          "description": "Kami mengesyorkan meletakkan Coinbase Wallet pada skrin utama anda untuk akses lebih cepat.",
+          "title": "Buka aplikasi Coinbase Wallet"
         },
         "step2": {
-          "description": "You can easily backup your wallet using the cloud backup feature.",
-          "title": "Create or Import a Wallet"
+          "description": "Anda boleh membuat sandaran dompet anda dengan mudah menggunakan ciri sandaran awan.",
+          "title": "Cipta atau Import Dompet"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the scan button"
+          "description": "Setelah anda mengimbas, prompt sambungan akan muncul untuk anda sambungkan dompet anda.",
+          "title": "Ketuk butang Imbas"
         }
       },
       "extension": {
         "step1": {
-          "description": "We recommend pinning Coinbase Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Coinbase Wallet extension"
+          "description": "Kami mengesyorkan memasang Coinbase Wallet pada taskbar anda untuk akses lebih cepat kepada dompet anda.",
+          "title": "Pasang sambungan Coinbase Wallet"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja.",
+          "title": "Cipta atau Import Dompet"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan.",
+          "title": "Segarkan pelayar anda"
         }
       }
     },
     "compass": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Compass Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Compass Wallet extension"
+          "description": "Kami mencadangkan anda menyemat Compass Wallet ke bar tugas anda untuk akses yang lebih cepat ke dompet anda.",
+          "title": "Pasang sambungan Compass Wallet"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja.",
+          "title": "Cipta atau Import Dompet"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan.",
+          "title": "Segarkan pelayar anda"
         }
       }
     },
     "core": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Core on your home screen for faster access to your wallet.",
-          "title": "Open the Core app"
+          "description": "Kami mengesyorkan meletakkan Core pada skrin utama anda untuk akses lebih cepat kepada dompet anda.",
+          "title": "Buka aplikasi Core"
         },
         "step2": {
-          "description": "You can easily backup your wallet using our backup feature on your phone.",
-          "title": "Create or Import a Wallet"
+          "description": "Anda boleh membuat sandaran dompet anda dengan mudah menggunakan ciri sandaran kami pada telefon anda.",
+          "title": "Cipta atau Import Dompet"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the WalletConnect button"
+          "description": "Setelah anda mengimbas, prompt sambungan akan muncul untuk anda sambungkan dompet anda.",
+          "title": "Ketuk butang WalletConnect"
         }
       },
       "extension": {
         "step1": {
-          "description": "We recommend pinning Core to your taskbar for quicker access to your wallet.",
-          "title": "Install the Core extension"
+          "description": "Kami mengesyorkan memasang Core pada taskbar anda untuk akses lebih cepat kepada dompet anda.",
+          "title": "Pasang sambungan Core"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja.",
+          "title": "Cipta atau Import Dompet"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan.",
+          "title": "Segarkan pelayar anda"
         }
       }
     },
     "fox": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting FoxWallet on your home screen for quicker access.",
-          "title": "Open the FoxWallet app"
+          "description": "Kami mengesyorkan meletakkan FoxWallet pada skrin utama anda untuk akses lebih cepat.",
+          "title": "Buka aplikasi FoxWallet"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja.",
+          "title": "Cipta atau Import Dompet"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the scan button"
+          "description": "Setelah anda mengimbas, prompt sambungan akan muncul untuk anda sambungkan dompet anda.",
+          "title": "Ketuk butang Imbas"
         }
       }
     },
     "frontier": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Frontier Wallet on your home screen for quicker access.",
-          "title": "Open the Frontier Wallet app"
+          "description": "Kami mengesyorkan meletakkan Frontier Wallet pada skrin utama anda untuk akses lebih cepat.",
+          "title": "Buka aplikasi Frontier Wallet"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja.",
+          "title": "Cipta atau Import Dompet"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the scan button"
+          "description": "Setelah anda mengimbas, prompt sambungan akan muncul untuk anda sambungkan dompet anda.",
+          "title": "Ketuk butang Imbas"
         }
       },
       "extension": {
         "step1": {
-          "description": "We recommend pinning Frontier Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Frontier Wallet extension"
+          "description": "Kami mengesyorkan menetapkan Frontier Wallet pada bar tugas anda untuk akses lebih cepat ke dompet anda.",
+          "title": "Pasang pelanjutan Frontier Wallet"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja.",
+          "title": "Cipta atau Import Dompet"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan.",
+          "title": "Segarkan pelayar anda"
         }
       }
     },
     "im_token": {
       "qr_code": {
         "step1": {
-          "title": "Open the imToken app",
-          "description": "Put imToken app on your home screen for faster access to your wallet."
+          "title": "Buka aplikasi imToken",
+          "description": "Letakkan aplikasi imToken pada skrin utama anda untuk akses lebih cepat ke dompet anda."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Cipta atau Import Dompet",
+          "description": "Cipta dompet baharu atau import dompet sedia ada."
         },
         "step3": {
-          "title": "Tap Scanner Icon in top right corner",
-          "description": "Choose New Connection, then scan the QR code and confirm the prompt to connect."
+          "title": "Ketuk Ikon Pemindai di sudut kanan atas",
+          "description": "Pilih Sambungan Baru, kemudian imbas kod QR dan sahkan arahan untuk menghubung."
         }
       }
     },
     "iopay": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting ioPay on your home screen for faster access to your wallet.",
-          "title": "Open the ioPay app"
+          "description": "Kami mencadangkan anda meletakkan ioPay di skrin utama anda untuk akses lebih cepat ke dompet anda.",
+          "title": "Buka aplikasi ioPay"
         },
         "step2": {
-          "description": "You can easily backup your wallet using our backup feature on your phone.",
-          "title": "Create or Import a Wallet"
+          "description": "Anda boleh membuat sandaran dompet anda dengan mudah menggunakan ciri sandaran kami pada telefon anda.",
+          "title": "Cipta atau Import Dompet"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the WalletConnect button"
+          "description": "Setelah anda mengimbas, prompt sambungan akan muncul untuk anda sambungkan dompet anda.",
+          "title": "Ketuk butang WalletConnect"
         }
       }
     },
     "kaikas": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Kaikas to your taskbar for quicker access to your wallet.",
-          "title": "Install the Kaikas extension"
+          "description": "Kami mencadangkan anda menyemat Kaikas ke bar tugas anda untuk akses lebih cepat ke dompet anda.",
+          "title": "Pasang sambungan Kaikas"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja.",
+          "title": "Cipta atau Import Dompet"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan.",
+          "title": "Segarkan pelayar anda"
         }
       },
       "qr_code": {
         "step1": {
-          "title": "Open the Kaikas app",
-          "description": "Put Kaikas app on your home screen for faster access to your wallet."
+          "title": "Buka aplikasi Kaikas",
+          "description": "Letakkan aplikasi Kaikas di skrin utama anda untuk akses yang lebih cepat ke dompet anda."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Cipta atau Import Dompet",
+          "description": "Cipta dompet baharu atau import dompet sedia ada."
         },
         "step3": {
-          "title": "Tap Scanner Icon in top right corner",
-          "description": "Choose New Connection, then scan the QR code and confirm the prompt to connect."
+          "title": "Ketuk Ikon Pemindai di sudut kanan atas",
+          "description": "Pilih Sambungan Baru, kemudian imbas kod QR dan sahkan arahan untuk menghubung."
         }
       }
     },
     "kaia": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Kaia to your taskbar for quicker access to your wallet.",
-          "title": "Install the Kaia extension"
+          "description": "Kami mengesyorkan memasang Kaia pada bar tugas anda untuk akses lebih cepat ke dompet anda.",
+          "title": "Pasang sambungan Kaia"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja.",
+          "title": "Cipta atau Import Dompet"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan.",
+          "title": "Segarkan pelayar anda"
         }
       },
       "qr_code": {
         "step1": {
-          "title": "Open the Kaia app",
-          "description": "Put Kaia app on your home screen for faster access to your wallet."
+          "title": "Buka aplikasi Kaia",
+          "description": "Letakkan aplikasi Kaia pada skrin utama anda untuk akses lebih cepat ke dompet anda."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Cipta atau Import Dompet",
+          "description": "Cipta dompet baharu atau import dompet sedia ada."
         },
         "step3": {
-          "title": "Tap Scanner Icon in top right corner",
-          "description": "Choose New Connection, then scan the QR code and confirm the prompt to connect."
+          "title": "Ketuk Ikon Pemindai di sudut kanan atas",
+          "description": "Pilih Sambungan Baru, kemudian imbas kod QR dan sahkan arahan untuk menghubung."
         }
       }
     },
     "kraken": {
       "qr_code": {
         "step1": {
-          "title": "Open the Kraken Wallet app",
-          "description": "Add Kraken Wallet to your home screen for faster access to your wallet."
+          "title": "Buka aplikasi Kraken Wallet",
+          "description": "Tambah Kraken Wallet ke skrin utama anda untuk akses yang lebih cepat ke dompet anda."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Cipta atau Import Dompet",
+          "description": "Cipta dompet baharu atau import dompet sedia ada."
         },
         "step3": {
-          "title": "Tap the QR icon and scan",
-          "description": "Tap the QR icon on your homescreen, scan the code and confirm the prompt to connect."
+          "title": "Ketuk ikon QR dan imbas",
+          "description": "Ketik ikon QR pada skrin utama anda, imbas kod dan sahkan permintaan untuk bersambung."
         }
       }
     },
     "kresus": {
       "qr_code": {
         "step1": {
-          "title": "Open the Kresus Wallet app",
-          "description": "Add Kresus Wallet to your home screen for faster access to your wallet."
+          "title": "Buka aplikasi Kresus Wallet",
+          "description": "Tambahkan Kresus Wallet ke skrin utama anda untuk akses yang lebih cepat ke dompet anda."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Cipta atau Import Dompet",
+          "description": "Cipta dompet baharu atau import dompet sedia ada."
         },
         "step3": {
-          "title": "Tap the QR icon and scan",
-          "description": "Tap the QR icon on your homescreen, scan the code and confirm the prompt to connect."
+          "title": "Ketuk ikon QR dan imbas",
+          "description": "Ketik ikon QR pada skrin utama anda, imbas kod dan sahkan permintaan untuk bersambung."
         }
       }
     },
     "magicEden": {
       "extension": {
         "step1": {
-          "title": "Install the Magic Eden extension",
-          "description": "We recommend pinning Magic Eden to your taskbar for easier access to your wallet."
+          "title": "Pasang sambungan Magic Eden",
+          "description": "Kami mencadangkan anda menyemat Magic Eden ke bar tugas anda untuk akses lebih mudah ke dompet anda."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret recovery phrase with anyone."
+          "title": "Cipta atau Import Dompet",
+          "description": "Pastikan anda membuat salinan sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa pemulihan rahsia anda dengan sesiapa."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Segarkan pelayar anda",
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan."
         }
       }
     },
     "metamask": {
       "qr_code": {
         "step1": {
-          "title": "Open the MetaMask app",
-          "description": "We recommend putting MetaMask on your home screen for quicker access."
+          "title": "Buka aplikasi MetaMask",
+          "description": "Kami mengesyorkan meletakkan MetaMask pada skrin utama anda untuk akses lebih cepat."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Cipta atau Import Dompet",
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja."
         },
         "step3": {
-          "title": "Tap the scan button",
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet."
+          "title": "Ketuk butang Imbas",
+          "description": "Setelah anda mengimbas, prompt sambungan akan muncul untuk anda sambungkan dompet anda."
         }
       },
       "extension": {
         "step1": {
-          "title": "Install the MetaMask extension",
-          "description": "We recommend pinning MetaMask to your taskbar for quicker access to your wallet."
+          "title": "Pasang pelanjutan MetaMask",
+          "description": "Kami mengesyorkan menetapkan MetaMask pada bar tugas anda untuk akses lebih cepat ke dompet anda."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Cipta atau Import Dompet",
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Segarkan pelayar anda",
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan."
         }
       }
     },
     "nestwallet": {
       "extension": {
         "step1": {
-          "title": "Install the NestWallet extension",
-          "description": "We recommend pinning NestWallet to your taskbar for quicker access to your wallet."
+          "title": "Pasang sambungan NestWallet",
+          "description": "Kami menyarankan anda menyemat NestWallet ke bar tugas anda untuk akses yang lebih cepat ke dompet anda."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Cipta atau Import Dompet",
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Segarkan pelayar anda",
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan."
         }
       }
     },
     "okx": {
       "qr_code": {
         "step1": {
-          "title": "Open the OKX Wallet app",
-          "description": "We recommend putting OKX Wallet on your home screen for quicker access."
+          "title": "Buka aplikasi OKX Wallet",
+          "description": "Kami mengesyorkan meletakkan OKX Wallet pada skrin utama anda untuk akses lebih cepat."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Cipta atau Import Dompet",
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja."
         },
         "step3": {
-          "title": "Tap the scan button",
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet."
+          "title": "Ketuk butang Imbas",
+          "description": "Setelah anda mengimbas, prompt sambungan akan muncul untuk anda sambungkan dompet anda."
         }
       },
       "extension": {
         "step1": {
-          "title": "Install the OKX Wallet extension",
-          "description": "We recommend pinning OKX Wallet to your taskbar for quicker access to your wallet."
+          "title": "Pasang pelanjutan OKX Wallet",
+          "description": "Kami mengesyorkan menetapkan OKX Wallet pada bar tugas anda untuk akses lebih cepat ke dompet anda."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Cipta atau Import Dompet",
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Segarkan pelayar anda",
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan."
         }
       }
     },
     "omni": {
       "qr_code": {
         "step1": {
-          "title": "Open the Omni app",
-          "description": "Add Omni to your home screen for faster access to your wallet."
+          "title": "Buka aplikasi Omni",
+          "description": "Tambahkan Omni ke skrin utama anda untuk akses lebih cepat ke dompet anda."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Cipta atau Import Dompet",
+          "description": "Cipta dompet baharu atau import dompet sedia ada."
         },
         "step3": {
-          "title": "Tap the QR icon and scan",
-          "description": "Tap the QR icon on your home screen, scan the code and confirm the prompt to connect."
+          "title": "Ketuk ikon QR dan imbas",
+          "description": "Ketuk ikon QR pada skrin utama anda, imbas kod dan sahkan arahan untuk menghubung."
         }
       }
     },
     "1inch": {
       "qr_code": {
         "step1": {
-          "description": "Put 1inch Wallet on your home screen for faster access to your wallet.",
-          "title": "Open the 1inch Wallet app"
+          "description": "Letakkan 1inch Wallet di skrin utama anda untuk akses lebih cepat ke dompet anda.",
+          "title": "Buka aplikasi 1inch Wallet"
         },
         "step2": {
-          "description": "Create a wallet and username, or import an existing wallet.",
-          "title": "Create or Import a Wallet"
+          "description": "Cipta dompet dan nama pengguna, atau import dompet sedia ada.",
+          "title": "Cipta atau Import Dompet"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the Scan QR button"
+          "description": "Setelah anda mengimbas, prompt sambungan akan muncul untuk anda sambungkan dompet anda.",
+          "title": "Ketuk butang Imbas QR"
         }
       }
     },
     "token_pocket": {
       "qr_code": {
         "step1": {
-          "title": "Open the TokenPocket app",
-          "description": "We recommend putting TokenPocket on your home screen for quicker access."
+          "title": "Buka aplikasi TokenPocket",
+          "description": "Kami mengesyorkan meletakkan TokenPocket pada skrin utama anda untuk akses lebih cepat."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Cipta atau Import Dompet",
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja."
         },
         "step3": {
-          "title": "Tap the scan button",
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet."
+          "title": "Ketuk butang Imbas",
+          "description": "Setelah anda mengimbas, prompt sambungan akan muncul untuk anda sambungkan dompet anda."
         }
       },
       "extension": {
         "step1": {
-          "title": "Install the TokenPocket extension",
-          "description": "We recommend pinning TokenPocket to your taskbar for quicker access to your wallet."
+          "title": "Pasang pelanjutan TokenPocket",
+          "description": "Kami mengesyorkan anda menyematkan TokenPocket ke taskbar anda untuk akses yang lebih cepat ke dompet anda."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Cipta atau Import Dompet",
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Segarkan pelayar anda",
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan."
         }
       }
     },
     "trust": {
       "qr_code": {
         "step1": {
-          "title": "Open the Trust Wallet app",
-          "description": "Put Trust Wallet on your home screen for faster access to your wallet."
+          "title": "Buka aplikasi Trust Wallet",
+          "description": "Letakkan Trust Wallet pada skrin utama anda untuk akses yang lebih cepat ke dompet anda."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Cipta atau Import Dompet",
+          "description": "Cipta dompet baharu atau import dompet sedia ada."
         },
         "step3": {
-          "title": "Tap WalletConnect in Settings",
-          "description": "Choose New Connection, then scan the QR code and confirm the prompt to connect."
+          "title": "Ketuk WalletConnect di Tetapan",
+          "description": "Pilih Sambungan Baru, kemudian imbas kod QR dan sahkan arahan untuk menghubung."
         }
       },
       "extension": {
         "step1": {
-          "title": "Install the Trust Wallet extension",
-          "description": "Click at the top right of your browser and pin Trust Wallet for easy access."
+          "title": "Pasang pelanjutan Trust Wallet",
+          "description": "Klik di bahagian atas kanan pelayar anda dan sematkan Trust Wallet untuk akses mudah."
         },
         "step2": {
-          "title": "Create or Import a wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Buat atau Import dompet",
+          "description": "Cipta dompet baharu atau import dompet sedia ada."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up Trust Wallet, click below to refresh the browser and load up the extension."
+          "title": "Segarkan pelayar anda",
+          "description": "Setelah anda sediakan Trust Wallet, klik di bawah untuk menyegarkan pelayar dan memuatkan pelanjutan."
         }
       }
     },
     "uniswap": {
       "qr_code": {
         "step1": {
-          "title": "Open the Uniswap app",
-          "description": "Add Uniswap Wallet to your home screen for faster access to your wallet."
+          "title": "Buka aplikasi Uniswap",
+          "description": "Tambahkan Uniswap Wallet ke skrin utama anda untuk akses yang lebih cepat ke dompet anda."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Cipta atau Import Dompet",
+          "description": "Cipta dompet baharu atau import dompet sedia ada."
         },
         "step3": {
-          "title": "Tap the QR icon and scan",
-          "description": "Tap the QR icon on your homescreen, scan the code and confirm the prompt to connect."
+          "title": "Ketuk ikon QR dan imbas",
+          "description": "Ketik ikon QR pada skrin utama anda, imbas kod dan sahkan permintaan untuk bersambung."
         }
       }
     },
     "zerion": {
       "qr_code": {
         "step1": {
-          "title": "Open the Zerion app",
-          "description": "We recommend putting Zerion on your home screen for quicker access."
+          "title": "Buka aplikasi Zerion",
+          "description": "Kami mengesyorkan meletakkan Zerion pada skrin utama anda untuk akses yang lebih cepat."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Cipta atau Import Dompet",
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja."
         },
         "step3": {
-          "title": "Tap the scan button",
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet."
+          "title": "Ketuk butang Imbas",
+          "description": "Setelah anda mengimbas, prompt sambungan akan muncul untuk anda sambungkan dompet anda."
         }
       },
       "extension": {
         "step1": {
-          "title": "Install the Zerion extension",
-          "description": "We recommend pinning Zerion to your taskbar for quicker access to your wallet."
+          "title": "Pasang pelanjutan Zerion",
+          "description": "Kami mengesyorkan anda menyematkan Zerion ke taskbar anda untuk akses yang lebih cepat ke dompet anda."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Cipta atau Import Dompet",
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Segarkan pelayar anda",
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan."
         }
       }
     },
     "rainbow": {
       "qr_code": {
         "step1": {
-          "title": "Open the Rainbow app",
-          "description": "We recommend putting Rainbow on your home screen for faster access to your wallet."
+          "title": "Buka aplikasi Rainbow",
+          "description": "Kami mengesyorkan meletakkan Rainbow pada skrin utama anda untuk akses yang lebih cepat ke dompet anda."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "You can easily backup your wallet using our backup feature on your phone."
+          "title": "Cipta atau Import Dompet",
+          "description": "Anda boleh membuat sandaran dompet anda dengan mudah menggunakan ciri sandaran kami pada telefon anda."
         },
         "step3": {
-          "title": "Tap the scan button",
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet."
+          "title": "Ketuk butang Imbas",
+          "description": "Setelah anda mengimbas, prompt sambungan akan muncul untuk anda sambungkan dompet anda."
         }
       }
     },
     "enkrypt": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Enkrypt Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Enkrypt Wallet extension"
+          "description": "Kami mengesyorkan anda menyematkan Enkrypt Wallet ke taskbar anda untuk akses yang lebih cepat ke dompet anda.",
+          "title": "Pasang pelanjutan Enkrypt Wallet"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja.",
+          "title": "Cipta atau Import Dompet"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan.",
+          "title": "Segarkan pelayar anda"
         }
       }
     },
     "frame": {
       "extension": {
         "step1": {
-          "description": "We recommend pinning Frame to your taskbar for quicker access to your wallet.",
-          "title": "Install Frame & the companion extension"
+          "description": "Kami mengesyorkan anda menyematkan Frame ke taskbar anda untuk akses yang lebih cepat ke dompet anda.",
+          "title": "Pasang Frame & pelanjutan teman"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja.",
+          "title": "Cipta atau Import Dompet"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan.",
+          "title": "Segarkan pelayar anda"
         }
       }
     },
     "one_key": {
       "extension": {
         "step1": {
-          "title": "Install the OneKey Wallet extension",
-          "description": "We recommend pinning OneKey Wallet to your taskbar for quicker access to your wallet."
+          "title": "Pasang sambungan OneKey Wallet",
+          "description": "Kami mengesyorkan anda pin OneKey Wallet ke taskbar anda untuk akses lebih cepat ke dompet anda."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Cipta atau Import Dompet",
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Segarkan pelayar anda",
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan."
         }
       }
     },
     "paraswap": {
       "qr_code": {
         "step1": {
-          "title": "Open the ParaSwap app",
-          "description": "Add ParaSwap Wallet to your home screen for faster access to your wallet."
+          "title": "Buka aplikasi ParaSwap",
+          "description": "Tambah ParaSwap Wallet ke skrin utama anda untuk akses lebih cepat ke dompet anda."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Cipta atau Import Dompet",
+          "description": "Cipta dompet baharu atau import dompet sedia ada."
         },
         "step3": {
-          "title": "Tap the QR icon and scan",
-          "description": "Tap the QR icon on your homescreen, scan the code and confirm the prompt to connect."
+          "title": "Ketuk ikon QR dan imbas",
+          "description": "Ketik ikon QR pada skrin utama anda, imbas kod dan sahkan permintaan untuk bersambung."
         }
       }
     },
     "phantom": {
       "extension": {
         "step1": {
-          "title": "Install the Phantom extension",
-          "description": "We recommend pinning Phantom to your taskbar for easier access to your wallet."
+          "title": "Pasang sambungan Phantom",
+          "description": "Kami mengesyorkan anda pin Phantom ke taskbar anda untuk akses lebih mudah ke dompet anda."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret recovery phrase with anyone."
+          "title": "Cipta atau Import Dompet",
+          "description": "Pastikan anda membuat salinan sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa pemulihan rahsia anda dengan sesiapa."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Segarkan pelayar anda",
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan."
         }
       }
     },
     "rabby": {
       "extension": {
         "step1": {
-          "title": "Install the Rabby extension",
-          "description": "We recommend pinning Rabby to your taskbar for quicker access to your wallet."
+          "title": "Pasang sambungan Rabby",
+          "description": "Kami mengesyorkan anda pin Rabby ke taskbar anda untuk akses lebih cepat ke dompet anda."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Cipta atau Import Dompet",
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Segarkan pelayar anda",
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan."
         }
       }
     },
     "ronin": {
       "qr_code": {
         "step1": {
-          "description": "We recommend putting Ronin Wallet on your home screen for quicker access.",
-          "title": "Open the Ronin Wallet app"
+          "description": "Kami mengesyorkan meletakkan Ronin Wallet pada skrin utama anda untuk akses yang lebih cepat.",
+          "title": "Buka aplikasi Ronin Wallet"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja.",
+          "title": "Cipta atau Import Dompet"
         },
         "step3": {
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet.",
-          "title": "Tap the scan button"
+          "description": "Setelah anda mengimbas, prompt sambungan akan muncul untuk anda sambungkan dompet anda.",
+          "title": "Ketuk butang Imbas"
         }
       },
       "extension": {
         "step1": {
-          "description": "We recommend pinning Ronin Wallet to your taskbar for quicker access to your wallet.",
-          "title": "Install the Ronin Wallet extension"
+          "description": "Kami mengesyorkan menyematkan Ronin Wallet pada taskbar anda untuk akses yang lebih cepat ke dompet anda.",
+          "title": "Pasang sambungan Ronin Wallet"
         },
         "step2": {
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone.",
-          "title": "Create or Import a Wallet"
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja.",
+          "title": "Cipta atau Import Dompet"
         },
         "step3": {
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension.",
-          "title": "Refresh your browser"
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan.",
+          "title": "Segarkan pelayar anda"
         }
       }
     },
     "ramper": {
       "extension": {
         "step1": {
-          "title": "Install the Ramper extension",
-          "description": "We recommend pinning Ramper to your taskbar for easier access to your wallet."
+          "title": "Pasang sambungan Ramper",
+          "description": "Kami mengesyorkan menyematkan Ramper pada taskbar anda untuk akses yang lebih mudah ke dompet anda."
         },
         "step2": {
-          "title": "Create a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Cipta Dompet",
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Segarkan pelayar anda",
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan."
         }
       }
     },
     "safeheron": {
       "extension": {
         "step1": {
-          "title": "Install the Core extension",
-          "description": "We recommend pinning Safeheron to your taskbar for quicker access to your wallet."
+          "title": "Pasang sambungan Core",
+          "description": "Kami mengesyorkan anda pin Safeheron ke taskbar anda untuk akses lebih cepat ke dompet anda."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Cipta atau Import Dompet",
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Segarkan pelayar anda",
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan."
         }
       }
     },
     "taho": {
       "extension": {
         "step1": {
-          "title": "Install the Taho extension",
-          "description": "We recommend pinning Taho to your taskbar for quicker access to your wallet."
+          "title": "Pasang sambungan Taho",
+          "description": "Kami mengesyorkan anda pin Taho ke taskbar anda untuk akses lebih cepat ke dompet anda."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Cipta atau Import Dompet",
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Segarkan pelayar anda",
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan."
         }
       }
     },
     "wigwam": {
       "extension": {
         "step1": {
-          "title": "Install the Wigwam extension",
-          "description": "We recommend pinning Wigwam to your taskbar for quicker access to your wallet."
+          "title": "Pasang sambungan Wigwam",
+          "description": "Kami mengesyorkan memasang Wigwam pada bar tugas anda untuk akses lebih cepat ke dompet anda."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Cipta atau Import Dompet",
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Segarkan pelayar anda",
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan."
         }
       }
     },
     "talisman": {
       "extension": {
         "step1": {
-          "title": "Install the Talisman extension",
-          "description": "We recommend pinning Talisman to your taskbar for quicker access to your wallet."
+          "title": "Pasang sambungan Talisman",
+          "description": "Kami mengesyorkan anda pin Talisman ke taskbar anda untuk akses lebih cepat ke dompet anda."
         },
         "step2": {
-          "title": "Create or Import an Ethereum Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your recovery phrase with anyone."
+          "title": "Cipta atau Import Dompet Ethereum",
+          "description": "Pastikan anda membuat salinan sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa pemulihan anda dengan sesiapa."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Segarkan pelayar anda",
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan."
         }
       }
     },
     "xdefi": {
       "extension": {
         "step1": {
-          "title": "Install the XDEFI Wallet extension",
-          "description": "We recommend pinning XDEFI Wallet to your taskbar for quicker access to your wallet."
+          "title": "Pasang sambungan XDEFI Wallet",
+          "description": "Kami mengesyorkan anda pin XDEFI Wallet ke taskbar anda untuk akses lebih cepat ke dompet anda."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Cipta atau Import Dompet",
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Segarkan pelayar anda",
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan."
         }
       }
     },
     "zeal": {
       "qr_code": {
         "step1": {
-          "title": "Open the Zeal app",
-          "description": "Add Zeal Wallet to your home screen for faster access to your wallet."
+          "title": "Buka aplikasi Zeal",
+          "description": "Tambah Zeal Wallet ke skrin utama anda untuk akses lebih cepat ke dompet anda."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Cipta atau Import Dompet",
+          "description": "Cipta dompet baharu atau import dompet sedia ada."
         },
         "step3": {
-          "title": "Tap the QR icon and scan",
-          "description": "Tap the QR icon on your homescreen, scan the code and confirm the prompt to connect."
+          "title": "Ketuk ikon QR dan imbas",
+          "description": "Ketik ikon QR pada skrin utama anda, imbas kod dan sahkan permintaan untuk bersambung."
         }
       },
       "extension": {
         "step1": {
-          "title": "Install the Zeal extension",
-          "description": "We recommend pinning Zeal to your taskbar for quicker access to your wallet."
+          "title": "Pasang sambungan Zeal",
+          "description": "Kami mengesyorkan anda pin Zeal ke taskbar anda untuk akses lebih cepat ke dompet anda."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Cipta atau Import Dompet",
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Segarkan pelayar anda",
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan."
         }
       }
     },
     "safepal": {
       "extension": {
         "step1": {
-          "title": "Install the SafePal Wallet extension",
-          "description": "Click at the top right of your browser and pin SafePal Wallet for easy access."
+          "title": "Pasang sambungan SafePal Wallet",
+          "description": "Klik di bahagian atas kanan pelayar anda dan tambahkan SafePal Wallet untuk akses mudah."
         },
         "step2": {
-          "title": "Create or Import a wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Buat atau Import dompet",
+          "description": "Cipta dompet baharu atau import dompet sedia ada."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up SafePal Wallet, click below to refresh the browser and load up the extension."
+          "title": "Segarkan pelayar anda",
+          "description": "Setelah anda menyediakan Dompet SafePal, klik dibawah untuk memuat semula pelayar dan muatkan sambungan."
         }
       },
       "qr_code": {
         "step1": {
-          "title": "Open the SafePal Wallet app",
-          "description": "Put SafePal Wallet on your home screen for faster access to your wallet."
+          "title": "Buka aplikasi SafePal Wallet",
+          "description": "Letakkan SafePal Wallet pada skrin utama anda bagi capaian lebih pantas kepada dompet anda."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Cipta atau Import Dompet",
+          "description": "Cipta dompet baharu atau import dompet sedia ada."
         },
         "step3": {
-          "title": "Tap WalletConnect in Settings",
-          "description": "Choose New Connection, then scan the QR code and confirm the prompt to connect."
+          "title": "Ketuk WalletConnect di Tetapan",
+          "description": "Pilih Sambungan Baru, kemudian imbas kod QR dan sahkan arahan untuk menghubung."
         }
       }
     },
     "desig": {
       "extension": {
         "step1": {
-          "title": "Install the Desig extension",
-          "description": "We recommend pinning Desig to your taskbar for easier access to your wallet."
+          "title": "Pasang sambungan Desig",
+          "description": "Kami mencadangkan untuk menyematkan Desig pada bar tugas anda supaya lebih mudah untuk diakses."
         },
         "step2": {
-          "title": "Create a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Cipta Dompet",
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Segarkan pelayar anda",
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan."
         }
       }
     },
     "subwallet": {
       "extension": {
         "step1": {
-          "title": "Install the SubWallet extension",
-          "description": "We recommend pinning SubWallet to your taskbar for quicker access to your wallet."
+          "title": "Pasang sambungan SubWallet",
+          "description": "Kami mencadangkan untuk menyematkan SubWallet pada bar tugas anda supaya lebih mudah untuk diakses."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your recovery phrase with anyone."
+          "title": "Cipta atau Import Dompet",
+          "description": "Pastikan anda membuat salinan sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa pemulihan anda dengan sesiapa."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Segarkan pelayar anda",
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan."
         }
       },
       "qr_code": {
         "step1": {
-          "title": "Open the SubWallet app",
-          "description": "We recommend putting SubWallet on your home screen for quicker access."
+          "title": "Buka aplikasi SubWallet",
+          "description": "Kami mencadangkan untuk meletakkan SubWallet di skrin utama anda untuk capaian lebih cepat."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Cipta atau Import Dompet",
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja."
         },
         "step3": {
-          "title": "Tap the scan button",
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet."
+          "title": "Ketuk butang Imbas",
+          "description": "Setelah anda mengimbas, prompt sambungan akan muncul untuk anda sambungkan dompet anda."
         }
       }
     },
     "clv": {
       "extension": {
         "step1": {
-          "title": "Install the CLV Wallet extension",
-          "description": "We recommend pinning CLV Wallet to your taskbar for quicker access to your wallet."
+          "title": "Pasang sambungan CLV Wallet",
+          "description": "Kami mencadangkan untuk menyematkan CLV Wallet pada bar tugas anda supaya lebih mudah untuk diakses."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Cipta atau Import Dompet",
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja."
         },
         "step3": {
-          "title": "Refresh your browser",
-          "description": "Once you set up your wallet, click below to refresh the browser and load up the extension."
+          "title": "Segarkan pelayar anda",
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan."
         }
       },
       "qr_code": {
         "step1": {
-          "title": "Open the CLV Wallet app",
-          "description": "We recommend putting CLV Wallet on your home screen for quicker access."
+          "title": "Buka aplikasi CLV Wallet",
+          "description": "Kami mencadangkan untuk meletakkan CLV Wallet di skrin utama anda untuk akses lebih cepat."
         },
         "step2": {
-          "title": "Create or Import a Wallet",
-          "description": "Be sure to back up your wallet using a secure method. Never share your secret phrase with anyone."
+          "title": "Cipta atau Import Dompet",
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja."
         },
         "step3": {
-          "title": "Tap the scan button",
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet."
+          "title": "Ketuk butang Imbas",
+          "description": "Setelah anda mengimbas, prompt sambungan akan muncul untuk anda sambungkan dompet anda."
         }
       }
     },
     "okto": {
       "qr_code": {
         "step1": {
-          "title": "Open the Okto app",
-          "description": "Add Okto to your home screen for quick access"
+          "title": "Buka aplikasi Okto",
+          "description": "Tambah Okto ke skrin utama anda untuk akses cepat"
         },
         "step2": {
-          "title": "Create an MPC Wallet",
-          "description": "Create an account and generate a wallet"
+          "title": "Cipta Dompet MPC",
+          "description": "Cipta akaun dan jana dompet"
         },
         "step3": {
-          "title": "Tap WalletConnect in Settings",
-          "description": "Tap the Scan QR icon at the top right and confirm the prompt to connect."
+          "title": "Ketuk WalletConnect di Tetapan",
+          "description": "Ketuk ikon Imbas QR di atas kanan dan sahkan arahan untuk menyambung."
         }
       }
     },
     "ledger": {
       "desktop": {
         "step1": {
-          "title": "Open the Ledger Live app",
-          "description": "We recommend putting Ledger Live on your home screen for quicker access."
+          "title": "Buka aplikasi Ledger Live",
+          "description": "Kami mencadangkan meletakkan Ledger Live di skrin utama anda untuk akses lebih cepat."
         },
         "step2": {
-          "title": "Set up your Ledger",
-          "description": "Set up a new Ledger or connect to an existing one."
+          "title": "Tentukan Ledger anda",
+          "description": "Tentukan Ledger yang baru atau sambung ke yang sedia ada."
         },
         "step3": {
-          "title": "Connect",
-          "description": "A connection prompt will appear for you to connect your wallet."
+          "title": "Sambung",
+          "description": "Arahan sambungan akan muncul untuk anda menyambungkan dompet anda."
         }
       },
       "qr_code": {
         "step1": {
-          "title": "Open the Ledger Live app",
-          "description": "We recommend putting Ledger Live on your home screen for quicker access."
+          "title": "Buka aplikasi Ledger Live",
+          "description": "Kami mencadangkan meletakkan Ledger Live di skrin utama anda untuk akses lebih cepat."
         },
         "step2": {
-          "title": "Set up your Ledger",
-          "description": "You can either sync with the desktop app or connect your Ledger."
+          "title": "Tentukan Ledger anda",
+          "description": "Anda boleh sama ada menyelaraskan dengan aplikasi desktop atau menyambungkan Ledger anda."
         },
         "step3": {
-          "title": "Scan the code",
-          "description": "Tap WalletConnect then Switch to Scanner. After you scan, a connection prompt will appear for you to connect your wallet."
+          "title": "Imbas kod",
+          "description": "Ketuk WalletConnect kemudian Bertukar ke Pengimbas. Selepas anda mengimbas, arahan sambungan akan muncul untuk anda menyambungkan dompet anda."
         }
       }
     },
     "valora": {
       "qr_code": {
         "step1": {
-          "title": "Open the Valora app",
-          "description": "We recommend putting Valora on your home screen for quicker access."
+          "title": "Buka aplikasi Valora",
+          "description": "Kami mengesyorkan meletakkan Valora pada skrin utama anda untuk akses lebih cepat."
         },
         "step2": {
-          "title": "Create or import a wallet",
-          "description": "Create a new wallet or import an existing one."
+          "title": "Buat atau import dompet",
+          "description": "Cipta dompet baharu atau import dompet sedia ada."
         },
         "step3": {
-          "title": "Tap the scan button",
-          "description": "After you scan, a connection prompt will appear for you to connect your wallet."
+          "title": "Ketuk butang Imbas",
+          "description": "Setelah anda mengimbas, prompt sambungan akan muncul untuk anda sambungkan dompet anda."
         }
       }
     }
