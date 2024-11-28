@@ -15,7 +15,7 @@ Có 3 chức năng chủ đề tích hợp sẵn:
 - `darkTheme`
 - `midnightTheme`
 
-Một chức năng chủ đề trả về một đối tượng chủ đề. Bạn có thể chuyển đối tượng này vào thuộc tính `theme` của `RainbowKitProvider`.
+Một hàm chủ đề trả về một đối tượng chủ đề. Bạn có thể truyền đối tượng này vào thuộc tính `theme` của `RainbowKitProvider`.
 
 ```tsx
 import { RainbowKitProvider, darkTheme } from '@rainbow-me/rainbowkit';
@@ -60,7 +60,7 @@ Các chức năng chủ đề tích hợp sẵn cũng chấp nhận một đối
       default: '"#0E76FD"',
       type: 'string',
       description:
-        'The background/text color of various interactive elements.',
+        'Màu nền/văn bản của các yếu tố tương tác khác nhau.',
     },
     {
       name: 'accentColorForeground',
@@ -68,7 +68,7 @@ Các chức năng chủ đề tích hợp sẵn cũng chấp nhận một đối
       default: '"white"',
       type: 'string',
       description:
-        'The color used for foreground elements rendered on top of the accent color.',
+        'Màu sắc được sử dụng cho các yếu tố tiền cảnh được dựng trên màu sắc chính.',
     },
     {
       name: 'borderRadius',
@@ -76,7 +76,7 @@ Các chức năng chủ đề tích hợp sẵn cũng chấp nhận một đối
       default: 'large',
       type: '"none" | "small" | "medium" | "large"',
       typeSimple: 'enum',
-      description: 'The size of the entire border radius scale.',
+      description: 'Kích thước của toàn bộ tỷ lệ bán kính viền.',
     },
     {
       name: 'fontStack',
@@ -84,8 +84,7 @@ Các chức năng chủ đề tích hợp sẵn cũng chấp nhận một đối
       default: 'rounded',
       type: '"rounded" | "system"',
       typeSimple: 'enum',
-      description:
-        "The font stack used throughout the UI. Note that `rounded` attempts to use SF Pro Rounded, falling back to system fonts when it isn't available.",
+      description: 'Cấu trúc font được sử dụng trên toàn bộ giao diện người dùng.',
     },
     {
       name: 'overlayBlur',
@@ -93,10 +92,10 @@ Các chức năng chủ đề tích hợp sẵn cũng chấp nhận một đối
       default: 'none',
       type: '"large" | "small" | "none"',
       typeSimple: 'enum',
-      description: 'The modal backdrop blur.',
+      description: 'Độ mờ nền cho các cửa sổ lớp chồng.',
     },
   ]}
-/>
+/>. Lưu ý rằng `rounded` cố gắng sử dụng SF Pro Rounded, quay trở lại font hệ thống khi nó không có sẵn.
 
 Ví dụ, để tùy chỉnh chủ đề tối với màu điểm nhấn tím và thang đo `medium` cho viền bo góc:
 
@@ -119,7 +118,7 @@ const App = () => {
 };
 ```
 
-Mỗi chủ đề cũng cung cấp nhiều cài đặt màu điểm nhấn sẵn có (`blue`, `green`, `orange`, `pink`, `purple`, `red`) có thể được thêm vào đối tượng tùy chọn. Ví dụ, để sử dụng cài đặt màu điểm nhấn `pink`:
+Mỗi chủ đề cũng cung cấp một số thiết lập màu sắc nhấn (`blue`, `green`, `orange`, `pink`, `purple`, `red`) có thể được đưa vào đối tượng tùy chọn. Ví dụ, để sử dụng thiết lập màu sắc nhấn `pink`:
 
 ```tsx
 import { RainbowKitProvider, darkTheme } from '@rainbow-me/rainbowkit';
@@ -260,7 +259,7 @@ const App = () => {
 
 #### Font stack
 
-Theo mặc định, `fontStack` được đặt thành `rounded`. Đây là cách bạn có thể sử dụng cấu hình `fontStack`.
+Mặc định, `fontStack` được đặt là `rounded`. Nhưng đây là cách bạn có thể sử dụng cấu hình `fontStack`.
 
 Đặt font stack là `system`.
 
@@ -283,7 +282,7 @@ const App = () => {
 
 #### Làm mờ lớp phủ
 
-Theo mặc định, `overlayBlur` được đặt thành `none`. Đây là cách bạn có thể sử dụng cấu hình `overlayBlur`.
+Mặc định, `overlayBlur` được đặt là `none`. Nhưng đây là cách bạn có thể sử dụng cấu hình `overlayBlur`.
 
 Đặt làm mờ lớp phủ là `small`.
 
