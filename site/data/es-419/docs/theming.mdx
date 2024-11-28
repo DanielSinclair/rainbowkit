@@ -60,7 +60,7 @@ Las funciones de tema incorporadas también aceptan un objeto de opciones, permi
       default: '"#0E76FD"',
       type: 'string',
       description:
-        'The background/text color of various interactive elements.',
+        'El color de fondo/texto de varios elementos interactivos.',
     },
     {
       name: 'accentColorForeground',
@@ -68,35 +68,24 @@ Las funciones de tema incorporadas también aceptan un objeto de opciones, permi
       default: '"white"',
       type: 'string',
       description:
-        'The color used for foreground elements rendered on top of the accent color.',
+        'El color utilizado para elementos de primer plano renderizados sobre el color de acento.',
     },
     {
       name: 'borderRadius',
       required: false,
-      default: 'large',
-      type: '"none" | "small" | "medium" | "large"',
+      default: 'grande',
+      type: '"none" | "pequeño" | "medio" | "grande"',
       typeSimple: 'enum',
-      description: 'The size of the entire border radius scale.',
+      description: 'El tamaño de toda la escala de radios de borde.',
     },
     {
       name: 'fontStack',
       required: false,
-      default: 'rounded',
-      type: '"rounded" | "system"',
+      default: 'redondeado',
+      type: '"redondeado" | "sistema"',
       typeSimple: 'enum',
       description:
-        "The font stack used throughout the UI. Note that `rounded` attempts to use SF Pro Rounded, falling back to system fonts when it isn't available.",
-    },
-    {
-      name: 'overlayBlur',
-      required: false,
-      default: 'none',
-      type: '"large" | "small" | "none"',
-      typeSimple: 'enum',
-      description: 'The modal backdrop blur.',
-    },
-  ]}
-/>
+        "La pila de fuentes utilizada en toda la interfaz de usuario. Note que `redondeado` intenta usar SF Pro Rounded, recurriendo a las fuentes del sistema cuando no está disponible.
 
 Por ejemplo, para personalizar el tema oscuro con un color de acento morado y una escala de radio de borde `medium`:
 
@@ -260,7 +249,7 @@ const App = () => {
 
 #### Pila de fuentes
 
-Pero aquí está cómo puedes usar la configuración `fontStack`. Pero aquí está cómo puedes usar la configuración `fontStack`.
+Por defecto, la `fontStack` está configurada a `rounded`. Pero aquí está cómo puedes usar la configuración `fontStack`.
 
 Establece la pila de fuentes en `system`.
 
@@ -283,7 +272,7 @@ const App = () => {
 
 #### Desenfoque de superposición
 
-Pero aquí está cómo puedes usar la configuración `overlayBlur`. Pero aquí está cómo puedes usar la configuración `overlayBlur`.
+Por defecto, el `overlayBlur` está configurado a `none`. Pero aquí está cómo puedes usar la configuración `overlayBlur`.
 
 Establece el desenfoque de superposición a `small`.
 
