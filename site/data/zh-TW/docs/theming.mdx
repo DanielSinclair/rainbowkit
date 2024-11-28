@@ -15,7 +15,7 @@ description: 使用和自訂主題
 - `darkTheme`
 - `midnightTheme`
 
-主題函數會返回一個主題對象。 您可以將對象傳遞給 `RainbowKitProvider` 的 `theme` 屬性。
+主題函數返回一個主題對象。 您可以將該對象傳遞給 `RainbowKitProvider` 的 `theme` 屬性。
 
 ```tsx
 import { RainbowKitProvider, darkTheme } from '@rainbow-me/rainbowkit';
@@ -57,46 +57,46 @@ export const App = () => (
     {
       name: 'accentColor',
       required: false,
-      default: '"#0E76FD"',
+      default: '\"#0E76FD\"',
       type: 'string',
       description:
-        'The background/text color of various interactive elements.',
+        '各種互動元素的背景/文本顏色。',
     },
     {
       name: 'accentColorForeground',
       required: false,
-      default: '"white"',
+      default: '\"white\"',
       type: 'string',
       description:
-        'The color used for foreground elements rendered on top of the accent color.',
+        '用於在強調色上方渲染前景元素的顏色。',
     },
     {
       name: 'borderRadius',
       required: false,
       default: 'large',
-      type: '"none" | "small" | "medium" | "large"',
+      type: '\"none\" | \"small\" | \"medium\" | \"large\"',
       typeSimple: 'enum',
-      description: 'The size of the entire border radius scale.',
+      description: '整個邊框半徑比例的大小。',
     },
     {
       name: 'fontStack',
       required: false,
       default: 'rounded',
-      type: '"rounded" | "system"',
+      type: '\"rounded\" | \"system\"',
       typeSimple: 'enum',
       description:
-        "The font stack used throughout the UI. Note that `rounded` attempts to use SF Pro Rounded, falling back to system fonts when it isn't available.",
+        'UI中使用的字體堆疊。',
     },
     {
       name: 'overlayBlur',
       required: false,
       default: 'none',
-      type: '"large" | "small" | "none"',
+      type: '\"large\" | \"small\" | \"none\"',
       typeSimple: 'enum',
-      description: 'The modal backdrop blur.',
+      description: '模態背景模糊。',
     },
   ]}
-/>
+/> 注意：`rounded` 試圖使用 SF Pro Rounded，當不可用時則回退到系統字體。
 
 每個主題還提供數個強調色預設值（`blue`、`green`、`orange`、`pink`、`purple`、`red`），可以展開到選項對象中。
 
@@ -119,7 +119,7 @@ const App = () => {
 };
 ```
 
-每個主題還提供幾個強調色預設（`blue`、`green`、`orange`、`pink`、`purple`、`red`），可以擴展到選項對象中。 主題函數
+每個主題也提供了幾種強調顏色預設（`blue`、`green`、`orange`、`pink`、`purple`、`red`）可以擴展到選項對象中。 例如，使用 `pink` 強調色預設：
 
 ```tsx
 import { RainbowKitProvider, darkTheme } from '@rainbow-me/rainbowkit';
@@ -260,7 +260,7 @@ const App = () => {
 
 #### 但這樣你可以使用`fontStack`配置。
 
-將字體堆疊設置為`system`。 背景模糊
+預設情況下，`fontStack` 設置為 `rounded`。 但是這是您可以使用 `fontStack` 配置的方法。
 
 默認情況下，`overlayBlur`設置為`none`。
 
@@ -283,7 +283,7 @@ const App = () => {
 
 #### 但這樣你可以使用`overlayBlur`配置。
 
-將背景模糊設定為`small`。 混合搭配
+預設情況下，`overlayBlur` 設置為 `none`。 但是這是您可以使用 `overlayBlur` 配置的方法。
 
 這裡有一些不同的方式來一起使用不同的主題，連同`accentColor`、`borderRadius`和`fontStack`屬性。
 
