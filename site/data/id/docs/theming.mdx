@@ -15,7 +15,7 @@ Ada 3 fungsi tema bawaan:
 - `darkTheme`
 - `midnightTheme`
 
-Fungsi tema mengembalikan objek tema. Anda bisa memasukkan objek ke prop `theme` milik `RainbowKitProvider`.
+Fungsi tema mengembalikan objek tema. Anda dapat meneruskan objek tersebut ke prop `theme` dari `RainbowKitProvider`.
 
 ```tsx
 import { RainbowKitProvider, darkTheme } from '@rainbow-me/rainbowkit';
@@ -60,7 +60,7 @@ Fungsi tema bawaan juga menerima objek pilihan, yang memungkinkan Anda untuk mem
       default: '"#0E76FD"',
       type: 'string',
       description:
-        'The background/text color of various interactive elements.',
+        'Warna latar belakang/teks dari berbagai elemen interaktif.',
     },
     {
       name: 'accentColorForeground',
@@ -68,7 +68,7 @@ Fungsi tema bawaan juga menerima objek pilihan, yang memungkinkan Anda untuk mem
       default: '"white"',
       type: 'string',
       description:
-        'The color used for foreground elements rendered on top of the accent color.',
+        'Warna yang digunakan untuk elemen latar depan yang di-render di atas warna aksen.',
     },
     {
       name: 'borderRadius',
@@ -76,7 +76,7 @@ Fungsi tema bawaan juga menerima objek pilihan, yang memungkinkan Anda untuk mem
       default: 'large',
       type: '"none" | "small" | "medium" | "large"',
       typeSimple: 'enum',
-      description: 'The size of the entire border radius scale.',
+      description: 'Ukuran dari seluruh skala radius sudut.',
     },
     {
       name: 'fontStack',
@@ -85,7 +85,7 @@ Fungsi tema bawaan juga menerima objek pilihan, yang memungkinkan Anda untuk mem
       type: '"rounded" | "system"',
       typeSimple: 'enum',
       description:
-        "The font stack used throughout the UI. Note that `rounded` attempts to use SF Pro Rounded, falling back to system fonts when it isn't available.",
+        'Tumpukan font yang digunakan di seluruh UI.',
     },
     {
       name: 'overlayBlur',
@@ -93,10 +93,10 @@ Fungsi tema bawaan juga menerima objek pilihan, yang memungkinkan Anda untuk mem
       default: 'none',
       type: '"large" | "small" | "none"',
       typeSimple: 'enum',
-      description: 'The modal backdrop blur.',
+      description: 'Efek blur pada latar belakang modal.',
     },
   ]}
-/>
+/> Perhatikan bahwa `rounded` mencoba menggunakan SF Pro Rounded, kembali ke font sistem jika tidak tersedia
 
 Sebagai contoh, untuk menyesuaikan tema gelap dengan warna aksen ungu dan radius batas `medium`:
 
@@ -119,7 +119,7 @@ const App = () => {
 };
 ```
 
-Setiap tema juga menyediakan beberapa preset warna aksen (`blue`, `green`, `orange`, `pink`, `purple`, `red`) yang dapat dimasukkan ke dalam objek pilihan. Sebagai contoh, untuk menggunakan preset warna aksen `pink`:
+Setiap tema juga menyediakan beberapa preset warna aksen (`blue`, `green`, `orange`, `pink`, `purple`, `red`) yang dapat dimasukkan ke dalam objek opsi. Sebagai contoh, untuk menggunakan preset warna aksen `pink`:
 
 ```tsx
 import { RainbowKitProvider, darkTheme } from '@rainbow-me/rainbowkit';
@@ -260,7 +260,7 @@ const App = () => {
 
 #### Tumpukan Font
 
-Secara default, `fontStack` diatur ke `rounded`. Namun, berikut cara Anda bisa menggunakan konfigurasi `fontStack`.
+Secara default, `fontStack` disetel ke `rounded`. Namun, berikut adalah cara Anda dapat menggunakan konfigurasi `fontStack`.
 
 Tetapkan font stack ke `system`.
 
@@ -283,7 +283,7 @@ const App = () => {
 
 #### Kabur overlay
 
-Secara default, `overlayBlur` diatur ke `none`. Namun, berikut cara Anda bisa menggunakan konfigurasi `overlayBlur`.
+Secara default, `overlayBlur` disetel ke `none`. Tetapi inilah cara Anda dapat menggunakan konfigurasi `overlayBlur`.
 
 Tetapkan kabur overlay ke `small`.
 
