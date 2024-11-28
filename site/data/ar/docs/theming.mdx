@@ -15,7 +15,7 @@ description: استخدام وتخصيص السمات
 - `darkTheme`
 - `midnightTheme`
 
-تعيد وظيفة السمة كائن سمة. يمكنك تمرير الكائن إلى خاصية `theme` لـ `RainbowKitProvider`.
+تُعيد وظيفة السمة كائن سمة. يمكنك تمرير الكائن إلى خاصية `theme` لـ `RainbowKitProvider`.
 
 ```tsx
 import { RainbowKitProvider, darkTheme } from '@rainbow-me/rainbowkit';
@@ -60,7 +60,7 @@ export const App = () => (
       default: '"#0E76FD"',
       type: 'string',
       description:
-        'The background/text color of various interactive elements.',
+        'لون الخلفية/النص لعناصر تفاعلية مختلفة.',
     },
     {
       name: 'accentColorForeground',
@@ -68,7 +68,7 @@ export const App = () => (
       default: '"white"',
       type: 'string',
       description:
-        'The color used for foreground elements rendered on top of the accent color.',
+        'اللون المستخدم لعناصر المقدمة التي تظهر فوق اللون المميز.',
     },
     {
       name: 'borderRadius',
@@ -76,7 +76,7 @@ export const App = () => (
       default: 'large',
       type: '"none" | "small" | "medium" | "large"',
       typeSimple: 'enum',
-      description: 'The size of the entire border radius scale.',
+      description: 'حجم المقياس الكامل لانحناء الحدود.',
     },
     {
       name: 'fontStack',
@@ -85,7 +85,7 @@ export const App = () => (
       type: '"rounded" | "system"',
       typeSimple: 'enum',
       description:
-        "The font stack used throughout the UI. Note that `rounded` attempts to use SF Pro Rounded, falling back to system fonts when it isn't available.",
+        'مجموعة الخطوط المستخدمة في واجهة المستخدم.',
     },
     {
       name: 'overlayBlur',
@@ -93,7 +93,18 @@ export const App = () => (
       default: 'none',
       type: '"large" | "small" | "none"',
       typeSimple: 'enum',
-      description: 'The modal backdrop blur.',
+      description: "تشويش خلفية النوافذ المتراكبة.",
+    },
+  ]}
+/>. لاحظ أن `rounded` يحاول استخدام SF Pro Rounded، ويعود لاستخدام الخطوط النظامية عندما لا تكون متوفرة.",
+    },
+    {
+      name: 'overlayBlur',
+      required: false,
+      default: 'none',
+      type: '"large" | "small" | "none"',
+      typeSimple: 'enum',
+      description: 'التشويش الخلفي للنماذج.',
     },
   ]}
 />
