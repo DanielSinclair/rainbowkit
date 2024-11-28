@@ -122,7 +122,7 @@ export const YourApp = () => {
       required: false,
       type: 'object | undefined',
       description:
-        'Object containing details about the current account, described below',
+        'كائن يحتوي على تفاصيل حول الحساب الحالي، موضح أدناه',
     },
     {
       name: 'account.address',
@@ -130,7 +130,7 @@ export const YourApp = () => {
       type: 'string',
       description: (
         <>
-          The full account address, e.g.
+          العنوان الكامل للحساب، على سبيل المثال.
           "0x7a3d05c70581bD345fe117c06e45f9669205384f"
         </>
       ),
@@ -139,7 +139,7 @@ export const YourApp = () => {
       name: 'account.balanceDecimals',
       required: false,
       type: 'string | undefined	',
-      description: 'The account balance in decimals',
+      description: 'رصيد الحساب بالأرقام العشرية',
     },
     {
       name: 'account.balanceFormatted',
@@ -147,7 +147,7 @@ export const YourApp = () => {
       type: 'string | undefined	',
       description: (
         <>
-          The account balance formatted as a string, e.g.{' '}
+          الرصيد الحسابي بصيغة سلسلة نصية، على سبيل المثال{' '}
           <code>1.234567890123456789</code>
         </>
       ),
@@ -158,7 +158,7 @@ export const YourApp = () => {
       type: 'string | undefined	',
       description: (
         <>
-          The currency symbol for the balance, e.g. <code>ETH</code>
+          رمز العملة للرصيد، على سبيل المثال <code>ETH</code>
         </>
       ),
     },
@@ -168,8 +168,8 @@ export const YourApp = () => {
       type: 'string | undefined	',
       description: (
         <>
-          The balance formatted to 3 significant digits, plus the
-          symbol, e.g. <code>1.23 ETH</code>
+          الرصيد بتنسيق 3 أرقام معنوية، مع الرمز
+          على سبيل المثال <code>1.23 ETH</code>
         </>
       ),
     },
@@ -179,8 +179,8 @@ export const YourApp = () => {
       type: 'string',
       description: (
         <>
-          The ENS name, or a truncated version of the address, e.g.{' '}
-          <code>"rainbowwallet.eth"</code> or <code>"0x7a…384f"</code>
+          اسم ENS أو نسخة مختصرة من العنوان، على سبيل المثال{' '}
+          <code>"rainbowwallet.eth"</code> أو <code>"0x7a…384f"</code>
         </>
       ),
     },
@@ -188,7 +188,7 @@ export const YourApp = () => {
       name: 'account.ensAvatar',
       required: false,
       type: 'string	| undefined',
-      description: 'The ENS avatar URI',
+      description: 'عنوان الصورة الرمزية لـ ENS',
     },
     {
       name: 'account.ensName',
@@ -196,7 +196,7 @@ export const YourApp = () => {
       type: 'string	| undefined',
       description: (
         <>
-          The ENS name, e.g. <code>rainbowwallet.eth</code>
+          اسم ENS، على سبيل المثال <code>rainbowwallet.eth</code>
         </>
       ),
     },
@@ -205,7 +205,7 @@ export const YourApp = () => {
       required: false,
       type: 'boolean',
       description:
-        'Boolean indicating whether the account has pending transactions for the current chain',
+        'قيمة منطقية تشير إلى ما إذا كان لدى الحساب معاملات معلقة للسلسلة الحالية',
     },
   ]}
 />
@@ -219,27 +219,27 @@ export const YourApp = () => {
       required: false,
       type: 'object | undefined',
       description:
-        'Object containing details about the current chain, described below',
+        'كائن يحتوي على تفاصيل حول السلسلة الحالية، موضح أدناه',
     },
     {
       name: 'chain.hasIcon',
       required: false,
       type: 'boolean',
-      description: 'Whether the chain as an icon specified',
+      description: 'سواء كان للرمز سلسلة أيقونة محددة',
     },
     {
       name: 'chain.iconUrl',
       required: false,
       type: 'string | undefined',
       description:
-        'The chain icon URL (which may be also be undefined while downloading Base64 data URLs)',
+        'عنوان URL لرمز السلسلة (والذي قد يكون غير معرف أثناء تنزيل عناوين URL لبيانات Base64)',
     },
     {
       name: 'chain.iconBackground',
       required: false,
       type: 'string | undefined',
       description:
-        'The chain icon background which will be visible while images are loading',
+        'خلفية رمز السلسلة التي ستكون مرئية أثناء تحميل الصور',
     },
     {
       name: 'chain.id',
@@ -247,7 +247,7 @@ export const YourApp = () => {
       type: 'number',
       description: (
         <>
-          The chain ID, e.g. <code>1</code>
+          معرف السلسلة، على سبيل المثال <code>1</code>
         </>
       ),
     },
@@ -257,7 +257,7 @@ export const YourApp = () => {
       type: 'string | undefined',
       description: (
         <>
-          The chain name, e.g. <code>"Ethereum"</code>
+          اسم السلسلة، على سبيل المثال <code>"Ethereum"</code>
         </>
       ),
     },
@@ -266,7 +266,7 @@ export const YourApp = () => {
       required: false,
       type: 'boolean | undefined',
       description:
-        'Boolean indicating whether the current chain is unsupported',
+        'قيمة منطقية تشير إلى ما إذا كانت السلسلة الحالية غير مدعومة',
     },
   ]}
 />
@@ -279,39 +279,39 @@ export const YourApp = () => {
       name: 'openAccountModal',
       required: false,
       type: '() => void',
-      description: 'Function to open the account modal',
+      description: 'دالة لفتح نافذة حساب',
     },
     {
       name: 'openChainModal',
       required: false,
       type: '() => void',
-      description: 'Function to open the chain modal',
+      description: 'دالة لفتح نافذة سلسلة',
     },
     {
       name: 'openConnectModal',
       required: false,
       type: '() => void',
-      description: 'Function to open the connect modal',
+      description: 'دالة لفتح نافذة الاتصال',
     },
     {
       name: 'accountModalOpen',
       required: false,
       type: 'boolean',
       description:
-        'Boolean indicating whether the account modal is open',
+        'قيمة منطقية تشير إلى ما إذا كانت نافذة الحساب مفتوحة',
     },
     {
       name: 'chainModalOpen',
       required: false,
       type: 'boolean',
-      description: 'Boolean indicating whether the chain modal is open',
+      description: 'قيمة منطقية تشير إلى ما إذا كانت نافذة السلسلة مفتوحة',
     },
     {
       name: 'connectModalOpen',
       required: false,
       type: 'boolean',
       description:
-        'Boolean indicating whether the connect modal is open',
+        'قيمة منطقية تشير إلى ما إذا كانت نافذة الاتصال مفتوحة',
     },
   ]}
 />
@@ -325,14 +325,14 @@ export const YourApp = () => {
       required: false,
       type: 'boolean',
       description:
-        'Boolean indicating whether the component has mounted',
+        'قيمة منطقية تشير إلى ما إذا كان المكون قد تم تحميله',
     },
     {
       name: 'authenticationStatus',
       required: false,
       type: '"loading" | "unauthenticated" | "authenticated" | undefined',
       description:
-        'The authentication status, or undefined if authentication has not been configured',
+        'حالة المصادقة، أو غير معرّف إذا لم يتم تكوين المصادقة',
     },
   ]}
 />
