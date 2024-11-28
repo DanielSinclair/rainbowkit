@@ -86,7 +86,7 @@ description: Özel bir cüzdan oluştur
         'Bu cüzdanın listeden gizlenmesi gerekip gerekmediğini hesaplayan işlev.',
     } 
   ]}
-/> This is useful for defining generic fallback wallets, e.g. the built-in "Injected Wallet" fallback makes use of this feature',
+/> Bu, genel yedek cüzdanları tanımlamak için yararlıdır, örneğin, yerleşik "Injected Wallet" yedeği bu özelliği kullanır',
     },
     {
       name: 'createConnector',
@@ -94,7 +94,7 @@ description: Özel bir cüzdan oluştur
       type: '() => RainbowKitConnector',
       typeSimple: 'RainbowKitConnector',
       description:
-        'Function for providing the connector instance and configuration for different connection methods, described below',
+        'Aşağıda açıklanan farklı bağlantı yöntemleri için konektör örneği ve yapılandırması sağlama fonksiyonu',
     },
     {
       name: 'mobile',
@@ -102,14 +102,14 @@ description: Özel bir cüzdan oluştur
       type: '{ getUri?: (uri: string) => string }',
       typeSimple: 'object',
       description:
-        'Function for resolving a mobile wallet connection URI',
+        'Mobil cüzdan bağlantı URI'sini çözmek için fonksiyon',
     },
     {
       name: 'desktop',
       required: false,
       type: '{ getUri?: (uri: string) => string }',
       typeSimple: 'object',
-      description: 'Function for resolving a desktop app deep link',
+      description: 'Masaüstü uygulama derin bağlantısını çözmek için fonksiyon',
     },
     {
       name: 'qrCode',
@@ -117,7 +117,7 @@ description: Özel bir cüzdan oluştur
       type: "{ getUri: (uri: string) => string, instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }> }}}",
       typeSimple: 'object',
       description:
-        'Object containing a function for resolving the QR code URI, plus optional mobile wallet setup instructions',
+        'QR kod URI'sini çözmek için fonksiyon içeren nesne, ayrıca isteğe bağlı mobil cüzdan kurulum talimatları',
     },
     {
       name: 'extension',
@@ -125,17 +125,16 @@ description: Özel bir cüzdan oluştur
       type: "{ instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }> }}}",
       typeSimple: 'object',
       description:
-        'Object containing optional browser extension setup instructions',
+        'İsteğe bağlı tarayıcı uzantısı kurulum talimatlarını içeren nesne',
     },
     {
       name: 'createConnector',
       required: true,
       type: "createConnector: (details: WalletDetailsParams) => CreateConnectorFn",
       typeSimple: '(details: WalletDetailsParams) => CreateConnectorFn',
-      description: 'Function for providing the connector instance',
-    },
-  ]}
-/>
+      description: 'Konektör örneği sağlama fonksiyonu',
+    }
+  ]}]}
 
 ### IndirmeUrlsi Özellikleri
 
@@ -145,64 +144,64 @@ description: Özel bir cüzdan oluştur
       name: 'android',
       required: false,
       type: 'string',
-      description: 'Google Play URL',
+      description: 'Google Play URL\u0027si',
     },
     {
       name: 'ios',
       required: false,
       type: 'string',
-      description: 'Apple App Store URL',
+      description: 'Apple App Store URL\u0027si',
     },
     {
       name: 'mobile',
       required: false,
       type: 'string',
       description:
-        'Landing page for mobile users when `android` or `ios` are unavailable',
+        '\u0060android\u0060 veya \u0060ios\u0060 kullanılabilir olmadığında mobil kullanıcılar için iniş sayfası',
     },
     {
       name: 'qrCode',
       required: false,
       type: 'string',
       description:
-        'Landing page for users that scan the mobile download QR Code',
+        'Mobil indirme QR Kodunu tarayan kullanıcılar için iniş sayfası',
     },
     {
       name: 'chrome',
       required: false,
       type: 'string',
-      description: 'Chrome Web Store URL',
+      description: 'Chrome Web Mağazası URL\u0027si',
     },
     {
       name: 'edge',
       required: false,
       type: 'string',
-      description: 'Microsoft Edge Add-ons URL',
+      description: 'Microsoft Edge Eklentileri URL\u0027si',
     },
     {
       name: 'firefox',
       required: false,
       type: 'string',
-      description: 'Firefox Browser Add-ons URL',
+      description: 'Firefox Tarayıcı Eklentileri URL\u0027si',
     },
     {
       name: 'opera',
       required: false,
       type: 'string',
-      description: 'Opera add-ons URL',
+      description: 'Opera Eklentileri URL\u0027si',
     },
     {
       name: 'safari',
       required: false,
       type: 'string',
-      description: 'Mac App Store URL',
+      description: 'Mac App Store URL\u0027si',
     },
     {
       name: 'browserExtension',
       required: false,
       type: 'string',
       description:
-        'Landing page for desktop extension users when browser-compatible URLs are unavailable',
+        'Tarayıcı uyumlu URL\u0027ler kullanılabilir olmadığında masaüstü uzantı kullanıcıları için iniş sayfası',
     },
   ]}
 />
