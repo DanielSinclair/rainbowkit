@@ -1,15 +1,15 @@
 ---
-title: Custom Wallet List
-description: Customizing the wallet list
+title: Senarai Dompet Tersuai
+description: Menyesuaikan senarai dompet
 ---
 
-# Custom Wallet List
+# Senarai Dompet Tersuai
 
-## Customizing the wallet list
+## Menyesuaikan senarai dompet
 
-You can import individual wallets from `'@rainbow-me/rainbowkit/wallets'` along with the `connectorsForWallets` function to build your own list of wallets with their necessary connectors. This way you have full control over which wallets to display, and in which order.
+Anda boleh mengimport dompet individu dari `'@rainbow-me/rainbowkit/wallets'` bersama-sama dengan fungsi `connectorsForWallets` untuk membina senarai dompet anda sendiri dengan penyambung yang diperlukan. Dengan cara ini, anda mempunyai kawalan penuh ke atas dompet yang hendak dipaparkan, dan dalam susunan mana.
 
-For example, you can choose to only show Rainbow along with generic fallback wallets.
+Sebagai contoh, anda boleh memilih untuk hanya menunjukkan Rainbow bersama-sama dengan dompet gantian generik.
 
 ```tsx
 import { connectorsForWallets } from '@rainbow-me/rainbowkit';
@@ -32,7 +32,7 @@ const connectors = connectorsForWallets(
 );
 ```
 
-You can then pass your connectors to Wagmi's `createConfig`.
+Anda kemudian boleh menyerahkan penyambung anda kepada `createConfig` Wagmi.
 
 ```tsx
 import { connectorsForWallets } from '@rainbow-me/rainbowkit';
@@ -58,47 +58,47 @@ const App = () => (
 );
 ```
 
-### Built-in wallets
+### Dompet Terbina Dalam
 
-The following wallets are provided via the `wallet` object.
+Dompet berikut disediakan melalui objek `wallet`.
 
-#### Generic Wallets
+#### Dompet Am
 
-The following wallets are scoped to generic connection methods rather than specific apps. As a result, it’s recommended that these wallets are always included.
+Dompet berikut dipetakan kepada kaedah sambungan generik dan bukannya aplikasi khusus. Oleh itu, adalah disyorkan supaya dompet-dompet ini sentiasa dimasukkan.
 
 ##### WalletConnect
 
-This is a fallback wallet option designed for WalletConnect-based wallets that haven’t been provided by another wallet in the list.
+Ini adalah pilihan dompet gantian yang direka untuk dompet berdasarkan WalletConnect yang belum disediakan oleh dompet lain dalam senarai.
 
-**It's recommended that you always include this wallet in the list to ensure all WalletConnect-based wallets are supported.**
+**Adalah disyorkan agar anda sentiasa memasukkan dompet ini dalam senarai untuk memastikan semua dompet berdasarkan WalletConnect disokong.**
 
 ```tsx
 import { walletConnectWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-##### Injected Wallet
+##### Dompet Disuntik
 
-This is a fallback wallet option designed for scenarios where `window.ethereum` exists but hasn’t been provided by another wallet in the list. This wallet will automatically hide itself from the list when the fallback is not necessary or if there is no injected wallet available.
+Ini adalah pilihan dompet gantian yang direka untuk senario di mana `window.ethereum` wujud tetapi belum disediakan oleh dompet lain dalam senarai. Dompet ini akan menyembunyikan dirinya secara automatik dari senarai apabila gantian tidak diperlukan atau jika tiada dompet yang dimasukkan tersedia.
 
-**It's recommended that you always include this wallet in the list to ensure all injected wallets are supported.**
+**Disyorkan supaya anda sentiasa memasukkan dompet ini dalam senarai untuk memastikan semua dompet yang disuntik disokong.**
 
 ```tsx
 import { injectedWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-##### Safe Wallet
+##### Dompet Selamat
 
-For dApps that support Safe Apps to allow users to easily connect with their Safe vault or multi-sig, include the `safeWallet` option for automatic connections. The Safe option will only appear in the Safe Wallet browser environment.
+Untuk dApps yang menyokong Aplikasi Safe untuk membolehkan pengguna dengan mudah berhubung dengan peti simpanan Safe mereka atau multi-sig, sertakan pilihan `safeWallet` untuk sambungan automatik. Pilihan Safe hanya akan muncul dalam persekitaran pelayar Safe Wallet.
 
 ```tsx
 import { safeWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-### Specific Wallets
+### Dompet Tertentu
 
-The following wallets are provided via the `wallet` object (in alphabetical order).
+Dompet berikut disediakan melalui objek `wallet` (mengikut urutan abjad).
 
-#### 1inch Wallet
+#### Dompet 1inch
 
 ```tsx
 import { oneInchWallet } from '@rainbow-me/rainbowkit/wallets';
@@ -110,13 +110,13 @@ import { oneInchWallet } from '@rainbow-me/rainbowkit/wallets';
 import { argentWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Best Wallet
+#### Dompet Terbaik
 
 ```tsx
 import { bestWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Binance Web3 Wallet
+#### Dompet Binance Web3
 
 ```tsx
 import { binanceWallet } from '@rainbow-me/rainbowkit/wallets';
@@ -128,7 +128,7 @@ import { binanceWallet } from '@rainbow-me/rainbowkit/wallets';
 import { bitgetWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Bifrost Wallet
+#### Dompet Bifrost
 
 ```tsx
 import { bifrostWallet } from '@rainbow-me/rainbowkit/wallets';
@@ -146,19 +146,19 @@ import { bitskiWallet } from '@rainbow-me/rainbowkit/wallets';
 import { bitverseWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Bloom Wallet
+#### Dompet Bloom
 
 ```tsx
 import { bloomWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Brave Wallet
+#### Dompet Brave
 
 ```tsx
 import { braveWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Bybit Wallet
+#### Dompet Bybit
 
 ```tsx
 import { bybitWallet } from '@rainbow-me/rainbowkit/wallets';
@@ -166,13 +166,13 @@ import { bybitWallet } from '@rainbow-me/rainbowkit/wallets';
 
 #### Coinbase
 
-This wallet connector supports both the Coinbase Wallet app and extension, as well as Coinbase Smart Wallet on Web.
+Penyambung dompet ini menyokong kedua-dua aplikasi dan lanjutan Wallet Coinbase, serta Smart Wallet Coinbase di Web.
 
-A `preference` argument is available to control whether Smart Wallet is enabled and available for users. Preference based behavior is documented [here](https://www.smartwallet.dev/sdk/makeWeb3Provider#parameters).
+Argumen `preference` tersedia untuk mengawal sama ada Smart Wallet diaktifkan dan tersedia untuk pengguna. Tingkah laku berdasarkan keutamaan didokumenkan [di sini](https://www.smartwallet.dev/sdk/makeWeb3Provider#parameters).
 
-Smart Wallet will be enabled by default with `all` in early June, without a further upgrade.
+Smart Wallet akan diaktifkan secara lalai dengan `all` pada awal bulan Jun, tanpa peningkatan selanjutnya.
 
-Developers can test Smart Wallet with `sepolia` and `baseSepolia` chains today by setting `smartWalletOnly` and including `coinbaseWallet` in their wallet list like so:
+Pembangun boleh menguji Smart Wallet dengan rantaian `sepolia` dan `baseSepolia` hari ini dengan menetapkan `smartWalletOnly` dan memasukkan `coinbaseWallet` dalam senarai dompet mereka seperti ini:
 
 ```tsx
 import { coinbaseWallet } from '@rainbow-me/rainbowkit/wallets';
@@ -181,55 +181,55 @@ import { coinbaseWallet } from '@rainbow-me/rainbowkit/wallets';
 coinbaseWallet.preference = 'smartWalletOnly';
 ```
 
-#### Coin98 Wallet
+#### Dompet Coin98
 
 ```tsx
 import { coin98Wallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Compass Wallet
+#### ''
 
 ```tsx
 import { compassWallet } from '@rainbow-me/rainbowkit/compassWallet';
 ```
 
-#### Core
+#### Teras
 
 ```tsx
 import { coreWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Dawn Wallet
+#### ''
 
 ```tsx
 import { dawnWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Enkrypt Wallet
+#### ''
 
 ```tsx
 import { enkryptWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### FoxWallet
+#### ''
 
 ```tsx
 import { foxWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Frame Wallet
+#### ''
 
 ```tsx
 import { frameWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Frontier Wallet
+#### ''
 
 ```tsx
 import { frontierWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Gate Wallet
+#### Dompet Gate
 
 ```tsx
 import { gateWallet } from '@rainbow-me/rainbowkit/wallets';
@@ -241,13 +241,13 @@ import { gateWallet } from '@rainbow-me/rainbowkit/wallets';
 import { imTokenWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### ioPay Wallet
+#### Dompet ioPay
 
 ```tsx
 import { iopayWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Kaia Wallet
+#### ''
 
 ```tsx
 import { kaiaWallet } from '@rainbow-me/rainbowkit/wallets';
@@ -259,13 +259,13 @@ import { kaiaWallet } from '@rainbow-me/rainbowkit/wallets';
 import { kaikasWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Kraken Wallet
+#### ''
 
 ```tsx
 import { krakenWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Kresus Wallet
+#### ''
 
 ```tsx
 import { kresusWallet } from '@rainbow-me/rainbowkit/wallets';
@@ -277,13 +277,13 @@ import { kresusWallet } from '@rainbow-me/rainbowkit/wallets';
 import { ledgerWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Magic Eden Wallet
+#### ''
 
 ```tsx
 import { magicEdenWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### MEW Wallet
+#### Dompet MEW
 
 ```tsx
 import { mewWallet } from '@rainbow-me/rainbowkit/wallets';
@@ -295,7 +295,7 @@ import { mewWallet } from '@rainbow-me/rainbowkit/wallets';
 import { metaMaskWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### OKX Wallet
+#### ''
 
 ```tsx
 import { okxWallet } from '@rainbow-me/rainbowkit/wallets';
@@ -307,7 +307,7 @@ import { okxWallet } from '@rainbow-me/rainbowkit/wallets';
 import { omniWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### OneKey
+#### ''
 
 ```tsx
 import { oneKeyWallet } from '@rainbow-me/rainbowkit/wallets';
@@ -319,13 +319,13 @@ import { oneKeyWallet } from '@rainbow-me/rainbowkit/wallets';
 import { paraSwapWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Phantom
+#### ''
 
 ```tsx
 import { phantomWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Rabby Wallet
+#### ''
 
 ```tsx
 import { rabbyWallet } from '@rainbow-me/rainbowkit/wallets';
@@ -337,13 +337,13 @@ import { rabbyWallet } from '@rainbow-me/rainbowkit/wallets';
 import { rainbowWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Ramper Wallet
+#### ''
 
 ```tsx
 import { ramperWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Ronin Wallet
+#### ''
 
 ```tsx
 import { roninWallet } from '@rainbow-me/rainbowkit/wallets';
@@ -361,7 +361,7 @@ import { safeheronWallet } from '@rainbow-me/rainbowkit/wallets';
 import { tahoWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Talisman
+#### ''
 
 ```tsx
 import { talismanWallet } from '@rainbow-me/rainbowkit/wallets';
@@ -379,13 +379,13 @@ import { tokenaryWallet } from '@rainbow-me/rainbowkit/wallets';
 import { tokenPocketWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Trust Wallet
+#### Dompet Trust
 
 ```tsx
 import { trustWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### Uniswap Wallet
+#### Dompet Uniswap
 
 ```tsx
 import { uniswapWallet } from '@rainbow-me/rainbowkit/wallets';
@@ -397,7 +397,7 @@ import { uniswapWallet } from '@rainbow-me/rainbowkit/wallets';
 import { valoraWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-#### XDEFI Wallet
+#### Dompet XDEFI
 
 ```tsx
 import { xdefiWallet } from '@rainbow-me/rainbowkit/wallets';
@@ -415,13 +415,13 @@ import { zerionWallet } from '@rainbow-me/rainbowkit/wallets';
 import { wigwamWallet } from '@rainbow-me/rainbowkit/wallets';
 ```
 
-### Examples
+### Contoh-contoh
 
-#### Ordering
+#### Pesanan
 
-Here are a few examples of displaying different wallets, in different order.
+Berikut adalah beberapa contoh bagaimana menampilkan pelbagai dompet dalam susunan yang berbeza.
 
-Show MetaMask along with generic fallback wallets.
+Tunjukkan MetaMask bersama-sama dengan dompet fallback umum.
 
 ```tsx
 import { connectorsForWallets } from '@rainbow-me/rainbowkit';
@@ -441,7 +441,7 @@ const connectors = connectorsForWallets(
 );
 ```
 
-Show Rainbow, MetaMask and Coinbase along with generic fallback wallets.
+Tunjukkan Rainbow, MetaMask dan Coinbase bersama-sama dengan dompet fallback umum.
 
 ```tsx
 import { connectorsForWallets } from '@rainbow-me/rainbowkit';
@@ -468,13 +468,13 @@ const connectors = connectorsForWallets(
 );
 ```
 
-> Reminder: The order of the `wallets` array defines the order in which wallets will be displayed in the UI.
+> Peringatan: Urutan array `wallets` menentukan urutan di mana dompet akan dipaparkan dalam UI.
 
-#### Multiple groups
+#### Pelbagai kumpulan
 
-You can use the `groupName` key to name different wallet groups. This is useful if you want to communicate to your users which wallets you recommend, as well as other possible wallets.
+Anda boleh menggunakan kekunci `groupName` untuk menamakan kumpulan dompet yang berbeza. Ini berguna jika anda ingin berkomunikasi dengan pengguna anda mengenai dompet yang anda syorkan, serta dompet lain yang mungkin.
 
-Recommend Rainbow and MetaMask, but also offer Coinbase along with generic fallback wallets.
+Syorkan Rainbow dan MetaMask, tetapi juga tawarkan Coinbase serta dompet fallback umum.
 
 ```tsx
 import { connectorsForWallets } from '@rainbow-me/rainbowkit';
