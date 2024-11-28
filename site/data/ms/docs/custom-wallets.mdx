@@ -1,17 +1,17 @@
 ---
-title: Custom Wallets
-description: Create a custom wallet
+title: Dompet Tersuai
+description: Buat dompet tersuai
 ---
 
-# Custom Wallets
+# Dompet Tersuai
 
-## Create a custom wallet
+## Buat dompet tersuai
 
-> Note: This API is unstable and likely to change in the near future. We will be adding more built-in wallets over time. [Let us know](https://github.com/rainbow-me/rainbowkit/issues) if there are any particular wallets you're interested in.
+> Nota: API ini tidak stabil dan mungkin akan berubah dalam masa terdekat. Kami akan menambah lebih banyak dompet terbina dalam dari semasa ke semasa. [Beritahu kami](https://github.com/rainbow-me/rainbowkit/issues) jika terdapat mana-mana dompet tertentu yang anda minati.
 
-The `Wallet` function type is provided to help you define your own custom wallets. The following properties can be configured on the return value of your `Wallet` function:
+Jenis fungsi `Wallet` disediakan untuk membantu anda mendefinisikan dompet khusus anda sendiri. Properti berikut boleh dikonfigurasi pada nilai balikan dari fungsi `Wallet` anda:
 
-### Wallet Properties
+### Sifat Dompet
 
 <PropsTable
   data={[
@@ -83,7 +83,7 @@ The `Wallet` function type is provided to help you define your own custom wallet
       type: '(args: { wallets: Array<{ id: string, connector: Connector, installed?: boolean }> }) => boolean',
       typeSimple: '(args) => boolean | undefined',
       description:
-        'Function for calculating whether this wallet should be hidden from the list. This is useful for defining generic fallback wallets, e.g. the built-in "Injected Wallet" fallback makes use of this feature',
+        'Function for calculating whether this wallet should be hidden from the list. Ini berguna untuk mentakrifkan dompet sandaran generik, contohnya, sandaran "Injected Wallet" terbina dalam menggunakan ciri ini',
     },
     {
       name: 'createConnector',
@@ -91,7 +91,7 @@ The `Wallet` function type is provided to help you define your own custom wallet
       type: '() => RainbowKitConnector',
       typeSimple: 'RainbowKitConnector',
       description:
-        'Function for providing the connector instance and configuration for different connection methods, described below',
+        'Fungsi untuk menyediakan instance penyambung dan konfigurasi untuk pelbagai kaedah sambungan, diterangkan di bawah',
     },
     {
       name: 'mobile',
@@ -99,14 +99,14 @@ The `Wallet` function type is provided to help you define your own custom wallet
       type: '{ getUri?: (uri: string) => string }',
       typeSimple: 'object',
       description:
-        'Function for resolving a mobile wallet connection URI',
+        'Fungsi untuk menyelesaikan URI sambungan dompet mudah alih',
     },
     {
       name: 'desktop',
       required: false,
       type: '{ getUri?: (uri: string) => string }',
       typeSimple: 'object',
-      description: 'Function for resolving a desktop app deep link',
+      description: 'Fungsi untuk menyelesaikan pautan mendalam aplikasi desktop',
     },
     {
       name: 'qrCode',
@@ -114,7 +114,7 @@ The `Wallet` function type is provided to help you define your own custom wallet
       type: "{ getUri: (uri: string) => string, instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }> }}}",
       typeSimple: 'object',
       description:
-        'Object containing a function for resolving the QR code URI, plus optional mobile wallet setup instructions',
+        'Objek yang mengandungi fungsi untuk menyelesaikan URI kod QR, serta arahan pemasangan dompet mudah alih pilihan',
     },
     {
       name: 'extension',
@@ -122,19 +122,18 @@ The `Wallet` function type is provided to help you define your own custom wallet
       type: "{ instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }> }}}",
       typeSimple: 'object',
       description:
-        'Object containing optional browser extension setup instructions',
+        'Objek yang mengandungi arahan pemasangan pelayar pilihan',
     },
     {
       name: 'createConnector',
       required: true,
       type: "createConnector: (details: WalletDetailsParams) => CreateConnectorFn",
       typeSimple: '(details: WalletDetailsParams) => CreateConnectorFn',
-      description: 'Function for providing the connector instance',
+      description: 'Fungsi untuk menyediakan instance penyambung',
     },
-  ]}
-/>
+  ]}]}
 
-### DownloadUrls Properties
+### Sifat DownloadUrls
 
 <PropsTable
   data={[
@@ -204,9 +203,9 @@ The `Wallet` function type is provided to help you define your own custom wallet
   ]}
 />
 
-### Examples
+### Contoh-contoh
 
-For example, to create a custom wallet using WalletConnect:
+Sebagai contoh, untuk membuat dompet tersuai menggunakan WalletConnect:
 
 ```tsx
 import { Wallet, getWalletConnectConnector } from '@rainbow-me/rainbowkit';
@@ -278,4 +277,4 @@ export const rainbow = ({ projectId }: MyWalletOptions): Wallet => ({
 });
 ```
 
-You can then add your custom wallet in the [wallet list](/docs/custom-wallet-list).
+Anda boleh menambah dompet tersuai anda dalam [senarai dompet](/docs/custom-wallet-list).
