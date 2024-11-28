@@ -219,27 +219,27 @@ Aşağıdaki özellikler render fonksiyonunuza geçirilir.
       required: false,
       type: 'object | undefined',
       description:
-        'Object containing details about the current chain, described below',
+        'Mevcut zincir hakkında detayları içeren nesne, aşağıda açıklanmıştır',
     },
     {
       name: 'chain.hasIcon',
       required: false,
       type: 'boolean',
-      description: 'Whether the chain as an icon specified',
+      description: 'Zincirin belirli bir simgesinin olup olmadığı',
     },
     {
       name: 'chain.iconUrl',
       required: false,
       type: 'string | undefined',
       description:
-        'The chain icon URL (which may be also be undefined while downloading Base64 data URLs)',
+        'Zincir simgesinin URL'si (Base64 veri URL'leri indirirken tanımsız da olabilir)',
     },
     {
       name: 'chain.iconBackground',
       required: false,
       type: 'string | undefined',
       description:
-        'The chain icon background which will be visible while images are loading',
+        'Görüntüler yüklenirken görünen zincir simgesi arka planı',
     },
     {
       name: 'chain.id',
@@ -247,7 +247,7 @@ Aşağıdaki özellikler render fonksiyonunuza geçirilir.
       type: 'number',
       description: (
         <>
-          The chain ID, e.g. <code>1</code>
+          Zincir ID'si, örn. <code>1</code>
         </>
       ),
     },
@@ -257,7 +257,7 @@ Aşağıdaki özellikler render fonksiyonunuza geçirilir.
       type: 'string | undefined',
       description: (
         <>
-          The chain name, e.g. <code>"Ethereum"</code>
+          Zincir adı, örn. <code>"Ethereum"</code>
         </>
       ),
     },
@@ -266,7 +266,7 @@ Aşağıdaki özellikler render fonksiyonunuza geçirilir.
       required: false,
       type: 'boolean | undefined',
       description:
-        'Boolean indicating whether the current chain is unsupported',
+        'Mevcut zincirin desteklenmediğini belirten boolean',
     },
   ]}
 />
@@ -279,39 +279,39 @@ Aşağıdaki özellikler render fonksiyonunuza geçirilir.
       name: 'openAccountModal',
       required: false,
       type: '() => void',
-      description: 'Function to open the account modal',
+      description: 'Hesap modali açma fonksiyonu',
     },
     {
       name: 'openChainModal',
       required: false,
       type: '() => void',
-      description: 'Function to open the chain modal',
+      description: 'Zincir modali açma fonksiyonu',
     },
     {
       name: 'openConnectModal',
       required: false,
       type: '() => void',
-      description: 'Function to open the connect modal',
+      description: 'Bağlantı modali açma fonksiyonu',
     },
     {
       name: 'accountModalOpen',
       required: false,
       type: 'boolean',
       description:
-        'Boolean indicating whether the account modal is open',
+        'Hesap modali açık mı olduğunu gösteren boolean',
     },
     {
       name: 'chainModalOpen',
       required: false,
       type: 'boolean',
-      description: 'Boolean indicating whether the chain modal is open',
+      description: 'Zincir modali açık mı olduğunu gösteren boolean',
     },
     {
       name: 'connectModalOpen',
       required: false,
       type: 'boolean',
       description:
-        'Boolean indicating whether the connect modal is open',
+        'Bağlantı modali açık mı olduğunu gösteren boolean',
     },
   ]}
 />
@@ -325,14 +325,14 @@ Aşağıdaki özellikler render fonksiyonunuza geçirilir.
       required: false,
       type: 'boolean',
       description:
-        'Boolean indicating whether the component has mounted',
+        'Bileşenin monte edilmiş olup olmadığını gösteren boolean',
     },
     {
       name: 'authenticationStatus',
       required: false,
       type: '"loading" | "unauthenticated" | "authenticated" | undefined',
       description:
-        'The authentication status, or undefined if authentication has not been configured',
+        'Kimlik doğrulama durumu veya kimlik doğrulama yapılandırılmamışsa tanımsız',
     },
   ]}
 />
