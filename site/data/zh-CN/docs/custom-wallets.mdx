@@ -19,45 +19,45 @@ description: 创建自定义钱包
       name: 'id',
       required: true,
       type: 'string',
-      description: 'Unique ID per wallet',
+      description: '每个钱包的唯一 ID',
     },
     {
       name: 'name',
       required: true,
       type: 'string',
-      description: 'Human-readable wallet name',
+      description: '人类可读的钱包名称',
     },
     {
       name: 'rdns',
       required: false,
       type: 'string',
-      description: 'RDNS for wallet which supports EIP6963',
+      description: '支持 EIP6963 的钱包的 RDNS',
     },
     {
       name: 'shortName',
       required: false,
       type: 'string | undefined',
-      description: 'Optional short name for mobile use',
+      description: '用于移动设备的可选短名',
     },
     {
       name: 'iconUrl',
       required: true,
       type: 'string | (() => Promise<string>)',
       description:
-        'URL for wallet icon, or a promise that resolves to a Base64 data URL',
+        '钱包图标的URL，或者一个解析为Base64数据URL的promise',
     },
     {
       name: 'iconAccent',
       required: false,
       type: 'string',
       description:
-        'Accent color used in download flows for wallets with both a browser extension and a mobile app',
+        '用于同时具有浏览器扩展和移动应用的钱包的下载流程中使用的强调颜色',
     },
     {
       name: 'iconBackground',
       required: true,
       type: 'string',
-      description: 'Background color while the wallet icon loads',
+      description: '钱包图标加载时的背景颜色',
     },
     {
       name: 'installed',
@@ -65,8 +65,8 @@ description: 创建自定义钱包
       type: 'boolean | undefined',
       description: (
         <>
-          Whether the wallet is known to be installed, or{' '}
-          <code>undefined</code> if indeterminate
+          钱包是否已知已安装，或{' '}
+          <code>undefined</code> 若未确定
         </>
       ),
     },
@@ -75,7 +75,7 @@ description: 创建自定义钱包
       required: false,
       type: '{ android?: string, ios?: string, mobile?: string, qrCode?: string, chrome?: string, firefox?: string, edge?: string, safari?: string, opera?: string, browserExtension?: string } | undefined',
       typeSimple: 'DownloadUrls | undefined',
-      description: 'Object containing download URLs',
+      description: '包含下载URL的对象',
     },
     {
       name: 'hidden',
@@ -83,7 +83,10 @@ description: 创建自定义钱包
       type: '(args: { wallets: Array<{ id: string, connector: Connector, installed?: boolean }> }) => boolean',
       typeSimple: '(args) => boolean | undefined',
       description:
-        'Function for calculating whether this wallet should be hidden from the list. This is useful for defining generic fallback wallets, e.g. the built-in "Injected Wallet" fallback makes use of this feature',
+        '计算此钱包是否应从列表中隐藏的函数。',
+    } 
+  ]}
+/> This is useful for defining generic fallback wallets, e.g. the built-in "Injected Wallet" fallback makes use of this feature',
     },
     {
       name: 'createConnector',
