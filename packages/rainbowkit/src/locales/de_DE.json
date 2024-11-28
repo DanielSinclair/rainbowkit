@@ -1082,6 +1082,22 @@
         }
       }
     },
+    "wigwam": {
+      "extension": {
+        "step1": {
+          "title": "Installieren Sie die Wigwam-Erweiterung",
+          "description": "Wir empfehlen, Wigwam an Ihre Taskleiste anzuheften, um einen schnelleren Zugriff auf Ihr Wallet zu ermöglichen."
+        },
+        "step2": {
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem."
+        },
+        "step3": {
+          "title": "Aktualisieren Sie Ihren Browser",
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden."
+        }
+      }
+    },
     "talisman": {
       "extension": {
         "step1": {
