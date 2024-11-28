@@ -86,7 +86,7 @@ Loại hàm `Wallet` được cung cấp để giúp bạn xác định ví tùy
         'Hàm tính toán xem ví này có nên bị ẩn khỏi danh sách không.',
     } 
   ]}
-/> This is useful for defining generic fallback wallets, e.g. the built-in "Injected Wallet" fallback makes use of this feature',
+/> Điều này hữu ích cho việc xác định các ví dự phòng chung, ví dụ như ví dự phòng "Ví tiêm" tích hợp sử dụng tính năng này'.
     },
     {
       name: 'createConnector',
@@ -94,7 +94,7 @@ Loại hàm `Wallet` được cung cấp để giúp bạn xác định ví tùy
       type: '() => RainbowKitConnector',
       typeSimple: 'RainbowKitConnector',
       description:
-        'Function for providing the connector instance and configuration for different connection methods, described below',
+        'Chức năng cung cấp phiên bản và cấu hình connector cho các phương thức kết nối khác nhau, được mô tả dưới đây',
     },
     {
       name: 'mobile',
@@ -102,14 +102,14 @@ Loại hàm `Wallet` được cung cấp để giúp bạn xác định ví tùy
       type: '{ getUri?: (uri: string) => string }',
       typeSimple: 'object',
       description:
-        'Function for resolving a mobile wallet connection URI',
+        'Chức năng để giải quyết URI kết nối ví di động',
     },
     {
       name: 'desktop',
       required: false,
       type: '{ getUri?: (uri: string) => string }',
       typeSimple: 'object',
-      description: 'Function for resolving a desktop app deep link',
+      description: 'Chức năng để giải quyết liên kết sâu ứng dụng trên máy tính để bàn',
     },
     {
       name: 'qrCode',
@@ -117,7 +117,7 @@ Loại hàm `Wallet` được cung cấp để giúp bạn xác định ví tùy
       type: "{ getUri: (uri: string) => string, instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }> }}}",
       typeSimple: 'object',
       description:
-        'Object containing a function for resolving the QR code URI, plus optional mobile wallet setup instructions',
+        'Đối tượng chứa chức năng để giải quyết URI mã QR, cộng với hướng dẫn cài đặt ví di động tùy chọn',
     },
     {
       name: 'extension',
@@ -125,15 +125,15 @@ Loại hàm `Wallet` được cung cấp để giúp bạn xác định ví tùy
       type: "{ instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }> }}}",
       typeSimple: 'object',
       description:
-        'Object containing optional browser extension setup instructions',
+        'Đối tượng chứa hướng dẫn cài đặt tiện ích trình duyệt tùy chọn',
     },
     {
       name: 'createConnector',
       required: true,
       type: "createConnector: (details: WalletDetailsParams) => CreateConnectorFn",
       typeSimple: '(details: WalletDetailsParams) => CreateConnectorFn',
-      description: 'Function for providing the connector instance',
-    },
+      description: 'Chức năng để cung cấp phiên bản connector',
+    }
   ]}
 />
 
