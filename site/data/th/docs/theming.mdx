@@ -60,7 +60,7 @@ export const App = () => (
       default: '"#0E76FD"',
       type: 'string',
       description:
-        'The background/text color of various interactive elements.',
+        'สีของพื้นหลัง/ตัวอักษรขององค์ประกอบที่โต้ตอบได้ต่างๆ',
     },
     {
       name: 'accentColorForeground',
@@ -68,7 +68,7 @@ export const App = () => (
       default: '"white"',
       type: 'string',
       description:
-        'The color used for foreground elements rendered on top of the accent color.',
+        'สีที่ใช้สำหรับองค์ประกอบเบื้องหน้าเหนือสีเน้น',
     },
     {
       name: 'borderRadius',
@@ -76,7 +76,7 @@ export const App = () => (
       default: 'large',
       type: '"none" | "small" | "medium" | "large"',
       typeSimple: 'enum',
-      description: 'The size of the entire border radius scale.',
+      description: 'ขนาดของมาตราส่วนรัศมีขอบทั้งหมด',
     },
     {
       name: 'fontStack',
@@ -85,8 +85,18 @@ export const App = () => (
       type: '"rounded" | "system"',
       typeSimple: 'enum',
       description:
-        "The font stack used throughout the UI. Note that `rounded` attempts to use SF Pro Rounded, falling back to system fonts when it isn't available.",
+        'กองตัวอักษรที่ใช้ใน UI ทั้งหมด',
     },
+    {
+      name: 'overlayBlur',
+      required: false,
+      default: 'none',
+      type: '"large" | "small" | "none"',
+      typeSimple: 'enum',
+      description: 'การเบลอพื้นหลังของโมดัล',
+    },
+  ]}
+/> Note that `rounded` attempts to use SF Pro Rounded, falling back to system fonts when it isn't available."},
     {
       name: 'overlayBlur',
       required: false,
@@ -119,7 +129,7 @@ const App = () => {
 };
 ```
 
-แต่ละธีมยังให้คำประกอบสีเฉพาะ (`blue`, `green`, `orange`, `pink`, `purple`, `red`) ที่สามารถแพร่ไปในวัตถุตัวเลือก ตัวอย่างเช่น การใช้คำประกอบสี `pink`: ตัวอย่างเช่น การใช้คำประกอบสี `pink`: ตัวอย่างเช่น การใช้คำประกอบสี `pink`:
+แต่ละธีมยังให้คำประกอบสีเฉพาะ (`blue`, `green`, `orange`, `pink`, `purple`, `red`) ที่สามารถแพร่ไปในวัตถุตัวเลือก ตัวอย่างเช่น การใช้คำประกอบสี `pink`: ตัวอย่างเช่น การใช้คำประกอบสี `pink`: ตัวอย่างเช่น การใช้คำประกอบสี `pink`: ตัวอย่างเช่น การใช้คำประกอบสี `pink`: ตัวอย่างเช่น การใช้คำประกอบสี `pink`: ตัวอย่างเช่น การใช้คำประกอบสี `pink`: ตัวอย่างเช่น การใช้คำประกอบสี `pink`: ตัวอย่างเช่น การใช้คำประกอบสี `pink`: ตัวอย่างเช่น การใช้คำประกอบสี `pink`: ตัวอย่างเช่น การใช้คำประกอบสี `pink`:
 
 ```tsx
 import { RainbowKitProvider, darkTheme } from '@rainbow-me/rainbowkit';
