@@ -52,51 +52,7 @@ export const App = () => (
 
 內建的主題函數也接受一個選項對象，允許您從多種不同的視覺風格中進行選擇。
 
-<PropsTable
-  data={[
-    {
-      name: 'accentColor',
-      required: false,
-      default: '"#0E76FD"',
-      type: 'string',
-      description:
-        'The background/text color of various interactive elements.',
-    },
-    {
-      name: 'accentColorForeground',
-      required: false,
-      default: '"white"',
-      type: 'string',
-      description:
-        'The color used for foreground elements rendered on top of the accent color.',
-    },
-    {
-      name: 'borderRadius',
-      required: false,
-      default: 'large',
-      type: '"none" | "small" | "medium" | "large"',
-      typeSimple: 'enum',
-      description: 'The size of the entire border radius scale.',
-    },
-    {
-      name: 'fontStack',
-      required: false,
-      default: 'rounded',
-      type: '"rounded" | "system"',
-      typeSimple: 'enum',
-      description:
-        "The font stack used throughout the UI. Note that `rounded` attempts to use SF Pro Rounded, falling back to system fonts when it isn't available.",
-    },
-    {
-      name: 'overlayBlur',
-      required: false,
-      default: 'none',
-      type: '"large" | "small" | "none"',
-      typeSimple: 'enum',
-      description: 'The modal backdrop blur.',
-    },
-  ]}
-/>
+<PropsTable\n  data={[\n    {\n      name: 'accentColor',\n      required: false,\n      default: '\"#0E76FD\"',\n      type: 'string',\n      description:\n        '各種互動元素的背景/文本顏色。',\n    },\n    {\n      name: 'accentColorForeground',\n      required: false,\n      default: '\"white\"',\n      type: 'string',\n      description:\n        '用於在強調色上方渲染前景元素的顏色。',\n    },\n    {\n      name: 'borderRadius',\n      required: false,\n      default: 'large',\n      type: '\"none\" | \"small\" | \"medium\" | \"large\"',\n      typeSimple: 'enum',\n      description: '整個邊框半徑比例的大小。',\n    },\n    {\n      name: 'fontStack',\n      required: false,\n      default: 'rounded',\n      type: '\"rounded\" | \"system\"',\n      typeSimple: 'enum',\n      description:\n        'UI中使用的字體堆疊。',\n    },\n    {\n      name: 'overlayBlur',\n      required: false,\n      default: 'none',\n      type: '\"large\" | \"small\" | \"none\"',\n      typeSimple: 'enum',\n      description: '模態背景模糊。',\n    },\n  ]}\n/> 注意：`rounded` 試圖使用 SF Pro Rounded，當不可用時則回退到系統字體。
 
 例如，要使用紫色的輔色和 `medium` 的邊框半徑來自訂暗主題：
 
@@ -119,7 +75,7 @@ const App = () => {
 };
 ```
 
-每個主題還提供了幾個輔色預設（`blue`、`green`、`orange`、`pink`、`purple`、`red`），可以傳遞到選項對象中。 例如，要使用 `pink` 輔色預設：
+每個主題也提供了幾種強調顏色預設（`blue`、`green`、`orange`、`pink`、`purple`、`red`），可以擴展到選項對象中。 例如，使用 `pink` 強調色預設：
 
 ```tsx
 import { RainbowKitProvider, darkTheme } from '@rainbow-me/rainbowkit';
@@ -260,7 +216,7 @@ const App = () => {
 
 #### 字體堆棧
 
-預設情況下，`fontStack` 設置為 `rounded`。 但是這裡是使用 `fontStack` 配置的方式。
+預設情況下，`fontStack` 設置為 `rounded`。 但這是您可以使用 `fontStack` 設定的方法。
 
 將字體堆棧設置為 `system`。
 
@@ -283,7 +239,7 @@ const App = () => {
 
 #### 覆蓋模糊
 
-預設情況下，`overlayBlur` 設置為 `none`。 但是這裡是使用 `overlayBlur` 配置的方式。
+預設情況下，`overlayBlur` 設定為 `none`。 但這是您可以使用 `overlayBlur` 設定的方法。
 
 將覆蓋模糊設置為 `small`。
 
