@@ -219,27 +219,27 @@ Las siguientes propiedades son pasadas a su función de renderizado.
       required: false,
       type: 'object | undefined',
       description:
-        'Object containing details about the current chain, described below',
+        'Objeto que contiene detalles sobre la cadena actual, descrito a continuación',
     },
     {
       name: 'chain.hasIcon',
       required: false,
       type: 'boolean',
-      description: 'Whether the chain as an icon specified',
+      description: 'Si la cadena tiene un icono especificado',
     },
     {
       name: 'chain.iconUrl',
       required: false,
       type: 'string | undefined',
       description:
-        'The chain icon URL (which may be also be undefined while downloading Base64 data URLs)',
+        'La URL del icono de la cadena (que también puede ser indefinida mientras se descargan URLs de datos Base64)',
     },
     {
       name: 'chain.iconBackground',
       required: false,
       type: 'string | undefined',
       description:
-        'The chain icon background which will be visible while images are loading',
+        'El fondo del icono de la cadena que será visible mientras las imágenes se están cargando',
     },
     {
       name: 'chain.id',
@@ -247,7 +247,7 @@ Las siguientes propiedades son pasadas a su función de renderizado.
       type: 'number',
       description: (
         <>
-          The chain ID, e.g. <code>1</code>
+          El ID de la cadena, por ejemplo <code>1</code>
         </>
       ),
     },
@@ -257,7 +257,7 @@ Las siguientes propiedades son pasadas a su función de renderizado.
       type: 'string | undefined',
       description: (
         <>
-          The chain name, e.g. <code>"Ethereum"</code>
+          El nombre de la cadena, por ejemplo <code>"Ethereum"</code>
         </>
       ),
     },
@@ -266,7 +266,7 @@ Las siguientes propiedades son pasadas a su función de renderizado.
       required: false,
       type: 'boolean | undefined',
       description:
-        'Boolean indicating whether the current chain is unsupported',
+        'Booleano que indica si la cadena actual no está soportada',
     },
   ]}
 />
@@ -279,39 +279,39 @@ Las siguientes propiedades son pasadas a su función de renderizado.
       name: 'openAccountModal',
       required: false,
       type: '() => void',
-      description: 'Function to open the account modal',
+      description: 'Función para abrir el modal de cuenta',
     },
     {
       name: 'openChainModal',
       required: false,
       type: '() => void',
-      description: 'Function to open the chain modal',
+      description: 'Función para abrir el modal de cadena',
     },
     {
       name: 'openConnectModal',
       required: false,
       type: '() => void',
-      description: 'Function to open the connect modal',
+      description: 'Función para abrir el modal de conexión',
     },
     {
       name: 'accountModalOpen',
       required: false,
       type: 'boolean',
       description:
-        'Boolean indicating whether the account modal is open',
+        'Booleano que indica si el modal de cuenta está abierto',
     },
     {
       name: 'chainModalOpen',
       required: false,
       type: 'boolean',
-      description: 'Boolean indicating whether the chain modal is open',
+      description: 'Booleano que indica si el modal de cadena está abierto',
     },
     {
       name: 'connectModalOpen',
       required: false,
       type: 'boolean',
       description:
-        'Boolean indicating whether the connect modal is open',
+        'Booleano que indica si el modal de conexión está abierto',
     },
   ]}
 />
@@ -325,14 +325,14 @@ Las siguientes propiedades son pasadas a su función de renderizado.
       required: false,
       type: 'boolean',
       description:
-        'Boolean indicating whether the component has mounted',
+        'Booleano que indica si el componente ha sido montado',
     },
     {
       name: 'authenticationStatus',
       required: false,
       type: '"loading" | "unauthenticated" | "authenticated" | undefined',
       description:
-        'The authentication status, or undefined if authentication has not been configured',
+        'El estado de la autenticación, o indefinido si la autenticación no ha sido configurada',
     },
   ]}
 />
