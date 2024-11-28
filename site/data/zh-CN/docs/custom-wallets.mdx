@@ -86,7 +86,7 @@ description: 创建自定义钱包
         '计算此钱包是否应从列表中隐藏的函数。',
     } 
   ]}
-/> This is useful for defining generic fallback wallets, e.g. the built-in "Injected Wallet" fallback makes use of this feature',
+/> 这是定义通用备用钱包的有用功能，例如，内置的 "Injected Wallet" 备用功能就利用了这一特性',
     },
     {
       name: 'createConnector',
@@ -94,7 +94,7 @@ description: 创建自定义钱包
       type: '() => RainbowKitConnector',
       typeSimple: 'RainbowKitConnector',
       description:
-        'Function for providing the connector instance and configuration for different connection methods, described below',
+        '用于提供不同连接方法的连接器实例和配置的函数，具体方法如下所述',
     },
     {
       name: 'mobile',
@@ -102,14 +102,14 @@ description: 创建自定义钱包
       type: '{ getUri?: (uri: string) => string }',
       typeSimple: 'object',
       description:
-        'Function for resolving a mobile wallet connection URI',
+        '用于解析移动钱包连接URI的函数',
     },
     {
       name: 'desktop',
       required: false,
       type: '{ getUri?: (uri: string) => string }',
       typeSimple: 'object',
-      description: 'Function for resolving a desktop app deep link',
+      description: '用于解析桌面应用程序深层链接的函数',
     },
     {
       name: 'qrCode',
@@ -117,7 +117,7 @@ description: 创建自定义钱包
       type: "{ getUri: (uri: string) => string, instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }> }}}",
       typeSimple: 'object',
       description:
-        'Object containing a function for resolving the QR code URI, plus optional mobile wallet setup instructions',
+        '包含用于解析QR码URI的函数的对象，以及可选的移动钱包设置说明',
     },
     {
       name: 'extension',
@@ -125,14 +125,14 @@ description: 创建自定义钱包
       type: "{ instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }> }}}",
       typeSimple: 'object',
       description:
-        'Object containing optional browser extension setup instructions',
+        '包含可选浏览器扩展设置说明的对象',
     },
     {
       name: 'createConnector',
       required: true,
       type: "createConnector: (details: WalletDetailsParams) => CreateConnectorFn",
       typeSimple: '(details: WalletDetailsParams) => CreateConnectorFn',
-      description: 'Function for providing the connector instance',
+      description: '用于提供连接器实例的函数',
     },
   ]}
 />
@@ -158,14 +158,14 @@ description: 创建自定义钱包
       required: false,
       type: 'string',
       description:
-        'Landing page for mobile users when `android` or `ios` are unavailable',
+        '移动用户在 `android` 或 `ios` 不可用时的着陆页',
     },
     {
       name: 'qrCode',
       required: false,
       type: 'string',
       description:
-        'Landing page for users that scan the mobile download QR Code',
+        '用户扫描移动下载二维码后的着陆页',
     },
     {
       name: 'chrome',
@@ -177,19 +177,19 @@ description: 创建自定义钱包
       name: 'edge',
       required: false,
       type: 'string',
-      description: 'Microsoft Edge Add-ons URL',
+      description: 'Microsoft Edge 插件 URL',
     },
     {
       name: 'firefox',
       required: false,
       type: 'string',
-      description: 'Firefox Browser Add-ons URL',
+      description: 'Firefox 浏览器插件 URL',
     },
     {
       name: 'opera',
       required: false,
       type: 'string',
-      description: 'Opera add-ons URL',
+      description: 'Opera 插件 URL',
     },
     {
       name: 'safari',
@@ -202,7 +202,7 @@ description: 创建自定义钱包
       required: false,
       type: 'string',
       description:
-        'Landing page for desktop extension users when browser-compatible URLs are unavailable',
+        '桌面扩展用户当浏览器兼容URL不可用时的着陆页',
     },
   ]}
 />
