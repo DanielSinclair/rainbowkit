@@ -93,10 +93,18 @@ Dahili tema fonksiyonları ayrıca bir seçenekler nesnesini kabul eder, size bi
       default: 'none',
       type: '"large" | "small" | "none"',
       typeSimple: 'enum',
-      description: 'Modal arka plan bulanıklığı.',
+      description: 'Modal arka plan bulanıklığı. Note that `rounded` attempts to use SF Pro Rounded, falling back to system fonts when it isn't available.",
+    },
+    {
+      name: 'overlayBlur',
+      required: false,
+      default: 'none',
+      type: '"large" | "small" | "none"',
+      typeSimple: 'enum',
+      description: 'The modal backdrop blur.',
     },
   ]}
-/>. Dikkat edin, `rounded` SF Pro Rounded'ı kullanmayı dener, kullanılamadığında sistem yazı tiplerine geri döner.
+/>
 
 Örneğin, koyu temayı mor bir aksan rengi ve `orta` bir kenar yarıçapı ölçeği ile özelleştirmek için:
 
