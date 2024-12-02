@@ -86,55 +86,55 @@ description: สร้างกระเป๋าเงินที่กำห�
         'ฟังก์ชันสำหรับคำนวณว่ากระเป๋าเงินนี้ควรจะถูกซ่อนจากรายการหรือไม่',
     } 
   ]}
-/> This is useful for defining generic fallback wallets, e.g. the built-in "Injected Wallet" fallback makes use of this feature',
-    },
-    {
-      name: 'createConnector',
-      required: true,
-      type: '() => RainbowKitConnector',
-      typeSimple: 'RainbowKitConnector',
-      description:
-        'Function for providing the connector instance and configuration for different connection methods, described below',
-    },
-    {
-      name: 'mobile',
-      required: false,
-      type: '{ getUri?: (uri: string) => string }',
-      typeSimple: 'object',
-      description:
-        'Function for resolving a mobile wallet connection URI',
-    },
-    {
-      name: 'desktop',
-      required: false,
-      type: '{ getUri?: (uri: string) => string }',
-      typeSimple: 'object',
-      description: 'Function for resolving a desktop app deep link',
-    },
-    {
-      name: 'qrCode',
-      required: false,
-      type: "{ getUri: (uri: string) => string, instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }> }}}",
-      typeSimple: 'object',
-      description:
-        'Object containing a function for resolving the QR code URI, plus optional mobile wallet setup instructions',
-    },
-    {
-      name: 'extension',
-      required: false,
-      type: "{ instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }> }}}",
-      typeSimple: 'object',
-      description:
-        'Object containing optional browser extension setup instructions',
-    },
-    {
-      name: 'createConnector',
-      required: true,
-      type: "createConnector: (details: WalletDetailsParams) => CreateConnectorFn",
-      typeSimple: '(details: WalletDetailsParams) => CreateConnectorFn',
-      description: 'Function for providing the connector instance',
-    },
-  ]}
+/> มีประโยชน์สำหรับการกำหนดกระเป๋าเงินสำรองทั่วไป เช่น กระเป๋าเงินสำรองในตัว "Injected Wallet" ใช้คุณสมบัตินี้
+ },
+ {
+ name: 'createConnector',
+ required: true,
+ type: '() => RainbowKitConnector',
+ typeSimple: 'RainbowKitConnector',
+ description:
+ 'ฟังก์ชันสำหรับการให้ตัวอย่างการเชื่อมต่อและการกำหนดค่าสำหรับวิธีการเชื่อมต่อที่แตกต่างกันที่อธิบายด้านล่าง',
+ },
+ {
+ name: 'mobile',
+ required: false,
+ type: '{ getUri?: (uri: string) => string }',
+ typeSimple: 'object',
+ description:
+ 'ฟังก์ชันสำหรับการแก้ไข URI การเชื่อมต่อกระเป๋าเงินมือถือ',
+ },
+ {
+ name: 'desktop',
+ required: false,
+ type: '{ getUri?: (uri: string) => string }',
+ typeSimple: 'object',
+ description: 'ฟังก์ชันสำหรับการแก้ไขลิงก์แอปพลิเคชันบนเดสก์ท็อป',
+ },
+ {
+ name: 'qrCode',
+ required: false,
+ type: "{ getUri: (uri: string) => string, instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }> }}}",
+ typeSimple: 'object',
+ description:
+ 'ออบเจ็กต์ที่มีฟังก์ชันสำหรับการแก้ไข URI ของ QR code และคำแนะนำการตั้งค่ากระเป๋าเงินมือถือเพิ่มเติม',
+ },
+ {
+ name: 'extension',
+ required: false,
+ type: "{ instructions?: { learnMoreUrl: string, steps: Array<{ step: 'install' | 'create' | 'scan', title: string, description: string }> }}}",
+ typeSimple: 'object',
+ description:
+ 'ออบเจ็กต์ที่มีคำแนะนำการติดตั้งส่วนขยายเบราว์เซอร์เพิ่มเติม',
+ },
+ {
+ name: 'createConnector',
+ required: true,
+ type: "createConnector: (details: WalletDetailsParams) => CreateConnectorFn",
+ typeSimple: '(details: WalletDetailsParams) => CreateConnectorFn',
+ description: 'ฟังก์ชันสำหรับการให้ตัวอย่างการเชื่อมต่อ',
+ },
+ ]}
 />
 
 ### คุณสมบัติของ DownloadUrls
