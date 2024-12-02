@@ -28,18 +28,18 @@ export const YourApp = () => {
     {
       name: 'label',
       required: false,
-      default: 'اتصل بالمحفظة',
+      default: 'Connect Wallet',
       type: 'string',
-      description: 'نص التسمية المعروض على زر الاتصال',
+      description: 'The text label displayed on the Connect button',
     },
     {
       name: 'accountStatus',
       required: false,
-      default: 'كامل',
+      default: 'full',
       type: '"avatar" | "address" | "full" | { smallScreen: AccountStatus, largeScreen?: AccountStatus }',
       typeSimple: 'enum',
       description:
-        "ما إذا كان يتم عرض صورة المستخدم النشط وعنوانه",
+        "Whether the active account's avatar and/or address is displayed",
     },
     {
       name: 'chainStatus',
@@ -48,7 +48,7 @@ export const YourApp = () => {
       type: '"icon" | "name" | "full" | "none" | { smallScreen: ChainStatus, largeScreen?: ChainStatus }',
       typeSimple: 'enum',
       description:
-        "ما إذا كان يتم عرض أو إخفاء أيقونة السلسلة الحالية و/أو اسمها بالكامل",
+        "Whether the current chain's icon and/or name is displayed, or hidden entirely",
     },
     {
       name: 'showBalance',
@@ -57,7 +57,7 @@ export const YourApp = () => {
       type: 'boolean | { smallScreen: boolean, largeScreen?: boolean }',
       typeSimple: 'enum',
       description:
-        'ما إذا كان الرصيد مرئيًا بجوار اسم الحساب',
+        'Whether the balance is visible next to the account name',
     },
   ]}
 />
