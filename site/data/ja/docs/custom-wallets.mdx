@@ -83,10 +83,7 @@ description: カスタムウォレットを作成
       type: '(args: { wallets: Array<{ id: string, connector: Connector, installed?: boolean }> }) => boolean',
       typeSimple: '(args) => boolean | undefined',
       description:
-        'リストからこのウォレットを非表示にするかどうかを計算する関数',
-    } 
-  ]}
-/> これは一般的なフォールバックウォレットを定義するのに便利であり、例えば内蔵の"Injected Wallet" フォールバックはこの機能を利用します',
+        'リストからこのウォレットを非表示にするかどうかを計算する関数 これは一般的なフォールバックウォレットを定義するのに便利であり、例えば内蔵の"Injected Wallet" フォールバックはこの機能を利用します',
     },
     {
       name: 'createConnector',
