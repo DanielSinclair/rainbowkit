@@ -57,46 +57,46 @@ Fungsi tema yang telah dibina dalam juga menerima objek pilihan, membolehkan and
     {
       name: 'accentColor',
       required: false,
-      default: '\"#0E76FD\"',
+      default: '"#0E76FD"',
       type: 'string',
       description:
-        'Warna latar belakang/teks bagi pelbagai elemen interaktif.',
+        'The background/text color of various interactive elements.',
     },
     {
       name: 'accentColorForeground',
       required: false,
-      default: '\"white\"',
+      default: '"white"',
       type: 'string',
       description:
-        'Warna yang digunakan untuk elemen latar depan yang dilukis di atas warna aksen.',
+        'The color used for foreground elements rendered on top of the accent color.',
     },
     {
       name: 'borderRadius',
       required: false,
       default: 'large',
-      type: '\"none\" | \"small\" | \"medium\" | \"large\"',
+      type: '"none" | "small" | "medium" | "large"',
       typeSimple: 'enum',
-      description: 'Saiz skala radius sempadan keseluruhan.',
+      description: 'The size of the entire border radius scale.',
     },
     {
       name: 'fontStack',
       required: false,
       default: 'rounded',
-      type: '\"rounded\" | \"system\"',
+      type: '"rounded" | "system"',
       typeSimple: 'enum',
       description:
-        'Tumpukan font yang digunakan di keseluruhan UI.',
+        "The font stack used throughout the UI. Note that `rounded` attempts to use SF Pro Rounded, falling back to system fonts when it isn't available.",
     },
     {
       name: 'overlayBlur',
       required: false,
       default: 'none',
-      type: '\"large\" | \"small\" | \"none\"',
+      type: '"large" | "small" | "none"',
       typeSimple: 'enum',
-      description: 'Kesan kabur pada latar belakang modal.',
+      description: 'The modal backdrop blur.',
     },
   ]}
-/>. Perhatikan bahawa `rounded` cuba menggunakan SF Pro Rounded, kembali kepada fon sistem apabila ia tidak tersedia.
+/>
 
 Sebagai contoh, untuk menyesuaikan tema gelap dengan warna aksen ungu dan skala jejari sempadan `medium`:
 
