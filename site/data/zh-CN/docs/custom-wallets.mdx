@@ -83,10 +83,7 @@ description: 创建自定义钱包
       type: '(args: { wallets: Array<{ id: string, connector: Connector, installed?: boolean }> }) => boolean',
       typeSimple: '(args) => boolean | undefined',
       description:
-        '计算此钱包是否应从列表中隐藏的函数。',
-    } 
-  ]}
-/> 这是定义通用备用钱包的有用功能，例如，内置的 "Injected Wallet" 备用功能就利用了这一特性',
+        '计算此钱包是否应从列表中隐藏的函数。 这是定义通用备用钱包的有用功能，例如，内置的 "Injected Wallet" 备用功能就利用了这一特性',
     },
     {
       name: 'createConnector',
