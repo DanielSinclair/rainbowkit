@@ -230,6 +230,22 @@
         }
       }
     },
+    "berasig": {
+      "extension": {
+        "step1": {
+          "title": "Install the BeraSig extension",
+          "description": "We recommend pinning BeraSig to your taskbar for easier access to your wallet."
+        },
+        "step2": {
+          "title": "สร้างกระเป๋าเงิน",
+          "description": "ตรวจสอบการสำรองข้อมูลกระเป๋าสตางค์ของคุณให้แน่นอนโดยใช้วิธีที่ปลอดภัย อย่าแชร์วลีลับของคุณกับใครเป็นอันขาด."
+        },
+        "step3": {
+          "title": "รีเฟรชเบราว์เซอร์ของคุณ",
+          "description": "เมื่อคุณตั้งค่ากระเป๋าเงินของคุณแล้วคลิกด้านล่างเพื่อรีเฟรชเบราว์เซอร์และโหลดส่วนเสริม"
+        }
+      }
+    },
     "best": {
       "qr_code": {
         "step1": {
