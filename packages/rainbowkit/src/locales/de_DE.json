@@ -230,6 +230,22 @@
         }
       }
     },
+    "berasig": {
+      "extension": {
+        "step1": {
+          "title": "Install the BeraSig extension",
+          "description": "We recommend pinning BeraSig to your taskbar for easier access to your wallet."
+        },
+        "step2": {
+          "title": "Erstellen Sie eine Wallet",
+          "description": "Stellen Sie sicher, dass Sie Ihr Wallet mit einer sicheren Methode sichern. Teilen Sie niemals Ihre geheime Phrase mit jemandem."
+        },
+        "step3": {
+          "title": "Aktualisieren Sie Ihren Browser",
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden."
+        }
+      }
+    },
     "best": {
       "qr_code": {
         "step1": {
