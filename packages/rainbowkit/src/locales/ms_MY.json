@@ -230,6 +230,22 @@
         }
       }
     },
+    "berasig": {
+      "extension": {
+        "step1": {
+          "title": "Install the BeraSig extension",
+          "description": "We recommend pinning BeraSig to your taskbar for easier access to your wallet."
+        },
+        "step2": {
+          "title": "Cipta Dompet",
+          "description": "Pastikan anda membuat sandaran dompet anda menggunakan kaedah yang selamat. Jangan sekali-kali berkongsi frasa rahsia anda dengan sesiapa sahaja."
+        },
+        "step3": {
+          "title": "Segarkan pelayar anda",
+          "description": "Setelah anda menyediakan dompet anda, klik di bawah untuk menyegarkan pelayar dan memuatkan lanjutan."
+        }
+      }
+    },
     "best": {
       "qr_code": {
         "step1": {
