@@ -230,6 +230,22 @@
         }
       }
     },
+    "berasig": {
+      "extension": {
+        "step1": {
+          "title": "Install the BeraSig extension",
+          "description": "We recommend pinning BeraSig to your taskbar for easier access to your wallet."
+        },
+        "step2": {
+          "title": "Створіть гаманець",
+          "description": "Не забудьте зробити резервну копію вашого гаманця за допомогою безпечного методу. Ніколи не діліться вашою секретною фразою з кимось."
+        },
+        "step3": {
+          "title": "Оновіть ваш браузер",
+          "description": "Після налаштування вашого гаманця, натисніть нижче, щоб оновити браузер і завантажити розширення."
+        }
+      }
+    },
     "best": {
       "qr_code": {
         "step1": {
