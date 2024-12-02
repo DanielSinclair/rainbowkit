@@ -96,7 +96,18 @@ export const App = () => (
       description: '模态背景虚化。',
     },
   ]}
-/> 注意: `rounded` 尝试使用 SF Pro Rounded，当不可用时则回退到系统字体。
+/> Note that `rounded` attempts to use SF Pro Rounded, falling back to system fonts when it isn't available.",
+    },
+    {
+      name: 'overlayBlur',
+      required: false,
+      default: 'none',
+      type: '"large" | "small" | "none"',
+      typeSimple: 'enum',
+      description: 'The modal backdrop blur.',
+    },
+  ]}
+/>
 
 例如，要使用紫罗兰色的重音颜色和`中等`边界半径尺寸自定义深色主题：
 
