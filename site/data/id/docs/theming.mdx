@@ -96,7 +96,18 @@ Fungsi tema bawaan juga menerima objek pilihan, yang memungkinkan Anda untuk mem
       description: 'Efek blur pada latar belakang modal.',
     },
   ]}
-/> Perhatikan bahwa `rounded` mencoba menggunakan SF Pro Rounded, kembali ke font sistem jika tidak tersedia
+/> Note that `rounded` attempts to use SF Pro Rounded, falling back to system fonts when it isn't available.",
+    },
+    {
+      name: 'overlayBlur',
+      required: false,
+      default: 'none',
+      type: '"large" | "small" | "none"',
+      typeSimple: 'enum',
+      description: 'The modal backdrop blur.',
+    },
+  ]}
+/>
 
 Sebagai contoh, untuk menyesuaikan tema gelap dengan warna aksen ungu dan radius batas `medium`:
 
