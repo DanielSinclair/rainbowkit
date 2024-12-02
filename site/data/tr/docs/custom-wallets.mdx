@@ -83,10 +83,7 @@ description: Özel bir cüzdan oluştur
       type: '(args: { wallets: Array<{ id: string, connector: Connector, installed?: boolean }> }) => boolean',
       typeSimple: '(args) => boolean | undefined',
       description:
-        'Bu cüzdanın listeden gizlenmesi gerekip gerekmediğini hesaplayan işlev.',
-    } 
-  ]}
-/> Bu, genel yedek cüzdanları tanımlamak için yararlıdır, örneğin, yerleşik "Injected Wallet" yedeği bu özelliği kullanır',
+        'Bu cüzdanın listeden gizlenmesi gerekip gerekmediğini hesaplayan işlev. Bu, genel yedek cüzdanları tanımlamak için yararlıdır, örneğin, yerleşik "Injected Wallet" yedeği bu özelliği kullanır',
     },
     {
       name: 'createConnector',
@@ -133,8 +130,9 @@ description: Özel bir cüzdan oluştur
       type: "createConnector: (details: WalletDetailsParams) => CreateConnectorFn",
       typeSimple: '(details: WalletDetailsParams) => CreateConnectorFn',
       description: 'Konektör örneği sağlama fonksiyonu',
-    }
-  ]}]}
+    },
+  ]}
+/>
 
 ### IndirmeUrlsi Özellikleri
 
