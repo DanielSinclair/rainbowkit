@@ -85,7 +85,18 @@ Las funciones de tema incorporadas también aceptan un objeto de opciones, permi
       type: '"redondeado" | "sistema"',
       typeSimple: 'enum',
       description:
-        "La pila de fuentes utilizada en toda la interfaz de usuario. Note que `redondeado` intenta usar SF Pro Rounded, recurriendo a las fuentes del sistema cuando no está disponible.
+        "La pila de fuentes utilizada en toda la interfaz de usuario. Note that `rounded` attempts to use SF Pro Rounded, falling back to system fonts when it isn't available.",
+    },
+    {
+      name: 'overlayBlur',
+      required: false,
+      default: 'none',
+      type: '"large" | "small" | "none"',
+      typeSimple: 'enum',
+      description: 'The modal backdrop blur.',
+    },
+  ]}
+/>
 
 Por ejemplo, para personalizar el tema oscuro con un color de acento morado y una escala de radio de borde `medium`:
 
