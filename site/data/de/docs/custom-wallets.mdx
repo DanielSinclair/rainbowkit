@@ -80,10 +80,7 @@ Der `Wallet`-Funktionstyp wird bereitgestellt, um Ihnen zu helfen, Ihre eigenen 
       required: false,
       type: '(args: { wallets: Array<{ id: string, connector: Connector, installed?: boolean }> }) => boolean',
       typeSimple: '(args) => boolean | undefined',
-      description: 'Funktion zur Berechnung, ob dieses Wallet in der Liste verborgen werden soll.',
-    } 
-  ]}
-/> Dies ist nützlich für die Definition generischer Ersatz-Wallets, z. B. macht das integrierte "Injected Wallet"-Fallback von dieser Funktion Gebrauch',
+      description: 'Funktion zur Berechnung, ob dieses Wallet in der Liste verborgen werden soll. Dies ist nützlich für die Definition generischer Ersatz-Wallets, z. B. macht das integrierte "Injected Wallet"-Fallback von dieser Funktion Gebrauch',
     },
     {
       name: 'createConnector',
