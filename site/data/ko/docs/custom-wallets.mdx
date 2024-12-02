@@ -80,10 +80,7 @@ description: 사용자 정의 지갑 생성
       required: false,
       type: '(args: { wallets: Array<{ id: string, connector: Connector, installed?: boolean }> }) => boolean',
       typeSimple: '(args) => boolean | undefined',
-      description: '목록에서 이 지갑을 숨겨야 하는지 계산하는 함수.',
-    } 
-  ]}
-/> 일반적인 대체 지갑을 정의하는 데 유용합니다. 예를 들어, 내장된 "Injected Wallet" 대체는 이 기능을 사용합니다',
+      description: '목록에서 이 지갑을 숨겨야 하는지 계산하는 함수. 일반적인 대체 지갑을 정의하는 데 유용합니다. 예를 들어, 내장된 "Injected Wallet" 대체는 이 기능을 사용합니다',
     },
     {
       name: 'createConnector',
