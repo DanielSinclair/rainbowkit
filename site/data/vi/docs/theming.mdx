@@ -92,10 +92,18 @@ Các chức năng chủ đề tích hợp sẵn cũng chấp nhận một đối
       default: 'none',
       type: '"large" | "small" | "none"',
       typeSimple: 'enum',
-      description: 'Độ mờ nền cho các cửa sổ lớp chồng.',
+      description: 'Độ mờ nền cho các cửa sổ lớp chồng. Note that `rounded` attempts to use SF Pro Rounded, falling back to system fonts when it isn't available.",
+    },
+    {
+      name: 'overlayBlur',
+      required: false,
+      default: 'none',
+      type: '"large" | "small" | "none"',
+      typeSimple: 'enum',
+      description: 'The modal backdrop blur.',
     },
   ]}
-/>. Lưu ý rằng `rounded` cố gắng sử dụng SF Pro Rounded, quay trở lại font hệ thống khi nó không có sẵn.
+/>
 
 Ví dụ, để tùy chỉnh chủ đề tối với màu điểm nhấn tím và thang đo `medium` cho viền bo góc:
 
