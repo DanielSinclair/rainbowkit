@@ -233,8 +233,8 @@
     "berasig": {
       "extension": {
         "step1": {
-          "title": "Install the BeraSig extension",
-          "description": "We recommend pinning BeraSig to your taskbar for easier access to your wallet."
+          "title": "Pasang sambungan BeraSig",
+          "description": "Kami mengesyorkan menyematkan BeraSig pada bar tugas anda untuk akses mudah ke dompet anda."
         },
         "step2": {
           "title": "Cipta Dompet",
