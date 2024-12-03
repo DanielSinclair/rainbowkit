@@ -233,8 +233,8 @@
     "berasig": {
       "extension": {
         "step1": {
-          "title": "Install the BeraSig extension",
-          "description": "We recommend pinning BeraSig to your taskbar for easier access to your wallet."
+          "title": "Встановіть розширення BeraSig",
+          "description": "Ми рекомендуємо закріпити BeraSig на панелі задач для легшого доступу до вашого гаманця."
         },
         "step2": {
           "title": "Створіть гаманець",
