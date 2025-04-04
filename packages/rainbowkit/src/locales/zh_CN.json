@@ -1347,8 +1347,8 @@
     "gate": {
       "qr_code": {
         "step1": {
-          "title": "Open the Gate app",
-          "description": "We recommend putting Gate on your home screen for quicker access."
+          "title": "打开 Gate 应用",
+          "description": "我们建议将 Gate 放在您的主屏幕上以便更快地访问。"
         },
         "step2": {
           "title": "创建或导入钱包",
@@ -1361,8 +1361,8 @@
       },
       "extension": {
         "step1": {
-          "title": "Install the Gate extension",
-          "description": "We recommend pinning Gate to your taskbar for easier access to your wallet."
+          "title": "安装 Gate 扩展程序",
+          "description": "我们建议将 Gate 固定到任务栏，以便更轻松地访问您的钱包。"
         },
         "step2": {
           "title": "创建或导入钱包",
@@ -1377,11 +1377,11 @@
     "xportal": {
       "qr_code": {
         "step1": {
-          "description": "Put xPortal on your home screen for faster access to your wallet.",
-          "title": "Open the xPortal app"
+          "description": "将 xPortal 放到您的主屏幕上，以便更快地访问您的钱包。",
+          "title": "打开 xPortal 应用"
         },
         "step2": {
-          "description": "Create a wallet or import an existing one.",
+          "description": "创建钱包或导入现有钱包。",
           "title": "创建或导入钱包"
         },
         "step3": {
