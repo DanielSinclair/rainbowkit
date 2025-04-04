@@ -1343,6 +1343,52 @@
           "description": "Nach dem Scannen erscheint eine Verbindungsmeldung, um Ihr Wallet zu verbinden."
         }
       }
+    },
+    "gate": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the Gate app",
+          "description": "We recommend putting Gate on your home screen for quicker access."
+        },
+        "step2": {
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Erstellen Sie ein neues Wallet oder importieren Sie ein bestehendes."
+        },
+        "step3": {
+          "title": "Tippen Sie auf die Scan-Schaltfläche",
+          "description": "Nach dem Scannen erscheint eine Verbindungsmeldung, um Ihr Wallet zu verbinden."
+        }
+      },
+      "extension": {
+        "step1": {
+          "title": "Install the Gate extension",
+          "description": "We recommend pinning Gate to your taskbar for easier access to your wallet."
+        },
+        "step2": {
+          "title": "Erstellen oder importieren Sie ein Wallet",
+          "description": "Stellen Sie sicher, dass Sie Ihre Wallet auf sichere Weise sichern. Teilen Sie niemals Ihren geheimen Wiederherstellungssatz mit anderen."
+        },
+        "step3": {
+          "title": "Aktualisieren Sie Ihren Browser",
+          "description": "Sobald Sie Ihr Wallet eingerichtet haben, klicken Sie unten, um den Browser zu aktualisieren und die Erweiterung zu laden."
+        }
+      }
+    },
+    "xportal": {
+      "qr_code": {
+        "step1": {
+          "description": "Put xPortal on your home screen for faster access to your wallet.",
+          "title": "Open the xPortal app"
+        },
+        "step2": {
+          "description": "Create a wallet or import an existing one.",
+          "title": "Erstellen oder importieren Sie ein Wallet"
+        },
+        "step3": {
+          "description": "Nach dem Scannen erscheint eine Verbindungsmeldung, um Ihr Wallet zu verbinden.",
+          "title": "Tippen Sie auf die Schaltfläche QR-Scan"
+        }
+      }
     }
   }
 }
