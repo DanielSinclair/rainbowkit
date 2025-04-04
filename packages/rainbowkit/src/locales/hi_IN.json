@@ -1347,8 +1347,8 @@
     "gate": {
       "qr_code": {
         "step1": {
-          "title": "Open the Gate app",
-          "description": "We recommend putting Gate on your home screen for quicker access."
+          "title": "गेट ऐप खोलें",
+          "description": "हम आपको गेट को अपने होम स्क्रीन पर रखने की सलाह देते हैं ताकि तेज़ी से एक्सेस मिल सके।"
         },
         "step2": {
           "title": "वॉलेट बनाएं या आयात करें",
@@ -1361,8 +1361,8 @@
       },
       "extension": {
         "step1": {
-          "title": "Install the Gate extension",
-          "description": "We recommend pinning Gate to your taskbar for easier access to your wallet."
+          "title": "गेट एक्सटेंशन स्थापित करें",
+          "description": "हम आपको अपने वॉलेट के आसान उपयोग के लिए गेट को अपने टास्कबार में पिन करने की सलाह देते हैं।"
         },
         "step2": {
           "title": "वॉलेट बनाएं या आयात करें",
@@ -1377,11 +1377,11 @@
     "xportal": {
       "qr_code": {
         "step1": {
-          "description": "Put xPortal on your home screen for faster access to your wallet.",
-          "title": "Open the xPortal app"
+          "description": "तेजी से अपने वॉलेट को खोलने के लिए xPortal को अपने होम स्क्रीन पर रखें।",
+          "title": "xPortal ऐप खोलें"
         },
         "step2": {
-          "description": "Create a wallet or import an existing one.",
+          "description": "नया बटुआ बनाएं या मौजूदा को आयात करें।",
           "title": "वॉलेट बनाएं या आयात करें"
         },
         "step3": {
