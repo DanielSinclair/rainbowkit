@@ -1343,6 +1343,52 @@
           "description": "Después de escanear, aparecerá un mensaje de conexión para que conecte su billetera."
         }
       }
+    },
+    "gate": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the Gate app",
+          "description": "We recommend putting Gate on your home screen for quicker access."
+        },
+        "step2": {
+          "title": "Crear o Importar una Billetera",
+          "description": "Crea una nueva billetera o importa una existente."
+        },
+        "step3": {
+          "title": "Toque el botón de escaneo",
+          "description": "Después de escanear, aparecerá un mensaje de conexión para que conecte su billetera."
+        }
+      },
+      "extension": {
+        "step1": {
+          "title": "Install the Gate extension",
+          "description": "We recommend pinning Gate to your taskbar for easier access to your wallet."
+        },
+        "step2": {
+          "title": "Crear o Importar una Billetera",
+          "description": "Asegúrese de respaldar su billetera usando un método seguro. Nunca comparta su frase secreta de recuperación con nadie."
+        },
+        "step3": {
+          "title": "Refrescar tu navegador",
+          "description": "Una vez que configures tu billetera, haz clic a continuación para refrescar el navegador y cargar la extensión."
+        }
+      }
+    },
+    "xportal": {
+      "qr_code": {
+        "step1": {
+          "description": "Put xPortal on your home screen for faster access to your wallet.",
+          "title": "Open the xPortal app"
+        },
+        "step2": {
+          "description": "Create a wallet or import an existing one.",
+          "title": "Crear o Importar una Billetera"
+        },
+        "step3": {
+          "description": "Después de escanear, aparecerá un mensaje de conexión para que conecte su billetera.",
+          "title": "Toque el botón Escanear QR"
+        }
+      }
     }
   }
 }
