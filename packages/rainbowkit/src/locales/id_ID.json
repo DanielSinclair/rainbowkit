@@ -1347,8 +1347,8 @@
     "gate": {
       "qr_code": {
         "step1": {
-          "title": "Open the Gate app",
-          "description": "We recommend putting Gate on your home screen for quicker access."
+          "title": "Buka aplikasi Gate",
+          "description": "Kami merekomendasikan untuk meletakkan Gate di layar utama Anda untuk akses lebih cepat."
         },
         "step2": {
           "title": "Buat atau Impor Dompet",
@@ -1361,8 +1361,8 @@
       },
       "extension": {
         "step1": {
-          "title": "Install the Gate extension",
-          "description": "We recommend pinning Gate to your taskbar for easier access to your wallet."
+          "title": "Instal ekstensi Gate",
+          "description": "Kami menyarankan untuk mem-pin Gate ke taskbar Anda untuk akses dompet yang lebih mudah."
         },
         "step2": {
           "title": "Buat atau Impor Dompet",
@@ -1377,11 +1377,11 @@
     "xportal": {
       "qr_code": {
         "step1": {
-          "description": "Put xPortal on your home screen for faster access to your wallet.",
-          "title": "Open the xPortal app"
+          "description": "Letakkan xPortal di layar utama Anda untuk akses lebih cepat ke dompet Anda.",
+          "title": "Buka aplikasi xPortal"
         },
         "step2": {
-          "description": "Create a wallet or import an existing one.",
+          "description": "Buat dompet baru atau impor yang sudah ada.",
           "title": "Buat atau Impor Dompet"
         },
         "step3": {
