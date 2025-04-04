@@ -1343,6 +1343,52 @@
           "description": "หลังจากคุณสแกน จะปรากฏหน้าต่างเชื่อมต่อให้คุณเชื่อมต่อกระเป๋าเงินของคุณ"
         }
       }
+    },
+    "gate": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the Gate app",
+          "description": "We recommend putting Gate on your home screen for quicker access."
+        },
+        "step2": {
+          "title": "สร้างหรือนำเข้า Wallet",
+          "description": "สร้างกระเป๋าเงินใหม่หรือนำเข้าที่มีอยู่แล้ว."
+        },
+        "step3": {
+          "title": "แตะปุ่มสแกน",
+          "description": "หลังจากคุณสแกน จะปรากฏหน้าต่างเชื่อมต่อให้คุณเชื่อมต่อกระเป๋าเงินของคุณ"
+        }
+      },
+      "extension": {
+        "step1": {
+          "title": "Install the Gate extension",
+          "description": "We recommend pinning Gate to your taskbar for easier access to your wallet."
+        },
+        "step2": {
+          "title": "สร้างหรือนำเข้า Wallet",
+          "description": "แน่ใจว่าคุณได้สำรองกระเป๋าเงินของคุณโดยใช้วิธีที่ปลอดภัย อย่าเปิดเผยข้อความลับสำหรับการกู้คืนของคุณกับบุคคลใด ๆ"
+        },
+        "step3": {
+          "title": "รีเฟรชเบราว์เซอร์ของคุณ",
+          "description": "เมื่อคุณตั้งค่ากระเป๋าเงินของคุณแล้วคลิกด้านล่างเพื่อรีเฟรชเบราว์เซอร์และโหลดส่วนเสริม"
+        }
+      }
+    },
+    "xportal": {
+      "qr_code": {
+        "step1": {
+          "description": "Put xPortal on your home screen for faster access to your wallet.",
+          "title": "Open the xPortal app"
+        },
+        "step2": {
+          "description": "Create a wallet or import an existing one.",
+          "title": "สร้างหรือนำเข้า Wallet"
+        },
+        "step3": {
+          "description": "หลังจากคุณสแกน จะปรากฏหน้าต่างเชื่อมต่อให้คุณเชื่อมต่อกระเป๋าเงินของคุณ",
+          "title": "แตะที่คุ่มุ่งสแกน QR"
+        }
+      }
     }
   }
 }
