@@ -1347,8 +1347,8 @@
     "gate": {
       "qr_code": {
         "step1": {
-          "title": "Open the Gate app",
-          "description": "We recommend putting Gate on your home screen for quicker access."
+          "title": "افتح تطبيق Gate",
+          "description": "نوصي بوضع Gate على شاشتك الرئيسية للوصول الأسرع."
         },
         "step2": {
           "title": "إنشاء أو استيراد محفظة",
@@ -1361,8 +1361,8 @@
       },
       "extension": {
         "step1": {
-          "title": "Install the Gate extension",
-          "description": "We recommend pinning Gate to your taskbar for easier access to your wallet."
+          "title": "تثبيت إضافة Gate",
+          "description": "نوصي بتثبيت Gate على شريط المهام للوصول الأسهل إلى محفظتك."
         },
         "step2": {
           "title": "إنشاء أو استيراد محفظة",
@@ -1377,11 +1377,11 @@
     "xportal": {
       "qr_code": {
         "step1": {
-          "description": "Put xPortal on your home screen for faster access to your wallet.",
-          "title": "Open the xPortal app"
+          "description": "ضع xPortal على شاشتك الرئيسية للوصول السريع إلى محفظتك.",
+          "title": "افتح تطبيق xPortal"
         },
         "step2": {
-          "description": "Create a wallet or import an existing one.",
+          "description": "أنشئ محفظة أو استورد واحدة موجودة بالفعل.",
           "title": "إنشاء أو استيراد محفظة"
         },
         "step3": {
