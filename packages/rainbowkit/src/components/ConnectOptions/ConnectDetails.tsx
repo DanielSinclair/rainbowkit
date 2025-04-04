@@ -18,7 +18,7 @@ import { CreateIcon, preloadCreateIcon } from '../Icons/Create';
 import { RefreshIcon, preloadRefreshIcon } from '../Icons/Refresh';
 import { ScanIcon, preloadScanIcon } from '../Icons/Scan';
 import { SpinnerIcon } from '../Icons/Spinner';
-import { QRCode } from '../QRCode/QRCode';
+import { Cuer } from 'cuer';
 import { I18nContext } from '../RainbowKitProvider/I18nContext';
 import { ModalSizeContext } from '../RainbowKitProvider/ModalSizeContext';
 import { Text } from '../Text/Text';
@@ -280,19 +280,44 @@ export function ConnectDetail({
           height="full"
           justifyContent="center"
         >
-          <QRCode
-            logoBackground={iconBackground}
-            logoSize={compactModeEnabled ? 60 : 72}
-            logoUrl={iconUrl}
-            size={
-              compactModeEnabled
+          <Box
+            style={{
+              width: compactModeEnabled
                 ? 318
                 : smallWindow
                   ? Math.max(280, Math.min(windowWidth - 308, 382))
-                  : 382
-            }
-            uri={qrCodeUri}
-          />
+                  : 382,
+              height: compactModeEnabled
+                ? 318
+                : smallWindow
+                  ? Math.max(280, Math.min(windowWidth - 308, 382))
+                  : 382,
+            }}
+          >
+            <Cuer.Root value={qrCodeUri}>
+              <Cuer.Cells />
+              <Cuer.Finder />
+              <Cuer.Arena>
+                <Box
+                  style={{
+                    background: iconBackground,
+                    borderRadius: '13px',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    width: '100%',
+                    height: '100%',
+                  }}
+                >
+                  <AsyncImage
+                    height={compactModeEnabled ? 60 : 72}
+                    width={compactModeEnabled ? 60 : 72}
+                    src={iconUrl}
+                  />
+                </Box>
+              </Cuer.Arena>
+            </Cuer.Root>
+          </Box>
         </Box>
       ) : (
         <Box
@@ -764,7 +789,12 @@ export function DownloadDetail({
       </Box>
       <Box height="full">
         {downloadUrls?.qrCode ? (
-          <QRCode logoSize={0} size={268} uri={downloadUrls.qrCode} />
+          <Box style={{ width: 268, height: 268 }}>
+            <Cuer.Root value={downloadUrls.qrCode}>
+              <Cuer.Cells />
+              <Cuer.Finder />
+            </Cuer.Root>
+          </Box>
         ) : null}
       </Box>
 

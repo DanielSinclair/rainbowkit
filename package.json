@@ -98,5 +98,8 @@
     "onlyBuiltDependencies": [
       "esbuild"
     ]
+  },
+  "dependencies": {
+    "cuer": "^0.0.2"
   }
 }
