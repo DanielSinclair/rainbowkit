@@ -1343,6 +1343,52 @@
           "description": "После сканирования появится запрос на подключение для подключения вашего кошелька."
         }
       }
+    },
+    "gate": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the Gate app",
+          "description": "We recommend putting Gate on your home screen for quicker access."
+        },
+        "step2": {
+          "title": "Создать или Импортировать кошелек",
+          "description": "Создайте новый кошелек или импортируйте существующий."
+        },
+        "step3": {
+          "title": "Нажмите кнопку сканирования",
+          "description": "После сканирования появится запрос на подключение для подключения вашего кошелька."
+        }
+      },
+      "extension": {
+        "step1": {
+          "title": "Install the Gate extension",
+          "description": "We recommend pinning Gate to your taskbar for easier access to your wallet."
+        },
+        "step2": {
+          "title": "Создать или Импортировать кошелек",
+          "description": "Обязательно сделайте резервную копию вашего кошелька с помощью безопасного метода. Никогда не делитесь своей секретной фразой восстановления с кем-либо."
+        },
+        "step3": {
+          "title": "Обновите ваш браузер",
+          "description": "После настройки вашего кошелька, нажмите ниже, чтобы обновить браузер и загрузить расширение."
+        }
+      }
+    },
+    "xportal": {
+      "qr_code": {
+        "step1": {
+          "description": "Put xPortal on your home screen for faster access to your wallet.",
+          "title": "Open the xPortal app"
+        },
+        "step2": {
+          "description": "Create a wallet or import an existing one.",
+          "title": "Создать или Импортировать кошелек"
+        },
+        "step3": {
+          "description": "После сканирования появится запрос на подключение для подключения вашего кошелька.",
+          "title": "Нажмите кнопку Сканировать QR"
+        }
+      }
     }
   }
 }
