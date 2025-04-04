@@ -1347,8 +1347,8 @@
     "gate": {
       "qr_code": {
         "step1": {
-          "title": "Open the Gate app",
-          "description": "We recommend putting Gate on your home screen for quicker access."
+          "title": "เปิดแอพ Gate",
+          "description": "เราแนะนำให้คุณวาง Gate บนหน้าจอหลักของคุณเพื่อเข้าถึงได้เร็วขึ้น"
         },
         "step2": {
           "title": "สร้างหรือนำเข้า Wallet",
@@ -1361,8 +1361,8 @@
       },
       "extension": {
         "step1": {
-          "title": "Install the Gate extension",
-          "description": "We recommend pinning Gate to your taskbar for easier access to your wallet."
+          "title": "ติดตั้งส่วนขยาย Gate",
+          "description": "เราแนะนำการปัก Gate ไว้บนแทบงานของคุณเพื่อเข้าถึงกระเป๋าเงินได้ง่ายขึ้น"
         },
         "step2": {
           "title": "สร้างหรือนำเข้า Wallet",
@@ -1377,11 +1377,11 @@
     "xportal": {
       "qr_code": {
         "step1": {
-          "description": "Put xPortal on your home screen for faster access to your wallet.",
-          "title": "Open the xPortal app"
+          "description": "วาง xPortal บนหน้าจอหลักของคุณเพื่อเข้าถึงกระเป๋าเงินของคุณได้เร็วขึ้น",
+          "title": "เปิดแอพ xPortal"
         },
         "step2": {
-          "description": "Create a wallet or import an existing one.",
+          "description": "สร้างกระเป๋าเงินใหม่หรือนำเข้าที่มีอยู่แล้ว",
           "title": "สร้างหรือนำเข้า Wallet"
         },
         "step3": {
