@@ -1347,8 +1347,8 @@
     "gate": {
       "qr_code": {
         "step1": {
-          "title": "Open the Gate app",
-          "description": "We recommend putting Gate on your home screen for quicker access."
+          "title": "Откройте приложение Gate",
+          "description": "Мы рекомендуем разместить Gate на главном экране для более быстрого доступа."
         },
         "step2": {
           "title": "Создать или Импортировать кошелек",
@@ -1361,8 +1361,8 @@
       },
       "extension": {
         "step1": {
-          "title": "Install the Gate extension",
-          "description": "We recommend pinning Gate to your taskbar for easier access to your wallet."
+          "title": "Установите расширение Gate",
+          "description": "Мы рекомендуем закрепить Gate на панели задач для более удобного доступа к вашему кошельку."
         },
         "step2": {
           "title": "Создать или Импортировать кошелек",
@@ -1377,11 +1377,11 @@
     "xportal": {
       "qr_code": {
         "step1": {
-          "description": "Put xPortal on your home screen for faster access to your wallet.",
-          "title": "Open the xPortal app"
+          "description": "Добавьте xPortal на домашний экран для более быстрого доступа к вашему кошельку.",
+          "title": "Откройте приложение xPortal"
         },
         "step2": {
-          "description": "Create a wallet or import an existing one.",
+          "description": "Создайте новый кошелек или импортируйте существующий.",
           "title": "Создать или Импортировать кошелек"
         },
         "step3": {
