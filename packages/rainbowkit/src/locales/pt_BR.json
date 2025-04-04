@@ -1378,10 +1378,10 @@
       "qr_code": {
         "step1": {
           "description": "Coloque o xPortal na tela inicial para um acesso mais rápido à sua carteira.",
-          "title": "Open the xPortal app"
+          "title": "Abra o aplicativo xPortal"
         },
         "step2": {
-          "description": "Create a wallet or import an existing one.",
+          "description": "Crie uma nova carteira ou importe uma existente.",
           "title": "Criar ou Importar uma Carteira"
         },
         "step3": {
