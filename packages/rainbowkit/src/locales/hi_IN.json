@@ -1343,6 +1343,52 @@
           "description": "जैसे ही आप स्कैन करेंगे, एक कनेक्शन संकेत आपके वॉलेट को कनेक्ट करने के लिए प्रकट होगा।"
         }
       }
+    },
+    "gate": {
+      "qr_code": {
+        "step1": {
+          "title": "Open the Gate app",
+          "description": "We recommend putting Gate on your home screen for quicker access."
+        },
+        "step2": {
+          "title": "वॉलेट बनाएं या आयात करें",
+          "description": "नया बटुआ बनाएं या मौजूदा को आयात करें।"
+        },
+        "step3": {
+          "title": "स्कैन बटन को टैप करें",
+          "description": "जैसे ही आप स्कैन करेंगे, एक कनेक्शन संकेत आपके वॉलेट को कनेक्ट करने के लिए प्रकट होगा।"
+        }
+      },
+      "extension": {
+        "step1": {
+          "title": "Install the Gate extension",
+          "description": "We recommend pinning Gate to your taskbar for easier access to your wallet."
+        },
+        "step2": {
+          "title": "वॉलेट बनाएं या आयात करें",
+          "description": "सुनिश्चित करें कि आप अपने वॉलेट का बैकअप एक सुरक्षित तरीके से ले रहे हैं। अपना गुप्त वसूली वाक्यांश किसी के साथ भी साझा न करें।"
+        },
+        "step3": {
+          "title": "अपने ब्राउज़र को ताज़ा करें",
+          "description": "एक बार जब आप अपना वॉलेट सेटअप कर लेते हैं, तो नीचे क्लिक करें ताकि ब्राउज़र को ताज़ा करें और एक्सटेंशन लोड करें।"
+        }
+      }
+    },
+    "xportal": {
+      "qr_code": {
+        "step1": {
+          "description": "Put xPortal on your home screen for faster access to your wallet.",
+          "title": "Open the xPortal app"
+        },
+        "step2": {
+          "description": "Create a wallet or import an existing one.",
+          "title": "वॉलेट बनाएं या आयात करें"
+        },
+        "step3": {
+          "description": "जैसे ही आप स्कैन करेंगे, एक कनेक्शन संकेत आपके वॉलेट को कनेक्ट करने के लिए प्रकट होगा।",
+          "title": "QR स्कैन बटन को टैप करें"
+        }
+      }
     }
   }
 }
