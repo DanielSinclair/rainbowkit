@@ -1347,8 +1347,8 @@
     "gate": {
       "qr_code": {
         "step1": {
-          "title": "Open the Gate app",
-          "description": "We recommend putting Gate on your home screen for quicker access."
+          "title": "Gate uygulamasını açın",
+          "description": "Daha hızlı erişim için Gate'i ana ekranınıza konumlandırmanızı öneririz."
         },
         "step2": {
           "title": "Cüzdan Oluştur veya Cüzdanı İçe Aktar",
@@ -1361,8 +1361,8 @@
       },
       "extension": {
         "step1": {
-          "title": "Install the Gate extension",
-          "description": "We recommend pinning Gate to your taskbar for easier access to your wallet."
+          "title": "Gate uzantısını yükleyin",
+          "description": "Cüzdanınıza daha kolay erişim sağlamak için Gate'i görev çubuğunuza sabitlemenizi öneririz."
         },
         "step2": {
           "title": "Cüzdan Oluştur veya Cüzdanı İçe Aktar",
@@ -1377,11 +1377,11 @@
     "xportal": {
       "qr_code": {
         "step1": {
-          "description": "Put xPortal on your home screen for faster access to your wallet.",
-          "title": "Open the xPortal app"
+          "description": "Cüzdanınıza daha hızlı erişim için xPortal'u ana ekranınıza koyun.",
+          "title": "xPortal uygulamasını açın"
         },
         "step2": {
-          "description": "Create a wallet or import an existing one.",
+          "description": "Yeni bir cüzdan oluşturun veya mevcut birini içe aktarın.",
           "title": "Cüzdan Oluştur veya Cüzdanı İçe Aktar"
         },
         "step3": {
