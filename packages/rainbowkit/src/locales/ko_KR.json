@@ -1347,8 +1347,8 @@
     "gate": {
       "qr_code": {
         "step1": {
-          "title": "Open the Gate app",
-          "description": "We recommend putting Gate on your home screen for quicker access."
+          "title": "Gate 앱 열기",
+          "description": "더 빠른 접근을 위해 Gate를 홈 화면에 두는 것을 권장합니다."
         },
         "step2": {
           "title": "지갑 생성 또는 가져오기",
@@ -1361,8 +1361,8 @@
       },
       "extension": {
         "step1": {
-          "title": "Install the Gate extension",
-          "description": "We recommend pinning Gate to your taskbar for easier access to your wallet."
+          "title": "Gate 확장 프로그램 설치",
+          "description": "지갑에 더 쉽게 접근할 수 있도록 Gate를 작업 표시줄에 고정하는 것을 권장합니다."
         },
         "step2": {
           "title": "지갑 생성 또는 가져오기",
@@ -1377,11 +1377,11 @@
     "xportal": {
       "qr_code": {
         "step1": {
-          "description": "Put xPortal on your home screen for faster access to your wallet.",
-          "title": "Open the xPortal app"
+          "description": "지갑에 더 빠르게 액세스하려면 xPortal을 홈 화면에 놓으세요.",
+          "title": "xPortal 앱 열기"
         },
         "step2": {
-          "description": "Create a wallet or import an existing one.",
+          "description": "새로운 지갑을 생성하거나 기존의 것을 가져오세요.",
           "title": "지갑 생성 또는 가져오기"
         },
         "step3": {
