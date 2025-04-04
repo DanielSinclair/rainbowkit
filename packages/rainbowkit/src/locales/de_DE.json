@@ -1347,8 +1347,8 @@
     "gate": {
       "qr_code": {
         "step1": {
-          "title": "Open the Gate app",
-          "description": "We recommend putting Gate on your home screen for quicker access."
+          "title": "Öffnen Sie die Gate-App",
+          "description": "Wir empfehlen, Gate auf Ihrem Startbildschirm abzulegen, um schnellen Zugriff zu erhalten."
         },
         "step2": {
           "title": "Erstellen oder importieren Sie ein Wallet",
@@ -1361,8 +1361,8 @@
       },
       "extension": {
         "step1": {
-          "title": "Install the Gate extension",
-          "description": "We recommend pinning Gate to your taskbar for easier access to your wallet."
+          "title": "Installieren Sie die Gate-Erweiterung",
+          "description": "Wir empfehlen, Gate in Ihre Taskleiste zu heften, um leichteren Zugriff auf Ihr Wallet zu haben."
         },
         "step2": {
           "title": "Erstellen oder importieren Sie ein Wallet",
@@ -1377,11 +1377,11 @@
     "xportal": {
       "qr_code": {
         "step1": {
-          "description": "Put xPortal on your home screen for faster access to your wallet.",
-          "title": "Open the xPortal app"
+          "description": "Legen Sie xPortal auf Ihrem Startbildschirm ab, um schneller auf Ihr Wallet zuzugreifen.",
+          "title": "Öffnen Sie die xPortal-App"
         },
         "step2": {
-          "description": "Create a wallet or import an existing one.",
+          "description": "Erstellen Sie ein neues Wallet oder importieren Sie ein bestehendes.",
           "title": "Erstellen oder importieren Sie ein Wallet"
         },
         "step3": {
