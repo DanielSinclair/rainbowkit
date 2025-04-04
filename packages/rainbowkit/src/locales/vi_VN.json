@@ -1347,8 +1347,8 @@
     "gate": {
       "qr_code": {
         "step1": {
-          "title": "Open the Gate app",
-          "description": "We recommend putting Gate on your home screen for quicker access."
+          "title": "Mở ứng dụng Gate",
+          "description": "Chúng tôi khuyến nghị đặt Gate lên màn hình chính để truy cập nhanh hơn."
         },
         "step2": {
           "title": "Tạo hoặc Nhập ví",
@@ -1361,8 +1361,8 @@
       },
       "extension": {
         "step1": {
-          "title": "Install the Gate extension",
-          "description": "We recommend pinning Gate to your taskbar for easier access to your wallet."
+          "title": "Cài đặt tiện ích mở rộng Gate",
+          "description": "Chúng tôi khuyến nghị ghim Gate vào thanh tác vụ để truy cập dễ dàng vào ví của bạn."
         },
         "step2": {
           "title": "Tạo hoặc Nhập ví",
@@ -1377,11 +1377,11 @@
     "xportal": {
       "qr_code": {
         "step1": {
-          "description": "Put xPortal on your home screen for faster access to your wallet.",
-          "title": "Open the xPortal app"
+          "description": "Đặt xPortal lên màn hình chính để truy cập ví nhanh hơn.",
+          "title": "Mở ứng dụng xPortal"
         },
         "step2": {
-          "description": "Create a wallet or import an existing one.",
+          "description": "Tạo ví hoặc nhập ví hiện có.",
           "title": "Tạo hoặc Nhập ví"
         },
         "step3": {
