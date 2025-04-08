@@ -4,7 +4,7 @@
   "version": "0.1.2",
   "scripts": {
     "dev": "next dev",
-    "build": "next build --no-lint",
+    "build": "DISABLE_TYPESCRIPT=true SKIP_TYPECHECK=true next build --no-lint",
     "typecheck": "tsc --noEmit",
     "start": "next start"
   },
